@@ -181,15 +181,15 @@ export function PapersSection({ papers = [] }) {
               </div>
 
               {/* Botones de acción principales */}
-              <div className="pt-3.5 border-t border-white/10 flex flex-wrap items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
+              <div className="pt-3.5 border-t border-white/10 flex flex-wrap items-center justify-between gap-2.5">
+                <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap">
                   {/* Botón Principal: Abrir Ficha Completa en Español (0 Espera) */}
                   <button
                     type="button"
                     onClick={() => setSelectedPaper(paper)}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shadow-[0_0_15px_rgba(0,240,255,0.35)] active:scale-95 cursor-pointer"
+                    className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shadow-[0_0_15px_rgba(0,240,255,0.35)] active:scale-95 cursor-pointer"
                   >
-                    <BookOpen className="h-3.5 w-3.5" />
+                    <BookOpen className="h-4 w-4" />
                     <span>Leer en Español</span>
                   </button>
 
@@ -197,10 +197,10 @@ export function PapersSection({ papers = [] }) {
                   <button
                     type="button"
                     onClick={() => toggleExpand(paper.id)}
-                    className="inline-flex items-center gap-1 px-3 py-2 rounded-xl border border-white/15 bg-white/5 text-gray-200 hover:text-white hover:border-cyan-400/40 hover:bg-white/10 text-xs font-medium transition cursor-pointer"
+                    className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border border-white/15 bg-white/5 text-gray-200 hover:text-white hover:border-cyan-400/40 hover:bg-white/10 text-xs font-medium transition cursor-pointer"
                   >
                     <span>{isExpanded ? 'Menos' : 'Detalles'}</span>
-                    {isExpanded ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
+                    {isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
                   </button>
                 </div>
 
@@ -210,10 +210,10 @@ export function PapersSection({ papers = [] }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Abrir estudio oficial en la revista científica (DOI)"
-                  className="inline-flex items-center gap-1 text-[11px] font-mono text-gray-400 hover:text-cyan-300 transition p-1.5 rounded-lg hover:bg-white/5"
+                  className="inline-flex items-center gap-1 text-xs font-mono text-gray-400 hover:text-cyan-300 transition p-2 rounded-lg hover:bg-white/5"
                 >
                   <span>DOI</span>
-                  <ExternalLink className="h-3 w-3" />
+                  <ExternalLink className="h-3.5 w-3.5" />
                 </a>
               </div>
             </article>
@@ -223,33 +223,33 @@ export function PapersSection({ papers = [] }) {
 
       {/* Modal con Lectura Clínica Completa en Español */}
       {selectedPaper && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-fade-in">
-          <div className="relative w-full max-w-2xl rounded-3xl border border-cyan-500/30 bg-[#0c1220] p-6 sm:p-7 shadow-[0_20px_50px_rgba(0,0,0,0.8)] overflow-y-auto max-h-[92vh]">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-fade-in overscroll-contain">
+          <div className="relative w-full max-w-2xl rounded-2xl sm:rounded-3xl border border-cyan-500/30 bg-[#0c1220] p-4 sm:p-7 shadow-[0_20px_50px_rgba(0,0,0,0.8)] overflow-y-auto max-h-[85vh] overscroll-contain pb-6">
             {/* Cerrar modal */}
             <button
               type="button"
               onClick={() => setSelectedPaper(null)}
-              className="absolute top-5 right-5 p-2 rounded-full text-gray-400 hover:text-white hover:bg-white/10 transition cursor-pointer"
+              className="absolute top-4 right-4 sm:top-5 sm:right-5 p-2 rounded-full text-gray-400 hover:text-white hover:bg-white/10 transition cursor-pointer"
               aria-label="Cerrar lectura"
             >
               <X className="h-5 w-5" />
             </button>
 
             {/* Encabezado */}
-            <div className="flex items-center gap-2 mb-3">
-              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-cyan-500/15 text-cyan-400 border border-cyan-400/30">
+            <div className="flex items-center gap-2 mb-3 pr-8">
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-cyan-500/15 text-cyan-400 border border-cyan-400/30 shrink-0">
                 <Stethoscope className="h-4 w-4" />
               </span>
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-cyan-300">
+              <span className="text-xs font-mono font-bold uppercase tracking-wider text-cyan-300 truncate">
                 Lectura Clínica en Español
               </span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white/10 text-gray-300">
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-white/10 text-gray-300 truncate">
                 {selectedPaper.revista}
               </span>
             </div>
 
             {/* Título en español */}
-            <h3 className="text-lg sm:text-xl font-bold text-white leading-snug mb-2">
+            <h3 className="text-base sm:text-xl font-bold text-white leading-snug mb-2">
               {selectedPaper.titulo}
             </h3>
 
@@ -261,11 +261,11 @@ export function PapersSection({ papers = [] }) {
             )}
 
             {/* Contenido en español estructurado */}
-            <div className="space-y-4 my-4 text-xs sm:text-sm text-gray-200">
+            <div className="space-y-3.5 sm:space-y-4 my-4 text-xs sm:text-sm text-gray-200">
               {/* Objetivo */}
-              <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-white/[0.03] border border-white/10">
                 <h4 className="text-xs font-mono font-bold uppercase text-cyan-400 mb-1.5 flex items-center gap-1.5">
-                  <ChevronRight className="h-4 w-4" /> 1. Objetivo del Estudio
+                  <ChevronRight className="h-4 w-4 shrink-0" /> 1. Objetivo del Estudio
                 </h4>
                 <p className="text-gray-300 leading-relaxed font-light pl-5">
                   {selectedPaper.objetivo || selectedPaper.resumen}
@@ -274,9 +274,9 @@ export function PapersSection({ papers = [] }) {
 
               {/* Metodología */}
               {selectedPaper.metodologia && (
-                <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                <div className="p-3.5 sm:p-4 rounded-2xl bg-white/[0.03] border border-white/10">
                   <h4 className="text-xs font-mono font-bold uppercase text-purple-400 mb-1.5 flex items-center gap-1.5">
-                    <ChevronRight className="h-4 w-4" /> 2. Población y Metodología
+                    <ChevronRight className="h-4 w-4 shrink-0" /> 2. Población y Metodología
                   </h4>
                   <p className="text-gray-300 leading-relaxed font-light pl-5">
                     {selectedPaper.metodologia}
@@ -286,9 +286,9 @@ export function PapersSection({ papers = [] }) {
 
               {/* Resultados */}
               {selectedPaper.hallazgos && (
-                <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                <div className="p-3.5 sm:p-4 rounded-2xl bg-white/[0.03] border border-white/10">
                   <h4 className="text-xs font-mono font-bold uppercase text-emerald-400 mb-1.5 flex items-center gap-1.5">
-                    <ChevronRight className="h-4 w-4" /> 3. Resultados y Hallazgos Principales
+                    <ChevronRight className="h-4 w-4 shrink-0" /> 3. Resultados y Hallazgos Principales
                   </h4>
                   <p className="text-gray-300 leading-relaxed font-light pl-5">
                     {selectedPaper.hallazgos}
@@ -297,9 +297,9 @@ export function PapersSection({ papers = [] }) {
               )}
 
               {/* Aplicación práctica */}
-              <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/35 shadow-inner">
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/35 shadow-inner">
                 <h4 className="text-xs font-mono font-bold uppercase text-emerald-300 mb-1.5 flex items-center gap-1.5">
-                  <Lightbulb className="h-4 w-4 text-emerald-400" /> 4. Aplicación Práctica en Kinesiología (rehabilita.me)
+                  <Lightbulb className="h-4 w-4 text-emerald-400 shrink-0" /> 4. Aplicación Práctica en Kinesiología (rehabilita.me)
                 </h4>
                 <p className="text-gray-100 leading-relaxed font-normal pl-5">
                   {selectedPaper.aplicacion}
@@ -309,24 +309,24 @@ export function PapersSection({ papers = [] }) {
               {/* Tip de traducción en el navegador del celular */}
               <div className="p-3.5 rounded-2xl bg-cyan-950/30 border border-cyan-500/20 text-[11px] text-cyan-200/90 space-y-1">
                 <div className="flex items-center gap-1.5 font-semibold text-cyan-300">
-                  <Smartphone className="h-3.5 w-3.5" />
+                  <Smartphone className="h-3.5 w-3.5 shrink-0" />
                   <span>¿Deseas leer el paper completo original en la revista?</span>
                 </div>
-                <p className="text-gray-300 pl-5">
-                  Abre el enlace oficial abajo y usa el traductor nativo de tu teléfono (en iPhone toca <strong>"aA"</strong> en la barra de Safari y elige <em>"Traducir al español"</em>; en Android toca los <strong>3 puntos ⋮</strong> en Chrome y elige <em>"Traducir"</em>).
+                <p className="text-gray-300 pl-5 leading-relaxed">
+                  Abre el enlace oficial abajo y usa el traductor nativo de tu teléfono (en iPhone toca <strong>"aA"</strong> en Safari y elige <em>"Traducir al español"</em>; en Android toca los <strong>3 puntos ⋮</strong> en Chrome y elige <em>"Traducir"</em>).
                 </p>
               </div>
             </div>
 
             {/* Barra de Acciones */}
-            <div className="mt-6 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3">
-              <div className="flex flex-wrap items-center gap-2">
+            <div className="mt-5 pt-4 border-t border-white/10 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
                 {/* Enlace al DOI Oficial */}
                 <a
                   href={selectedPaper.doi}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shadow-[0_0_15px_rgba(0,240,255,0.4)]"
+                  className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shadow-[0_0_15px_rgba(0,240,255,0.4)]"
                 >
                   <span>Abrir en Revista (DOI)</span>
                   <ExternalLink className="h-3.5 w-3.5" />
@@ -337,10 +337,10 @@ export function PapersSection({ papers = [] }) {
                   href={getDirectGoogleTranslateUrl(selectedPaper)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-white/15 bg-white/5 text-gray-200 hover:text-white text-xs font-semibold hover:bg-white/10 transition"
+                  className="inline-flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-xl border border-white/15 bg-white/5 text-gray-200 hover:text-white text-xs font-semibold hover:bg-white/10 transition"
                   title="Abre Google Traductor con el texto del estudio traducido al instante"
                 >
-                  <Languages className="h-3.5 w-3.5 text-cyan-400" />
+                  <Languages className="h-4 w-4 text-cyan-400" />
                   <span>Texto en Google Traductor</span>
                 </a>
               </div>
@@ -349,7 +349,7 @@ export function PapersSection({ papers = [] }) {
               <button
                 type="button"
                 onClick={() => handleCopySummary(selectedPaper)}
-                className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-white/10 bg-white/5 text-xs text-gray-300 hover:text-cyan-300 transition cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-xl border border-white/10 bg-white/5 text-xs text-gray-300 hover:text-cyan-300 transition cursor-pointer"
               >
                 {copiedId === selectedPaper.id ? (
                   <>

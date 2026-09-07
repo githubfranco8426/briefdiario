@@ -40,8 +40,23 @@ export default function App() {
     noticias: briefData.noticias?.length || 0,
   };
 
+  const handleSelectFilter = (filter) => {
+    setActiveFilter(filter);
+    // En móviles, si selecciona una pestaña específica, desplazarse suavemente al contenido
+    setTimeout(() => {
+      if (filter !== 'all') {
+        const el = document.getElementById(filter);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }, 50);
+  };
+
   return (
-    <main className="min-h-screen bg-[#090d16] text-[#dfe2ef] selection:bg-cyan-500 selection:text-black relative overflow-hidden pb-24 sm:pb-12">
+    <main className="min-h-screen bg-[#090d16] text-[#dfe2ef] selection:bg-cyan-500 selection:text-black relative overflow-x-hidden pb-28 sm:pb-16 pt-safe">
       {/* Ambient Gradient Glows */}
       <div className="pointer-events-none fixed left-1/4 top-0 h-[450px] w-[450px] rounded-full bg-cyan-500/10 blur-[140px]"></div>
       <div className="pointer-events-none fixed bottom-0 right-1/4 h-[450px] w-[450px] rounded-full bg-purple-500/10 blur-[140px]"></div>
@@ -64,7 +79,7 @@ export default function App() {
         </div>
       )}
 
-      <div className="relative mx-auto max-w-7xl px-4 py-6 sm:py-10 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-3.5 py-4 sm:py-10 sm:px-6 lg:px-8">
         {/* Cabecera principal rediseñada */}
         <Header
           userName={briefData.usuario}
@@ -81,9 +96,25 @@ export default function App() {
         {/* Píldoras de Filtro para orden visual perfecto */}
         <FilterPills
           activeFilter={activeFilter}
-          onSelectFilter={setActiveFilter}
+          onSelectFilter={handleSelectFilter}
           counts={counts}
         />
+
+        {/* Indicador de sección activa en móviles */}
+        {activeFilter !== 'all' && (
+          <div className="mb-5 sm:hidden flex items-center justify-between bg-cyan-500/10 border border-cyan-500/25 px-4 py-2 rounded-xl text-xs text-cyan-200">
+            <span className="font-semibold">
+              Mostrando: <strong className="text-white capitalize">{activeFilter}</strong>
+            </span>
+            <button
+              type="button"
+              onClick={() => handleSelectFilter('all')}
+              className="text-cyan-400 font-bold underline text-[11px] cursor-pointer"
+            >
+              Ver todo el Brief
+            </button>
+          </div>
+        )}
 
         {/* Bento Grid Adaptativo y Organizado */}
         <div className="grid gap-6 lg:grid-cols-12">
@@ -147,7 +178,7 @@ export default function App() {
       {/* Dock Flotante Móvil (Cápsula de Navegación) */}
       <MobileBottomNav
         activeTab={activeFilter}
-        onSelectTab={setActiveFilter}
+        onSelectTab={handleSelectFilter}
         onOpenConnect={() => setShowMobileModal(true)}
       />
 

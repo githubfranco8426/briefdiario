@@ -12,6 +12,21 @@ body {
   color: #f3f4f6;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Safe area utilities for iPhone notch / Dynamic Island and Android gestures */
+.pt-safe {
+  padding-top: max(env(safe-area-inset-top), 0.5rem);
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom), 1.5rem);
 }
 
 /* Custom subtle scrollbar */
