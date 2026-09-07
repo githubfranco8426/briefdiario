@@ -31,3 +31,4 @@ dist-ssr
 # IDE internal agents config
 .agents
 .agents/*
+.vercel

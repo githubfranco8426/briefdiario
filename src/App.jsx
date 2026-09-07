@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { initialBriefData } from './data/briefData';
 import { historicalBriefs } from './data/history/index';
 import { Header } from './components/Header';
+import { FilterPills } from './components/FilterPills';
 import { AgendaSection } from './components/AgendaSection';
 import { ContentSection } from './components/ContentSection';
 import { PapersSection } from './components/PapersSection';
@@ -15,7 +16,7 @@ export default function App() {
   const [briefData, setBriefData] = useState(initialBriefData);
   const [resetKey, setResetKey] = useState(0);
   const [showMobileModal, setShowMobileModal] = useState(false);
-  const [activeMobileTab, setActiveMobileTab] = useState('agenda');
+  const [activeFilter, setActiveFilter] = useState('all');
 
   const handleSelectDate = (date) => {
     if (historicalBriefs && historicalBriefs[date]) {
@@ -31,12 +32,19 @@ export default function App() {
 
   const isViewingArchive = briefData.fecha !== initialBriefData.fecha;
 
+  const counts = {
+    agenda: briefData.agenda?.length || 0,
+    ideas: briefData.ideas?.length || 0,
+    papers: briefData.papers?.length || 0,
+    noticias: briefData.noticias?.length || 0,
+  };
+
   return (
-    <main className="min-h-screen bg-[#090d16] text-white selection:bg-purple-500 selection:text-white relative overflow-hidden pb-20 sm:pb-8">
-      {/* Glow Blur Orbs */}
-      <div className="pointer-events-none fixed left-1/4 top-0 h-96 w-96 rounded-full bg-purple-500/10 blur-[120px]"></div>
-      <div className="pointer-events-none fixed bottom-0 right-1/4 h-96 w-96 rounded-full bg-blue-500/10 blur-[120px]"></div>
-      <div className="pointer-events-none fixed top-1/2 right-10 h-72 w-72 rounded-full bg-cyan-500/5 blur-[100px]"></div>
+    <main className="min-h-screen bg-[#090d16] text-[#dfe2ef] selection:bg-cyan-500 selection:text-black relative overflow-hidden pb-24 sm:pb-12">
+      {/* Ambient Gradient Glows */}
+      <div className="pointer-events-none fixed left-1/4 top-0 h-[450px] w-[450px] rounded-full bg-cyan-500/10 blur-[140px]"></div>
+      <div className="pointer-events-none fixed bottom-0 right-1/4 h-[450px] w-[450px] rounded-full bg-purple-500/10 blur-[140px]"></div>
+      <div className="pointer-events-none fixed top-1/2 right-10 h-80 w-80 rounded-full bg-emerald-500/5 blur-[120px]"></div>
 
       {/* Banner de archivo si está viendo una fecha pasada */}
       {isViewingArchive && (
@@ -55,8 +63,8 @@ export default function App() {
         </div>
       )}
 
-      <div className="relative mx-auto max-w-7xl px-4 py-8 sm:py-12 sm:px-6 lg:px-8">
-        {/* Cabecera principal */}
+      <div className="relative mx-auto max-w-7xl px-4 py-6 sm:py-10 sm:px-6 lg:px-8">
+        {/* Cabecera principal rediseñada */}
         <Header
           userName={briefData.usuario}
           ciclo={briefData.ciclo}
@@ -66,32 +74,63 @@ export default function App() {
           onOpenMobileModal={() => setShowMobileModal(true)}
         />
 
-        {/* Bento Grid 2x2 con anclas para navegación móvil fluida */}
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div id="agenda" className="scroll-mt-20">
-            <AgendaSection
-              key={resetKey}
-              agendaItems={briefData.agenda}
-            />
-          </div>
+        {/* Píldoras de Filtro para orden visual perfecto */}
+        <FilterPills
+          activeFilter={activeFilter}
+          onSelectFilter={setActiveFilter}
+          counts={counts}
+        />
 
-          <div id="guiones" className="scroll-mt-20">
-            <ContentSection
-              ideas={briefData.ideas}
-            />
-          </div>
+        {/* Bento Grid Adaptativo y Organizado */}
+        <div className="grid gap-6 lg:grid-cols-12">
+          {/* Agenda */}
+          {(activeFilter === 'all' || activeFilter === 'agenda') && (
+            <div
+              id="agenda"
+              className={activeFilter === 'all' ? 'lg:col-span-5' : 'lg:col-span-12'}
+            >
+              <AgendaSection
+                key={resetKey}
+                agendaItems={briefData.agenda}
+              />
+            </div>
+          )}
 
-          <div id="papers" className="scroll-mt-20">
-            <PapersSection
-              papers={briefData.papers}
-            />
-          </div>
+          {/* Guiones RRSS */}
+          {(activeFilter === 'all' || activeFilter === 'guiones') && (
+            <div
+              id="guiones"
+              className={activeFilter === 'all' ? 'lg:col-span-7' : 'lg:col-span-12'}
+            >
+              <ContentSection
+                ideas={briefData.ideas}
+              />
+            </div>
+          )}
 
-          <div id="noticias" className="scroll-mt-20">
-            <NewsSection
-              news={briefData.noticias}
-            />
-          </div>
+          {/* Papers PubMed */}
+          {(activeFilter === 'all' || activeFilter === 'papers') && (
+            <div
+              id="papers"
+              className={activeFilter === 'all' ? 'lg:col-span-6' : 'lg:col-span-12'}
+            >
+              <PapersSection
+                papers={briefData.papers}
+              />
+            </div>
+          )}
+
+          {/* Noticias Chile */}
+          {(activeFilter === 'all' || activeFilter === 'noticias') && (
+            <div
+              id="noticias"
+              className={activeFilter === 'all' ? 'lg:col-span-6' : 'lg:col-span-12'}
+            >
+              <NewsSection
+                news={briefData.noticias}
+              />
+            </div>
+          )}
         </div>
 
         {/* Pie de página */}
@@ -101,10 +140,10 @@ export default function App() {
         />
       </div>
 
-      {/* Navegación inferior flotante para pantallas móviles */}
+      {/* Dock Flotante Móvil (Cápsula de Navegación) */}
       <MobileBottomNav
-        activeTab={activeMobileTab}
-        onSelectTab={setActiveMobileTab}
+        activeTab={activeFilter}
+        onSelectTab={setActiveFilter}
         onOpenConnect={() => setShowMobileModal(true)}
       />
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, Check, Plus, MapPin } from 'lucide-react';
+import { Calendar, Check, Clock, MapPin, CheckCircle2 } from 'lucide-react';
 
 export function AgendaSection({ agendaItems = [] }) {
   const [completedIds, setCompletedIds] = useState(() => {
@@ -30,85 +30,103 @@ export function AgendaSection({ agendaItems = [] }) {
   ).length;
 
   return (
-    <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md lg:p-8 transition-all hover:border-white/15">
-      {/* Background radial glow */}
-      <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 opacity-15 blur-2xl"></div>
+    <section className="glass-card rounded-2xl border border-white/10 bg-[#0e1320]/70 p-5 sm:p-7 backdrop-blur-xl transition-all duration-300 hover:border-cyan-500/20 shadow-xl shadow-black/40 relative overflow-hidden flex flex-col h-full">
+      {/* Ambient glow */}
+      <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-cyan-500/10 blur-3xl"></div>
 
-      <div className="relative mb-6 flex items-center justify-between">
+      <header className="flex justify-between items-center border-b border-white/10 pb-4 mb-5">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-purple-500 shadow-md shadow-purple-500/20">
-            <Calendar className="h-5 w-5 text-white" />
-          </span>
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-400/20">
+            <Calendar className="h-5 w-5" />
+          </div>
           <div>
-            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
+            <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-gray-400 block">
               Google Calendar
-            </p>
-            <h2 className="text-xl font-black tracking-tighter text-white">
-              Pendientes de hoy
+            </span>
+            <h2 className="text-lg font-bold text-white tracking-tight">
+              Agenda & Pendientes
             </h2>
           </div>
         </div>
 
-        {agendaItems.length > 0 && (
-          <span className="text-xs font-medium px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-gray-400">
-            {completedCount}/{agendaItems.length} completados
-          </span>
-        )}
-      </div>
+        <span className="text-xs font-mono px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-medium">
+          {completedCount}/{agendaItems.length} listos
+        </span>
+      </header>
 
-      <div className="relative">
+      <div className="flex-1 flex flex-col justify-between">
         <ul className="space-y-3">
           {agendaItems.map((item) => {
             const isCompleted = completedIds.includes(item.id);
+            const isDomicilio = item.tipo === 'domicilio';
+
             return (
               <li key={item.id}>
-                <button
-                  type="button"
-                  aria-pressed={isCompleted}
+                <div
                   onClick={() => toggleItem(item.id)}
-                  className={`group flex w-full items-start gap-4 rounded-2xl border p-4 text-left transition-all duration-200 ${
+                  className={`group flex items-center justify-between gap-4 p-4 rounded-xl border transition-all duration-200 cursor-pointer ${
                     isCompleted
-                      ? 'border-emerald-500/30 bg-emerald-500/5 opacity-70'
-                      : 'border-white/10 bg-white/5 hover:border-white/20 hover:bg-white/[0.08]'
+                      ? 'border-emerald-500/30 bg-emerald-500/5 opacity-65'
+                      : 'border-white/10 bg-white/[0.03] hover:border-cyan-400/30 hover:bg-white/[0.06]'
                   }`}
                 >
-                  {/* Checkbox indicator */}
-                  <span
-                    className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border transition-colors ${
-                      isCompleted
-                        ? 'border-emerald-400 bg-emerald-500 text-white'
-                        : 'border-white/30 group-hover:border-white/60'
-                    }`}
-                  >
-                    {isCompleted && <Check className="h-3 w-3 stroke-[3]" />}
-                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                      <span className="font-mono text-xs font-bold text-cyan-300 flex items-center gap-1">
+                        <Clock className="h-3 w-3 text-cyan-400" />
+                        {item.hora}
+                      </span>
+                      <span
+                        className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${
+                          isDomicilio
+                            ? 'bg-purple-500/10 text-purple-300 border-purple-500/20'
+                            : 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20'
+                        }`}
+                      >
+                        {isDomicilio ? 'Domicilio' : 'Clínica'}
+                      </span>
+                    </div>
 
-                  <span className="min-w-0 flex-1">
-                    <span className="flex flex-wrap items-center gap-2 text-xs font-semibold text-blue-300">
-                      <Clock className="h-3.5 w-3.5" />
-                      {item.hora}
-                      {item.lugar && (
-                        <span className="flex items-center gap-1 text-gray-400 font-normal">
-                          · <MapPin className="h-3 w-3" /> {item.lugar}
-                        </span>
-                      )}
-                    </span>
-                    <span
-                      className={`mt-1 block font-semibold text-white transition-all ${
-                        isCompleted ? 'line-through text-gray-400' : ''
+                    <h3
+                      className={`font-semibold text-sm sm:text-base text-white transition-colors ${
+                        isCompleted ? 'line-through text-gray-400' : 'group-hover:text-cyan-200'
                       }`}
                     >
                       {item.titulo}
-                    </span>
-                  </span>
-                </button>
+                    </h3>
+
+                    {item.lugar && (
+                      <p className="text-xs text-gray-400 mt-1 flex items-center gap-1 font-light">
+                        <MapPin className="h-3 w-3 text-gray-500" />
+                        {item.lugar}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Circular Check Button */}
+                  <button
+                    type="button"
+                    aria-label="Marcar tarea"
+                    className={`h-9 w-9 rounded-full shrink-0 flex items-center justify-center border transition-all duration-200 ${
+                      isCompleted
+                        ? 'border-emerald-400 bg-emerald-500 text-slate-950 shadow-[0_0_12px_rgba(16,185,129,0.5)]'
+                        : 'border-white/20 text-gray-400 group-hover:border-cyan-400 group-hover:text-cyan-300'
+                    }`}
+                  >
+                    <Check className={`h-4 w-4 ${isCompleted ? 'stroke-[3]' : 'stroke-2'}`} />
+                  </button>
+                </div>
               </li>
             );
           })}
         </ul>
-        <p className="mt-5 text-xs font-light text-gray-400 flex items-center gap-1.5">
-          <span>💡</span> Toca una tarjeta para marcarla como hecha.
-        </p>
+
+        <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-xs text-gray-400">
+          <span className="flex items-center gap-1 text-[11px]">
+            <CheckCircle2 className="h-3.5 w-3.5 text-cyan-400" />
+            Toca una tarea para marcarla como realizada
+          </span>
+        </div>
       </div>
     </section>
   );

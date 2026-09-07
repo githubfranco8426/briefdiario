@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Instagram, Copy, Check, Sparkles } from 'lucide-react';
+import { Instagram, Copy, Check, Sparkles, Video, Layers } from 'lucide-react';
 
 export function ContentSection({ ideas = [] }) {
   const [copiedId, setCopiedId] = useState(null);
@@ -14,81 +14,90 @@ export function ContentSection({ ideas = [] }) {
   };
 
   return (
-    <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md lg:p-8 transition-all hover:border-white/15">
-      {/* Background radial glow */}
-      <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 opacity-15 blur-2xl"></div>
+    <section className="glass-card rounded-2xl border border-white/10 bg-[#0e1320]/70 p-5 sm:p-7 backdrop-blur-xl transition-all duration-300 hover:border-purple-500/20 shadow-xl shadow-black/40 relative overflow-hidden flex flex-col h-full">
+      {/* Ambient glow */}
+      <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-purple-500/10 blur-3xl"></div>
 
-      <div className="relative mb-6 flex items-center justify-between">
+      <header className="flex justify-between items-center border-b border-white/10 pb-4 mb-5">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-pink-500 shadow-md shadow-pink-500/20">
-            <Instagram className="h-5 w-5 text-white" />
-          </span>
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-purple-500/10 text-purple-400 border border-purple-400/20">
+            <Instagram className="h-5 w-5" />
+          </div>
           <div>
-            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              Contenido
-            </p>
-            <h2 className="text-xl font-black tracking-tighter text-white">
-              Ideas de guion
+            <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-gray-400 block">
+              Contenido & RRSS
+            </span>
+            <h2 className="text-lg font-bold text-white tracking-tight">
+              Ideas de Guion
             </h2>
           </div>
         </div>
 
-        <span className="flex items-center gap-1 text-xs font-medium text-purple-300 bg-purple-500/10 border border-purple-400/20 px-3 py-1 rounded-full">
+        <span className="text-xs font-mono px-3 py-1 rounded-full bg-purple-500/10 text-purple-300 border border-purple-500/20 font-medium flex items-center gap-1.5">
           <Sparkles className="h-3 w-3" />
-          {ideas.length} ideas listas
+          {ideas.length} ideas
         </span>
-      </div>
+      </header>
 
-      <div className="relative">
-        <div className="space-y-4">
-          {ideas.map((item) => {
-            const isCopied = copiedId === item.id;
-            return (
-              <article
-                key={item.id}
-                className="group relative rounded-2xl border border-white/10 bg-white/5 p-4 transition-all duration-200 hover:border-white/20 hover:bg-white/[0.07]"
-              >
-                <div className="mb-2 flex items-start justify-between gap-3">
-                  <h3 className="font-semibold leading-snug text-white pr-2">
-                    {item.hook}
-                  </h3>
-                  <div className="flex items-center gap-2 shrink-0">
-                    <span className="rounded-full border border-purple-400/30 bg-purple-500/10 px-3 py-1 text-[10px] font-bold text-purple-300">
-                      {item.formato}
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => copyToClipboard(item)}
-                      title="Copiar guion al portapapeles"
-                      className="p-1.5 rounded-lg border border-white/10 bg-white/5 text-gray-400 hover:text-white hover:border-white/20 transition"
-                    >
-                      {isCopied ? (
-                        <Check className="h-3.5 w-3.5 text-emerald-400" />
-                      ) : (
-                        <Copy className="h-3.5 w-3.5" />
-                      )}
-                    </button>
-                  </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+        {ideas.map((item) => {
+          const isCopied = copiedId === item.id;
+          const isReel = item.formato?.toLowerCase().includes('reel');
+
+          return (
+            <article
+              key={item.id}
+              className="group relative rounded-xl border border-white/10 bg-white/[0.03] p-4.5 flex flex-col justify-between transition-all duration-200 hover:border-purple-400/30 hover:bg-white/[0.06] hover:shadow-lg hover:shadow-purple-500/5"
+            >
+              <div>
+                <div className="flex justify-between items-center mb-2.5">
+                  <span
+                    className={`inline-flex items-center gap-1 text-[10px] font-mono font-bold uppercase px-2.5 py-1 rounded border ${
+                      isReel
+                        ? 'bg-purple-500/15 text-purple-300 border-purple-500/30'
+                        : 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30'
+                    }`}
+                  >
+                    {isReel ? <Video className="h-3 w-3" /> : <Layers className="h-3 w-3" />}
+                    {item.formato}
+                  </span>
+
+                  <button
+                    type="button"
+                    onClick={() => copyToClipboard(item)}
+                    title="Copiar guion al portapapeles"
+                    className="p-1.5 rounded-lg border border-white/10 bg-white/5 text-gray-400 hover:text-white hover:border-white/25 hover:bg-white/10 transition active:scale-90 cursor-pointer"
+                  >
+                    {isCopied ? (
+                      <Check className="h-3.5 w-3.5 text-emerald-400" />
+                    ) : (
+                      <Copy className="h-3.5 w-3.5" />
+                    )}
+                  </button>
                 </div>
 
-                <p className="text-sm font-light leading-relaxed text-gray-300">
+                <h3 className="font-bold text-sm text-white leading-snug group-hover:text-purple-200 transition-colors">
+                  "{item.hook}"
+                </h3>
+
+                <p className="mt-2 text-xs text-gray-300 leading-relaxed font-light line-clamp-3">
                   {item.idea}
                 </p>
+              </div>
 
-                <div className="mt-3 flex items-center justify-between border-t border-white/5 pt-2">
-                  <p className="text-xs font-light text-gray-400 truncate max-w-full">
-                    {item.base}
-                  </p>
-                  {isCopied && (
-                    <span className="text-[11px] font-medium text-emerald-400 shrink-0 ml-2 animate-fade-in">
-                      ¡Copiado!
-                    </span>
-                  )}
-                </div>
-              </article>
-            );
-          })}
-        </div>
+              <div className="mt-3.5 pt-2.5 border-t border-white/5 flex items-center justify-between">
+                <span className="text-[11px] text-gray-400 font-mono truncate max-w-[80%]">
+                  {item.base}
+                </span>
+                {isCopied && (
+                  <span className="text-[10px] font-bold text-emerald-400 shrink-0">
+                    ¡Copiado!
+                  </span>
+                )}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
