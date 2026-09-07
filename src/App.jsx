@@ -10,6 +10,7 @@ import { NewsSection } from './components/NewsSection';
 import { Footer } from './components/Footer';
 import { MobileConnectModal } from './components/MobileConnectModal';
 import { MobileBottomNav } from './components/MobileBottomNav';
+import { InstallGuideBanner } from './components/InstallGuideBanner';
 import { AlertCircle, ArrowLeft } from 'lucide-react';
 
 export default function App() {
@@ -73,6 +74,9 @@ export default function App() {
           onSelectDate={handleSelectDate}
           onOpenMobileModal={() => setShowMobileModal(true)}
         />
+
+        {/* Banner de instalación en pantalla de inicio */}
+        <InstallGuideBanner onOpenModal={() => setShowMobileModal(true)} />
 
         {/* Píldoras de Filtro para orden visual perfecto */}
         <FilterPills
