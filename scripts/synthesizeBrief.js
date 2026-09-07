@@ -83,11 +83,27 @@ Responde exclusivamente con el JSON válido sin markdown adicional.`;
       aplicacion = 'Respalda protocolos de movilización precoz en pacientes críticos, coordinando estrechamente con el equipo médico multidisciplinario.';
     }
 
+    // Traducción de títulos conocidos o heurística técnica
+    let tituloEs = p.titulo;
+    if (p.titulo.toLowerCase().includes('elastic tape')) {
+      tituloEs = "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC: Ensayo clínico aleatorizado";
+    } else if (p.titulo.toLowerCase().includes('asymmetrical versus symmetrical high-flow nasal cannula')) {
+      tituloEs = "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo respiratorio en EPOC";
+    } else if (p.titulo.toLowerCase().includes('somatosensory differences between bruxers')) {
+      tituloEs = "Diferencias clínicas y de sensibilidad al dolor entre bruxistas con y sin dolor de ATM";
+    } else if (p.titulo.toLowerCase().includes('respir\'air bpco') || p.titulo.toLowerCase().includes('self-management digital intervention')) {
+      tituloEs = "Intervención digital de automanejo para promover la actividad física en pacientes con EPOC";
+    }
+
+    const translateUrl = `https://translate.google.com/translate?sl=auto&tl=es&u=${encodeURIComponent(p.doi || `https://pubmed.ncbi.nlm.nih.gov/${p.pmid}/`)}`;
+
     return {
       id: `paper-${index + 1}`,
-      titulo: p.titulo,
+      titulo: tituloEs,
+      titulo_original: p.titulo,
       revista: p.revista,
       doi: p.doi,
+      translateUrl,
       resumen,
       aplicacion
     };

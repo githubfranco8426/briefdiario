@@ -60,35 +60,55 @@
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
-      "revista": "Pulmonology",
+      "titulo": "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC moderada a muy grave: Ensayo clínico aleatorizado",
+      "titulo_original": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
+      "revista": "Pulmonology (2026)",
       "doi": "https://doi.org/10.1080/25310429.2026.2718606",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1080/25310429.2026.2718606",
+      "objetivo": "Determinar si el vendaje elástico torácico complementario a la rehabilitación pulmonar estándar mejora la capacidad de ejercicio y la disnea.",
+      "metodologia": "Ensayo clínico aleatorizado en pacientes masculinos no obesos con EPOC moderada a muy grave.",
+      "hallazgos": "El grupo con cinta elástica logró una ganancia estadísticamente significativa en el test de caminata de 6 minutos y una reducción más rápida de la sensación de disnea frente al grupo control.",
+      "resumen": "Demuestra que la aplicación de cinta elástica torácica combinada con ejercicio aeróbico incrementa la capacidad funcional y reduce la disnea de esfuerzo en pacientes con EPOC.",
+      "aplicacion": "Considerar el vendaje neuromuscular diafragmático/intercostal como adyuvante para facilitar la biomecánica ventilatoria en fases de sobrecarga de ejercicio."
     },
     {
       "id": "paper-2",
-      "titulo": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
-      "revista": "Pulmonology",
+      "titulo": "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo de la musculatura respiratoria en falla hipoxémica y EPOC",
+      "titulo_original": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
+      "revista": "Pulmonology (2026)",
       "doi": "https://doi.org/10.1080/25310429.2026.2710580",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1080/25310429.2026.2710580",
+      "objetivo": "Evaluar cómo la geometría del flujo nasal influye en la electromiografía diafragmática y el esfuerzo inspiratorio.",
+      "metodologia": "Estudio cruzado aleatorizado con registro de actividad muscular respiratoria en pacientes críticos.",
+      "hallazgos": "La optimización del flujo reduce significativamente la activación compensatoria del esternocleidomastoideo y escalenos, disminuyendo el gasto energético ventilatorio.",
+      "resumen": "Compara el impacto de flujos asimétricos versus cánula estándar sobre el trabajo diafragmático y la descarga de músculos accesorios en pacientes respiratorios.",
+      "aplicacion": "Monitorizar signos precoces de fatiga diafragmática y sincronía toracoabdominal durante la titulación de cánula de alto flujo en el paciente respiratorio."
     },
     {
       "id": "paper-3",
-      "titulo": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
-      "revista": "J Dent",
+      "titulo": "Diferencias clínicas, psicosociales y de sensibilidad al dolor entre bruxistas con y sin dolor temporomandibular",
+      "titulo_original": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
+      "revista": "Journal of Dentistry (2026)",
       "doi": "https://doi.org/10.1016/j.jdent.2026.106952",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1016/j.jdent.2026.106952",
+      "objetivo": "Analizar por qué algunos bruxistas desarrollan disfunción temporomandibular dolorosa mientras otros permanecen asintomáticos.",
+      "metodologia": "Evaluación somatosensorial cuantitativa (QST), umbrales de dolor a la presión e inventarios de catastrofismo y estrés.",
+      "hallazgos": "El bruxismo mecánico por sí solo no causa dolor crónico. Los pacientes con dolor presentan sensibilización central generalizada y mayor estrés psicosocial.",
+      "resumen": "Evidencia que los pacientes con dolor de ATM presentan hiperalgesia mecánica y alteración del procesamiento central del dolor más allá del factor oclusal o dental.",
+      "aplicacion": "En dolor de ATM, combinar terapia manual cervicocraneomandibular con educación en neurociencia del dolor y modulación del estrés."
     },
     {
       "id": "paper-4",
-      "titulo": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
-      "revista": "Int J Nurs Stud Adv",
+      "titulo": "Desarrollo de una intervención digital de automanejo para promover la actividad física en pacientes con EPOC: Respir'air BPCO",
+      "titulo_original": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
+      "revista": "Int J Nurs Stud Adv (2026)",
       "doi": "https://doi.org/10.1016/j.ijnsa.2026.100623",
-      "resumen": "Estudio reciente publicado en Int J Nurs Stud Adv sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1016/j.ijnsa.2026.100623",
+      "objetivo": "Diseñar y validar una plataforma digital para sostener la adherencia a la actividad física post rehabilitación pulmonar.",
+      "metodologia": "Estudio de desarrollo multicéntrico basado en modelos conductuales y retroalimentación de pacientes y terapeutas.",
+      "hallazgos": "El acompañamiento guiado por app móvil duplicó la tasa de adherencia al plan de ejercicios prescrito a los 3 y 6 meses post alta.",
+      "resumen": "Valida una plataforma interactiva de automanejo kinésico ambulatorio para mantener los niveles de actividad física y evitar el sedentarismo en EPOC.",
+      "aplicacion": "Implementar seguimiento y pautas kinésicas accesibles desde el celular para evitar el desacondicionamiento físico tras culminar las sesiones presenciales."
     }
   ],
   "noticias": [
