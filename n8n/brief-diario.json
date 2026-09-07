@@ -1,0 +1,219 @@
+{
+  "name": "Brief diario — rehabilita.me",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "30 6 * * *"
+            }
+          ]
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000001",
+      "name": "Cada mañana 06:30",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-660, 300]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "value": "primary",
+          "mode": "list",
+          "cachedResultName": "primary"
+        },
+        "returnAll": true,
+        "timeMin": "={{ $now.setZone('America/Santiago').startOf('day').toISO() }}",
+        "timeMax": "={{ $now.setZone('America/Santiago').endOf('day').toISO() }}",
+        "options": {
+          "singleEvents": true,
+          "orderBy": "startTime"
+        }
+      },
+      "id": "a1000000-0000-4000-8000-000000000002",
+      "name": "Agenda de hoy",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [-440, 300],
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Convierte los eventos del calendario en la forma que espera la web.\n// Solo se conservan hora, título y lugar: nada de invitados ni descripciones.\n\nconst zona = 'America/Santiago';\n\nconst fmt = (iso, soloFecha) => {\n  if (soloFecha) return 'Todo el día';\n  return new Date(iso).toLocaleTimeString('es-CL', {\n    hour: '2-digit', minute: '2-digit', timeZone: zona,\n  });\n};\n\nconst agenda = [];\n\nfor (const item of $input.all()) {\n  const e = item.json;\n  if (!e || !e.start) continue;\n  if (e.status === 'cancelled') continue;\n\n  const esDiaCompleto = Boolean(e.start.date);\n  const inicio = e.start.dateTime || e.start.date;\n  const fin = e.end?.dateTime || e.end?.date;\n\n  agenda.push({\n    hora: esDiaCompleto\n      ? 'Todo el día'\n      : `${fmt(inicio)} – ${fmt(fin)}`,\n    titulo: e.summary || 'Sin título',\n    lugar: e.location || '',\n    tipo: 'clinica',\n  });\n}\n\n// Fecha de hoy en formato YYYY-MM-DD, hora de Chile.\nconst fecha = new Date().toLocaleDateString('en-CA', { timeZone: zona });\n\nreturn [{ json: { fecha, agenda } }];"
+      },
+      "id": "a1000000-0000-4000-8000-000000000003",
+      "name": "Limpiar agenda",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-220, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "db", "value": "pubmed" },
+            {
+              "name": "term",
+              "value": "(respiratory physiotherapy OR pulmonary rehabilitation OR temporomandibular disorders OR orofacial pain) AND (\"last 30 days\"[dp])"
+            },
+            { "name": "retmax", "value": "5" },
+            { "name": "sort", "value": "date" },
+            { "name": "retmode", "value": "json" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000004",
+      "name": "Buscar en PubMed",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [0, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "db", "value": "pubmed" },
+            {
+              "name": "id",
+              "value": "={{ $json.esearchresult.idlist.join(',') }}"
+            },
+            { "name": "retmode", "value": "json" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000005",
+      "name": "Detalle de los papers",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [220, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://www.emol.com/rss/rss.asp?canal=0",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000006",
+      "name": "Noticias Chile",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.1,
+      "position": [440, 300],
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Junta todo lo recogido y arma el mensaje para Claude.\n\nconst base = $('Limpiar agenda').first().json;\nconst resumen = $('Detalle de los papers').first().json;\n\n// --- Papers ---\nconst papers = [];\nconst r = resumen?.result || {};\nfor (const uid of (r.uids || [])) {\n  const p = r[uid];\n  if (!p) continue;\n  const doi = (p.articleids || []).find((a) => a.idtype === 'doi')?.value;\n  papers.push({\n    titulo: p.title || '',\n    revista: p.fulljournalname || p.source || '',\n    fecha: p.pubdate || '',\n    doi: doi ? `https://doi.org/${doi}` : `https://pubmed.ncbi.nlm.nih.gov/${uid}/`,\n  });\n}\n\n// --- Noticias: los 8 titulares más recientes ---\nconst titulares = $input.all().slice(0, 8).map((i) => ({\n  titulo: i.json.title || '',\n  detalle: (i.json.contentSnippet || i.json.content || '').slice(0, 400),\n  url: i.json.link || '',\n  fuente: 'Emol',\n}));\n\n// --- Ciclo de turnos: 4 días que rotan desde el 3 de agosto de 2026 ---\nconst turnos = [\n  { ciclo: 'Día 1 · Turno largo', detalle: '08:00–20:00 · Sin consultas' },\n  { ciclo: 'Día 2 · Turno noche', detalle: '20:00–08:00 · Consultas 09:00–17:00' },\n  { ciclo: 'Día 3 · Libre saliente', detalle: 'Consultas 15:00–19:00' },\n  { ciclo: 'Día 4 · Segundo libre', detalle: 'Consultas 09:00–19:00' },\n];\nconst ancla = new Date('2026-08-03T12:00:00-04:00');\nconst hoy = new Date(`${base.fecha}T12:00:00-04:00`);\nconst dias = Math.floor((hoy - ancla) / 86400000);\nconst turno = turnos[((dias % 4) + 4) % 4];\n\nconst prompt = `Eres el asistente de Franco, kinesiólogo especialista en kinesiología respiratoria y maxilofacial, dueño de la clínica rehabilita.me en Iquique y Alto Hospicio (Chile). Prepara su brief de hoy.\n\nPAPERS RECIENTES DE PUBMED:\n${JSON.stringify(papers, null, 2)}\n\nTITULARES DE HOY:\n${JSON.stringify(titulares, null, 2)}\n\nSU AGENDA DE HOY:\n${JSON.stringify(base.agenda, null, 2)}\n\nDevuelve SOLO un objeto JSON, sin texto alrededor y sin bloques de código markdown, con esta forma exacta:\n\n{\n  \"ideas\": [\n    { \"hook\": \"frase gancho en primera persona o segunda persona, entre comillas angulares\", \"formato\": \"Reel 30 s | Carrusel 6 slides\", \"idea\": \"qué grabar o mostrar, 2 frases concretas\", \"base\": \"de qué paper o tema sale\" }\n  ],\n  \"papers\": [\n    { \"titulo\": \"título traducido al español, claro\", \"revista\": \"nombre de la revista\", \"resumen\": \"2-3 frases con el hallazgo y el tamaño muestral si aparece\", \"aplicacion\": \"1 frase: qué hacer con esto en su práctica\", \"doi\": \"la URL del DOI tal cual venía\" }\n  ],\n  \"noticias\": [\n    { \"categoria\": \"Economía · Chile | Salud | IA · Mercados | Norte grande\", \"titulo\": \"titular reescrito con tus palabras\", \"detalle\": \"2 frases de contexto\", \"fuente\": \"nombre del medio\", \"url\": \"enlace original\" }\n  ]\n}\n\nReglas:\n- 4 ideas de contenido. Al menos 2 deben salir de los papers de hoy. Una puede ser sobre la atención a domicilio, que es su diferenciador.\n- Máximo 4 papers, los más aplicables a su especialidad. Conserva los DOI exactos.\n- Máximo 4 noticias, priorizando economía chilena, salud, tecnología/IA y la Región de Tarapacá. Reescribe los titulares con tus propias palabras, nunca los copies literalmente.\n- Escribe en español de Chile, claro y directo, sin jerga innecesaria.`;\n\nreturn [{\n  json: {\n    fecha: base.fecha,\n    ciclo: turno.ciclo,\n    ciclo_detalle: turno.detalle,\n    agenda: base.agenda,\n    prompt,\n  },\n}];"
+      },
+      "id": "a1000000-0000-4000-8000-000000000007",
+      "name": "Armar el contexto",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [660, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: 'claude-sonnet-5', max_tokens: 4000, messages: [{ role: 'user', content: $json.prompt }] }) }}",
+        "options": { "timeout": 120000 }
+      },
+      "id": "a1000000-0000-4000-8000-000000000008",
+      "name": "Redactar con Claude",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 300]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Toma la respuesta de Claude y la deja lista para guardar.\n\nconst contexto = $('Armar el contexto').first().json;\nconst respuesta = $input.first().json;\n\nlet texto = (respuesta.content || [])\n  .filter((b) => b.type === 'text')\n  .map((b) => b.text)\n  .join('\\n')\n  .trim();\n\n// Por si el modelo devolvió el JSON envuelto en un bloque de código.\ntexto = texto.replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();\n\nlet datos;\ntry {\n  datos = JSON.parse(texto);\n} catch (e) {\n  throw new Error('Claude no devolvió JSON válido. Respuesta recibida: ' + texto.slice(0, 300));\n}\n\nreturn [{\n  json: {\n    fecha: contexto.fecha,\n    ciclo: contexto.ciclo,\n    ciclo_detalle: contexto.ciclo_detalle,\n    agenda: contexto.agenda,\n    ideas: datos.ideas || [],\n    papers: datos.papers || [],\n    noticias: datos.noticias || [],\n  },\n}];"
+      },
+      "id": "a1000000-0000-4000-8000-000000000009",
+      "name": "Preparar el brief",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1100, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://TU-PROYECTO.supabase.co/rest/v1/brief_diario",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "content-type", "value": "application/json" },
+            { "name": "Prefer", "value": "resolution=merge-duplicates" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "a1000000-0000-4000-8000-000000000010",
+      "name": "Guardar en Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1320, 300]
+    }
+  ],
+  "connections": {
+    "Cada mañana 06:30": {
+      "main": [[{ "node": "Agenda de hoy", "type": "main", "index": 0 }]]
+    },
+    "Agenda de hoy": {
+      "main": [[{ "node": "Limpiar agenda", "type": "main", "index": 0 }]]
+    },
+    "Limpiar agenda": {
+      "main": [[{ "node": "Buscar en PubMed", "type": "main", "index": 0 }]]
+    },
+    "Buscar en PubMed": {
+      "main": [[{ "node": "Detalle de los papers", "type": "main", "index": 0 }]]
+    },
+    "Detalle de los papers": {
+      "main": [[{ "node": "Noticias Chile", "type": "main", "index": 0 }]]
+    },
+    "Noticias Chile": {
+      "main": [[{ "node": "Armar el contexto", "type": "main", "index": 0 }]]
+    },
+    "Armar el contexto": {
+      "main": [[{ "node": "Redactar con Claude", "type": "main", "index": 0 }]]
+    },
+    "Redactar con Claude": {
+      "main": [[{ "node": "Preparar el brief", "type": "main", "index": 0 }]]
+    },
+    "Preparar el brief": {
+      "main": [[{ "node": "Guardar en Supabase", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Santiago"
+  },
+  "pinData": {}
+}

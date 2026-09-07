@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1322"/>
+      <stop offset="100%" stop-color="#060910"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="8"/>
+
+  <!-- Radial Glow Behind Icon -->
+  <circle cx="256" cy="256" r="140" fill="url(#glowGrad)" filter="blur(20px)"/>
+
+  <!-- Health & Rehab Stylized Cross / Pulse Graphic -->
+  <g transform="translate(106, 106)" fill="none" stroke="url(#accentGrad)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pulse wave through center -->
+    <path d="M 20 150 L 80 150 L 110 70 L 150 230 L 190 120 L 220 150 L 280 150"/>
+    <!-- Circular frame -->
+    <circle cx="150" cy="150" r="130" stroke-width="16" stroke="url(#accentGrad)" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Sparkle star top right -->
+  <polygon points="390,90 398,112 420,120 398,128 390,150 382,128 360,120 382,112" fill="#38bdf8"/>
+</svg>

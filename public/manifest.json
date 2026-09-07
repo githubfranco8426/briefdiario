@@ -1,0 +1,19 @@
+{
+  "name": "Brief Diario · rehabilita.me",
+  "short_name": "Brief Diario",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "description": "Tu agenda clínica, ideas de contenido, papers PubMed y noticias del día.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

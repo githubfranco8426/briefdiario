@@ -1,0 +1,124 @@
+{
+  "fecha": "2026-09-07",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
+  "agenda": [
+    {
+      "id": "agenda-1",
+      "hora": "09:00 – 19:00",
+      "tipo": "clinica",
+      "lugar": "Centro de rehabilitación",
+      "titulo": "Cupos de consulta (atención presencial)"
+    },
+    {
+      "id": "agenda-2",
+      "hora": "11:30 – 12:30",
+      "tipo": "domicilio",
+      "lugar": "Alto Hospicio",
+      "titulo": "Atención kinesiológica respiratoria a domicilio"
+    },
+    {
+      "id": "agenda-3",
+      "hora": "17:00 – 18:00",
+      "tipo": "seguimiento",
+      "lugar": "Iquique",
+      "titulo": "Evaluación y control disfunción ATM / Dolor orofacial"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-1",
+      "base": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
+      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+      "formato": "Reel 30 s"
+    },
+    {
+      "id": "idea-2",
+      "base": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
+      "hook": "Tu cara también tiene un mapa del dolor",
+      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+      "formato": "Carrusel 6 slides"
+    },
+    {
+      "id": "idea-3",
+      "base": "Diferenciador de atención a domicilio",
+      "hook": "No siempre tienes que venir tú a nosotros",
+      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+      "formato": "Reel 30 s"
+    },
+    {
+      "id": "idea-4",
+      "base": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
+      "hook": "Movilizar antes, no después",
+      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+      "formato": "Carrusel 6 slides"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-1",
+      "titulo": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
+      "revista": "Pulmonology",
+      "doi": "https://doi.org/10.1080/25310429.2026.2718606",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+    },
+    {
+      "id": "paper-2",
+      "titulo": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
+      "revista": "Pulmonology",
+      "doi": "https://doi.org/10.1080/25310429.2026.2710580",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+    },
+    {
+      "id": "paper-3",
+      "titulo": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
+      "revista": "J Dent",
+      "doi": "https://doi.org/10.1016/j.jdent.2026.106952",
+      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+    },
+    {
+      "id": "paper-4",
+      "titulo": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
+      "revista": "Int J Nurs Stud Adv",
+      "doi": "https://doi.org/10.1016/j.ijnsa.2026.100623",
+      "resumen": "Estudio reciente publicado en Int J Nurs Stud Adv sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOU1BtOTVubWdBR0pWZmUxaHdCYUg1ZHFSd2x3MTBpWi1talBueVBPNmZsM2Uzd3djQmtpb0ljVjN3djdpeWxTNFlvclotY01SMEJIY0RPNFFyMk0tLUkxRVQzVmlJanA0X3l1WjNxTmVJa1VPeWxfdVFyaEY3VnhDTkRHZ2tua0hQcm1malZxNzFUcmhaNzhMRU9aalZ2bTdLNHlwS1lPVFNzdEI5U2xUZzhKX1NyeFVJd3JJWEk0XzZReWRsalVTMHBQZ3BIdXlaNHloQW1oR3RhTkVnSUdLaDF5SldOOTBlZ2tCTl9kSUxDZHRpUDdJVWpXa0dHMXVKb1lYM0lWZkxRQ0E?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Reportan alza de remuneraciones en Chile: tres sectores lideran en incidencia en los últimos 12 meses",
+      "detalle": "Información de actualidad económica y laboral en Chile según BioBioChile.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUF2TnoxMXhyaVRkMnJEbzEtdkp4T1NZOWtXTEI5dTNobTViS3pzMkZ1YjRDNkNGWGU3UnNjUGxGUm9WY1dDemFSaGJpajJpSXdldGF3WHdFaENaUHktNmdPVGJ0WUw0anNMdlJfTS1wUlliUXB1RG9jWW9Md0hwX2dXWUxSRDVLMTZhR3A4NUxOMTZGaVpqVGhfWVlyMXY1Sk9UMkpqMUw3ZzJqNHBF0gG0AUFVX3lxTE1jVnpKNEdsdVpKME1VME9wY0dyMi1RNUc5eTBLRXV1a3I4RFlwOWtBM1c1RFdPN3VhWGhFVDhka1R6enBvTnUydUY0Q19CQUNpNHM2bEVUNDlBal9BRWUtTjZaNXk3NjZjT0FaZHNIRk5TVWF5bS15T1lDb2k1M2hoZ1B2TDlCRDFiaXNaanNwUFRKRnZNdmIzY0dQYnN5Ny1wdnMwc1JMT1hQN29RTk9xR3N3dA?oc=5",
+      "fuente": "ABC",
+      "titulo": "La economía chilena, a la baja tras los seis meses de gobierno de José Antonio Kast",
+      "detalle": "Información de actualidad económica y laboral en Chile según ABC.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNDVqN1A0emp1SHd5b1JQZ3VwSTJFWHFTM1VIcVg4WXdfOU5laXJNV1lGN0ptQ2tadEtycUlWV1k2eXlRUjM2dnR2WHFEbXZudUZCVWktbzFaWlBoQWJvaEZFQU1YLWthZ1JWMG9meXlDZm5FSzJRd0J2UnV0Q1QtZTZuV0JXTUctTTRYZUhUeHo0LUpMWEhjZWt2UGk4azFmLWpVSi1yZkhqelk0MXROc2EwRQ?oc=5",
+      "fuente": "Diario Financiero",
+      "titulo": "Chile y Perú celebran 20 años de próspero intercambio bajo el tratado de libre comercio",
+      "detalle": "Información de actualidad económica y laboral en Chile según Diario Financiero.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-09-07T18:53:31.310Z"
+}

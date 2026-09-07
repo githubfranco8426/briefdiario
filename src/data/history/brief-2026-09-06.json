@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-09-06",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 3 · Primer libre / Saliente",
+  "ciclo_detalle": "Recuperación post-guardia y fichas clínicas",
+  "agenda": [
+    {
+      "id": "agenda-1",
+      "hora": "10:00 – 12:00",
+      "tipo": "clinica",
+      "lugar": "Online / Fichas",
+      "titulo": "Actualización de planes de tratamiento y epicrisis"
+    },
+    {
+      "id": "agenda-2",
+      "hora": "16:00 – 17:30",
+      "tipo": "domicilio",
+      "lugar": "Iquique Centro",
+      "titulo": "Control kinesiológico post-alta hospitalaria"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-1",
+      "base": "Inspiratory muscle training in critical illness survivors",
+      "hook": "¿Por qué cuesta tanto respirar hondo al salir de la UCI?",
+      "idea": "Explica la debilidad diafragmática adquirida en UCI y cómo el entrenamiento muscular inspiratorio devuelve la independencia funcional.",
+      "formato": "Reel 30 s"
+    },
+    {
+      "id": "idea-2",
+      "base": "Temporomandibular disorder screening for physical therapists",
+      "hook": "¿Bruxismo o disfunción articular? La diferencia importa",
+      "idea": "Carrusel de 6 slides detallando 3 pruebas caseras para identificar dolor miofascial vs articular en la mandíbula.",
+      "formato": "Carrusel 6 slides"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-1",
+      "titulo": "Inspiratory muscle training facilitates weaning and functional capacity in prolonged mechanical ventilation",
+      "revista": "Respiratory Care",
+      "doi": "https://doi.org/10.4187/respcare.09871",
+      "resumen": "Demuestra incremento en la presión inspiratoria máxima (Pimax) y menor tasa de reintubación en pacientes entrenados tempranamente.",
+      "aplicacion": "Implementar protocolos progresivos con dispositivos umbral de carga inspiratoria en fase subaguda."
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://www.emol.com",
+      "fuente": "Emol",
+      "titulo": "Banco Central anticipa moderación en la inflación hacia fin de año",
+      "detalle": "Consejo del ente emisor prevé tasas más bajas para dinamizar la inversión en el segundo semestre.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    }
+  ],
+  "creado_en": "2026-09-06T06:30:00.000Z"
+}
