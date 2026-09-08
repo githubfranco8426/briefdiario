@@ -8,11 +8,20 @@
 
 body {
   margin: 0;
-  background-color: #090e18;
+  background-color: #070B14;
   color: #f1f5f9;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+}
+
+/* Fondo radial "Obsidian Clinical Brief" (cyan / teal / violeta sobre obsidiana) */
+.radial-bg {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(6, 182, 212, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 90% 40%, rgba(20, 184, 166, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 50% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 60%),
+    #070B14;
 }
 
 html {
@@ -48,21 +57,35 @@ html {
   background: rgba(255, 255, 255, 0.25);
 }
 
-/* Glass card subtle hover animation */
+/* Glass card subtle hover animation (superficie "Obsidian Clinical Brief") */
 .glass-card {
   position: relative;
   overflow: hidden;
   border-radius: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(13, 19, 33, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-card:hover {
   border-color: rgba(255, 255, 255, 0.18);
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.frosted-glass {
+  background: rgba(13, 19, 33, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.frosted-pill {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 /* Pulse dot animation */

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Sparkles, Copy, Check, RefreshCw, Heart, Quote } from 'lucide-react';
+import { BookOpen, Sparkles, Copy, Check, RefreshCw, Heart } from 'lucide-react';
 
 const VERSICULOS_DEFAULT = [
   {
@@ -46,23 +46,22 @@ export function DailyVerseCard({ verseData }) {
   };
 
   return (
-    <article className="relative mb-8 overflow-hidden rounded-2xl border border-slate-700/40 bg-gradient-to-br from-[#0f172a]/90 via-[#131d2e]/85 to-[#0b121e]/90 p-5 sm:p-6 backdrop-blur-2xl shadow-[0_15px_35px_rgba(0,0,0,0.5)] transition-all duration-300 hover:border-sky-500/30">
-      {/* Resplandor nórdico sutil (Aurora Boreal ártica / Sage pine) */}
-      <div className="pointer-events-none absolute -top-12 -left-12 h-36 w-36 rounded-full bg-emerald-500/10 blur-3xl"></div>
-      <div className="pointer-events-none absolute -bottom-12 -right-12 h-40 w-40 rounded-full bg-sky-500/10 blur-3xl"></div>
+    <article className="relative mb-8 overflow-hidden rounded-2xl frosted-glass shadow-glass p-5 sm:p-6 border border-cyan-500/20 transition-all duration-300 hover:border-cyan-500/40">
+      {/* Resplandor sutil */}
+      <div className="pointer-events-none absolute -right-8 -top-8 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl"></div>
 
       <div className="relative z-10 flex flex-col justify-between gap-4">
         {/* Cabecera del Versículo */}
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/5 pb-3">
           <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-sky-500/10 text-sky-300 border border-sky-400/20 shadow-sm">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-500/15 text-cyan-300 border border-cyan-500/30 shadow-inner">
               <BookOpen className="h-4 w-4" />
             </span>
             <div className="flex items-center gap-2">
-              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-sky-300">
+              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-cyan-400/90">
                 Versículo del Día
               </span>
-              <span className="rounded-full bg-emerald-500/10 border border-emerald-500/25 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 flex items-center gap-1">
+              <span className="rounded-full bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 flex items-center gap-1">
                 <Heart className="h-2.5 w-2.5 fill-emerald-400/30" /> Fortaleza & Propósito
               </span>
             </div>
@@ -73,7 +72,7 @@ export function DailyVerseCard({ verseData }) {
               type="button"
               onClick={nextVerse}
               title="Cambiar versículo"
-              className="flex items-center gap-1 px-2.5 py-1 rounded-lg border border-white/10 bg-white/5 text-[11px] font-mono text-gray-300 hover:text-sky-300 hover:bg-white/10 transition cursor-pointer"
+              className="flex items-center gap-1 px-2.5 py-1 rounded-lg border border-white/10 bg-white/5 text-[11px] font-mono text-gray-300 hover:text-cyan-300 hover:bg-white/10 transition cursor-pointer"
             >
               <RefreshCw className="h-3 w-3" />
               <span>Rotar</span>
@@ -101,21 +100,18 @@ export function DailyVerseCard({ verseData }) {
         </div>
 
         {/* Cita Bíblica */}
-        <div className="flex items-start gap-3 my-1">
-          <Quote className="h-6 w-6 text-sky-400/40 shrink-0 rotate-180 mt-1 hidden sm:block" />
-          <div>
-            <blockquote className="text-sm sm:text-base text-slate-100 font-medium leading-relaxed italic tracking-wide">
-              "{currentVerse.texto}"
-            </blockquote>
-            <p className="mt-2 text-xs font-mono font-bold text-sky-300 tracking-wider">
-              — {currentVerse.referencia}
-            </p>
-          </div>
+        <div className="relative my-1 pl-3 border-l-2 border-cyan-400/80">
+          <blockquote className="italic text-sm sm:text-base text-slate-200 leading-relaxed font-serif">
+            "{currentVerse.texto}"
+          </blockquote>
+          <p className="mt-2 text-xs font-sans font-bold text-cyan-400">
+            — {currentVerse.referencia}
+          </p>
         </div>
 
         {/* Reflexión para la Jornada Clínica */}
         {currentVerse.reflexion && (
-          <div className="rounded-xl border border-emerald-500/20 bg-emerald-500/5 px-3.5 py-2.5 flex items-center gap-2.5 text-xs text-emerald-200/90 font-light">
+          <div className="rounded-xl bg-gradient-to-r from-cyan-950/40 via-slate-900/60 to-emerald-950/30 border border-cyan-500/25 px-3.5 py-2.5 flex items-center gap-2.5 text-xs text-emerald-200/90 font-light">
             <Sparkles className="h-3.5 w-3.5 text-emerald-400 shrink-0" />
             <p className="leading-snug">
               <strong className="font-semibold text-emerald-300">Para tu día:</strong> {currentVerse.reflexion}

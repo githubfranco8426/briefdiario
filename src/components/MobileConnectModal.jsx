@@ -19,7 +19,7 @@ export function MobileConnectModal({ isOpen, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in">
-      <div className="relative w-full max-w-md rounded-3xl border border-white/15 bg-[#0e1424] p-6 shadow-2xl overflow-y-auto max-h-[92vh]">
+      <div className="relative w-full max-w-md rounded-3xl border border-white/10 bg-[#0B1120] p-6 shadow-2xl overflow-y-auto max-h-[92vh]">
         {/* Botón cerrar */}
         <button
           type="button"
@@ -34,13 +34,13 @@ export function MobileConnectModal({ isOpen, onClose }) {
           <img
             src="/apple-touch-icon.png"
             alt="Icono oficial Brief Diario"
-            className="w-12 h-12 rounded-2xl border border-sky-400/50 shadow-[0_0_20px_rgba(56,189,248,0.35)] object-cover"
+            className="w-12 h-12 rounded-2xl border border-cyan-400/50 shadow-[0_0_20px_rgba(56,189,248,0.35)] object-cover"
           />
           <div>
             <h3 className="text-lg font-bold text-white leading-snug">
               Brief Diario en tu Celular
             </h3>
-            <p className="text-xs text-sky-300 font-medium">
+            <p className="text-xs text-cyan-300 font-medium">
               Guárdala como App en tu pantalla de inicio
             </p>
           </div>
@@ -68,13 +68,13 @@ export function MobileConnectModal({ isOpen, onClose }) {
 
         {/* Link directo con botón de copiar */}
         <div className="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-white/5 border border-white/10 mb-5">
-          <span className="text-xs font-mono text-sky-300 truncate pl-2 font-medium">
+          <span className="text-xs font-mono text-cyan-300 truncate pl-2 font-medium">
             {mobileUrl}
           </span>
           <button
             type="button"
             onClick={copyUrl}
-            className="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-sky-400 text-slate-950 font-bold text-xs hover:bg-sky-300 transition shrink-0 cursor-pointer shadow-sm"
+            className="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shrink-0 cursor-pointer shadow-sm"
           >
             {copied ? <Check className="h-3.5 w-3.5 stroke-[3]" /> : <Copy className="h-3.5 w-3.5" />}
             <span>{copied ? '¡Copiado!' : 'Copiar'}</span>
@@ -82,9 +82,9 @@ export function MobileConnectModal({ isOpen, onClose }) {
         </div>
 
         {/* Instrucciones con icono de entrada */}
-        <div className="rounded-2xl border border-sky-500/25 bg-sky-500/5 p-4 text-xs space-y-3">
+        <div className="rounded-2xl border border-cyan-500/25 bg-cyan-500/5 p-4 text-xs space-y-3">
           <p className="font-bold text-white flex items-center gap-2">
-            <PlusSquare className="h-4 w-4 text-sky-400" />
+            <PlusSquare className="h-4 w-4 text-cyan-400" />
             Cómo crear el Icono de Entrada en tu celular:
           </p>
 
@@ -107,7 +107,7 @@ export function MobileConnectModal({ isOpen, onClose }) {
         <button
           type="button"
           onClick={onClose}
-          className="mt-5 w-full py-2.5 rounded-xl bg-gradient-to-r from-sky-400 to-teal-400 text-slate-950 font-black text-xs hover:opacity-95 transition shadow-lg shadow-sky-500/25 cursor-pointer"
+          className="mt-5 w-full py-2.5 rounded-xl bg-gradient-to-r from-cyan-400 to-teal-400 text-slate-950 font-black text-xs hover:opacity-95 transition shadow-lg shadow-cyan-500/25 cursor-pointer"
         >
           ¡Listo, entendido!
         </button>

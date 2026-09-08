@@ -43,19 +43,19 @@ export function InstallGuideBanner({ onOpenModal }) {
   if (isStandalone || isDismissed) return null;
 
   return (
-    <div className="mb-6 rounded-2xl border border-slate-700/50 bg-gradient-to-r from-[#0f172a]/95 via-[#131d2e]/90 to-[#0c1626]/95 p-3.5 sm:p-4 backdrop-blur-xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] flex items-center justify-between gap-3 animate-fade-in relative overflow-hidden">
+    <div className="mb-6 rounded-2xl frosted-glass shadow-sm p-3.5 sm:p-4 flex items-center justify-between gap-3 animate-fade-in relative overflow-hidden">
       <div className="flex items-center gap-3 min-w-0">
         <img
           src="/apple-touch-icon.png"
           alt="Icono Brief Diario"
-          className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl border border-sky-400/30 shadow-[0_0_15px_rgba(56,189,248,0.25)] shrink-0 object-cover"
+          className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl border border-cyan-500/30 shadow-glow-cyan shrink-0 object-cover"
         />
         <div className="min-w-0">
           <div className="flex items-center gap-1.5">
             <h4 className="text-xs sm:text-sm font-bold text-white truncate">
               Instalar Brief Diario en tu Inicio
             </h4>
-            <span className="text-[10px] uppercase font-bold text-sky-300 bg-sky-500/10 px-1.5 py-0.5 rounded border border-sky-500/25 hidden sm:inline-block">
+            <span className="text-[10px] uppercase font-bold text-cyan-300 bg-cyan-950/60 px-1.5 py-0.5 rounded border border-cyan-500/25 hidden sm:inline-block">
               App Móvil
             </span>
           </div>
@@ -71,7 +71,7 @@ export function InstallGuideBanner({ onOpenModal }) {
         <button
           type="button"
           onClick={handleInstallClick}
-          className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-sky-400 text-slate-950 font-bold text-xs hover:bg-sky-300 transition shadow-[0_0_15px_rgba(56,189,248,0.35)] active:scale-95 cursor-pointer"
+          className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-gradient-to-r from-cyan-400 to-teal-400 hover:from-cyan-300 hover:to-teal-300 text-slate-950 font-bold text-xs transition shadow-sm active:scale-95 cursor-pointer"
         >
           {isIOS ? <PlusSquare className="h-3.5 w-3.5" /> : <Download className="h-3.5 w-3.5" />}
           <span>{deferredPrompt ? 'Instalar' : 'Guardar en Inicio'}</span>

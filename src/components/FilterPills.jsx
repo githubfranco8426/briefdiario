@@ -21,8 +21,8 @@ export function FilterPills({ activeFilter, onSelectFilter, counts = {} }) {
               onClick={() => onSelectFilter(f.id)}
               className={`shrink-0 flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium transition-all duration-200 cursor-pointer ${
                 isActive
-                  ? 'bg-sky-400 text-slate-950 font-bold shadow-[0_0_18px_rgba(56,189,248,0.35)] scale-[1.02]'
-                  : 'bg-slate-800/50 text-slate-400 hover:text-white hover:bg-slate-800/80 border border-slate-700/50'
+                  ? 'bg-gradient-to-r from-cyan-400 to-teal-400 text-slate-950 font-bold shadow-glow-cyan scale-[1.02]'
+                  : 'frosted-pill text-slate-300 hover:text-white hover:bg-slate-800/70'
               }`}
             >
               <span>{f.label}</span>

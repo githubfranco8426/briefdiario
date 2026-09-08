@@ -77,11 +77,9 @@ export default function App() {
   };
 
   return (
-    <main className="min-h-screen bg-[#090e18] text-[#e2e8f0] selection:bg-sky-500 selection:text-black relative overflow-x-hidden pb-28 sm:pb-16 pt-safe">
-      {/* Ambient Nordic Aurora Glows (Arctic Sky, Pine Sage & Muted Teal) */}
-      <div className="pointer-events-none fixed left-1/4 top-0 h-[480px] w-[480px] rounded-full bg-sky-500/[0.08] blur-[150px]"></div>
-      <div className="pointer-events-none fixed bottom-0 right-1/4 h-[480px] w-[480px] rounded-full bg-emerald-500/[0.07] blur-[150px]"></div>
-      <div className="pointer-events-none fixed top-1/2 right-10 h-80 w-80 rounded-full bg-teal-500/[0.05] blur-[130px]"></div>
+    <main className="radial-bg min-h-screen text-[#e2e8f0] selection:bg-cyan-500 selection:text-black relative overflow-x-hidden pb-28 sm:pb-16 pt-safe">
+      {/* Ambient glows extra (el degradado radial base ya vive en .radial-bg) */}
+      <div className="pointer-events-none fixed top-1/2 right-10 h-80 w-80 rounded-full bg-violet-500/[0.05] blur-[130px]"></div>
 
       {/* Banner de archivo si está viendo una fecha pasada */}
       {isViewingArchive && (
@@ -126,14 +124,14 @@ export default function App() {
 
         {/* Indicador de sección activa en móviles */}
         {activeFilter !== 'all' && (
-          <div className="mb-5 sm:hidden flex items-center justify-between bg-sky-500/10 border border-sky-500/25 px-4 py-2 rounded-xl text-xs text-sky-200">
+          <div className="mb-5 sm:hidden flex items-center justify-between bg-cyan-500/10 border border-cyan-500/25 px-4 py-2 rounded-xl text-xs text-cyan-200">
             <span className="font-semibold">
               Mostrando: <strong className="text-white capitalize">{activeFilter}</strong>
             </span>
             <button
               type="button"
               onClick={() => handleSelectFilter('all')}
-              className="text-sky-400 font-bold underline text-[11px] cursor-pointer"
+              className="text-cyan-400 font-bold underline text-[11px] cursor-pointer"
             >
               Ver todo el Brief
             </button>

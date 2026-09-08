@@ -23,10 +23,10 @@ export function HistorySelector({ currentFecha, onSelectDate }) {
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
-          className={`flex items-center gap-2 px-4 py-2 rounded-full border text-xs font-medium backdrop-blur-md transition-all ${
+          className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium transition-all ${
             isViewingPast
-              ? 'border-amber-400/40 bg-amber-500/15 text-amber-200 hover:bg-amber-500/25'
-              : 'border-white/10 bg-white/5 text-gray-300 hover:text-white hover:border-white/25 hover:bg-white/[0.08]'
+              ? 'border border-amber-400/40 bg-amber-500/15 text-amber-200 hover:bg-amber-500/25'
+              : 'frosted-pill text-gray-300 hover:text-white hover:bg-slate-800/80'
           }`}
         >
           <History className="h-3.5 w-3.5" />
@@ -42,7 +42,7 @@ export function HistorySelector({ currentFecha, onSelectDate }) {
               onSelectDate(availableDates[0]);
               setIsOpen(false);
             }}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-full border border-blue-400/30 bg-blue-500/10 text-xs font-medium text-blue-300 hover:bg-blue-500/20 transition"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-full border border-cyan-400/30 bg-cyan-500/10 text-xs font-medium text-cyan-300 hover:bg-cyan-500/20 transition"
           >
             <ArrowLeft className="h-3 w-3" />
             <span>Volver a Hoy</span>
@@ -57,7 +57,7 @@ export function HistorySelector({ currentFecha, onSelectDate }) {
             className="fixed inset-0 z-40"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute right-0 mt-2 w-64 z-50 rounded-2xl border border-white/15 bg-[#0e1422]/95 p-2 shadow-2xl backdrop-blur-xl animate-fade-in">
+          <div className="absolute right-0 mt-2 w-64 z-50 rounded-2xl border border-white/10 bg-[#0B1120]/95 p-2 shadow-2xl backdrop-blur-xl animate-fade-in">
             <div className="px-3 py-2 border-b border-white/10 mb-1">
               <p className="text-[10px] font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5">
                 <Calendar className="h-3 w-3" />
@@ -79,7 +79,7 @@ export function HistorySelector({ currentFecha, onSelectDate }) {
                     }}
                     className={`flex flex-col w-full text-left px-3 py-2 rounded-xl text-xs transition-colors ${
                       isSelected
-                        ? 'bg-blue-600/30 text-blue-200 border border-blue-500/40'
+                        ? 'bg-cyan-500/20 text-cyan-200 border border-cyan-500/40'
                         : 'text-gray-300 hover:bg-white/10 hover:text-white'
                     }`}
                   >

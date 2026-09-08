@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Brief Diario | Rehab &amp; UPC Companion</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              void: '#070B14',
+              surface: '#0B1120',
+              elevated: '#111827',
+              glass: 'rgba(15, 23, 42, 0.65)',
+              border: 'rgba(255, 255, 255, 0.08)',
+              cyan: '#06B6D4',
+              cyanGlow: '#22D3EE',
+              teal: '#14B8A6',
+              emerald: '#10B981',
+              violet: '#8B5CF6'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+            serif: ['"Newsreader"', 'Georgia', 'serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          boxShadow: {
+            'glow-cyan': '0 0 25px -4px rgba(6, 182, 212, 0.25)',
+            'glow-emerald': '0 0 20px -3px rgba(16, 185, 129, 0.2)',
+            'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.37)'
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    .ios-scroll { -webkit-overflow-scrolling: touch; }
+    .frosted-glass {
+      background: rgba(13, 19, 33, 0.7);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .frosted-pill {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .radial-bg {
+      background: 
+        radial-gradient(circle at 10% 10%, rgba(6, 182, 212, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 90% 40%, rgba(20, 184, 166, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 50% 85%, rgba(139, 92, 246, 0.07) 0%, transparent 60%),
+        #070B14;
+    }
+  </style>
+</head>
+<body class="radial-bg text-slate-100 font-sans antialiased min-h-screen pb-28 selection:bg-cyan-500/30 ios-scroll">
+<!-- BEGIN: MainContainer -->
+<main class="max-w-md mx-auto px-4 pt-4 space-y-4 relative">
+<!-- BEGIN: HeaderSection -->
+<header class="space-y-3.5 pt-1" data-purpose="header-section">
+<!-- Top Brand Strip -->
+<div class="flex items-center justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<!-- Avatar with status glow -->
+<div class="relative">
+<div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-teal-500 via-cyan-400 to-sky-300 flex items-center justify-center font-display font-bold text-slate-950 text-base shadow-lg shadow-cyan-500/25 ring-1 ring-white/20">
+            F
+          </div>
+<span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-400 border-2 border-[#070B14] rounded-full ring-2 ring-emerald-500/40 animate-pulse"></span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="inline-flex items-center gap-1 text-[10px] font-mono font-semibold tracking-wider text-cyan-300 bg-cyan-950/70 border border-cyan-500/30 px-2.5 py-0.5 rounded-full uppercase">
+<svg class="w-2.5 h-2.5 fill-cyan-400" viewbox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+              Rehab &amp; UPC Companion
+            </span>
+</div>
+<span class="text-[10px] text-slate-400 font-mono block mt-0.5">Kinesiología Intensiva</span>
+</div>
+</div>
+<!-- Shift Badge -->
+<span class="text-[10px] font-bold tracking-wider text-emerald-300 bg-emerald-950/60 border border-emerald-500/30 px-2.5 py-1 rounded-full uppercase shadow-sm flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+        Turno Largo · 12H
+      </span>
+</div>
+<!-- Greeting & Subtitle -->
+<div class="pt-1">
+<h1 class="text-2xl font-bold tracking-tight text-white font-display flex items-center gap-2">
+        Buenos días, <span class="bg-gradient-to-r from-cyan-400 via-teal-300 to-sky-200 bg-clip-text text-transparent">Franco</span>
+</h1>
+<p class="text-xs text-slate-400 mt-0.5 font-medium flex items-center gap-1.5">
+<svg class="w-3.5 h-3.5 text-cyan-400/80" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+        Martes, 8 de septiembre · <span class="text-slate-300">UPC / Hospital 08:00–20:00</span>
+</p>
+</div>
+<!-- Quick Action Pills (Brief history & Live timer) -->
+<div class="flex items-center justify-between gap-2 text-xs pt-0.5">
+<button class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl frosted-pill text-slate-300 text-[11px] font-medium hover:bg-slate-800/80 active:scale-95 transition-all shadow-sm group" type="button">
+<svg class="w-3.5 h-3.5 text-cyan-400 group-hover:rotate-45 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+        Historial de briefs
+        <svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl frosted-pill font-mono text-[11px] font-medium text-emerald-300 shadow-sm border border-emerald-500/20">
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        08:08:30
+      </div>
+</div>
+</header>
+<!-- END: HeaderSection -->
+<!-- BEGIN: VerseOfTheDay -->
+<section class="rounded-2xl frosted-glass p-4 shadow-glass relative overflow-hidden border border-cyan-500/20 group hover:border-cyan-500/40 transition-all duration-300" data-purpose="daily-verse-card">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between pb-3 border-b border-white/5">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-lg bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-300 shadow-inner">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<span class="text-[9px] font-mono tracking-widest uppercase font-bold text-cyan-400/90 block leading-none">Inspiración Diaria</span>
+<span class="text-xs font-semibold text-white">Versículo del día</span>
+</div>
+</div>
+<span class="text-[9px] font-semibold text-emerald-300 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-sm">
+<svg class="w-2.5 h-2.5 fill-emerald-400" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+        Fortaleza &amp; Propósito
+      </span>
+</div>
+<!-- Verse action buttons -->
+<div class="flex items-center gap-2 pt-2.5 pb-2 text-[10px] text-slate-300">
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition active:scale-95" type="button">
+<svg class="w-3 h-3 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        Rotar
+      </button>
+<button class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 transition active:scale-95" type="button">
+<svg class="w-3 h-3 text-slate-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        Copiar
+      </button>
+</div>
+<!-- Quote text with editorial styling -->
+<div class="relative my-1 pl-3 border-l-2 border-cyan-400/80">
+<blockquote class="italic text-[13px] text-slate-200 leading-relaxed font-serif">
+        “Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.”
+      </blockquote>
+<div class="not-italic text-[11px] font-sans font-bold text-cyan-400 mt-1.5 flex items-center gap-1">
+<span>— Josué 1:9</span>
+</div>
+</div>
+<!-- Shift Reflection Box -->
+<div class="mt-3 p-3 rounded-xl bg-gradient-to-r from-cyan-950/40 via-slate-900/60 to-emerald-950/30 border border-cyan-500/25 flex items-start gap-2.5 shadow-sm">
+<div class="w-6 h-6 rounded-md bg-cyan-500/20 text-cyan-300 flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-3.5 h-3.5 fill-current" viewbox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+</div>
+<p class="text-[11px] leading-snug text-slate-300">
+<strong class="text-emerald-400 font-semibold uppercase tracking-wider text-[10px]">Para tu día:</strong> Hoy en turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia.
+      </p>
+</div>
+</section>
+<!-- END: VerseOfTheDay -->
+<!-- BEGIN: PwaInstallBanner -->
+<div class="rounded-2xl frosted-glass p-3 flex items-center justify-between shadow-sm border border-slate-700/50" data-purpose="pwa-install-banner">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 to-teal-400 flex items-center justify-center text-slate-950 font-display font-extrabold text-sm shadow-md shadow-cyan-500/20">
+        R+
+      </div>
+<div class="leading-tight">
+<div class="text-xs font-bold text-white tracking-tight">Instalar Brief...</div>
+<div class="text-[10px] text-slate-400">Accede en 1 toque directo</div>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded-xl bg-gradient-to-r from-cyan-400 to-teal-400 hover:from-cyan-300 hover:to-teal-300 text-slate-950 text-[11px] font-bold flex items-center gap-1.5 transition shadow-sm active:scale-95" type="button">
+<svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+        Guardar en Inicio
+      </button>
+<button class="text-slate-500 hover:text-slate-300 p-1 text-xs" type="button">✕</button>
+</div>
+</div>
+<!-- END: PwaInstallBanner -->
+<!-- BEGIN: SegmentedFilterTabs -->
+<nav class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 text-xs font-medium" data-purpose="category-filters">
+<button class="px-4 py-1.5 rounded-full bg-gradient-to-r from-cyan-400 to-teal-400 text-slate-950 font-bold text-[11px] shadow-glow-cyan whitespace-nowrap active:scale-95 transition" type="button">
+      Todos
+    </button>
+<button class="px-3.5 py-1.5 rounded-full frosted-pill text-slate-300 text-[11px] whitespace-nowrap hover:bg-slate-800/70 transition flex items-center gap-1.5" type="button">
+      Agenda <span class="px-1.5 py-0.2 rounded-full bg-cyan-950/80 border border-cyan-800/50 text-[9px] font-mono text-cyan-300 font-bold">3</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-full frosted-pill text-slate-300 text-[11px] whitespace-nowrap hover:bg-slate-800/70 transition flex items-center gap-1.5" type="button">
+      Guiones RRSS <span class="px-1.5 py-0.2 rounded-full bg-purple-950/80 border border-purple-800/50 text-[9px] font-mono text-purple-300 font-bold">4</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-full frosted-pill text-slate-300 text-[11px] whitespace-nowrap hover:bg-slate-800/70 transition" type="button">
+      Papers
+    </button>
+<button class="px-3.5 py-1.5 rounded-full frosted-pill text-slate-300 text-[11px] whitespace-nowrap hover:bg-slate-800/70 transition" type="button">
+      Noticias
+    </button>
+</nav>
+<!-- END: SegmentedFilterTabs -->
+<!-- BEGIN: SectionCalendar (Agenda & Pendientes) -->
+<section class="rounded-2xl frosted-glass p-4 space-y-3.5 shadow-glass border border-white/5" data-purpose="agenda-section">
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center shadow-inner">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<span class="text-[9px] font-mono tracking-widest uppercase font-bold text-slate-400 block leading-none">Google Calendar</span>
+<h2 class="text-sm font-bold text-white font-display tracking-tight">Agenda &amp; Pendientes</h2>
+</div>
+</div>
+<span class="text-[10px] font-mono font-medium text-cyan-400 bg-cyan-950/50 border border-cyan-800/40 px-2 py-0.5 rounded-md">3 Bloques</span>
+</div>
+<!-- Timeline Container -->
+<div class="space-y-2.5 relative before:absolute before:left-[18px] before:top-3 before:bottom-3 before:w-[2px] before:bg-gradient-to-b before:from-cyan-500/40 before:via-teal-500/30 before:to-transparent">
+<!-- Item 1 -->
+<article class="relative pl-8 group">
+<!-- Node indicator -->
+<span class="absolute left-[13px] top-3.5 w-3 h-3 rounded-full bg-[#070B14] border-2 border-cyan-400 group-hover:scale-125 transition-transform"></span>
+<div class="p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-cyan-500/40 transition-all space-y-1.5 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold text-cyan-300">
+<svg class="w-3 h-3 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              08:00 – 14:00
+            </span>
+<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded-md">
+              Clínica
+            </span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+            Ronda médica matutina y evaluaciones de ingreso
+          </h3>
+<div class="flex items-center justify-between pt-0.5">
+<div class="flex items-center gap-1.5 text-[10px] text-slate-400">
+<svg class="w-3 h-3 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              UPC / Unidad de Paciente Crítico
+            </div>
+<button class="w-4 h-4 rounded border border-slate-600 hover:border-cyan-400 flex items-center justify-center transition" title="Marcar realizado" type="button"></button>
+</div>
+</div>
+</article>
+<!-- Item 2 -->
+<article class="relative pl-8 group">
+<span class="absolute left-[13px] top-3.5 w-3 h-3 rounded-full bg-[#070B14] border-2 border-teal-400 group-hover:scale-125 transition-transform"></span>
+<div class="p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-teal-500/40 transition-all space-y-1.5 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold text-teal-300">
+<svg class="w-3 h-3 text-teal-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              14:30 – 18:30
+            </span>
+<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded-md">
+              Clínica
+            </span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+            Protocolos de destete ventilatorio y movilización precoz
+          </h3>
+<div class="flex items-center justify-between pt-0.5">
+<div class="flex items-center gap-1.5 text-[10px] text-slate-400">
+<svg class="w-3 h-3 text-teal-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              UCI / Hospital
+            </div>
+<button class="w-4 h-4 rounded border border-slate-600 hover:border-teal-400 flex items-center justify-center transition" title="Marcar realizado" type="button"></button>
+</div>
+</div>
+</article>
+<!-- Item 3 -->
+<article class="relative pl-8 group">
+<span class="absolute left-[13px] top-3.5 w-3 h-3 rounded-full bg-[#070B14] border-2 border-sky-400 group-hover:scale-125 transition-transform"></span>
+<div class="p-3 rounded-xl bg-slate-900/60 border border-white/5 hover:border-sky-500/40 transition-all space-y-1.5 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 text-[11px] font-mono font-semibold text-sky-300">
+<svg class="w-3 h-3 text-sky-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              18:30 – 20:00
+            </span>
+<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-800/50 px-2 py-0.5 rounded-md">
+              Clínica
+            </span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+            Entrega de turno médico-kinésico y cierre de evoluciones
+          </h3>
+<div class="flex items-center justify-between pt-0.5">
+<div class="flex items-center gap-1.5 text-[10px] text-slate-400">
+<svg class="w-3 h-3 text-sky-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+              UPC
+            </div>
+<button class="w-4 h-4 rounded border border-slate-600 hover:border-sky-400 flex items-center justify-center transition" title="Marcar realizado" type="button"></button>
+</div>
+</div>
+</article>
+</div>
+<!-- Helper note -->
+<p class="text-[10px] text-cyan-300/90 flex items-center gap-1.5 pt-1 font-medium">
+<svg class="w-3.5 h-3.5 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+      Toca una tarea para marcarla como realizada
+    </p>
+</section>
+<!-- END: SectionCalendar -->
+<!-- BEGIN: SectionScripts (Ideas de Guion) -->
+<section class="rounded-2xl frosted-glass p-4 space-y-3.5 shadow-glass border border-white/5" data-purpose="rrss-scripts-section">
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center shadow-inner">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<span class="text-[9px] font-mono tracking-widest uppercase font-bold text-slate-400 block leading-none">Contenido &amp; RRSS</span>
+<h2 class="text-sm font-bold text-white font-display tracking-tight">Ideas de Guion</h2>
+</div>
+</div>
+<span class="text-[10px] font-mono font-medium text-purple-400 bg-purple-950/50 border border-purple-800/40 px-2 py-0.5 rounded-md">4 Ideas</span>
+</div>
+<!-- Script Ideas List -->
+<div class="space-y-3">
+<!-- Script 1 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-purple-500/30 transition-all space-y-2">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-purple-300 bg-purple-950/70 border border-purple-500/30 px-2.5 py-0.5 rounded-full">
+<svg class="w-2.5 h-2.5 fill-current" viewbox="0 0 24 24"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Reel 30 s
+          </span>
+<span class="text-[9.5px] font-mono text-slate-400">UCI · Mobilidad</span>
+</div>
+<h3 class="text-xs font-bold text-white leading-snug">
+          “¿Parar o mover? El dilema del paciente en UCI”
+        </h3>
+<p class="text-[11px] text-slate-300/90 leading-relaxed">
+          Explica cómo la kinesiología intensiva no espera a que el paciente despierte para iniciar la movilidad: mover precozmente salva masa muscular y acorta días de ventilación.
+        </p>
+<div class="text-[10px] text-cyan-400/90 font-mono flex items-center gap-1 pt-1 border-t border-white/5">
+<span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+          Movilización precoz en pacientes críticos con soporte
+        </div>
+</article>
+<!-- Script 2 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-teal-500/30 transition-all space-y-2">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-teal-300 bg-teal-950/70 border border-teal-500/30 px-2.5 py-0.5 rounded-full">
+<svg class="w-2.5 h-2.5 fill-current" viewbox="0 0 24 24"><path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+            Carrusel 6 Slides
+          </span>
+<span class="text-[9.5px] font-mono text-slate-400">IMT · Destete</span>
+</div>
+<h3 class="text-xs font-bold text-white leading-snug">
+          “Por qué tus pulmones necesitan pesas después de UCI”
+        </h3>
+<p class="text-[11px] text-slate-300/90 leading-relaxed">
+          Muestra un dispositivo de carga umbral inspiratoria (Threshold IMT) y los beneficios clave para evitar que un paciente vuelva a conectarse al ventilador.
+        </p>
+<div class="text-[10px] text-teal-400/90 font-mono flex items-center gap-1 pt-1 border-t border-white/5">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+          Entrenamiento de músculos inspiratorios (IMT) post-extubación
+        </div>
+</article>
+<!-- Script 3 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-purple-500/30 transition-all space-y-2">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-purple-300 bg-purple-950/70 border border-purple-500/30 px-2.5 py-0.5 rounded-full">
+<svg class="w-2.5 h-2.5 fill-current" viewbox="0 0 24 24"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Reel 30 s
+          </span>
+<span class="text-[9.5px] font-mono text-slate-400">ATM · Estrés</span>
+</div>
+<h3 class="text-xs font-bold text-white leading-snug">
+          “¿Te despiertas con la mandíbula trabada después del turno?”
+        </h3>
+<p class="text-[11px] text-slate-300/90 leading-relaxed">
+          Aborda el bruxismo diurno y nocturno en personas con alta carga de estrés, enseñando 2 ejercicios de descompresión articular rápida.
+        </p>
+<div class="text-[10px] text-cyan-400/90 font-mono flex items-center gap-1 pt-1 border-t border-white/5">
+<span class="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
+          Disfunción de ATM en profesionales de la salud bajo estrés
+        </div>
+</article>
+<!-- Script 4 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-teal-500/30 transition-all space-y-2">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-teal-300 bg-teal-950/70 border border-teal-500/30 px-2.5 py-0.5 rounded-full">
+<svg class="w-2.5 h-2.5 fill-current" viewbox="0 0 24 24"><path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+            Carrusel 6 Slides
+          </span>
+<span class="text-[9.5px] font-mono text-slate-400">Transición · Alta</span>
+</div>
+<h3 class="text-xs font-bold text-white leading-snug">
+          “El alta médica es solo la mitad del camino”
+        </h3>
+<p class="text-[11px] text-slate-300/90 leading-relaxed">
+          Carrusel de 6 slides detallando la transición segura desde UPC hasta el retorno a Alto Hospicio, evitando reingresos por complicaciones respiratorias.
+        </p>
+<div class="text-[10px] text-teal-400/90 font-mono flex items-center gap-1 pt-1 border-t border-white/5">
+<span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+          Continuidad del cuidado: del alta hospitalaria a la reinserción
+        </div>
+</article>
+</div>
+</section>
+<!-- END: SectionScripts -->
+<!-- BEGIN: SectionPubMed -->
+<section class="rounded-2xl frosted-glass p-4 space-y-3.5 shadow-glass border border-white/5" data-purpose="pubmed-section">
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-xl bg-sky-500/10 border border-sky-500/30 text-sky-400 flex items-center justify-center shadow-inner">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<span class="text-[9px] font-mono tracking-widest uppercase font-bold text-slate-400 block leading-none">Evidencia Científica</span>
+<h2 class="text-sm font-bold text-white font-display tracking-tight">PubMed Diario</h2>
+</div>
+</div>
+<span class="text-[9px] font-bold text-emerald-300 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full inline-flex items-center gap-1">
+<svg class="w-2.5 h-2.5 fill-current" viewbox="0 0 24 24"><path d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+        En Español
+      </span>
+</div>
+<!-- Quick Hint Bar -->
+<div class="p-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 text-[10px] text-cyan-300 flex items-center gap-2">
+<svg class="w-3.5 h-3.5 text-cyan-400 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<span>Toca <strong>"Leer en Español"</strong> para abrir la síntesis clínica completa</span>
+</div>
+<!-- Papers List -->
+<div class="space-y-3.5">
+<!-- Paper 1 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-cyan-500/30 transition-all space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide">
+            Critical Care Medicine
+          </span>
+<span class="text-[9px] font-mono text-slate-500">2026 · RCT</span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Impacto de la movilización precoz asistida en la polineuropatía del paciente crítico: Ensayo clínico aleatorizado
+        </h3>
+<div class="text-[10px] text-slate-400 italic">
+          Orig: Impact of assisted early mobilization on critical illness polyneuropathy...
+        </div>
+<div class="p-2.5 rounded-lg bg-black/40 border border-white/5 text-[11px] text-slate-300 leading-relaxed">
+          Demuestra que la verticalización y cicloergometría pasiva/activa reducen el tiempo de ventilación mecánica preservan el grosor diafragmático y reducen días de estancia en UPC.
+        </div>
+<div class="p-2.5 rounded-lg bg-emerald-950/30 border border-emerald-500/20 flex items-start gap-2 text-[10.5px] text-emerald-300">
+<svg class="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<div>
+<strong class="font-bold text-[9px] uppercase tracking-wider block text-emerald-400">Para tu práctica clínica</strong>
+            Iniciar movilización funcional dentro de las primeras 48h en pacientes hemodinámicamente estables, coordinando con enfermería.
+          </div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="px-3 py-1.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-[10px] font-bold inline-flex items-center gap-1.5 transition shadow-sm active:scale-95" type="button">
+<svg class="w-3 h-3" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Leer en Español
+          </button>
+<button class="px-3 py-1.5 rounded-xl bg-white/5 text-slate-300 text-[10px] font-medium inline-flex items-center gap-1 hover:bg-white/10 border border-white/10 transition" type="button">
+            Detalles
+            <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</article>
+<!-- Paper 2 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-cyan-500/30 transition-all space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide">
+            Thorax
+          </span>
+<span class="text-[9px] font-mono text-slate-500">2026 · Weaning</span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Eficacia del entrenamiento muscular inspiratorio de alta intensidad en destete ventilatorio prolongado
+        </h3>
+<div class="text-[10px] text-slate-400 italic">
+          Orig: High-intensity inspiratory muscle training in patients with prolonged weaning...
+        </div>
+<div class="p-2.5 rounded-lg bg-black/40 border border-white/5 text-[11px] text-slate-300 leading-relaxed">
+          Revisa protocolos de carga progresiva (30-50% Pimax) en pacientes con fracaso a la extubación, evidenciando incremento de fuerza inspiratoria y reducción de fatiga diafragmática basal.
+        </div>
+<div class="p-2.5 rounded-lg bg-emerald-950/30 border border-emerald-500/20 flex items-start gap-2 text-[10.5px] text-emerald-300">
+<svg class="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<div>
+<strong class="font-bold text-[9px] uppercase tracking-wider block text-emerald-400">Para tu práctica clínica</strong>
+            Medir Pimax previo a la extubación en pacientes con más de 7 días de VM e incorporar protocolo de resistencia dosificada.
+          </div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="px-3 py-1.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-[10px] font-bold inline-flex items-center gap-1.5 transition shadow-sm active:scale-95" type="button">
+<svg class="w-3 h-3" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Leer en Español
+          </button>
+<button class="px-3 py-1.5 rounded-xl bg-white/5 text-slate-300 text-[10px] font-medium inline-flex items-center gap-1 hover:bg-white/10 border border-white/10 transition" type="button">
+            Detalles
+            <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</article>
+<!-- Paper 3 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-cyan-500/30 transition-all space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide">
+            Journal of Oral Rehabilitation
+          </span>
+<span class="text-[9px] font-mono text-slate-500">2026 · TMD</span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Diferencias somatosensoriales y puntos gatillo miofasciales en pacientes con dolor temporomandibular crónico
+        </h3>
+<div class="text-[10px] text-slate-400 italic">
+          Orig: Somatosensory abnormalities and myofascial trigger points in chronic TMD...
+        </div>
+<div class="p-2.5 rounded-lg bg-black/40 border border-white/5 text-[11px] text-slate-300 leading-relaxed">
+          Mapeo de algometría por presión en masetero, temporal y trapecio superior revela hiperalgesia central secundaria en cuadros de más de 3 meses.
+        </div>
+<div class="p-2.5 rounded-lg bg-emerald-950/30 border border-emerald-500/20 flex items-start gap-2 text-[10.5px] text-emerald-300">
+<svg class="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<div>
+<strong class="font-bold text-[9px] uppercase tracking-wider block text-emerald-400">Para tu práctica clínica</strong>
+            Examinar no solo la articulación temporomandibular sino también columna cervical alta y la postura cráneo-cervical en consulta.
+          </div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="px-3 py-1.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-[10px] font-bold inline-flex items-center gap-1.5 transition shadow-sm active:scale-95" type="button">
+<svg class="w-3 h-3" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Leer en Español
+          </button>
+<button class="px-3 py-1.5 rounded-xl bg-white/5 text-slate-300 text-[10px] font-medium inline-flex items-center gap-1 hover:bg-white/10 border border-white/10 transition" type="button">
+            Detalles
+            <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</article>
+<!-- Paper 4 -->
+<article class="p-3.5 rounded-xl bg-slate-900/60 border border-white/5 hover:border-cyan-500/30 transition-all space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide">
+            Respiratory Research
+          </span>
+<span class="text-[9px] font-mono text-slate-500">2026 · NIV Exercise</span>
+</div>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Efectos de la ventilación no invasiva combinada con ejercicio de miembros inferiores en EPOC agudizado
+        </h3>
+<div class="text-[10px] text-slate-400 italic">
+          Orig: Noninvasive ventilation during active leg cycling in acute COPD...
+        </div>
+<div class="p-2.5 rounded-lg bg-black/40 border border-white/5 text-[11px] text-slate-300 leading-relaxed">
+          Comprueba que la asistencia ventilatoria durante el ejercicio disminuye la disnea de esfuerzo y permite alcanzar cargas de trabajo mayores sin desaturación severa.
+        </div>
+<div class="p-2.5 rounded-lg bg-emerald-950/30 border border-emerald-500/20 flex items-start gap-2 text-[10.5px] text-emerald-300">
+<svg class="w-3.5 h-3.5 text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<div>
+<strong class="font-bold text-[9px] uppercase tracking-wider block text-emerald-400">Para tu práctica clínica</strong>
+            Utilizar soporte con VNI o cánula de alto flujo como facilitador del entrenamiento motor en pacientes respiratorios moderados a severos.
+          </div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="px-3 py-1.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-[10px] font-bold inline-flex items-center gap-1.5 transition shadow-sm active:scale-95" type="button">
+<svg class="w-3 h-3" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+            Leer en Español
+          </button>
+<button class="px-3 py-1.5 rounded-xl bg-white/5 text-slate-300 text-[10px] font-medium inline-flex items-center gap-1 hover:bg-white/10 border border-white/10 transition" type="button">
+            Detalles
+            <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</article>
+</div>
+</section>
+<!-- END: SectionPubMed -->
+<!-- BEGIN: SectionNews (Briefing Nacional) -->
+<section class="rounded-2xl frosted-glass p-4 space-y-3.5 shadow-glass border border-white/5" data-purpose="news-section">
+<!-- Section Header -->
+<div class="flex items-center justify-between pb-1">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center shadow-inner">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<span class="text-[9px] font-mono tracking-widest uppercase font-bold text-slate-400 block leading-none">Actualidad &amp; Prensa</span>
+<h2 class="text-sm font-bold text-white font-display tracking-tight">Briefing Nacional</h2>
+</div>
+</div>
+<span class="text-[9px] font-mono text-slate-400">Chile Hoy</span>
+</div>
+<!-- News cards list -->
+<div class="space-y-2.5">
+<!-- Item 1 -->
+<article class="p-3 rounded-xl bg-slate-900/60 border-l-2 border-l-cyan-400 border-y border-r border-white/5 hover:border-cyan-500/30 transition-all space-y-1">
+<span class="text-[9px] font-mono font-bold uppercase tracking-wider text-cyan-300">
+          Salud · Chile
+        </span>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Ministerio de Salud refuerza red asistencial y camas críticas por contingencias respiratorias
+        </h3>
+<p class="text-[11px] text-slate-300/80 leading-relaxed">
+          Autoridades sanitarias coordinan distribución de recursos en zona centro y norte del país y monitoreo de ocupación en UPC.
+        </p>
+</article>
+<!-- Item 2 -->
+<article class="p-3 rounded-xl bg-slate-900/60 border-l-2 border-l-emerald-400 border-y border-r border-white/5 hover:border-emerald-500/30 transition-all space-y-1">
+<span class="text-[9px] font-mono font-bold uppercase tracking-wider text-emerald-300">
+          Economía · Chile
+        </span>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Mercado laboral en el norte: Minería y servicios aumentan demanda técnica y profesional
+        </h3>
+<p class="text-[11px] text-slate-300/80 leading-relaxed">
+          Estudio de empleo en Tarapacá y Antofagasta destaca crecimiento en prestaciones médicas y de rehabilitación.
+        </p>
+</article>
+<!-- Item 3 -->
+<article class="p-3 rounded-xl bg-slate-900/60 border-l-2 border-l-purple-400 border-y border-r border-white/5 hover:border-purple-500/30 transition-all space-y-1">
+<span class="text-[9px] font-mono font-bold uppercase tracking-wider text-purple-300">
+          Actualidad · Chile
+        </span>
+<h3 class="text-xs font-semibold text-slate-100 leading-snug">
+          Fonasa y colegios profesionales avanzan en mesa técnica de actualización de aranceles kinésicos
+        </h3>
+<p class="text-[11px] text-slate-300/80 leading-relaxed">
+          Propuesta busca mejorar cobertura en atenciones domiciliarias y rehabilitación integral.
+        </p>
+</article>
+</div>
+</section>
+<!-- END: SectionNews -->
+<!-- BEGIN: FooterActions -->
+<footer class="pt-2 pb-8 space-y-3.5 text-center" data-purpose="app-footer">
+<div class="text-[10px] font-mono text-slate-500">
+      Generado y sincronizado el 07-09-2026 a las 11:30 p. m.
+    </div>
+<div class="flex items-center justify-center gap-2.5">
+<button class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl frosted-pill text-[11px] font-medium text-slate-200 hover:bg-slate-800/80 active:scale-95 transition shadow-sm" type="button">
+<svg class="w-3.5 h-3.5 text-cyan-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        Copiar resumen rápido
+      </button>
+<button class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl frosted-pill text-[11px] font-medium text-slate-200 hover:bg-slate-800/80 active:scale-95 transition shadow-sm" type="button">
+<svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+        Reiniciar checklist
+      </button>
+</div>
+</footer>
+<!-- END: FooterActions -->
+</main>
+<!-- END: MainContainer -->
+<!-- BEGIN: BottomNavigationBar (Floating Dock) -->
+<nav class="fixed bottom-3 inset-x-3 max-w-md mx-auto z-50" data-purpose="mobile-dock">
+<div class="frosted-glass rounded-2xl p-1.5 shadow-2xl border border-white/10 flex items-center justify-around">
+<!-- Tab: Todo (Active) -->
+<button class="flex flex-col items-center gap-1 py-1 px-3 text-cyan-400 relative" type="button">
+<div class="w-8 h-8 rounded-xl bg-cyan-400/15 flex items-center justify-center shadow-inner">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 24 24"><path d="M4 4h7v7H4V4zm9 0h7v7h-7V4zm-9 9h7v7H4v-7zm9 0h7v7h-7v-7z"></path></svg>
+</div>
+<span class="text-[9px] font-bold tracking-tight">Todo</span>
+<span class="absolute bottom-0 w-3 h-0.5 bg-cyan-400 rounded-full"></span>
+</button>
+<!-- Tab: Agenda -->
+<button class="flex flex-col items-center gap-1 py-1 px-3 text-slate-400 hover:text-slate-200 transition-colors" type="button">
+<div class="w-8 h-8 rounded-xl flex items-center justify-center">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<span class="text-[9px] font-medium">Agenda</span>
+</button>
+<!-- Tab: Guiones -->
+<button class="flex flex-col items-center gap-1 py-1 px-3 text-slate-400 hover:text-slate-200 transition-colors" type="button">
+<div class="w-8 h-8 rounded-xl flex items-center justify-center">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<span class="text-[9px] font-medium">Guiones</span>
+</button>
+<!-- Tab: Papers -->
+<button class="flex flex-col items-center gap-1 py-1 px-3 text-slate-400 hover:text-slate-200 transition-colors" type="button">
+<div class="w-8 h-8 rounded-xl flex items-center justify-center">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<span class="text-[9px] font-medium">Papers</span>
+</button>
+<!-- Tab: Noticias -->
+<button class="flex flex-col items-center gap-1 py-1 px-3 text-slate-400 hover:text-slate-200 transition-colors" type="button">
+<div class="w-8 h-8 rounded-xl flex items-center justify-center">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<span class="text-[9px] font-medium">Noticias</span>
+</button>
+</div>
+</nav>
+<!-- END: BottomNavigationBar -->
+</body></html>

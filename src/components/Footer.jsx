@@ -43,7 +43,7 @@ export function Footer({ briefData, onResetChecklist }) {
         <button
           type="button"
           onClick={copyDailyBriefShare}
-          className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs text-gray-300 hover:text-white hover:border-white/25 transition"
+          className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full frosted-pill text-xs text-gray-300 hover:text-white hover:bg-slate-800/80 transition"
         >
           {copiedShare ? (
             <>
@@ -62,7 +62,7 @@ export function Footer({ briefData, onResetChecklist }) {
           type="button"
           onClick={onResetChecklist}
           title="Reiniciar lista de tareas"
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs text-gray-400 hover:text-gray-200 hover:border-white/20 transition"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full frosted-pill text-xs text-gray-400 hover:text-gray-200 hover:bg-slate-800/80 transition"
         >
           <RefreshCw className="h-3 w-3" />
           <span>Reiniciar checklist</span>
