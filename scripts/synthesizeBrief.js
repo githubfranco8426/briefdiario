@@ -19,7 +19,11 @@ Genera un JSON con esta estructura exacta:
   "papers": [
     {
       "titulo": "Título en español claro y conciso",
+      "titulo_original": "Título original en inglés tal como fue publicado",
       "resumen": "Resumen clínico en 2 frases en español",
+      "objetivo": "Objetivo del estudio en 1 frase",
+      "metodologia": "Población y metodología del estudio en 1 frase (si no está disponible en los datos de entrada, infiere razonablemente a partir del tipo de estudio)",
+      "hallazgos": "Hallazgos o resultados clave en 1 frase",
       "aplicacion": "Recomendación práctica para la consulta en 1 frase",
       "revista": "Nombre de la revista",
       "doi": "URL del DOI"
@@ -37,7 +41,7 @@ Genera un JSON con esta estructura exacta:
 Responde exclusivamente con el JSON válido sin markdown adicional.`;
 
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
