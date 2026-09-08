@@ -42,12 +42,22 @@ async function main() {
     { ciclo: 'Día 3 · Saliente / Libre', detalle: 'Recuperación y fichas clínicas' },
     { ciclo: 'Día 4 · Segundo libre', detalle: 'Consultas 09:00–19:00' },
   ];
-  const currentCycle = cycleNames[cycleIndex];
+  let currentCycle = cycleNames[cycleIndex];
   console.log(`📅 Ciclo calculado: ${currentCycle.ciclo} (${currentCycle.detalle})`);
 
   console.log('📅 Consultando Google Calendar / Agenda...');
   const agenda = await fetchCalendarEvents(now, process.env.GOOGLE_CALENDAR_ICS_URL, currentCycle);
   console.log(`✓ ${agenda.length} actividades de agenda preparadas.`);
+
+  // Si el calendario real trae un evento de Urgencias/Reanimador, prevalece sobre el ciclo sintético
+  const isUrgenciasShift = agenda.some((item) => /urgencia|reanimador/i.test(`${item.titulo} ${item.lugar}`));
+  if (isUrgenciasShift) {
+    currentCycle = {
+      ciclo: 'Turno Urgencias · Reanimador',
+      detalle: 'Servicio de Urgencia Adulto / Reanimador & Camas C1-C2',
+    };
+    console.log(`🚑 Turno de Urgencias detectado en el calendario: ${currentCycle.ciclo}`);
+  }
 
   const versiculo = getDailyVerse(now, currentCycle);
   console.log(`📖 Versículo asignado: ${versiculo.referencia}`);

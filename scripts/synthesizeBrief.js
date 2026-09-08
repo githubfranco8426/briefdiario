@@ -203,7 +203,9 @@ export function getDailyVerse(date = new Date(), cycle = null) {
   const verseIndex = (dayOfMonth - 1) % VERSES.length;
   const baseVerse = { ...VERSES[verseIndex] };
 
-  if (cycle?.ciclo?.includes('Turno Largo') || cycle?.ciclo?.includes('UPC')) {
+  if (cycle?.ciclo?.includes('Urgencias') || cycle?.ciclo?.includes('Reanimador')) {
+    baseVerse.reflexion = 'Templanza y velocidad de respuesta ante ingresos imprevistos, triage de alta complejidad y soporte respiratorio inmediato en sala de reanimación.';
+  } else if (cycle?.ciclo?.includes('Turno Largo') || cycle?.ciclo?.includes('UPC')) {
     baseVerse.reflexion = 'En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia.';
   } else if (cycle?.ciclo?.includes('Turno Noche')) {
     baseVerse.reflexion = 'En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia.';
