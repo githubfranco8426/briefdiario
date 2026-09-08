@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchPubMedPapers } from './fetchPubMed.js';
 import { fetchChileNews } from './fetchNews.js';
-import { synthesizeContent } from './synthesizeBrief.js';
+import { synthesizeContent, getDailyVerse } from './synthesizeBrief.js';
 import { fetchCalendarEvents } from './fetchCalendar.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -28,20 +28,29 @@ async function main() {
   // 3. Sintetizar contenido e ideas de guion
   const { papers, ideas } = await synthesizeContent(rawPapers);
 
-  // 4. Calcular ciclo de turno y agenda de Franco
-  // Ejemplo: ciclo rotativo de 4 días (Largo, Noche, Libre 1, Libre 2)
-  const dayIndex = Math.floor(now.getTime() / (1000 * 60 * 60 * 24)) % 4;
+  // 4. Calcular ciclo de turno determinista y agenda de Franco
+  // Fecha ancla: Lunes 2026-09-07 fue Día 4 · Segundo libre (índice 3)
+  // Martes 2026-09-08 es Día 1 · Turno Largo (índice 0)
+  const anchorDate = new Date(2026, 8, 7); // Septiembre es mes 8 (0-indexed)
+  const targetDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const diffDays = Math.round((targetDate.getTime() - anchorDate.getTime()) / (1000 * 60 * 60 * 24));
+  const cycleIndex = ((3 + diffDays) % 4 + 4) % 4;
+
   const cycleNames = [
     { ciclo: 'Día 1 · Turno Largo', detalle: 'UPC / Hospital 08:00–20:00' },
     { ciclo: 'Día 2 · Turno Noche', detalle: 'Ingreso 20:00 – Guardia nocturna' },
     { ciclo: 'Día 3 · Saliente / Libre', detalle: 'Recuperación y fichas clínicas' },
     { ciclo: 'Día 4 · Segundo libre', detalle: 'Consultas 09:00–19:00' },
   ];
-  const currentCycle = cycleNames[dayIndex] || cycleNames[3];
+  const currentCycle = cycleNames[cycleIndex];
+  console.log(`📅 Ciclo calculado: ${currentCycle.ciclo} (${currentCycle.detalle})`);
 
   console.log('📅 Consultando Google Calendar / Agenda...');
-  const agenda = await fetchCalendarEvents(now);
+  const agenda = await fetchCalendarEvents(now, process.env.GOOGLE_CALENDAR_ICS_URL, currentCycle);
   console.log(`✓ ${agenda.length} actividades de agenda preparadas.`);
+
+  const versiculo = getDailyVerse(now, currentCycle);
+  console.log(`📖 Versículo asignado: ${versiculo.referencia}`);
 
   const briefData = {
     fecha: dateIso,
@@ -49,7 +58,8 @@ async function main() {
     subtitulo: 'Brief diario · rehabilita.me',
     ciclo: currentCycle.ciclo,
     ciclo_detalle: currentCycle.detalle,
-    agenda: agenda,
+    versiculo,
+    agenda,
     ideas: ideas.length > 0 ? ideas : [],
     papers: papers.length > 0 ? papers : [],
     noticias: news.length > 0 ? news : [],

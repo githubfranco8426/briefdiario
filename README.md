@@ -54,18 +54,25 @@ GOOGLE_CALENDAR_ICS_URL=https://calendar.google.com/calendar/ical/.../basic.ics
 
 ---
 
-## ⏰ Programación Automática a las 06:30 AM
+## ⏰ Programación y Actualización Diaria Automática (06:30 AM)
 
-Tienes dos alternativas para que el brief se genere automáticamente cada mañana:
+El sistema ofrece 4 alternativas para actualizar el brief cada mañana:
 
-### Opción A: Proceso Node.js en segundo plano
+### Opción A: GitHub Actions en la Nube (100% Automático y Gratuito)
+El repositorio incluye el workflow [`.github/workflows/daily-brief.yml`](.github/workflows/daily-brief.yml) que se ejecuta todos los días a las **06:30 AM (hora de Chile / 09:30 UTC)**. Genera el brief diario con papers recientes y noticias, hace commit a la rama `main` y dispara el redespliegue automático en Vercel o Netlify sin necesidad de encender tu computador.
+
+### Opción B: n8n + Supabase en Vivo
+Importa el flujo [`n8n/brief-diario.json`](n8n/brief-diario.json) en tu instancia de n8n y ejecuta [`supabase/schema.sql`](supabase/schema.sql) en Supabase. El frontend consulta Supabase en tiempo real al abrir la app.
+
+### Opción C: Tarea nativa en Windows Task Scheduler
+Haz clic derecho en `scripts/setup_windows_task.bat` y selecciona **"Ejecutar como administrador"**. Esto registrará una tarea en Windows que se ejecutará a las 06:30 AM localmente.
+
+### Opción D: Proceso Node.js en segundo plano
 ```bash
 npm run scheduler
 ```
-*Calcula el tiempo restante hasta las 06:30 AM y ejecuta `generateBrief.js` todos los días.*
+*Calcula el tiempo restante hasta las 06:30 AM y ejecuta `generateBrief.js` todos los días en segundo plano.*
 
-### Opción B: Tarea nativa en Windows Task Scheduler
-Haz clic derecho en `scripts/setup_windows_task.bat` y selecciona **"Ejecutar como administrador"**. Esto registrará una tarea en Windows que se ejecutará a las 06:30 AM sin necesidad de dejar terminales abiertas.
 
 ---
 

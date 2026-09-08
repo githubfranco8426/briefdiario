@@ -6,7 +6,7 @@
  * Configuración de Google Calendar -> Integrar el calendario -> Dirección secreta en formato iCal (.ics)
  */
 
-export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = process.env.GOOGLE_CALENDAR_ICS_URL) {
+export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = process.env.GOOGLE_CALENDAR_ICS_URL, cycle = null) {
   const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
   const targetYear = targetDate.getFullYear();
   const targetMonth = String(targetDate.getMonth() + 1).padStart(2, '0');
@@ -32,7 +32,68 @@ export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = proc
     }
   }
 
-  // Agenda predeterminada / calculada para Franco si no hay feed .ics activo
+  // Agenda adaptada al ciclo de turno de Franco si no hay feed .ics activo
+  if (cycle?.ciclo?.includes('Turno Largo') || cycle?.ciclo?.includes('UPC')) {
+    return [
+      {
+        id: 'agenda-1',
+        hora: '08:00 – 14:00',
+        tipo: 'clinica',
+        lugar: 'UPC / Unidad de Paciente Crítico',
+        titulo: 'Ronda médica matutina y evaluaciones de ingreso kinésico'
+      },
+      {
+        id: 'agenda-2',
+        hora: '14:30 – 18:30',
+        tipo: 'clinica',
+        lugar: 'UCI / Hospital',
+        titulo: 'Protocolos de destete ventilatorio y movilización precoz'
+      },
+      {
+        id: 'agenda-3',
+        hora: '18:30 – 20:00',
+        tipo: 'seguimiento',
+        lugar: 'UPC',
+        titulo: 'Entrega de turno médico-kinésico y cierre de evoluciones'
+      }
+    ];
+  } else if (cycle?.ciclo?.includes('Turno Noche')) {
+    return [
+      {
+        id: 'agenda-1',
+        hora: '15:00 – 17:00',
+        tipo: 'seguimiento',
+        lugar: 'Domicilio / Fichas',
+        titulo: 'Revisión de casos clínicos y preparación de turno'
+      },
+      {
+        id: 'agenda-2',
+        hora: '20:00 – 08:00',
+        tipo: 'clinica',
+        lugar: 'Hospital / UPC',
+        titulo: 'Ingreso a guardia nocturna y monitoreo intensivo'
+      }
+    ];
+  } else if (cycle?.ciclo?.includes('Saliente')) {
+    return [
+      {
+        id: 'agenda-1',
+        hora: '08:00 – 09:30',
+        tipo: 'seguimiento',
+        lugar: 'Hospital',
+        titulo: 'Entrega de guardia matutina y pase de sala'
+      },
+      {
+        id: 'agenda-2',
+        hora: '16:00 – 18:00',
+        tipo: 'domicilio',
+        lugar: 'Iquique',
+        titulo: 'Atención kinesiológica respiratoria a domicilio (post-descanso)'
+      }
+    ];
+  }
+
+  // Predeterminado para segundo libre / consultas y domicilios
   return [
     {
       id: 'agenda-1',

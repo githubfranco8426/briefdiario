@@ -145,3 +145,70 @@ Responde exclusivamente con el JSON válido sin markdown adicional.`;
     ideas
   };
 }
+
+/**
+ * Generador rotativo de versículos bíblicos y reflexiones clínicas
+ */
+export function getDailyVerse(date = new Date(), cycle = null) {
+  const VERSES = [
+    {
+      id: 'verse-1',
+      texto: 'Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.',
+      referencia: 'Josué 1:9',
+      reflexion: 'Hoy en tu labor clínica: serenidad y firmeza para liderar procedimientos y acompañar con empatía a cada paciente y su familia.'
+    },
+    {
+      id: 'verse-2',
+      texto: 'Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.',
+      referencia: 'Isaías 40:31',
+      reflexion: 'Tu labor en rehabilitación exige paciencia y resistencia; recuerda que la renovación física y vocacional se recibe paso a paso cada mañana.'
+    },
+    {
+      id: 'verse-3',
+      texto: 'Todo lo puedo en Cristo que me fortalece.',
+      referencia: 'Filipenses 4:13',
+      reflexion: 'Para enfrentar los casos más desafiantes en UPC, consulta o a domicilio: cuentas con respaldo y templanza inquebrantable.'
+    },
+    {
+      id: 'verse-4',
+      texto: 'Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.',
+      referencia: 'Salmos 121:1-2',
+      reflexion: 'En medio del dinamismo de la jornada, eleva la mirada: el propósito de sanar y servir trasciende cada rutina médica.'
+    },
+    {
+      id: 'verse-5',
+      texto: 'El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.',
+      referencia: 'Proverbios 17:22',
+      reflexion: 'Una palabra de ánimo, una sonrisa y una escucha atenta potencian la recuperación del paciente tanto como la mejor técnica terapéutica.'
+    },
+    {
+      id: 'verse-6',
+      texto: 'Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.',
+      referencia: 'Jeremías 33:3',
+      reflexion: 'En diagnósticos complejos o cuadros atípicos, pide discernimiento y sabiduría clínica para orientar el mejor camino de tratamiento.'
+    },
+    {
+      id: 'verse-7',
+      texto: 'Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.',
+      referencia: 'Filipenses 4:7',
+      reflexion: 'Que la calma y la claridad mental gobiernen cada decisión terapéutica de este día, aun en los momentos de mayor urgencia.'
+    }
+  ];
+
+  const dayOfMonth = date.getDate();
+  const verseIndex = (dayOfMonth - 1) % VERSES.length;
+  const baseVerse = { ...VERSES[verseIndex] };
+
+  if (cycle?.ciclo?.includes('Turno Largo') || cycle?.ciclo?.includes('UPC')) {
+    baseVerse.reflexion = 'En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia.';
+  } else if (cycle?.ciclo?.includes('Turno Noche')) {
+    baseVerse.reflexion = 'En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia.';
+  } else if (cycle?.ciclo?.includes('Saliente')) {
+    baseVerse.reflexion = 'Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma.';
+  } else if (cycle?.ciclo?.includes('Libre')) {
+    baseVerse.reflexion = 'En día de descanso y consultas: renueva tus fuerzas físicas y nutre tu vocación con gratitud y alegría.';
+  }
+
+  return baseVerse;
+}
+

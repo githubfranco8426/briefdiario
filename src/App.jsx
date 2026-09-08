@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { initialBriefData } from './data/briefData';
 import { historicalBriefs } from './data/history/index';
+import { fetchLiveBrief, getTodayDateString } from './services/briefService';
 import { Header } from './components/Header';
 import { FilterPills } from './components/FilterPills';
 import { AgendaSection } from './components/AgendaSection';
@@ -20,9 +21,28 @@ export default function App() {
   const [showMobileModal, setShowMobileModal] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
 
+  // Sincronización en vivo al montar el componente (Supabase o cálculo dinámico)
+  useEffect(() => {
+    let isMounted = true;
+    fetchLiveBrief().then((liveData) => {
+      if (isMounted && liveData && liveData.fecha) {
+        setBriefData(liveData);
+      }
+    }).catch((err) => {
+      console.warn('[App] Error al obtener brief en vivo:', err);
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const handleSelectDate = (date) => {
     if (historicalBriefs && historicalBriefs[date]) {
       setBriefData(historicalBriefs[date]);
+      setResetKey((prev) => prev + 1);
+    } else if (date === initialBriefData.fecha) {
+      setBriefData(initialBriefData);
       setResetKey((prev) => prev + 1);
     }
   };
