@@ -13,15 +13,59 @@ import {
   ChevronRight,
   ChevronDown,
   ChevronUp,
-  Share2,
-  Smartphone
+  Smartphone,
+  BookMarked,
+  Settings2,
+  Library,
+  Clapperboard
 } from 'lucide-react';
+import { classifyPaper } from '../hooks/useLibrary';
 
-export function PapersSection({ papers = [] }) {
+const NOTEBOOK_COLOR_CLASSES = {
+  cyan: { pillActive: 'bg-cyan-400 text-slate-950 shadow-glow-cyan', dot: 'bg-cyan-400', text: 'text-cyan-300' },
+  teal: { pillActive: 'bg-teal-400 text-slate-950 shadow-sm', dot: 'bg-teal-400', text: 'text-teal-300' },
+  violet: { pillActive: 'bg-violet-400 text-slate-950 shadow-sm', dot: 'bg-violet-400', text: 'text-violet-300' },
+};
+
+function generateReelScript(paper) {
+  return [
+    `GANCHO: ¿Sabías esto sobre "${paper.titulo}"?`,
+    `EL PAPER: ${paper.resumen}`,
+    `PARA TU PRÁCTICA: ${paper.aplicacion}`,
+    `CIERRE: Fuente — ${paper.revista}. Kinesiología basada en evidencia.`,
+  ].join('\n\n');
+}
+
+export function PapersSection({ papers = [], library, onOpenSettings, onOpenLibrary }) {
+  const { notebooks = [], savedPapers = [], saveToLibrary, isSaved } = library || {};
   const [selectedPaper, setSelectedPaper] = useState(null);
   const [expandedId, setExpandedId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [langPreference, setLangPreference] = useState({});
+  const [notebookFilter, setNotebookFilter] = useState('all');
+  const [scriptPaperId, setScriptPaperId] = useState(null);
+  const [scriptCopied, setScriptCopied] = useState(false);
+
+  const classifiedPapers = papers.map((p) => ({ paper: p, notebook: classifyPaper(p, notebooks) }));
+  const visiblePapers = notebookFilter === 'all'
+    ? classifiedPapers
+    : classifiedPapers.filter(({ notebook }) => notebook?.id === notebookFilter);
+
+  const handleSave = (paper, e) => {
+    e?.stopPropagation();
+    saveToLibrary?.(paper);
+  };
+
+  const handleGenerateScript = (paper) => {
+    setScriptPaperId((prev) => (prev === paper.id ? null : paper.id));
+    setScriptCopied(false);
+  };
+
+  const copyScript = (paper) => {
+    navigator.clipboard.writeText(generateReelScript(paper));
+    setScriptCopied(true);
+    setTimeout(() => setScriptCopied(false), 2000);
+  };
 
   const toggleLanguage = (paperId, e) => {
     e?.stopPropagation();
@@ -72,26 +116,81 @@ export function PapersSection({ papers = [] }) {
           </div>
         </div>
 
-        <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-cyan-950/50 text-cyan-400 border border-cyan-800/40 font-medium">
-          {papers.length} estudios
-        </span>
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={onOpenLibrary}
+            title="Ver biblioteca de papers guardados"
+            className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-cyan-950/50 text-cyan-400 border border-cyan-800/40 font-medium inline-flex items-center gap-1 hover:bg-cyan-900/60 transition cursor-pointer"
+          >
+            <Library className="h-3 w-3" />
+            {savedPapers.length} guardados
+          </button>
+          <span className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-white/5 text-slate-400 border border-white/10 font-medium">
+            {papers.length} estudios
+          </span>
+        </div>
       </header>
 
-      {/* Sub-aviso de lectura instantánea */}
-      <div className="z-10 mb-4 p-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 flex items-center justify-between gap-3 text-[10px] text-cyan-300">
+      {/* Estado de sincronización NotebookLM (local, no es la app real de Google) */}
+      <button
+        type="button"
+        onClick={onOpenSettings}
+        title="Configurar libretas y reglas de auto-tagging"
+        className="z-10 mb-3 p-2.5 rounded-xl bg-cyan-950/40 border border-cyan-500/30 flex items-center justify-between gap-3 text-[10px] text-cyan-300 hover:bg-cyan-950/60 transition cursor-pointer w-full text-left"
+      >
         <div className="flex items-center gap-2 min-w-0">
-          <Sparkles className="h-4 w-4 text-cyan-400 shrink-0" />
-          <p className="truncate">
-            Toca <strong>"Leer en Español"</strong> para abrir la síntesis clínica completa traducida al instante.
-          </p>
+          <Sparkles className="h-4 w-4 text-cyan-400 shrink-0 animate-pulse" />
+          <span className="truncate">
+            <strong>NotebookLM local</strong> · Auto-tagging por libretas activo
+          </span>
         </div>
+        <span className="inline-flex items-center gap-1 text-cyan-400 shrink-0">
+          <Settings2 className="h-3.5 w-3.5" />
+          Configurar
+        </span>
+      </button>
+
+      {/* Filtro de Libretas */}
+      <div className="z-10 mb-4 flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-[10px]">
+        <button
+          type="button"
+          onClick={() => setNotebookFilter('all')}
+          className={`px-2.5 py-1 rounded-full font-mono whitespace-nowrap transition shrink-0 ${
+            notebookFilter === 'all' ? 'bg-cyan-400 text-slate-950 font-bold shadow-glow-cyan' : 'frosted-pill text-slate-300 hover:bg-slate-800/70'
+          }`}
+        >
+          Todas ({papers.length})
+        </button>
+        {notebooks.map((nb) => {
+          const count = classifiedPapers.filter(({ notebook }) => notebook?.id === nb.id).length;
+          const colors = NOTEBOOK_COLOR_CLASSES[nb.color] || NOTEBOOK_COLOR_CLASSES.cyan;
+          return (
+            <button
+              key={nb.id}
+              type="button"
+              onClick={() => setNotebookFilter(nb.id)}
+              className={`px-2.5 py-1 rounded-full font-mono whitespace-nowrap transition shrink-0 flex items-center gap-1 ${
+                notebookFilter === nb.id ? colors.pillActive + ' font-bold' : 'frosted-pill text-slate-300 hover:bg-slate-800/70'
+              }`}
+            >
+              <span>{nb.emoji} {nb.name}</span>
+              <span className={notebookFilter === nb.id ? 'opacity-80' : 'text-slate-500'}>({count})</span>
+            </button>
+          );
+        })}
       </div>
 
       <div className="z-10 space-y-4 flex-1">
-        {papers.map((paper) => {
+        {visiblePapers.length === 0 && (
+          <p className="text-xs text-slate-400 text-center py-6">No hay papers de hoy clasificados en esta libreta.</p>
+        )}
+        {visiblePapers.map(({ paper, notebook }) => {
           const isEnglish = langPreference[paper.id] === 'en';
           const isExpanded = expandedId === paper.id;
           const displayTitle = isEnglish ? (paper.titulo_original || paper.titulo) : paper.titulo;
+          const saved = isSaved?.(paper.id);
+          const showingScript = scriptPaperId === paper.id;
 
           return (
             <article
@@ -101,9 +200,16 @@ export function PapersSection({ papers = [] }) {
               <div>
                 {/* Metadatos y alternador de idioma */}
                 <div className="flex items-center justify-between gap-2 mb-2">
-                  <span className="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide truncate">
-                    {paper.revista}
-                  </span>
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <span className="text-[10px] font-mono font-bold text-cyan-400 uppercase tracking-wide truncate">
+                      {paper.revista}
+                    </span>
+                    {notebook && (
+                      <span className="text-[9px] font-mono text-slate-400 shrink-0">
+                        {notebook.emoji} {notebook.name}
+                      </span>
+                    )}
+                  </div>
 
                   <button
                     type="button"
@@ -178,6 +284,26 @@ export function PapersSection({ papers = [] }) {
                     )}
                   </div>
                 )}
+
+                {/* Guion RRSS generado a partir del paper */}
+                {showingScript && (
+                  <div className="mt-3 p-3 rounded-xl bg-violet-950/30 border border-violet-500/25 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-violet-300 flex items-center gap-1.5">
+                        <Clapperboard className="h-3.5 w-3.5" /> Guion Reel / RRSS
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => copyScript(paper)}
+                        className="text-[10px] font-mono text-violet-300 hover:text-white inline-flex items-center gap-1"
+                      >
+                        {scriptCopied ? <Check className="h-3 w-3 text-emerald-400" /> : <Copy className="h-3 w-3" />}
+                        {scriptCopied ? 'Copiado' : 'Copiar'}
+                      </button>
+                    </div>
+                    <pre className="text-[11px] text-slate-200 whitespace-pre-wrap font-sans leading-relaxed">{generateReelScript(paper)}</pre>
+                  </div>
+                )}
               </div>
 
               {/* Botones de acción principales */}
@@ -193,6 +319,22 @@ export function PapersSection({ papers = [] }) {
                     <span>Leer en Español</span>
                   </button>
 
+                  {/* Botón Guardar en Biblioteca */}
+                  <button
+                    type="button"
+                    onClick={(e) => handleSave(paper, e)}
+                    disabled={saved}
+                    title="Guardar en Biblioteca (auto-tagging por libreta)"
+                    className={`inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-xs font-semibold transition cursor-pointer ${
+                      saved
+                        ? 'bg-emerald-950/60 border-emerald-500/30 text-emerald-300 cursor-default'
+                        : 'bg-cyan-950/60 hover:bg-cyan-900/70 border-cyan-500/30 text-cyan-300 active:scale-95'
+                    }`}
+                  >
+                    <BookMarked className="h-3.5 w-3.5" />
+                    <span>{saved ? 'Guardado' : 'Guardar'}</span>
+                  </button>
+
                   {/* Botón Expansión rápida dentro de la tarjeta */}
                   <button
                     type="button"
@@ -201,6 +343,21 @@ export function PapersSection({ papers = [] }) {
                   >
                     <span>{isExpanded ? 'Menos' : 'Detalles'}</span>
                     {isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                  </button>
+
+                  {/* Botón Generar guion RRSS */}
+                  <button
+                    type="button"
+                    onClick={() => handleGenerateScript(paper)}
+                    title="Generar guion divulgativo a partir de este paper"
+                    className={`inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl border text-xs font-medium transition cursor-pointer ${
+                      showingScript
+                        ? 'bg-violet-500/20 border-violet-500/40 text-violet-200'
+                        : 'bg-white/5 border-white/10 text-slate-200 hover:text-white hover:border-violet-400/40'
+                    }`}
+                  >
+                    <Clapperboard className="h-3.5 w-3.5" />
+                    <span>Guion RRSS</span>
                   </button>
                 </div>
 
@@ -315,6 +472,62 @@ export function PapersSection({ papers = [] }) {
                 <p className="text-slate-300 pl-5 leading-relaxed">
                   Abre el enlace oficial abajo y usa el traductor nativo de tu teléfono (en iPhone toca <strong>"aA"</strong> en Safari y elige <em>"Traducir al español"</em>; en Android toca los <strong>3 puntos ⋮</strong> en Chrome y elige <em>"Traducir"</em>).
                 </p>
+              </div>
+
+              {/* Herramientas de transferencia clínica */}
+              <div className="p-3.5 sm:p-4 rounded-2xl bg-white/[0.03] border border-white/10 space-y-2.5">
+                <h4 className="text-xs font-mono font-bold uppercase text-violet-300 mb-1 flex items-center gap-1.5">
+                  <Clapperboard className="h-4 w-4 shrink-0" /> Herramientas de Transferencia
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                  <button
+                    type="button"
+                    onClick={(e) => handleSave(selectedPaper, e)}
+                    disabled={isSaved?.(selectedPaper.id)}
+                    className={`inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl border text-[11px] font-semibold transition cursor-pointer ${
+                      isSaved?.(selectedPaper.id)
+                        ? 'bg-emerald-950/60 border-emerald-500/30 text-emerald-300 cursor-default'
+                        : 'bg-cyan-950/60 hover:bg-cyan-900/70 border-cyan-500/30 text-cyan-300'
+                    }`}
+                  >
+                    <BookMarked className="h-3.5 w-3.5" />
+                    {isSaved?.(selectedPaper.id) ? 'En Biblioteca' : 'Guardar en Biblioteca'}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => handleGenerateScript(selectedPaper)}
+                    className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl border border-violet-500/30 bg-violet-950/40 text-violet-300 hover:bg-violet-900/50 text-[11px] font-semibold transition cursor-pointer"
+                  >
+                    <Clapperboard className="h-3.5 w-3.5" />
+                    Generar guion RRSS
+                  </button>
+                  <a
+                    href="https://notebooklm.google.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Abre la app real de Google NotebookLM en una pestaña nueva"
+                    className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl border border-white/10 bg-white/5 text-slate-300 hover:text-white hover:border-cyan-400/40 text-[11px] font-medium transition"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" />
+                    Abrir en NotebookLM
+                  </a>
+                </div>
+                {scriptPaperId === selectedPaper.id && (
+                  <div className="p-3 rounded-xl bg-violet-950/30 border border-violet-500/25 space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-violet-300">Guion Reel / RRSS</span>
+                      <button
+                        type="button"
+                        onClick={() => copyScript(selectedPaper)}
+                        className="text-[10px] font-mono text-violet-300 hover:text-white inline-flex items-center gap-1"
+                      >
+                        {scriptCopied ? <Check className="h-3 w-3 text-emerald-400" /> : <Copy className="h-3 w-3" />}
+                        {scriptCopied ? 'Copiado' : 'Copiar'}
+                      </button>
+                    </div>
+                    <pre className="text-[11px] text-slate-200 whitespace-pre-wrap font-sans leading-relaxed">{generateReelScript(selectedPaper)}</pre>
+                  </div>
+                )}
               </div>
             </div>
 

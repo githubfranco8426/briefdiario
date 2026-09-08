@@ -13,13 +13,19 @@ import { MobileConnectModal } from './components/MobileConnectModal';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { InstallGuideBanner } from './components/InstallGuideBanner';
 import { DailyVerseCard } from './components/DailyVerseCard';
+import { NotebookLMSettingsModal } from './components/NotebookLMSettingsModal';
+import { PapersLibrary } from './components/PapersLibrary';
+import { useLibrary } from './hooks/useLibrary';
 import { AlertCircle, ArrowLeft } from 'lucide-react';
 
 export default function App() {
   const [briefData, setBriefData] = useState(initialBriefData);
   const [resetKey, setResetKey] = useState(0);
   const [showMobileModal, setShowMobileModal] = useState(false);
+  const [showNotebookSettings, setShowNotebookSettings] = useState(false);
+  const [showLibrary, setShowLibrary] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
+  const library = useLibrary();
 
   // Sincronización en vivo al montar el componente (Supabase o cálculo dinámico)
   useEffect(() => {
@@ -173,6 +179,9 @@ export default function App() {
             >
               <PapersSection
                 papers={briefData.papers}
+                library={library}
+                onOpenSettings={() => setShowNotebookSettings(true)}
+                onOpenLibrary={() => setShowLibrary(true)}
               />
             </div>
           )}
@@ -208,6 +217,27 @@ export default function App() {
       <MobileConnectModal
         isOpen={showMobileModal}
         onClose={() => setShowMobileModal(false)}
+      />
+
+      {/* Configuración de libretas y auto-tagging (NotebookLM local) */}
+      <NotebookLMSettingsModal
+        isOpen={showNotebookSettings}
+        onClose={() => setShowNotebookSettings(false)}
+        notebooks={library.notebooks}
+        updateNotebook={library.updateNotebook}
+        addNotebook={library.addNotebook}
+        deleteNotebook={library.deleteNotebook}
+      />
+
+      {/* Biblioteca de papers guardados */}
+      <PapersLibrary
+        isOpen={showLibrary}
+        onClose={() => setShowLibrary(false)}
+        notebooks={library.notebooks}
+        savedPapers={library.savedPapers}
+        removeFromLibrary={library.removeFromLibrary}
+        toggleFavorite={library.toggleFavorite}
+        toggleRead={library.toggleRead}
       />
     </main>
   );

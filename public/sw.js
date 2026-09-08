@@ -1,4 +1,4 @@
-const CACHE_NAME = 'brief-diario-v5';
+const CACHE_NAME = 'brief-diario-v6';
 const ASSETS = [
   '/',
   '/index.html',
