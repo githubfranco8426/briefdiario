@@ -4,6 +4,11 @@ export const initialBriefData = {
   "subtitulo": "Brief diario · rehabilita.me",
   "ciclo": "Día 4 · Segundo libre",
   "ciclo_detalle": "Consultas 09:00–19:00",
+  "versiculo": {
+    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+    "referencia": "Isaías 40:31",
+    "reflexion": "Tu labor en rehabilitación exige paciencia y energía; recuerda que la renovación física y espiritual se recibe paso a paso cada mañana."
+  },
   "agenda": [
     {
       "id": "agenda-1",

@@ -30,17 +30,17 @@ export function AgendaSection({ agendaItems = [] }) {
   ).length;
 
   return (
-    <section className="glass-card rounded-2xl border border-white/10 bg-[#0e1320]/70 p-5 sm:p-7 backdrop-blur-xl transition-all duration-300 hover:border-cyan-500/20 shadow-xl shadow-black/40 relative overflow-hidden flex flex-col h-full">
+    <section className="glass-card rounded-2xl border border-white/10 bg-[#0e1422]/70 p-5 sm:p-7 backdrop-blur-xl transition-all duration-300 hover:border-sky-500/20 shadow-xl shadow-black/40 relative overflow-hidden flex flex-col h-full">
       {/* Ambient glow */}
-      <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-cyan-500/10 blur-3xl"></div>
+      <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-sky-500/10 blur-3xl"></div>
 
       <header className="flex justify-between items-center border-b border-white/10 pb-4 mb-5">
         <div className="flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-400 border border-cyan-400/20">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10 text-sky-400 border border-sky-400/20 shadow-[0_0_12px_rgba(56,189,248,0.2)]">
             <Calendar className="h-5 w-5" />
           </div>
           <div>
-            <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-gray-400 block">
+            <span className="text-[10px] font-mono font-semibold uppercase tracking-wider text-slate-400 block">
               Google Calendar
             </span>
             <h2 className="text-lg font-bold text-white tracking-tight">
@@ -49,7 +49,7 @@ export function AgendaSection({ agendaItems = [] }) {
           </div>
         </div>
 
-        <span className="text-xs font-mono px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-medium">
+        <span className="text-xs font-mono px-3 py-1 rounded-full bg-sky-500/10 text-sky-300 border border-sky-500/20 font-medium">
           {completedCount}/{agendaItems.length} listos
         </span>
       </header>
@@ -67,19 +67,19 @@ export function AgendaSection({ agendaItems = [] }) {
                   className={`group flex items-center justify-between gap-4 p-4 rounded-xl border transition-all duration-200 cursor-pointer ${
                     isCompleted
                       ? 'border-emerald-500/30 bg-emerald-500/5 opacity-65'
-                      : 'border-white/10 bg-white/[0.03] hover:border-cyan-400/30 hover:bg-white/[0.06]'
+                      : 'border-white/10 bg-white/[0.03] hover:border-sky-400/30 hover:bg-white/[0.06]'
                   }`}
                 >
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2 mb-1 flex-wrap">
-                      <span className="font-mono text-xs font-bold text-cyan-300 flex items-center gap-1">
-                        <Clock className="h-3 w-3 text-cyan-400" />
+                      <span className="font-mono text-xs font-bold text-sky-300 flex items-center gap-1">
+                        <Clock className="h-3 w-3 text-sky-400" />
                         {item.hora}
                       </span>
                       <span
                         className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${
                           isDomicilio
-                            ? 'bg-purple-500/10 text-purple-300 border-purple-500/20'
+                            ? 'bg-teal-500/10 text-teal-300 border-teal-500/20'
                             : 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20'
                         }`}
                       >
@@ -89,15 +89,15 @@ export function AgendaSection({ agendaItems = [] }) {
 
                     <h3
                       className={`font-semibold text-sm sm:text-base text-white transition-colors ${
-                        isCompleted ? 'line-through text-gray-400' : 'group-hover:text-cyan-200'
+                        isCompleted ? 'line-through text-slate-400' : 'group-hover:text-sky-200'
                       }`}
                     >
                       {item.titulo}
                     </h3>
 
                     {item.lugar && (
-                      <p className="text-xs text-gray-400 mt-1 flex items-center gap-1 font-light">
-                        <MapPin className="h-3 w-3 text-gray-500" />
+                      <p className="text-xs text-slate-400 mt-1 flex items-center gap-1 font-light">
+                        <MapPin className="h-3 w-3 text-slate-500" />
                         {item.lugar}
                       </p>
                     )}
@@ -110,7 +110,7 @@ export function AgendaSection({ agendaItems = [] }) {
                     className={`h-9 w-9 rounded-full shrink-0 flex items-center justify-center border transition-all duration-200 ${
                       isCompleted
                         ? 'border-emerald-400 bg-emerald-500 text-slate-950 shadow-[0_0_12px_rgba(16,185,129,0.5)]'
-                        : 'border-white/20 text-gray-400 group-hover:border-cyan-400 group-hover:text-cyan-300'
+                        : 'border-white/20 text-slate-400 group-hover:border-sky-400 group-hover:text-sky-300'
                     }`}
                   >
                     <Check className={`h-4 w-4 ${isCompleted ? 'stroke-[3]' : 'stroke-2'}`} />
@@ -121,9 +121,9 @@ export function AgendaSection({ agendaItems = [] }) {
           })}
         </ul>
 
-        <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-xs text-gray-400">
+        <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-xs text-slate-400">
           <span className="flex items-center gap-1 text-[11px]">
-            <CheckCircle2 className="h-3.5 w-3.5 text-cyan-400" />
+            <CheckCircle2 className="h-3.5 w-3.5 text-sky-400" />
             Toca una tarea para marcarla como realizada
           </span>
         </div>

@@ -6,6 +6,9 @@ export function Footer({ briefData, onResetChecklist }) {
 
   const copyDailyBriefShare = async () => {
     let text = `📋 *Brief Diario · rehabilita.me*\n📅 ${briefData.fecha} | ${briefData.ciclo}\n\n`;
+    if (briefData.versiculo) {
+      text += `📖 *Versículo del Día:*\n"${briefData.versiculo.texto}" (${briefData.versiculo.referencia})\n\n`;
+    }
     text += `⏰ *Agenda:*\n` + briefData.agenda.map((a) => `• ${a.hora}: ${a.titulo}`).join('\n') + `\n\n`;
     text += `💡 *Idea Destacada:*\n"${briefData.ideas[0]?.hook}" (${briefData.ideas[0]?.formato})\n\n`;
     text += `🔬 *Paper Destacado:*\n${briefData.papers[0]?.titulo}\n\n`;
