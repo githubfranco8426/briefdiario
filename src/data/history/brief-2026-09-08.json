@@ -5,141 +5,120 @@
   "ciclo": "Día 1 · Turno Largo",
   "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
+    "id": "verse-1",
     "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
     "referencia": "Josué 1:9",
-    "reflexion": "Hoy en turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-1",
-      "hora": "08:00 – 14:00",
+      "id": "cal-1",
+      "hora": "08:00 – 20:00",
       "tipo": "clinica",
-      "lugar": "UPC / Unidad de Paciente Crítico",
-      "titulo": "Ronda médica matutina y evaluaciones de ingreso kinésico"
-    },
-    {
-      "id": "agenda-2",
-      "hora": "14:30 – 18:30",
-      "tipo": "clinica",
-      "lugar": "UCI / Hospital",
-      "titulo": "Protocolos de destete ventilatorio y movilización precoz"
-    },
-    {
-      "id": "agenda-3",
-      "hora": "18:30 – 20:00",
-      "tipo": "seguimiento",
-      "lugar": "UPC",
-      "titulo": "Entrega de turno médico-kinésico y cierre de evoluciones"
+      "lugar": "",
+      "titulo": "Turno Mañana"
     }
   ],
   "ideas": [
     {
       "id": "idea-1",
-      "base": "Movilización precoz en pacientes críticos con soporte mecánico",
-      "hook": "¿Parar o mover? El dilema del paciente en UCI",
-      "idea": "Explica cómo la kinesiología intensiva no espera a que el paciente esté 'totalmente sano' para iniciar la movilidad: mover precozmente salva masa muscular diafragmática y acorta días de ventilación.",
+      "base": "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC: Ensayo clínico aleatorizado",
+      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Entrenamiento de músculos inspiratorios (IMT) post-extubación",
-      "hook": "Por qué tus pulmones necesitan pesas después de un tubo",
-      "idea": "Muestra un dispositivo de carga umbral inspiratoria (Threshold IMT) y explica los 4 beneficios clave para evitar que un paciente vuelva a conectarse a un ventilador.",
+      "base": "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo respiratorio en EPOC",
+      "hook": "Tu cara también tiene un mapa del dolor",
+      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
     },
     {
       "id": "idea-3",
-      "base": "Disfunción de ATM en profesionales de la salud bajo estrés de turnos",
-      "hook": "¿Te despiertas con la mandíbula trabada después del turno?",
-      "idea": "Aborda el bruxismo diurno y nocturno en personas con alta carga de estrés o turnos rotativos, enseñando 2 ejercicios de descompresión articular rápida.",
+      "base": "Diferenciador de atención a domicilio",
+      "hook": "No siempre tienes que venir tú a nosotros",
+      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-4",
-      "base": "Continuidad del cuidado: del alta hospitalaria a la kinesiología domiciliaria",
-      "hook": "El alta médica es solo la mitad del camino",
-      "idea": "Carrusel de 6 slides detallando la transición segura desde UPC hacia el domicilio en Iquique y Alto Hospicio, evitando reingresos por complicaciones respiratorias.",
+      "base": "Diferencias clínicas y de sensibilidad al dolor entre bruxistas con y sin dolor de ATM",
+      "hook": "Movilizar antes, no después",
+      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
     }
   ],
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "Impacto de la movilización precoz asistida en la polineuromiopatía del paciente crítico: Ensayo clínico aleatorizado",
-      "titulo_original": "Impact of assisted early mobilization on critical illness polyneuromyopathy: A randomized controlled trial",
-      "revista": "Critical Care Medicine",
-      "doi": "https://doi.org/10.1097/CCM.0000000000006240",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1097/CCM.0000000000006240",
-      "resumen": "Demuestra que la verticalización y cicloergometría pasiva/activa en las primeras 48 horas de ventilación mecánica preservan el grosor diafragmático y reducen en 3.5 días la estancia en UPC.",
-      "aplicacion": "Iniciar evaluación motora funcional dentro de las primeras 48h en pacientes hemodinámicamente estables, coordinando con enfermería y médico de turno.",
-      "objetivo": "Evaluar el efecto de la movilización sistemática precoz sobre la masa muscular periférica y diafragmática en adultos con soporte ventilatorio invasivo.",
-      "hallazgos": "Reducción significativa del desacondicionamiento neuromuscular y mayor tasa de éxito en el primer intento de extubación (78% vs 54%)."
+      "titulo": "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC: Ensayo clínico aleatorizado",
+      "titulo_original": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
+      "revista": "Pulmonology",
+      "doi": "https://doi.org/10.1080/25310429.2026.2718606",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F25310429.2026.2718606",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
     },
     {
       "id": "paper-2",
-      "titulo": "Eficacia del entrenamiento muscular inspiratorio de alta intensidad en el destete ventilatorio prolongado",
-      "titulo_original": "High-intensity inspiratory muscle training in patients with prolonged mechanical ventilation weaning: A systematic review",
-      "revista": "Thorax",
-      "doi": "https://doi.org/10.1136/thorax-2025-221890",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1136/thorax-2025-221890",
-      "resumen": "Revisa protocolos de carga progresiva (30-50% Pimax) en pacientes con falla de extubación, evidenciando incremento de fuerza inspiratoria y menor trabajo respiratorio basal.",
-      "aplicacion": "Medir Pimax previo a la extubación en pacientes con más de 48h de ventilación e incorporar protocolo de resistencia dosificada.",
-      "objetivo": "Determinar si el entrenamiento muscular inspiratorio acorta la duración del destete ventilatorio en pacientes con debilidad adquirida en UCI.",
-      "hallazgos": "Aumento medio de 8.2 cmH2O en Pimax y disminución del 22% en la necesidad de reintubación."
+      "titulo": "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo respiratorio en EPOC",
+      "titulo_original": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
+      "revista": "Pulmonology",
+      "doi": "https://doi.org/10.1080/25310429.2026.2710580",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F25310429.2026.2710580",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
     },
     {
       "id": "paper-3",
-      "titulo": "Diferencias somatosensoriales y puntos gatillo miofasciales en pacientes con dolor temporomandibular crónico",
-      "titulo_original": "Somatosensory abnormalities and myofascial trigger points in chronic temporomandibular disorders",
-      "revista": "Journal of Oral Rehabilitation",
-      "doi": "https://doi.org/10.1111/joor.13680",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1111/joor.13680",
-      "resumen": "Mapeo de algometría por presión en masetero, temporal y trapecio superior que identifica hiperalgesia central secundaria en cuadros de más de 3 meses.",
-      "aplicacion": "Examinar no solo la articulación temporomandibular sino también la musculatura cervical alta y la postura cráneo-cervical en consulta.",
-      "objetivo": "Caracterizar los patrones de sensibilidad dolorosa profunda en dolor orofacial y su relación con el estrés mecánico.",
-      "hallazgos": "Umbral de dolor a la presión significativamente disminuido bilateralmente incluso en síntomas unilaterales."
+      "titulo": "Diferencias clínicas y de sensibilidad al dolor entre bruxistas con y sin dolor de ATM",
+      "titulo_original": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
+      "revista": "J Dent",
+      "doi": "https://doi.org/10.1016/j.jdent.2026.106952",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jdent.2026.106952",
+      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
     },
     {
       "id": "paper-4",
-      "titulo": "Efectos de la ventilación no invasiva combinada con ejercicio de miembros inferiores en EPOC agudizado",
-      "titulo_original": "Noninvasive ventilation during active leg cycling in patients hospitalized with acute exacerbation of COPD",
-      "revista": "Respiratory Research",
-      "doi": "https://doi.org/10.1186/s12931-025-03112-9",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https://doi.org/10.1186/s12931-025-03112-9",
-      "resumen": "Comprueba que la asistencia ventilatoria durante el ejercicio en sala reduce la disnea de esfuerzo y permite alcanzar cargas de trabajo mayores sin desaturación.",
-      "aplicacion": "Utilizar soporte con VNI o cánula de alto flujo como facilitador del entrenamiento motor en pacientes respiratorios moderados a severos.",
-      "objetivo": "Analizar la tolerancia al esfuerzo y oxigenación durante la rehabilitación motora temprana en fase subaguda de EPOC.",
-      "hallazgos": "Mayor distancia recorrida y menor índice de Borg para disnea con asistencia presurizada."
+      "titulo": "Intervención digital de automanejo para promover la actividad física en pacientes con EPOC",
+      "titulo_original": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
+      "revista": "Int J Nurs Stud Adv",
+      "doi": "https://doi.org/10.1016/j.ijnsa.2026.100623",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijnsa.2026.100623",
+      "resumen": "Estudio reciente publicado en Int J Nurs Stud Adv sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://www.emol.com",
-      "fuente": "Emol",
-      "titulo": "Ministerio de Salud refuerza red asistencial y camas críticas ante contingencias respiratorias",
-      "detalle": "Autoridades sanitarias coordinan distribución de recursos en servicios de salud del norte del país y monitoreo de ocupación en UPC.",
-      "categoria": "Salud · Chile",
-      "borderGradient": "from-sky-400 to-blue-500"
-    },
-    {
-      "id": "news-2",
-      "url": "https://www.df.cl",
-      "fuente": "Diario Financiero",
-      "titulo": "Mercado laboral en el norte: Minería y servicios de salud impulsan demanda técnica y profesional",
-      "detalle": "Estudio de empleo en Tarapacá y Antofagasta destaca crecimiento sostenido en prestaciones médicas y de rehabilitación.",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOU1BtOTVubWdBR0pWZmUxaHdCYUg1ZHFSd2x3MTBpWi1talBueVBPNmZsM2Uzd3djQmtpb0ljVjN3djdpeWxTNFlvclotY01SMEJIY0RPNFFyMk0tLUkxRVQzVmlJanA0X3l1WjNxTmVJa1VPeWxfdVFyaEY3VnhDTkRHZ2tua0hQcm1malZxNzFUcmhaNzhMRU9aalZ2bTdLNHlwS1lPVFNzdEI5U2xUZzhKX1NyeFVJd3JJWEk0XzZReWRsalVTMHBQZ3BIdXlaNHloQW1oR3RhTkVnSUdLaDF5SldOOTBlZ2tCTl9kSUxDZHRpUDdJVWpXa0dHMXVKb1lYM0lWZkxRQ0E?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Reportan alza de remuneraciones en Chile: tres sectores lideran en incidencia en los últimos 12 meses",
+      "detalle": "Información de actualidad económica y laboral en Chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
     {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS0dOREdBN0cySTFWaEFYVUZVSGdaLTU2SkoyNjVlVnI5N2NjVHJBZjlYVXU3Yk1NN2xoQTR0UVVqMDhJTURMRHVpNXJFbjNUeDh1X2hGU3AybzBvemNkcTVjZTJ0aWlQTVREWTF3VTVaMFdhYXl1dnhMMmlyN0NyWXNadWVXNUhDRnU1RXBvMkhtb01jTmlfRUNvQm5MR015TnVEQ04wZ09mSEdRZGw2ZmtZNWhqanJmMEJyM3JEczBNRG1LNnltWDd6aF9oOUFCSDVzdWJn0gH3AUFVX3lxTE5KWWd2X3NQcG1KS1FEMTZVaVJHRlhvak1kTEROaWFxajY3d1Y4c2IyVEpEYjFaekFFVGl0Y3hiMG5kNTAxYlZuMm5vY3lTYm9iQTRIenFhRlNqUFVCSEsyVEQ2SjlGakcwVlU0cXlqWE02SksxeXFxSGtwOUpja1BGZGxSS1JFNWtfb0Nha1VuMlZCcTRyOG1ESzBOQ01ubjN5S3JyMW9DYXFFVjJFU295bDdZYUNFN29mWTkwd1AycUxxcEFRTWtMbnpHSkpLbFVIclV6blhKN1VvRG5LcFJORWstOWRzamRPbzE3b3lEemg3V2VSTkk?oc=5",
+      "fuente": "La Tercera",
+      "titulo": "Ministro Poduje dice que el estado de la economía y el desempleo no es culpa del gobierno anterior",
+      "detalle": "Información de actualidad económica y laboral en Chile según La Tercera.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
       "id": "news-3",
-      "url": "https://www.biobiochile.cl",
-      "fuente": "BioBioChile",
-      "titulo": "Fonasa y colegios profesionales avanzan en mesa técnica para actualización de aranceles kinésicos",
-      "detalle": "Propuesta busca mejorar cobertura en atenciones domiciliarias y tratamientos de rehabilitación integral.",
-      "categoria": "Actualidad · Chile",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUF2TnoxMXhyaVRkMnJEbzEtdkp4T1NZOWtXTEI5dTNobTViS3pzMkZ1YjRDNkNGWGU3UnNjUGxGUm9WY1dDemFSaGJpajJpSXdldGF3WHdFaENaUHktNmdPVGJ0WUw0anNMdlJfTS1wUlliUXB1RG9jWW9Md0hwX2dXWUxSRDVLMTZhR3A4NUxOMTZGaVpqVGhfWVlyMXY1Sk9UMkpqMUw3ZzJqNHBF0gG0AUFVX3lxTE1jVnpKNEdsdVpKME1VME9wY0dyMi1RNUc5eTBLRXV1a3I4RFlwOWtBM1c1RFdPN3VhWGhFVDhka1R6enBvTnUydUY0Q19CQUNpNHM2bEVUNDlBal9BRWUtTjZaNXk3NjZjT0FaZHNIRk5TVWF5bS15T1lDb2k1M2hoZ1B2TDlCRDFiaXNaanNwUFRKRnZNdmIzY0dQYnN5Ny1wdnMwc1JMT1hQN29RTk9xR3N3dA?oc=5",
+      "fuente": "abc.es",
+      "titulo": "La economía chilena, a la baja tras los seis meses de gobierno de José Antonio Kast",
+      "detalle": "Información de actualidad económica y laboral en Chile según abc.es.",
+      "categoria": "Economía · Chile",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-09-08T06:30:00.000Z"
+  "creado_en": "2026-09-08T15:52:06.853Z"
 }

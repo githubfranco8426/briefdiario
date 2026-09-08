@@ -120,7 +120,46 @@ export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = proc
 }
 
 /**
- * Parser ligero de eventos iCal (.ics) para la fecha objetivo
+ * Convierte "YYYYMMDD" en un objeto Date (UTC, solo para aritmética de días).
+ */
+function parseYMD(ymd) {
+  return new Date(Date.UTC(Number(ymd.slice(0, 4)), Number(ymd.slice(4, 6)) - 1, Number(ymd.slice(6, 8))));
+}
+
+/**
+ * Determina si un evento (posiblemente recurrente vía RRULE) ocurre en targetYMD.
+ * Soporta FREQ=DAILY y FREQ=WEEKLY con INTERVAL y UNTIL, que es lo que genera
+ * Google Calendar para turnos rotativos. No cubre COUNT/BYSETPOS/MONTHLY/YEARLY.
+ */
+function occursOnDate(dtstartYMD, rrule, targetYMD) {
+  if (dtstartYMD === targetYMD) return true;
+  if (!rrule) return false;
+
+  const target = parseYMD(targetYMD);
+  const start = parseYMD(dtstartYMD);
+  if (target < start) return false;
+
+  const parts = Object.fromEntries(rrule.split(';').map((p) => p.split('=')));
+  const interval = Number(parts.INTERVAL || 1);
+
+  if (parts.UNTIL) {
+    const untilYMD = parts.UNTIL.slice(0, 8);
+    if (targetYMD > untilYMD) return false;
+  }
+
+  const diffDays = Math.round((target - start) / 86400000);
+
+  if (parts.FREQ === 'DAILY') {
+    return diffDays % interval === 0;
+  }
+  if (parts.FREQ === 'WEEKLY') {
+    return diffDays % 7 === 0 && (diffDays / 7) % interval === 0;
+  }
+  return false;
+}
+
+/**
+ * Parser ligero de eventos iCal (.ics) para la fecha objetivo (incluye recurrencias simples)
  */
 function parseIcs(icsData, targetYMD) {
   const events = [];
@@ -139,30 +178,31 @@ function parseIcs(icsData, targetYMD) {
     const dtstart = getField('DTSTART');
     const dtend = getField('DTEND');
     const location = getField('LOCATION');
+    const rrule = getField('RRULE');
 
-    // Verificar si el evento corresponde al día de hoy
-    if (dtstart && dtstart.includes(targetYMD)) {
-      let hora = 'Todo el día';
-      if (dtstart.includes('T')) {
-        const startH = dtstart.split('T')[1].slice(0, 2);
-        const startM = dtstart.split('T')[1].slice(2, 4);
-        let endStr = '';
-        if (dtend && dtend.includes('T')) {
-          const endH = dtend.split('T')[1].slice(0, 2);
-          const endM = dtend.split('T')[1].slice(2, 4);
-          endStr = ` – ${endH}:${endM}`;
-        }
-        hora = `${startH}:${startM}${endStr}`;
+    const dtstartYMD = dtstart.slice(0, 8);
+    if (!dtstart || !occursOnDate(dtstartYMD, rrule, targetYMD)) continue;
+
+    let hora = 'Todo el día';
+    if (dtstart.includes('T')) {
+      const startH = dtstart.split('T')[1].slice(0, 2);
+      const startM = dtstart.split('T')[1].slice(2, 4);
+      let endStr = '';
+      if (dtend && dtend.includes('T')) {
+        const endH = dtend.split('T')[1].slice(0, 2);
+        const endM = dtend.split('T')[1].slice(2, 4);
+        endStr = ` – ${endH}:${endM}`;
       }
-
-      events.push({
-        id: `cal-${events.length + 1}`,
-        hora,
-        tipo: location?.toLowerCase().includes('domicilio') ? 'domicilio' : 'clinica',
-        lugar: location || '',
-        titulo: summary
-      });
+      hora = `${startH}:${startM}${endStr}`;
     }
+
+    events.push({
+      id: `cal-${events.length + 1}`,
+      hora,
+      tipo: location?.toLowerCase().includes('domicilio') ? 'domicilio' : 'clinica',
+      lugar: location || '',
+      titulo: summary
+    });
   }
 
   return events;
