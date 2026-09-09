@@ -12,97 +12,97 @@
   },
   "agenda": [
     {
-      "id": "agenda-1",
-      "hora": "15:00 – 17:00",
-      "tipo": "seguimiento",
-      "lugar": "Domicilio / Fichas",
-      "titulo": "Revisión de casos clínicos y preparación de turno"
-    },
-    {
-      "id": "agenda-2",
+      "id": "cal-1",
       "hora": "20:00 – 08:00",
       "tipo": "clinica",
-      "lugar": "Hospital / UPC",
-      "titulo": "Ingreso a guardia nocturna y monitoreo intensivo"
+      "lugar": "",
+      "titulo": "Turno Noche"
+    },
+    {
+      "id": "cal-2",
+      "hora": "12:00 – 20:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Cupos de consulta (turno noche)"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que entrenar tus pulmones puede ayudarte antes de una cirugía de rodilla?",
-      "idea": "Carrusel de 6 slides explicando cómo el entrenamiento muscular inspiratorio mejora la capacidad funcional en pacientes con artrosis severa. CTA: Comenta 'RODILLA' y te comparto el artículo.",
+      "hook": "¿Sabías que la movilización temprana en la UCI salva vidas y previene la debilidad muscular?",
+      "idea": "Slide 1: El mito del reposo absoluto. Slide 2: Qué dice la nueva guía ASSOBBRAFIR 2026. Slide 3: Beneficios de la rehabilitación en pacientes críticos. Slide 4: Rol clave del kinesiólogo intensivista. Slide 5: Seguridad en la bajada de la cama. Slide 6: Comenta si trabajas en UCI. CTA: Sígueme para más evidencia en paciente crítico.",
       "formato": "Carrusel 6 slides",
-      "base": "PMID: 42002253",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy (PMID: 42710394)",
       "id": "idea-1"
     },
     {
-      "hook": "El rol oculto de la fisioterapia en pacientes con trasplante de médula ósea",
-      "idea": "Reel dinámico de 30 segundos explicando la importancia del movimiento desde el día uno en pacientes hematológicos complejos. CTA: Guarda este video si trabajas en áreas críticas.",
+      "hook": "¿Te duele la mandíbula y sientes la cara hiper sensible? Podría ser tu ATM",
+      "idea": "Video corto mostrando cómo se evalúa el umbral de dolor a la presión en los músculos masetero y temporal con un algómetro, explicando la relación con los nuevos estudios en dolor orofacial y dando un tip de automasaje descontracturante.",
       "formato": "Reel 30 s",
-      "base": "PMID: 42567275",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults (PMID: 42703050)",
       "id": "idea-2"
     },
     {
-      "hook": "¿Puede volver a caminar después de un infarto grave y soporte mecánico?",
-      "idea": "Carrusel explicando la importancia del análisis de la marcha a los 14 días post-destete de soporte circulatorio en UCI. CTA: Comparte este dato con colegas kinesiólogos intensivistas.",
+      "hook": "¿Hipoxemia después de una cirugía abdominal? La VNI intermitente guiada por kine marca la diferencia",
+      "idea": "Slide 1: El riesgo respiratorio post-cirugía abdominal. Slide 2: El estudio australiano que revoluciona el postoperatorio. Slide 3: Cómo actúa la Ventilación No Invasiva intermitente. Slide 4: Rol del kinesiólogo respiratorio liderando el protocolo. Slide 5: Resultados en oxigenación. Slide 6: Comparte este dato con colegas del área quirúrgica. CTA: Guarda este post.",
       "formato": "Carrusel 6 slides",
-      "base": "PMID: 42523488",
+      "base": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery (PMID: 42518491)",
       "id": "idea-3"
     },
     {
-      "hook": "¿Cómo tratar realmente la fatiga extrema del COVID persistente?",
-      "idea": "Reel de 30 segundos resumiendo los últimos ensayos clínicos y la importancia del manejo de energía (pacing) en rehabilitación. CTA: Sígueme para más evidencia científica en kinesiología.",
+      "hook": "Entrenar los músculos respiratorios en ELA: ¿Funciona realmente?",
+      "idea": "Video analizando el reciente metaanálisis sobre ELA y entrenamiento muscular respiratorio, explicando cómo la kinesiología respiratoria ayuda a ganar fuerza inspiratoria (MIP) y mejora la calidad de vida de los pacientes.",
       "formato": "Reel 30 s",
-      "base": "PMID: 42630997",
+      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis (PMID: 42455190)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Viabilidad y efectos preliminares del entrenamiento muscular inspiratorio en pacientes con osteoartritis de rodilla en espera de artroplastia",
-      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
-      "resumen": "Este ensayo clínico controlado evaluó un programa de 8 semanas de entrenamiento de los músculos inspiratorios en pacientes con osteoartritis avanzada de rodilla. Los resultados demostraron la viabilidad de la intervención y mejoras preliminares en la capacidad funcional previa a la cirugía.",
-      "objetivo": "Evaluar la viabilidad y los efectos preliminares del entrenamiento muscular inspiratorio en pacientes en lista de espera para artroplastia total de rodilla.",
-      "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes adultos con osteoartritis de rodilla.",
-      "hallazgos": "Se observó una alta adherencia y efectos positivos en la función respiratoria y capacidad de ejercicio de los pacientes.",
-      "aplicacion": "Integra el entrenamiento muscular inspiratorio en la prehabilitación de pacientes osteoarticulares complejos para optimizar su reserva funcional antes del quirófano.",
-      "revista": "Arch Phys Med Rehabil",
-      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+      "titulo": "Guías de práctica clínica de ASSOBRAFIR para la fisioterapia en cuidados intensivos: Estrategias de rehabilitación en adultos críticos",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "resumen": "Estas nuevas directrices establecen recomendaciones basadas en evidencia para la movilización y rehabilitación temprana en pacientes adultos críticamente enfermos. Buscan estandarizar la práctica kinésica en unidades de cuidados intensivos para mejorar la funcionalidad al alta.",
+      "objetivo": "Proveer guías clínicas actualizadas sobre estrategias de rehabilitación física para adultos en estado crítico.",
+      "metodologia": "Revisión de guías clínicas y literatura basada en evidencia para establecer recomendaciones de expertos en fisioterapia intensiva.",
+      "hallazgos": "Se definieron protocolos claros para la progresión segura de la movilización y el ejercicio en pacientes críticos ventilados y no ventilados.",
+      "aplicacion": "Implementa movilización temprana protocolizada en tu UCI para reducir las complicaciones por debilidad adquirida en el paciente crítico.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
       "id": "paper-1"
     },
     {
-      "titulo": "El rol de la fisioterapia en la trayectoria del trasplante de células madre hematopoyéticas alogénicas",
-      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
-      "resumen": "Esta revisión sistemática establece un marco clínico integral para guiar la intervención fisioterapéutica en todas las fases del trasplante alogénico de células madre hematopoyéticas. Destaca cómo el ejercicio y la rehabilitación mejoran el pronóstico y la calidad de vida de estos pacientes altamente vulnerables.",
-      "objetivo": "Sintetizar la evidencia sobre el rol de la fisioterapia a lo largo de toda la trayectoria del trasplante hematopoyético.",
-      "metodologia": "Revisión sistemática de la literatura científica y propuesta de un marco clínico de actuación.",
-      "hallazgos": "La intervención fisioterapéutica estructurada es segura y disminuye las complicaciones secundarias al reposo prolongado y la inmunosupresión.",
-      "aplicacion": "Aplica protocolos de movilización temprana y acondicionamiento físico adaptados en pacientes hematológicos complejos durante todo su proceso clínico.",
-      "revista": "Transplant Cell Ther",
-      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+      "titulo": "Umbrales de dolor a la presión facial en adultos sanos: Distribuciones y factores asociados",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "resumen": "Este estudio analiza los umbrales de dolor a la presión en distintas zonas faciales en población sana para establecer parámetros de referencia. Estos datos son clave para comprender mejor los trastornos temporomandibulares (ATM) y el dolor orofacial.",
+      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor a la presión facial en adultos sanos.",
+      "metodologia": "Estudio transversal en adultos sanos midiendo algometría de presión en puntos específicos vinculados al sistema masticatorio.",
+      "hallazgos": "Se identificaron diferencias significativas en los umbrales de dolor facial según la zona anatómica evaluada y factores demográficos.",
+      "aplicacion": "Utiliza la algometría de presión como herramienta objetiva para evaluar la sensibilidad en pacientes con disfunción temporomandibular en consulta.",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
       "id": "paper-2"
     },
     {
-      "titulo": "Significado pronóstico de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en infarto agudo de miocardio",
-      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
-      "resumen": "Este estudio analizó el impacto pronóstico de recuperar la marcha en pacientes críticos tras el retiro de soporte circulatorio mecánico por infarto agudo de miocardio. Los hallazgos confirman que la velocidad y capacidad de deambulación temprana son marcadores críticos de supervivencia y recuperación funcional.",
-      "objetivo": "Determinar el valor pronóstico de la recuperación temprana de la marcha tras el destete de soporte circulatorio mecánico en infarto.",
-      "metodologia": "Análisis de puntos de referencia (landmark analysis) a 14 días en pacientes post-infarto agudo de miocardio con soporte circulatorio previo.",
-      "hallazgos": "La pronta recuperación de la marcha se asoció significativamente con un mejor pronóstico clínico a corto y mediano plazo.",
-      "aplicacion": "Prioriza la evaluación funcional y la verticalización temprana en la unidad de paciente crítico cardiológico apenas las condiciones hemodinámicas lo permitan.",
-      "revista": "Prog Rehabil Med",
-      "doi": "https://doi.org/10.2490/prm.20260038",
+      "titulo": "Ventilación no invasiva intermitente guiada por fisioterapia para la hipoxemia postquirúrgica abdominal",
+      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+      "resumen": "Un ensayo controlado aleatorizado piloto evaluó el uso de ventilación no invasiva intermitente liderada por fisioterapeutas tras cirugía abdominal. Los resultados demuestran la viabilidad de la intervención para manejar la hipoxemia y prevenir complicaciones pulmonares.",
+      "objetivo": "Evaluar la viabilidad y efectividad de la ventilación no invasiva intermitente guiada por kinesiólogos para tratar la hipoxemia postoperatoria.",
+      "metodologia": "Ensayo clínico piloto aleatorizado en un hospital cuaternario con pacientes sometidos a cirugía abdominal mayor con riesgo de hipoxemia.",
+      "hallazgos": "El manejo kinésico con VNI intermitente fue seguro, factible y mostró mejoras en los parámetros de oxigenación postquirúrgica.",
+      "aplicacion": "Considera protocolos de ventilación no invasiva liderados por kinesiología para prevenir el fallo respiratorio tras cirugías abdominales mayores.",
+      "revista": "BJA Open",
+      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
       "id": "paper-3"
     },
     {
-      "titulo": "Revisión sistemática de ensayos clínicos aleatorizados para el tratamiento del síndrome de COVID persistente",
-      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
-      "resumen": "Esta revisión sistemática evaluó la eficacia de diferentes intervenciones terapéuticas basadas en ensayos clínicos para el manejo del síndrome de COVID persistente (Long COVID). Los datos subrayan la necesidad de enfoques multidisciplinarios personalizados para abordar la fatiga crónica y la disfunción multiorgánica.",
-      "objetivo": "Analizar la evidencia actual de ensayos clínicos aleatorizados enfocados en el tratamiento del Long COVID.",
-      "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados centrados en intervenciones terapéuticas para COVID persistente.",
-      "hallazgos": "Existe una gran heterogeneidad en las intervenciones, destacando aquellas que controlan la fatiga y dosifican la energía del paciente.",
-      "aplicacion": "Diseña programas de rehabilitación respiratoria y física con un estricto control del esfuerzo (pacing) para evitar recaídas en pacientes con COVID persistente.",
-      "revista": "J Community Hosp Intern Med Perspect",
-      "doi": "https://doi.org/10.55729/2000-9666.1612",
+      "titulo": "Efectos del entrenamiento de la musculatura respiratoria sobre la función respiratoria en pacientes con ELA: revisión sistemática y metaanálisis",
+      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+      "resumen": "Este metaanálisis evaluó el impacto del entrenamiento de los músculos respiratorios en pacientes diagnosticados con esclerosis lateral amiotrófica. Se concluyó que estas intervenciones mejoran significativamente los parámetros de fuerza muscular respiratoria y función pulmonar.",
+      "objetivo": "Sintetizar la evidencia sobre los efectos del entrenamiento muscular respiratorio en pacientes con esclerosis lateral amiotrófica (ELA).",
+      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos que implementaron programas de entrenamiento muscular respiratorio en pacientes con ELA.",
+      "hallazgos": "El entrenamiento específico mejoró de manera clínica y estadística la presión inspiratoria máxima (MIP) y la función ventilatoria general.",
+      "aplicacion": "Integra el entrenamiento muscular respiratorio de forma temprana en pacientes con ELA para retrasar el deterioro de la función ventilatoria.",
+      "revista": "J Neurol",
+      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
       "id": "paper-4"
     }
   ],
@@ -110,9 +110,9 @@
     {
       "id": "news-1",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSXF6c2FTdWF2azliLUQ3X29lS3RqcGsxZVNtaFdhaUowMHRCRTVERF9mTEFOaHpBci1QRmNIeE1LX2VyV0pZd0VBREVHT2tmYlozckRIWDZHMVI3dE1xRDBZRUNja1dmbTkwNmlaeS1Xdm5KZ3lkN2J3WGthNGJaclhHalp5UTM5ZzdIMjJxUWwzZWJoQnl2NTFPMWJQem0zM3NQUVRSc0VFM3BSSGp1NFpsT3BqckRvVVNBblZNM3Y5Tlc2cmhRQTRtQUo1Tm1EUldkZC1IU0xaLUN2cWVHaFdUc3hCS0dSd0p5X2hVQS1VQlFibU9yVmhpODhlM1RRZ1hCUm1nR1lZOVluT0NXNnlPQQ?oc=5",
-      "fuente": "biobiochile.cl",
+      "fuente": "BioBioChile",
       "titulo": "Banco Central alerta sobre debilidad económica de Chile y recorta con fuerza proyección de crecimiento",
-      "detalle": "Información de actualidad en economía · chile según biobiochile.cl.",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -144,5 +144,5 @@
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-09-09T13:49:45.322Z"
+  "creado_en": "2026-09-09T13:51:39.620Z"
 }
