@@ -40,7 +40,7 @@ async function main() {
 
   // 2. Obtener noticias chilenas en tiempo real
   console.log('🗞️ Consultando noticias de actualidad en Chile...');
-  const news = await fetchChileNews(3);
+  const news = await fetchChileNews(4);
   console.log(`✓ ${news.length} noticias de economía y actualidad recuperadas.`);
 
   // 3. Sintetizar contenido e ideas de guion

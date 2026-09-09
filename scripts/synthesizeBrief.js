@@ -5,6 +5,58 @@
  * 2. Ideas de guion estructuradas (Hooks atractivos para Reels de 30s y Carruseles de 6 slides)
  */
 
+const FILLER_IDEA_TEMPLATES = [
+  {
+    hook: 'No siempre tienes que venir tú a nosotros',
+    idea: 'Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.',
+    formato: 'Reel 30 s',
+    base: 'Diferenciador de atención a domicilio'
+  },
+  {
+    hook: 'Movilizar antes, no después',
+    idea: 'Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.',
+    formato: 'Carrusel 6 slides',
+    base: 'Movilización precoz en UPC'
+  },
+  {
+    hook: 'Lo que la evidencia dice esta semana',
+    idea: 'Comenta en 2-3 puntos el hallazgo más aplicable de los papers de hoy y cómo cambia (o confirma) tu forma de evaluar en consulta.',
+    formato: 'Reel 30 s',
+    base: 'Resumen de evidencia reciente'
+  },
+  {
+    hook: 'Una pregunta que deberías hacerle a tu paciente hoy',
+    idea: 'Plantea una pregunta de evaluación clínica poco habitual pero reveladora, inspirada en los papers de hoy, e invita a comentar cómo la abordarían otros colegas.',
+    formato: 'Carrusel 6 slides',
+    base: 'Pregunta clínica del día'
+  }
+];
+
+/**
+ * Completa el arreglo de ideas hasta llegar a 4, usando plantillas locales
+ * (referenciando los papers disponibles) cuando el motor de IA entrega menos.
+ */
+function padIdeas(ideas = [], papers = []) {
+  const result = [...ideas];
+  const usedHooks = new Set(result.map((i) => i.hook));
+  let paperCursor = result.length;
+
+  for (const template of FILLER_IDEA_TEMPLATES) {
+    if (result.length >= 4) break;
+    if (usedHooks.has(template.hook)) continue;
+
+    const relatedPaper = papers[paperCursor];
+    result.push({
+      ...template,
+      base: relatedPaper?.titulo || template.base
+    });
+    usedHooks.add(template.hook);
+    paperCursor += 1;
+  }
+
+  return result.map((idea, idx) => ({ ...idea, id: `idea-${idx + 1}` }));
+}
+
 export async function synthesizeContent(rawPapers = [], apiKey = process.env.GEMINI_API_KEY) {
   // Si existe GEMINI_API_KEY configurada en el entorno, invocamos la API de Gemini
   if (apiKey) {
@@ -38,7 +90,7 @@ Genera un JSON con esta estructura exacta:
     }
   ]
 }
-Responde exclusivamente con el JSON válido sin markdown adicional.`;
+Reglas: genera EXACTAMENTE 4 ideas de contenido, ni más ni menos, idealmente una por cada paper de la lista. Responde exclusivamente con el JSON válido sin markdown adicional.`;
 
       const res = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`,
@@ -57,10 +109,15 @@ Responde exclusivamente con el JSON válido sin markdown adicional.`;
         const jsonText = data.candidates?.[0]?.content?.parts?.[0]?.text;
         if (jsonText) {
           const parsed = JSON.parse(jsonText);
-          return {
-            papers: parsed.papers.map((p, idx) => ({ ...p, id: `paper-${idx + 1}` })),
-            ideas: parsed.ideas.map((idea, idx) => ({ ...idea, id: `idea-${idx + 1}` }))
-          };
+          const papers = parsed.papers.map((p, idx) => ({ ...p, id: `paper-${idx + 1}` }));
+          let ideas = parsed.ideas.map((idea, idx) => ({ ...idea, id: `idea-${idx + 1}` }));
+
+          if (ideas.length < 4) {
+            console.warn(`Gemini devolvió solo ${ideas.length} ideas, completando hasta 4 con el motor local.`);
+            ideas = padIdeas(ideas, papers);
+          }
+
+          return { papers, ideas };
         }
       }
     } catch (e) {
