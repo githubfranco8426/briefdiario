@@ -15,15 +15,15 @@ const SEARCH_TERMS = [
   'respiratory muscle training physical therapy[tiab]'
 ];
 
-export async function fetchPubMedPapers(limit = 4) {
+export async function fetchPubMedPapers(limit = 4, excludeDois = new Set()) {
   try {
-    const papers = [];
-    const term = encodeURIComponent(
-      '(temporomandibular joint OR COPD rehabilitation OR early mobilization ICU OR facial pain threshold) AND "last 1 year"[dp]'
-    );
-    
-    // 1. ESearch: Obtener lista de IDs recientes
-    const searchUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${term}&retmode=json&retmax=${limit * 2}&sort=pub_date`;
+    // Combina los 5 focos clínicos de la especialidad (en vez de solo 4 términos genéricos)
+    // y amplía la ventana a 2 años para tener un pool real del cual rotar día a día.
+    const term = encodeURIComponent(`(${SEARCH_TERMS.join(' OR ')}) AND "last 2 years"[dp]`);
+    const retmax = Math.max(limit * 6, 24);
+
+    // 1. ESearch: Obtener un pool amplio de IDs recientes
+    const searchUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${term}&retmode=json&retmax=${retmax}&sort=pub_date`;
     const searchRes = await fetch(searchUrl);
     if (!searchRes.ok) throw new Error(`PubMed Search Error: ${searchRes.status}`);
     const searchData = await searchRes.json();
@@ -34,14 +34,15 @@ export async function fetchPubMedPapers(limit = 4) {
       return [];
     }
 
-    // 2. ESummary: Obtener metadata detallada de cada ID
-    const summaryUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${idList.slice(0, limit).join(',')}&retmode=json`;
+    // 2. ESummary: Obtener metadata detallada de todo el pool
+    const summaryUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${idList.join(',')}&retmode=json`;
     const summaryRes = await fetch(summaryUrl);
     if (!summaryRes.ok) throw new Error(`PubMed Summary Error: ${summaryRes.status}`);
     const summaryData = await summaryRes.json();
     const resultObj = summaryData.result || {};
 
-    for (const pmid of idList.slice(0, limit)) {
+    const allPapers = [];
+    for (const pmid of idList) {
       const item = resultObj[pmid];
       if (!item) continue;
 
@@ -54,7 +55,7 @@ export async function fetchPubMedPapers(limit = 4) {
         }
       }
 
-      papers.push({
+      allPapers.push({
         pmid,
         titulo: item.title?.replace(/\.$/, '') || 'Estudio clínico en rehabilitación',
         revista: item.source || 'PubMed Central',
@@ -64,7 +65,17 @@ export async function fetchPubMedPapers(limit = 4) {
       });
     }
 
-    return papers;
+    // 3. Preferir papers que no hayan salido en briefs recientes; si no alcanzan, completar con repetidos
+    const fresh = allPapers.filter((p) => !excludeDois.has(p.doi));
+    const chosen = fresh.length >= limit
+      ? fresh.slice(0, limit)
+      : [...fresh, ...allPapers.filter((p) => excludeDois.has(p.doi))].slice(0, limit);
+
+    if (fresh.length < limit) {
+      console.warn(`Solo ${fresh.length} papers nuevos disponibles en el pool; se completó con repetidos recientes.`);
+    }
+
+    return chosen;
   } catch (err) {
     console.error('Error al consultar PubMed NCBI:', err.message);
     return [];

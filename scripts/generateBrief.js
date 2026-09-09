@@ -15,9 +15,27 @@ async function main() {
   const now = new Date();
   const dateIso = now.toISOString().split('T')[0];
 
-  // 1. Obtener papers recientes de PubMed NCBI
+  // 0. Cargar histórico reciente para no repetir los mismos papers día tras día
+  const historyDir = path.join(projectRoot, 'src', 'data', 'history');
+  const excludeDois = new Set();
+  if (fs.existsSync(historyDir)) {
+    const recentFiles = fs.readdirSync(historyDir)
+      .filter((f) => f.startsWith('brief-') && f.endsWith('.json'))
+      .sort()
+      .slice(-7);
+    for (const file of recentFiles) {
+      try {
+        const parsed = JSON.parse(fs.readFileSync(path.join(historyDir, file), 'utf-8'));
+        (parsed.papers || []).forEach((p) => { if (p.doi) excludeDois.add(p.doi); });
+      } catch (e) {
+        console.warn(`No se pudo leer histórico ${file}:`, e.message);
+      }
+    }
+  }
+
+  // 1. Obtener papers recientes de PubMed NCBI, evitando repetir los de los últimos 7 días
   console.log('📚 Consultando NCBI PubMed API...');
-  const rawPapers = await fetchPubMedPapers(4);
+  const rawPapers = await fetchPubMedPapers(4, excludeDois);
   console.log(`✓ ${rawPapers.length} papers recuperados de PubMed.`);
 
   // 2. Obtener noticias chilenas en tiempo real
@@ -83,7 +101,6 @@ async function main() {
   console.log(`✅ Archivo actualizado para frontend: ${briefDataPath}`);
 
   // 6. Guardar en histórico src/data/history/
-  const historyDir = path.join(projectRoot, 'src', 'data', 'history');
   if (!fs.existsSync(historyDir)) {
     fs.mkdirSync(historyDir, { recursive: true });
   }

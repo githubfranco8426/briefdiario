@@ -12,90 +12,83 @@ export const initialBriefData = {
   },
   "agenda": [
     {
-      "id": "cal-1",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Turno Noche"
+      "id": "agenda-1",
+      "hora": "15:00 – 17:00",
+      "tipo": "seguimiento",
+      "lugar": "Domicilio / Fichas",
+      "titulo": "Revisión de casos clínicos y preparación de turno"
     },
     {
-      "id": "cal-2",
-      "hora": "12:00 – 20:00",
+      "id": "agenda-2",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Cupos de consulta (turno noche)"
+      "lugar": "Hospital / UPC",
+      "titulo": "Ingreso a guardia nocturna y monitoreo intensivo"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que la forma en que respiras con alto flujo puede alterar por completo el trabajo de tus músculos respiratorios?",
-      "idea": "Carrusel de 4 láminas explicando cómo la investigación reciente compara flujos simétricos y asimétricos en pacientes críticos. CTA: Comenta 'CRÍTICO' y te envío el resumen del paper.",
-      "formato": "Carrusel 4 slides",
-      "base": "PMID: 42583683",
+      "hook": "¿Te truena la mandíbula y sientes dolor al tocarte la cara?",
+      "idea": "Slide 1: Presenta el problema del dolor en la ATM. Slide 2: Explica qué es la algometría de presión facial según la ciencia reciente. Slide 3: Muestra cómo evaluamos la sensibilidad muscular en kinesiología maxilofacial. Slide 4: Errores comunes al masajear la mandíbula en casa. Slide 5: Un consejo clínico para relajar los maseteros. Slide 6: CTA invitando a agendar una evaluación de ATM en Chile.",
+      "formato": "Carrusel 6 slides",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults",
       "id": "idea-1"
     },
     {
-      "hook": "¿Te duele la mandíbula al despertar y crees que es solo por apretar los dientes?",
-      "idea": "Reel dinámico explicando que el bruxismo con dolor ATM tiene un perfil psicosensorial totalmente distinto al que no duele, según nueva evidencia. CTA: Agenda tu evaluación kine de ATM en el link de la bio.",
+      "hook": "Así es como salvamos los pulmones de un paciente crítico en la UCI moderna",
+      "idea": "Video dinámico explicando las nuevas guías internacionales ASSOBRAFIR. Muestra la importancia de la movilización temprana y el manejo respiratorio basado en evidencia. Cierra con un llamado a la acción para profesionales de la salud a actualizar sus protocolos en Chile.",
       "formato": "Reel 30 s",
-      "base": "PMID: 42556699",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
       "id": "idea-2"
-    },
-    {
-      "hook": "¿Y si usar cinta elástica en el tórax pudiera mejorar los resultados de tu rehabilitación por EPOC?",
-      "idea": "Carrusel de 6 slides mostrando cómo el kinesiotaping se investiga actualmente como un complemento en hombres con EPOC moderada a grave. CTA: Guarda este post si eres colega o paciente respiratorio.",
-      "formato": "Carrusel 6 slides",
-      "base": "PMID: 42614062",
-      "id": "idea-3"
     }
   ],
   "papers": [
     {
-      "titulo": "Cinta elástica como estrategia complementaria para potenciar la rehabilitación pulmonar en EPOC moderada a muy grave",
-      "titulo_original": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
-      "resumen": "Este ensayo clínico evaluó el uso de cinta elástica (kinesiotaping) como complemento en la rehabilitación pulmonar de hombres no obesos con EPOC moderada a muy grave. Los resultados sugieren mejoras significativas en los desenlaces clínicos de los pacientes intervenidos.",
-      "objetivo": "Determinar el efecto de la cinta elástica como estrategia coadyuvante en los resultados de la rehabilitación pulmonar en pacientes masculinos no obesos con EPOC moderada a muy grave.",
-      "metodologia": "Ensayo clínico aleatorizado realizado en una muestra de hombres adultos no obesos diagnosticados con EPOC moderada a muy grave.",
-      "hallazgos": "La aplicación de cinta elástica potenció de manera efectiva los resultados generales de los programas de rehabilitación pulmonar en esta población.",
-      "aplicacion": "Considera incorporar el vendaje neuromuscular torácico como herramienta coadyuvante en tus pacientes con EPOC para optimizar su tolerancia al esfuerzo.",
-      "revista": "Pulmonology",
-      "doi": "https://doi.org/10.1080/25310429.2026.2718606",
+      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva: estrategias de rehabilitación en adultos críticamente enfermos",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "resumen": "Nuevas directrices basadas en evidencia para optimizar los protocolos de movilización y rehabilitación en pacientes adultos ingresados en unidades de cuidados intensivos. Su implementación busca prevenir la debilidad adquirida en UCI y acelerar el destete de la ventilación mecánica.",
+      "objetivo": "Establecer recomendaciones clínicas estandarizadas para la rehabilitación física de pacientes adultos en estado crítico.",
+      "metodologia": "Revisión sistemática y consenso de expertos coordinado por la Asociación Brasileña de Fisioterapia Cardiorespiratoria y Fisioterapia en Cuidados Intensivos (ASSOBRAFIR).",
+      "hallazgos": "Se definieron protocolos claros para la movilización temprana y el manejo respiratorio seguro en pacientes críticos.",
+      "aplicacion": "Implementar estas pautas actualizadas en la UCI para mejorar los tiempos de destete ventilatorio y la funcionalidad al alta hospitalaria.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
       "id": "paper-1"
     },
     {
-      "titulo": "Efectos de la cánula nasal de alto flujo asimétrica versus simétrica sobre la actividad de los músculos respiratorios",
-      "titulo_original": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
-      "revista": "Pulmonology",
-      "doi": "https://doi.org/10.1080/25310429.2026.2710580",
-      "resumen": "Este comentario analiza un estudio cruzado sobre el impacto de diferentes configuraciones de cánula nasal de alto flujo en la musculatura respiratoria. Se discute su relevancia para optimizar el soporte ventilatorio no invasivo en pacientes críticos y con EPOC.",
-      "objetivo": "Analizar la respuesta de la actividad de los músculos respiratorios frente al uso de cánulas nasales de alto flujo con entrega simétrica y asimétrica.",
-      "metodologia": "Estudio de diseño cruzado aleatorizado enfocado en pacientes con insuficiencia respiratoria aguda hipoxémica y EPOC.",
-      "hallazgos": "Las configuraciones de alto flujo generan variaciones importantes en el reclutamiento y la actividad de los músculos respiratorios accesorios.",
-      "aplicacion": "Evalúa detalladamente el patrón de trabajo muscular respiratorio al implementar terapias de alto flujo en pacientes críticos para prevenir la fatiga.",
+      "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribuciones y factores asociados",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "resumen": "Estudio enfocado en mapear los umbrales de dolor por presión en la musculatura facial y estructuras relacionadas con la articulación temporomandibular (ATM). Los hallazgos entregan valores normativos esenciales para la evaluación clínica del dolor orofacial.",
+      "objetivo": "Determinar la distribución de los umbrales de dolor a la presión en la región facial de adultos sanos e identificar factores asociados.",
+      "metodologia": "Estudio observacional transversal realizado en una cohorte de adultos sanos utilizando algometría de presión facial.",
+      "hallazgos": "Se establecieron mapas de sensibilidad al dolor a la presión que varían según zonas anatómicas y características demográficas.",
+      "aplicacion": "Utilizar estos valores normativos de algometría en pacientes chilenos con trastornos temporomandibulares para objetivar la hiperalgesia muscular en consulta.",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
       "id": "paper-2"
     },
     {
-      "titulo": "Diferencias clínicas, psicosociales y somatosensoriales entre pacientes con bruxismo con y sin trastornos temporomandibulares dolorosos",
-      "titulo_original": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
-      "revista": "J Dent",
-      "doi": "https://doi.org/10.1016/j.jdent.2026.106952",
-      "resumen": "Esta investigación compara perfiles clínicos, psicológicos y sensoriales en pacientes bruxistas con y sin dolor en la articulación temporomandibular (ATM). Los datos reafirman la necesidad de un abordaje multifactorial que vaya más allá de la mera férula oclusal.",
-      "objetivo": "Identificar las diferencias clínicas, psicosociales y somatosensoriales que distinguen a los pacientes bruxistas con dolor temporomandibular de aquellos sin dolor.",
-      "metodologia": "Estudio clínico transversal comparativo en pacientes diagnosticados con bruxismo con y sin dolor temporomandibular.",
-      "hallazgos": "Los pacientes con bruxismo doloroso presentan mayores alteraciones psicosensoriales y psicosociales en comparación con los no dolorosos.",
-      "aplicacion": "Integra evaluaciones psicosociales y de sensibilidad al dolor al tratar pacientes con disfunción temporomandibular y bruxismo en la clínica.",
+      "titulo": "Ventilación no invasiva intermitente guiada por fisioterapeuta para la hipoxemia postquirúrgica abdominal",
+      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+      "resumen": "Demuestra la viabilidad y efectividad de que los fisioterapeutas lideren protocolos de ventilación no invasiva intermitente para tratar la hipoxemia tras cirugías abdominales mayores. Esto previene complicaciones pulmonares y reduce la necesidad de reintubación.",
+      "objetivo": "Evaluar la viabilidad y efectos preliminares de la VNI intermitente liderada por fisioterapia en pacientes con hipoxemia postquirúrgica abdominal.",
+      "metodologia": "Ensayo clínico piloto aleatorizado realizado en un hospital cuaternario australiano con pacientes post-cirugía abdominal.",
+      "hallazgos": "La intervención demostró ser segura, factible y efectiva para mejorar los parámetros de oxigenación tras la cirugía.",
+      "aplicacion": "Adoptar protocolos de VNI intermitente en el manejo respiratorio postoperatorio inmediato en Chile para disminuir el riesgo de falla respiratoria.",
+      "revista": "BJA Open",
+      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
       "id": "paper-3"
     },
     {
-      "titulo": "Desarrollo de una intervención digital de automanejo basada en teoría para promover la actividad física en EPOC: Respir'air BPCO",
-      "titulo_original": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
-      "revista": "Int J Nurs Stud Adv",
-      "doi": "https://doi.org/10.1016/j.ijnsa.2026.100623",
-      "resumen": "Se desarrolló y evaluó una intervención digital centrada en el automanejo para fomentar la actividad física en personas con EPOC llamada Respir'air BPCO. La herramienta busca mejorar la adherencia al ejercicio fuera del centro de salud.",
-      "objetivo": "Diseñar una intervención digital basada en evidencia teórica para promover el incremento de la actividad física en pacientes con EPOC.",
-      "metodologia": "Estudio de desarrollo e implementación metodológica enfocado en pacientes con enfermedad pulmonar obstructiva crónica.",
-      "hallazgos": "Las intervenciones digitales estructuradas ofrecen un marco sólido para mejorar la adherencia al automanejo y la movilidad en esta población.",
-      "aplicacion": "Recomienda y apóyate en herramientas digitales de automanejo para potenciar la constancia del ejercicio en casa en tus pacientes respiratorios.",
+      "titulo": "Factibilidad y efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con osteoartritis de rodilla en espera de artroplastia",
+      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "resumen": "Evalúa el impacto de incorporar entrenamiento muscular inspiratorio (IMT) en pacientes con osteoartritis severa de rodilla antes de su cirugía. Los resultados muestran mejoras en la capacidad funcional y respiratoria general de los pacientes.",
+      "objetivo": "Determinar la viabilidad y eficacia preliminar de un programa de 8 semanas de IMT en pacientes en lista de espera para prótesis total de rodilla.",
+      "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes con osteoartritis de rodilla.",
+      "hallazgos": "El entrenamiento inspiratorio mejoró significativamente la fuerza de los músculos respiratorios y la capacidad de ejercicio.",
+      "aplicacion": "Sumar el entrenamiento de músculos inspiratorios en la prehabilitación de pacientes quirúrgicos musculoesqueléticos en Chile para optimizar su reserva funcional.",
+      "revista": "Arch Phys Med Rehabil",
+      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
       "id": "paper-4"
     }
   ],
@@ -128,5 +121,5 @@ export const initialBriefData = {
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-09-09T13:37:22.745Z"
+  "creado_en": "2026-09-09T13:41:10.180Z"
 };
