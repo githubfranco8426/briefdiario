@@ -28,74 +28,75 @@
   ],
   "ideas": [
     {
-      "id": "idea-1",
-      "base": "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC: Ensayo clínico aleatorizado",
-      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
-      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
-      "formato": "Reel 30 s"
+      "hook": "¿Sabías que la forma en que respiras con alto flujo puede alterar por completo el trabajo de tus músculos respiratorios?",
+      "idea": "Carrusel de 4 láminas explicando cómo la investigación reciente compara flujos simétricos y asimétricos en pacientes críticos. CTA: Comenta 'CRÍTICO' y te envío el resumen del paper.",
+      "formato": "Carrusel 4 slides",
+      "base": "PMID: 42583683",
+      "id": "idea-1"
     },
     {
-      "id": "idea-2",
-      "base": "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo respiratorio en EPOC",
-      "hook": "Tu cara también tiene un mapa del dolor",
-      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Te duele la mandíbula al despertar y crees que es solo por apretar los dientes?",
+      "idea": "Reel dinámico explicando que el bruxismo con dolor ATM tiene un perfil psicosensorial totalmente distinto al que no duele, según nueva evidencia. CTA: Agenda tu evaluación kine de ATM en el link de la bio.",
+      "formato": "Reel 30 s",
+      "base": "PMID: 42556699",
+      "id": "idea-2"
     },
     {
-      "id": "idea-3",
-      "base": "Diferenciador de atención a domicilio",
-      "hook": "No siempre tienes que venir tú a nosotros",
-      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
-      "formato": "Reel 30 s"
-    },
-    {
-      "id": "idea-4",
-      "base": "Diferencias clínicas y de sensibilidad al dolor entre bruxistas con y sin dolor de ATM",
-      "hook": "Movilizar antes, no después",
-      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Y si usar cinta elástica en el tórax pudiera mejorar los resultados de tu rehabilitación por EPOC?",
+      "idea": "Carrusel de 6 slides mostrando cómo el kinesiotaping se investiga actualmente como un complemento en hombres con EPOC moderada a grave. CTA: Guarda este post si eres colega o paciente respiratorio.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID: 42614062",
+      "id": "idea-3"
     }
   ],
   "papers": [
     {
-      "id": "paper-1",
-      "titulo": "Cinta elástica (kinesiotaping) para potenciar la rehabilitación pulmonar en hombres con EPOC: Ensayo clínico aleatorizado",
+      "titulo": "Cinta elástica como estrategia complementaria para potenciar la rehabilitación pulmonar en EPOC moderada a muy grave",
       "titulo_original": "Elastic tape as an add-on strategy to potentiate pulmonary rehabilitation outcomes in nonobese males with moderate-to-very severe COPD: A randomised clinical trial",
+      "resumen": "Este ensayo clínico evaluó el uso de cinta elástica (kinesiotaping) como complemento en la rehabilitación pulmonar de hombres no obesos con EPOC moderada a muy grave. Los resultados sugieren mejoras significativas en los desenlaces clínicos de los pacientes intervenidos.",
+      "objetivo": "Determinar el efecto de la cinta elástica como estrategia coadyuvante en los resultados de la rehabilitación pulmonar en pacientes masculinos no obesos con EPOC moderada a muy grave.",
+      "metodologia": "Ensayo clínico aleatorizado realizado en una muestra de hombres adultos no obesos diagnosticados con EPOC moderada a muy grave.",
+      "hallazgos": "La aplicación de cinta elástica potenció de manera efectiva los resultados generales de los programas de rehabilitación pulmonar en esta población.",
+      "aplicacion": "Considera incorporar el vendaje neuromuscular torácico como herramienta coadyuvante en tus pacientes con EPOC para optimizar su tolerancia al esfuerzo.",
       "revista": "Pulmonology",
       "doi": "https://doi.org/10.1080/25310429.2026.2718606",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F25310429.2026.2718606",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "id": "paper-1"
     },
     {
-      "id": "paper-2",
-      "titulo": "Impacto de la cánula nasal de alto flujo asimétrica vs simétrica en el trabajo respiratorio en EPOC",
+      "titulo": "Efectos de la cánula nasal de alto flujo asimétrica versus simétrica sobre la actividad de los músculos respiratorios",
       "titulo_original": "Commentary on 'The effects of asymmetrical versus symmetrical high-flow nasal cannula on respiratory muscle activity in acute hypoxaemic respiratory failure and chronic obstructive pulmonary disease: A randomised crossover study'",
       "revista": "Pulmonology",
       "doi": "https://doi.org/10.1080/25310429.2026.2710580",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F25310429.2026.2710580",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "resumen": "Este comentario analiza un estudio cruzado sobre el impacto de diferentes configuraciones de cánula nasal de alto flujo en la musculatura respiratoria. Se discute su relevancia para optimizar el soporte ventilatorio no invasivo en pacientes críticos y con EPOC.",
+      "objetivo": "Analizar la respuesta de la actividad de los músculos respiratorios frente al uso de cánulas nasales de alto flujo con entrega simétrica y asimétrica.",
+      "metodologia": "Estudio de diseño cruzado aleatorizado enfocado en pacientes con insuficiencia respiratoria aguda hipoxémica y EPOC.",
+      "hallazgos": "Las configuraciones de alto flujo generan variaciones importantes en el reclutamiento y la actividad de los músculos respiratorios accesorios.",
+      "aplicacion": "Evalúa detalladamente el patrón de trabajo muscular respiratorio al implementar terapias de alto flujo en pacientes críticos para prevenir la fatiga.",
+      "id": "paper-2"
     },
     {
-      "id": "paper-3",
-      "titulo": "Diferencias clínicas y de sensibilidad al dolor entre bruxistas con y sin dolor de ATM",
+      "titulo": "Diferencias clínicas, psicosociales y somatosensoriales entre pacientes con bruxismo con y sin trastornos temporomandibulares dolorosos",
       "titulo_original": "Clinical, psychosocial, and somatosensory differences between bruxers with and without painful temporomandibular disorders",
       "revista": "J Dent",
       "doi": "https://doi.org/10.1016/j.jdent.2026.106952",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jdent.2026.106952",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "resumen": "Esta investigación compara perfiles clínicos, psicológicos y sensoriales en pacientes bruxistas con y sin dolor en la articulación temporomandibular (ATM). Los datos reafirman la necesidad de un abordaje multifactorial que vaya más allá de la mera férula oclusal.",
+      "objetivo": "Identificar las diferencias clínicas, psicosociales y somatosensoriales que distinguen a los pacientes bruxistas con dolor temporomandibular de aquellos sin dolor.",
+      "metodologia": "Estudio clínico transversal comparativo en pacientes diagnosticados con bruxismo con y sin dolor temporomandibular.",
+      "hallazgos": "Los pacientes con bruxismo doloroso presentan mayores alteraciones psicosensoriales y psicosociales en comparación con los no dolorosos.",
+      "aplicacion": "Integra evaluaciones psicosociales y de sensibilidad al dolor al tratar pacientes con disfunción temporomandibular y bruxismo en la clínica.",
+      "id": "paper-3"
     },
     {
-      "id": "paper-4",
-      "titulo": "Intervención digital de automanejo para promover la actividad física en pacientes con EPOC",
+      "titulo": "Desarrollo de una intervención digital de automanejo basada en teoría para promover la actividad física en EPOC: Respir'air BPCO",
       "titulo_original": "Development of a theory-based self-management digital intervention to promote physical activity in people living with chronic obstructive pulmonary disease: Respir'air BPCO",
       "revista": "Int J Nurs Stud Adv",
       "doi": "https://doi.org/10.1016/j.ijnsa.2026.100623",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ijnsa.2026.100623",
-      "resumen": "Estudio reciente publicado en Int J Nurs Stud Adv sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "resumen": "Se desarrolló y evaluó una intervención digital centrada en el automanejo para fomentar la actividad física en personas con EPOC llamada Respir'air BPCO. La herramienta busca mejorar la adherencia al ejercicio fuera del centro de salud.",
+      "objetivo": "Diseñar una intervención digital basada en evidencia teórica para promover el incremento de la actividad física en pacientes con EPOC.",
+      "metodologia": "Estudio de desarrollo e implementación metodológica enfocado en pacientes con enfermedad pulmonar obstructiva crónica.",
+      "hallazgos": "Las intervenciones digitales estructuradas ofrecen un marco sólido para mejorar la adherencia al automanejo y la movilidad en esta población.",
+      "aplicacion": "Recomienda y apóyate en herramientas digitales de automanejo para potenciar la constancia del ejercicio en casa en tus pacientes respiratorios.",
+      "id": "paper-4"
     }
   ],
   "noticias": [
@@ -127,5 +128,5 @@
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-09-09T13:29:16.508Z"
+  "creado_en": "2026-09-09T13:37:22.745Z"
 }
