@@ -475,5 +475,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-09T13:51:39.620Z"
+  },
+  "2026-09-10": {
+    "fecha": "2026-09-10",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 3 · Saliente / Libre",
+    "ciclo_detalle": "Recuperación y fichas clínicas",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "18:00 – 22:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Cupos de consulta (saliente de noche)"
+      },
+      {
+        "id": "cal-2",
+        "hora": "11:00 – 11:15",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "🎹 Piano: Hanon nº1-2 + Mikrokosmos nº2 memoria"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tus pulmones puede aliviar el dolor de rodilla antes de una cirugía?",
+        "idea": "Slide 1: Hook visual sobre artrosis de rodilla. Slide 2: El rol oculto del sistema respiratorio. Slide 3: Qué dice el estudio de IMI en pacientes prequirúrgicos. Slide 4: Beneficios de la musculatura inspiratoria. Slide 5: Cómo implementarlo en clínica. Slide 6: Comenta 'RODILLA' para más info.",
+        "formato": "Carrusel 6 slides",
+        "base": "pmid: 42002253",
+        "id": "idea-1"
+      },
+      {
+        "hook": "La rehabilitación en pacientes oncológicos hematológicos ya no es opcional, es vital.",
+        "idea": "Video dinámico explicando cómo la fisioterapia acompaña todo el proceso de un trasplante de células madre, desde la fase crítica hasta el alta domiciliaria, mejorando la sobrevida. CTA: Sígueme para ver más evidencia en paciente crítico.",
+        "formato": "Reel 30 s",
+        "base": "pmid: 42567275",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Puede volver a caminar alguien tras un infarto severo y soporte mecánico?",
+        "idea": "Slide 1: Impactante pregunta sobre el infarto y la marcha. Slide 2: El reto del soporte circulatorio mecánico. Slide 3: El análisis de los 14 días clave. Slide 4: Por qué la marcha es un indicador pronóstico. Slide 5: Nuestro rol como kinesiólogos en UCI. Slide 6: Comparte este dato clínico.",
+        "formato": "Carrusel 6 slides",
+        "base": "pmid: 42523488",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Sigues tratando el Long COVID con ejercicio tradicional sin medir la fatiga?",
+        "idea": "Video donde analizo la última revisión sistemática sobre Long COVID, explicando por qué las pautas de rehabilitación respiratoria deben ser ultra personalizadas para no generar rebote. CTA: Guarda este video si tratas pacientes post-COVID.",
+        "formato": "Reel 30 s",
+        "base": "pmid: 42630997",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Viabilidad y efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con artrosis de rodilla en espera de artroplastia total: un ensayo controlado aleatorizado piloto de 8 semanas",
+        "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "resumen": "Este estudio piloto evaluó el impacto del entrenamiento muscular inspiratorio durante 8 semanas en pacientes esperando cirugía de rodilla. Los resultados demuestran que es una intervención factible para mejorar la capacidad funcional previa al quirófano.",
+        "objetivo": "Determinar la viabilidad y los efectos preliminares del entrenamiento muscular inspiratorio en pacientes con artrosis de rodilla candidatos a cirugía.",
+        "metodologia": "Ensayo controlado aleatorizado piloto de 8 semanas en pacientes adultos con artrosis de rodilla en lista de espera para artroplastia.",
+        "hallazgos": "Se observó una alta adherencia y mejoras significativas en los parámetros respiratorios y funcionales previos a la intervención quirúrgica.",
+        "aplicacion": "Integra el entrenamiento inspiratorio en tu protocolo preoperatorio de rodilla para optimizar la capacidad física general de tus pacientes.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "El papel de la fisioterapia a lo largo de la trayectoria del trasplante en el trasplante alogénico de células madre hematopoyéticas: una revisión sistemática y marco clínico",
+        "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "resumen": "Esta revisión sistemática analiza la importancia crucial de la intervención kinésica en distintas etapas del trasplante de células madre. Proporciona un marco clínico para guiar la rehabilitación integral del paciente hematológico complejo.",
+        "objetivo": "Sintetizar la evidencia sobre el rol de la fisioterapia a lo largo de todo el proceso de trasplante alogénico de células madre hematopoyéticas.",
+        "metodologia": "Revisión sistemática de la literatura científica con desarrollo de un marco clínico aplicable a la práctica en pacientes críticos e inmunodeprimidos.",
+        "hallazgos": "La fisioterapia estructurada pre y post-trasplante reduce la morbimortalidad funcional y mejora la calidad de vida de estos pacientes complejos.",
+        "aplicacion": "Utiliza este marco clínico para estructurar programas de movilización temprana y acondicionamiento en pacientes con trasplantes hematológicos.",
+        "revista": "Transplant Cell Ther",
+        "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Significado pronóstico de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en el infarto agudo de miocardio: un análisis de puntos de referencia de 14 días",
+        "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: An A 14-Day Landmark Analysis",
+        "resumen": "Se evaluó el valor pronóstico de la recuperación de la marcha en pacientes críticos tras el retiro de soporte circulatorio por infarto. Los datos indican que la deambulación temprana es un marcador vital de sobrevida y recuperación a corto plazo.",
+        "objetivo": "Evaluar la importancia pronóstica de recuperar la marcha en un análisis de 14 días posterior al destete de soporte circulatorio mecánico por infarto.",
+        "metodologia": "Análisis de puntos de referencia de 14 días en una cohorte de pacientes críticos recuperados de infarto agudo de miocardio con asistencia circulatoria.",
+        "hallazgos": "La velocidad y capacidad de recuperar la marcha en las primeras dos semanas post-destete se asociaron fuertemente con un mejor pronóstico vital.",
+        "aplicacion": "Evalúa y prioriza la recuperación de la marcha de forma precoz en pacientes cardiovasculares críticos salientes de ECMO o dispositivos de asistencia.",
+        "revista": "Prog Rehabil Med",
+        "doi": "https://doi.org/10.2490/prm.20260038",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Revisión sistemática de ensayos clínicos aleatorizados para el tratamiento del síndrome de COVID persistente",
+        "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+        "resumen": "Esta revisión recopila ensayos clínicos recientes enfocados en el manejo terapéutico del Long COVID. Se identifican las estrategias de rehabilitación más efectivas para abordar la fatiga crónica y la disfunción respiratoria persistente.",
+        "objetivo": "Analizar la evidencia de ensayos clínicos aleatorizados sobre los tratamientos disponibles para el síndrome de COVID persistente.",
+        "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados publicados internacionalmente para el abordaje del Long COVID.",
+        "hallazgos": "Los programas multicomponentes de rehabilitación física y respiratoria muestran los mejores resultados para mitigar los síntomas prolongados.",
+        "aplicacion": "Diseña programas de rehabilitación respiratoria personalizados y dosificados para pacientes que sufren de fatiga crónica por COVID persistente.",
+        "revista": "J Community Hosp Intern Med Perspect",
+        "doi": "https://doi.org/10.55729/2000-9666.1612",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSXF6c2FTdWF2azliLUQ3X29lS3RqcGsxZVNtaFdhaUowMHRCRTVERF9mTEFOaHpBci1QRmNIeE1LX2VyV0pZd0VBREVHT2tmYlozckRIWDZHMVI3dE1xRDBZRUNja1dmbTkwNmlaeS1Xdm5KZ3lkN2J3WGthNGJaclhHalp5UTM5ZzdIMjJxUWwzZWJoQnl2NTFPMWJQem0zM3NQUVRSc0VFM3BSSGp1NFpsT3BqckRvVVNBblZNM3Y5Tlc2cmhRQTRtQUo1Tm1EUldkZC1IU0xaLUN2cWVHaFdUc3hCS0dSd0p5X2hVQS1VQlFibU9yVmhpODhlM1RRZ1hCUm1nR1lZOVluT0NXNnlPQQ?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Banco Central alerta sobre debilidad económica de Chile y recorta con fuerza proyección de crecimiento",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY2JiOFNuWE1OOTFRSjBvajZ2cEJ6TUFfaXRTaVdaOE1DYWx2cld3ZDFoaTYxa1VXQm9NczZkQjBiTkFuNk1RbkpVLWtQRnFDZmZKSkF2Zl9aUVFJVFFLSDhpYks3aEhiOUdnOG9FbktGMHd4ZENDcWJuckNnTS04OUR5MGFLN09XbEMtUWlSU3NUbDJGOGRBa1Vod29lSVgySGVRcll3?oc=5",
+        "fuente": "AlAireLibre.cl",
+        "titulo": "Iquique 0-1 Santa Cruz: resumen y gol por la Primera B 2026",
+        "detalle": "Información de actualidad en norte grande según AlAireLibre.cl.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-10T13:45:57.259Z"
   }
 };
