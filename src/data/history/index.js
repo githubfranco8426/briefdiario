@@ -905,5 +905,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-12T13:03:17.964Z"
+  },
+  "2026-09-13": {
+    "fecha": "2026-09-13",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-6",
+      "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+      "referencia": "Jeremías 33:3",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Turno Noche"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que respirar mejor acelera tu alta después de una cirugía de corazón?",
+        "idea": "Slide 1: El reto post-cirugía cardíaca. Slide 2: ¿Qué es el entrenamiento muscular respiratorio? Slide 3: Evidencia 2026 en pacientes de bypass. Slide 4: Beneficios en la capacidad funcional. Slide 5: El rol del kinesiólogo respiratorio. Slide 6: ¡Comenta si quieres conocer los ejercicios clave! Guárdatelo.",
+        "formato": "Carrusel 6 slides",
+        "base": "Ribeiro et al., 2026 (Einstein)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Atrapado en la cama de la UCI? Así combatimos la debilidad muscular crítica",
+        "idea": "Video corto mostrando cómo los sistemas de suspensión para extremidades inferiores ayudan a pacientes críticos en UCI a recuperar movilidad sin sobreesfuerzo. Llamado a la acción: Sígueme para más contenido de paciente crítico.",
+        "formato": "Reel 30 s",
+        "base": "Xu et al., 2026 (Crit Care)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te truena la mandíbula y ya no sabes qué ejercicio hacer para tu ATM?",
+        "idea": "Slide 1: El problema de tratar la ATM a ciegas. Slide 2: ¿Qué aporta el análisis cinemático? Slide 3: Ejercicios individualizados según tu movimiento. Slide 4: Menos dolor, mejor apertura mandibular. Slide 5: La importancia de evaluarte con un especialista. Slide 6: ¡Comparte este post con ese amigo que sufre de bruxismo!",
+        "formato": "Carrusel 6 slides",
+        "base": "Woo et al., 2026 (J Clin Med)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Hernia lumbar y dolor ciático? Prueba este ejercicio boca abajo",
+        "idea": "Demostración práctica en video de la extensión de rodilla en prono para el manejo de la hernia discal lumbar según los nuevos reportes clínicos. Llamado a la acción: Comenta 'lumbar' y te mando la explicación completa.",
+        "formato": "Reel 30 s",
+        "base": "Shahbazi & Fatemi, 2026 (Case Rep Med)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efecto del entrenamiento muscular respiratorio en la capacidad funcional tras cirugía cardíaca",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "resumen": "Este ensayo clínico analiza el impacto del entrenamiento de los músculos respiratorios en pacientes sometidos a bypass coronario. Los resultados muestran mejoras significativas en su capacidad funcional y calidad de vida postoperatoria.",
+        "objetivo": "Evaluar la eficacia del entrenamiento muscular respiratorio sobre la capacidad funcional relacionada con la calidad de vida en pacientes con cirugía de revascularización miocárdica.",
+        "metodologia": "Ensayo clínico aleatorizado realizado en pacientes sometidos a cirugía de bypass coronario con circulación extracorpórea.",
+        "hallazgos": "Se observó una recuperación superior en la capacidad funcional y el bienestar general de los pacientes que realizaron el entrenamiento respiratorio.",
+        "aplicacion": "Integra protocolos tempranos de entrenamiento muscular respiratorio en pacientes cardiotorácicos para acelerar su recuperación funcional.",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Eficacia de un dispositivo de suspensión para rehabilitación de extremidades inferiores en debilidad adquirida en UCI",
+        "titulo_original": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "resumen": "Estudio enfocado en pacientes críticos con debilidad adquirida en UCI, evaluando un dispositivo de suspensión para extremidades inferiores. Demuestra ser una herramienta útil para recuperar la función motora en este grupo vulnerable.",
+        "objetivo": "Determinar la eficacia de un dispositivo de rehabilitación basado en suspensión para mejorar la función de extremidades inferiores en pacientes con debilidad adquirida en UCI.",
+        "metodologia": "Ensayo clínico aleatorizado autocontrolado en pacientes hospitalizados en unidad de cuidados intensivos con debilidad neuromuscular.",
+        "hallazgos": "El uso del dispositivo mejoró notablemente la función y movilidad de las extremidades inferiores durante la fase de paciente crítico.",
+        "aplicacion": "Utiliza sistemas de suspensión kinésica en la UCI para movilizar precozmente extremidades inferiores y combatir la debilidad adquirida.",
+        "revista": "Crit Care",
+        "doi": "https://doi.org/10.1186/s13054-026-05840-1",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Ejercicio individualizado guiado por análisis cinemático para trastornos temporomandibulares",
+        "titulo_original": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "resumen": "Esta serie de casos explora el abordaje de la disfunción temporomandibular mediante ejercicios personalizados basados en análisis cinemático. Los resultados destacan una mejoría clínica notable en el movimiento mandibular.",
+        "objetivo": "Analizar los efectos de un programa de ejercicios individualizados guiados por cinemática en pacientes con trastornos temporomandibulares.",
+        "metodologia": "Serie de casos clínicos evaluados mediante tecnología de análisis cinemático para diseñar intervenciones específicas en la ATM.",
+        "hallazgos": "La precisión en el ejercicio guiado por cinemática redujo el dolor y optimizó la biomecánica de la articulación temporomandibular.",
+        "aplicacion": "Incorpora evaluaciones biomecánicas precisas en la consulta de ATM para pautar ejercicios kinésicos altamente individualizados.",
+        "revista": "J Clin Med",
+        "doi": "https://doi.org/10.3390/jcm15020655",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Nueva perspectiva en el manejo de la hernia discal lumbar usando extensión de rodilla en prono",
+        "titulo_original": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+        "resumen": "Este reporte de caso examina una nueva perspectiva terapéutica para la hernia discal lumbar utilizando la extensión de rodilla en decúbito prono. Muestra alivio sintomático y mejoría en la mecánica lumbar.",
+        "objetivo": "Presentar un enfoque innovador mediante la extensión de rodilla en prono para el manejo clínico de la hernia discal lumbar.",
+        "metodologia": "Estudio de caso clínico enfocado en la aplicación y respuesta sintomática a un ejercicio específico de cadena cinética.",
+        "hallazgos": "La maniobra demostró ser una alternativa efectiva para modular los síntomas asociados a la patología discal lumbar.",
+        "aplicacion": "Considera añadir la extensión de rodilla en prono dentro del abanico de ejercicios terapéuticos para pacientes con radiculopatía o hernia lumbar.",
+        "revista": "Case Rep Med",
+        "doi": "https://doi.org/10.1155/carm/2579261",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVUxSS25wdDNhOHo1ZWdfOUhBdDF3aG5Sb1FOYTNtTklobzd0MlRoQlZOZjdPdm52LTh4OHR4OVRZR1pPZlpaeE80YWtRM2tTOHFpSDVpbllGYmVNSkYtU0UwVHpuaFRJUEx3b0w0RlRjQlpGa0MxMThBdW9BdldZRzJIeHVtZ3E2XzZCcGRrU1E3ZmFqREZEUEV3SVFBY2tub1Q5R01rWjV1Y2lKWUxNWnlPZHA4anowT1NNNVFUUnJXZFZrZnl2R29yTWdKY2d1SjFoaVNZTnY4WmotRTItSUR6MmpwanVKaVhOZ01ISFZza0Yxck56ZWg5dUxpNmpvUU1YR0FvRXVkdmNzU200?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Tiendas de carcasas de celulares se han tomado Chile: Serían al menos 9.000 y miles son informales",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUnpVY1hCaWVGb1VhMWhkZHpTLWpiU01DQmdfVzZQajFwTjQwRnA4eENqWHU0aGxUQUF1NnVYQ05LUGZIZzlRUEFmdy1KMmpGSTZnd2xXV1NLNG9MbmRsQjViZmlYM0ZCTjlySmFZLTN4em1GbURxMEZHOWJhbUVDQkZMc1JqMnhXTFhWLTJIakxjTXdCSkNv?oc=5",
+        "fuente": "El Ecosistema Startup",
+        "titulo": "Corfo abre 1.325 becas en IA, bioeconomía y construcción naval",
+        "detalle": "Información de actualidad en ia · mercados según El Ecosistema Startup.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXgwWEFNdjQyYkllT3RnNVNvczJyTkFIbWd0ZWd6T2pPX0h6dnpseklwcjFaZ1FEQ2p6UFNOYVF0cTFPdXNBdWpPdURWUGV1RERiVUJqaHJtS1RTTkJhcVRjWFQ2UmRCb2tPWk04MUp2b0R5cGhHOXF3bExnTlJJeFg2SXpuWW5iZzEtRmdEWWxrNzBrMVVsSE9fQjExY0FzUXZnRWVVd2gtckkyMXhsZnZPWC1PYmxROHQ0?oc=5",
+        "fuente": "El Sol de Iquique",
+        "titulo": "Voces Del CCP De Iquique Participan En Diálogo Educativo Latinoamericano Realizado En Brasil",
+        "detalle": "Información de actualidad en norte grande según El Sol de Iquique.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-13T13:52:36.654Z"
   }
 };
