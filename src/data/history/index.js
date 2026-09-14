@@ -1046,5 +1046,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-13T13:52:36.654Z"
+  },
+  "2026-09-14": {
+    "fecha": "2026-09-14",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 3 · Saliente / Libre",
+    "ciclo_detalle": "Recuperación y fichas clínicas",
+    "versiculo": {
+      "id": "verse-7",
+      "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+      "referencia": "Filipenses 4:7",
+      "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "18:00 – 22:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Cupos de consulta (saliente de noche)"
+      },
+      {
+        "id": "cal-2",
+        "hora": "11:00 – 11:15",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "🎹 Piano: Hanon nº2 juntas + ritmo combinado"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que combinar la telerrehabilitación con sesiones presenciales cambia por completo la evolución de la esclerosis múltiple?",
+        "idea": "Carrusel de 6 slides explicando el modelo híbrido, cómo mejora la movilidad y el llamado a la acción para agendar una evaluación kinésica mixta.",
+        "formato": "Carrusel 6 slides",
+        "base": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis",
+        "id": "idea-1"
+      },
+      {
+        "hook": "El ejercicio es la mejor medicina para tus pulmones si tienes EPOC, según las nuevas guías internacionales.",
+        "idea": "Reel de 30 segundos resumiendo la importancia de dejar de lado el reposo y apostar por el entrenamiento físico guiado por un kinesiólogo respiratorio.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with COPD",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula y sientes la nuca rígida? El secreto está en tratar el cuello.",
+        "idea": "Carrusel de 6 slides mostrando la relación directa entre la columna cervical y la disfunción temporomandibular (ATM) respaldado por ciencia reciente.",
+        "formato": "Carrusel 6 slides",
+        "base": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Funcionan realmente el drenaje postural y las vibraciones en pacientes respiratorios críticos?",
+        "idea": "Reel de 30 segundos explicando cuándo y cómo aplicar estas técnicas de higiene bronquial de forma segura y basada en evidencia.",
+        "formato": "Reel 30 s",
+        "base": "Postural Drainage and Vibration",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos de un modelo híbrido de telerrehabilitación en la movilidad y capacidad funcional en pacientes con esclerosis múltiple",
+        "titulo_original": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis: A Single-Blind Randomized Controlled Study",
+        "resumen": "Este estudio evalúa cómo un programa híbrido de telerrehabilitación mejora la movilidad y la capacidad funcional en pacientes con esclerosis múltiple. Los resultados demuestran que combinar la atención virtual con sesiones presenciales optimiza la adherencia y los resultados motores.",
+        "objetivo": "Determinar los efectos de un modelo de telerrehabilitación híbrida sobre la movilidad y la capacidad funcional en pacientes con esclerosis múltiple.",
+        "metodologia": "Estudio clínico controlado aleatorizado y simple ciego realizado en pacientes diagnosticados con esclerosis múltiple.",
+        "hallazgos": "Se observaron mejoras significativas en la movilidad y la capacidad funcional de los pacientes sometidos al modelo híbrido.",
+        "aplicacion": "Implementa modelos híbridos de telerrehabilitación en tu práctica clínica para mejorar la continuidad y adherencia al tratamiento en pacientes con patologías cró",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2025.09.034",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías de práctica clínica de la ASSOBRAFIR en fisioterapia respiratoria: intervenciones basadas en ejercicio en personas con EPOC",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with chronic obstructive pulmonary disease (COPD)",
+        "resumen": "Estas guías clínicas actualizan las recomendaciones basadas en evidencia para el uso de intervenciones basadas en ejercicio en pacientes con enfermedad pulmonar obstructiva crónica (EPOC). Destacan la importancia fundamental del entrenamiento físico estructurado dentro de la rehabilitación pulmonar.",
+        "objetivo": "Establecer recomendaciones clínicas basadas en evidencia para el uso de intervenciones de ejercicio en pacientes con EPOC.",
+        "metodologia": "Revisión sistemática y desarrollo de guías de práctica clínica lideradas por la asociación brasileña ASSOBRAFIR.",
+        "hallazgos": "El ejercicio estructurado mejora sustancialmente la capacidad de ejercicio, la disnea y la calidad de vida en pacientes con EPOC.",
+        "aplicacion": "Integra programas de entrenamiento físico individualizados y basados en guías actuales para todos tus pacientes con EPOC.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2025.101539",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Terapia manual y ejercicio dirigidos a las regiones cervical y orofacial para pacientes con dolor orofacial: revisión sistemática y metaanálisis",
+        "titulo_original": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain: a systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática y metaanálisis analiza la eficacia de combinar terapia manual y ejercicio en cuello y región orofacial para el manejo del dolor temporomandibular. Los hallazgos confirman que abordar ambas regiones reduce significativamente el dolor y mejora la función de la ATM.",
+        "objetivo": "Evaluar la efectividad de la terapia manual y el ejercicio dirigidos al cuello y la región orofacial en pacientes con dolor orofacial y disfunción temporomandibular.",
+        "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos enfocados en dolor orofacial y fisioterapia cervical/mandibular.",
+        "hallazgos": "La combinación de intervenciones cervicales y orofaciales reduce el dolor y mejora la apertura y función mandibular de manera superior a enfoques aislados.",
+        "aplicacion": "Evalúa siempre la columna cervical en pacientes con disfunción temporomandibular y diseña un abordaje combinado de terapia manual y ejercicio.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2539469",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Drenaje postural y vibración en fisioterapia respiratoria",
+        "titulo_original": "Postural Drainage and Vibration",
+        "resumen": "Este artículo aborda los fundamentos clínicos del drenaje postural y la aplicación de vibraciones como técnicas clásicas de depuración bronquial. Se analizan sus indicaciones fisiológicas y precauciones en el manejo de pacientes con secreciones pulmonares retenidas.",
+        "objetivo": "Describir la aplicación clínica, los mecanismos fisiológicos y las consideraciones de seguridad del drenaje postural y la técnica de vibración en kinesiología respiratoria.",
+        "metodologia": "Revisión de literatura especializada sobre técnicas de higiene bronquial pasivas en pacientes con compromiso respiratorio.",
+        "hallazgos": "El uso correcto del drenaje postural combinado con vibraciones facilita el transporte mucociliar y la movilización de secreciones hacia vías aéreas proximales.",
+        "aplicacion": "Utiliza el drenaje postural y la vibración de forma individualizada y segura, considerando las contraindicaciones específicas en pacientes críticos o hipersecretores.",
+        "revista": "PubMed Central",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/38861625/",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOQ3RvYVMyWWFuc0dHQjFEOWVnX0g1c0hRT3FOTkNVVHU2LXJUdTRhY0NmR3huWVBHMmQ4R1FrM1J3dUNaOWUtYVZQd3FHemFFX3BDNVlYMXdCWkRWTGtFSGxIUGd2b0xwU3J1cG85NHJUdTJCbDhsV3dlSFVvMnVFLS1MWTc5NUhwSkNNMkw3Tmt2UXNmTVVtdXpxdE1XZ09LTWZnY0xMRGhKczZJcTJhWE9uc3pBZU84RElwNE9pdGdNclBBejZVMmswLXV4VWlJVXNOVHhlQVFnU3FVSVVWOGh5NGlPNTdWMDQySEo2NFItT3FMdzJfTERfX25KZnNLUWtjT1h6N21OeDZhUEc5UFh3?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Con una nueva reforma de fondo: Gobierno sale a buscar más inversiones mediante el Chile Day en Madrid",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUnpVY1hCaWVGb1VhMWhkZHpTLWpiU01DQmdfVzZQajFwTjQwRnA4eENqWHU0aGxUQUF1NnVYQ05LUGZIZzlRUEFmdy1KMmpGSTZnd2xXV1NLNG9MbmRsQjViZmlYM0ZCTjlySmFZLTN4em1GbURxMEZHOWJhbUVDQkZMc1JqMnhXTFhWLTJIakxjTXdCSkNv?oc=5",
+        "fuente": "El Ecosistema Startup",
+        "titulo": "Corfo abre 1.325 becas en IA, bioeconomía y construcción naval",
+        "detalle": "Información de actualidad en ia · mercados según El Ecosistema Startup.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjJTaXV5amFLNEl4d1dycUl5LWpaRXd6cGtPcjRyUGRJOHo5bGc5SW5BYnY1LXRSSEZJdzBXNXN4MlpYSmhqYklmd1FDNEtxTmQ4MVVLVVFiOXo2REZKaHZ1aUE0N3ZZbk5FamhoSHAzUnEyVUlPdTZodXBUb1MtS1FWZEdvdVltZzRIajZoRXdqNTRYaDJnM1d4dUxiME96eHRXZ3NtWG9Cb2FHalFvQzhR?oc=5",
+        "fuente": "MMA – Ministerio del Medio Ambiente",
+        "titulo": "Escuela de Iquique transforma botellas plásticas en material educativo mediante impresión 3D",
+        "detalle": "Información de actualidad en norte grande según MMA – Ministerio del Medio Ambiente.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-14T15:58:50.802Z"
   }
 };
