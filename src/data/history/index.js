@@ -1194,5 +1194,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-14T15:58:50.802Z"
+  },
+  "2026-09-15": {
+    "fecha": "2026-09-15",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-1",
+      "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
+      "referencia": "Josué 1:9",
+      "reflexion": "Hoy en tu labor clínica: serenidad y firmeza para liderar procedimientos y acompañar con empatía a cada paciente y su familia."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "12:00 – 22:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Cupos de consulta (día libre)"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que tu diafragma puede ayudarte a controlar el reflujo gastroesofágico?",
+        "idea": "Explica la conexión mecánica entre la respiración diafragmática y el esfínter esofágico inferior según la nueva literatura. Termina invitando a agendar una evaluación kinésica respiratoria.",
+        "formato": "Reel 30 s",
+        "base": "Paper PMID: 42735091",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Cómo movilizamos realmente a un paciente crítico sin ponerlo en riesgo?",
+        "idea": "Desglosa las nuevas directrices internacionales de la ASSOBRAFIR para la rehabilitación en UCI y la prevención de la debilidad adquirida. Cierra con un llamado a la especialización continua.",
+        "formato": "Carrusel 6 slides",
+        "base": "Paper PMID: 42710394",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula o la zona facial al presionarla levemente?",
+        "idea": "Presenta la importancia de medir objetivamente los umbrales de dolor en pacientes con disfunción temporomandibular (ATM). Llama a la acción para tratar el dolor orofacial con un enfoque integral.",
+        "formato": "Reel 30 s",
+        "base": "Paper PMID: 42703050",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Oxígeno bajo después de una cirugía abdominal? La VNI puede cambiarlo todo",
+        "idea": "Muestra cómo el manejo kinésico de la ventilación no invasiva intermitente previene complicaciones tras cirugías mayores. Invita a los profesionales a revisar el estudio y a los pacientes a consultar.",
+        "formato": "Carrusel 6 slides",
+        "base": "Paper PMID: 42518491",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "La respiración diafragmática como enfoque coadyuvante en la enfermedad por reflujo gastroesofágico",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión narrativa analiza los mecanismos y la evidencia clínica sobre cómo el entrenamiento de la musculatura inspiratoria y la respiración diafragmática benefician a los pacientes con reflujo. Se destaca el rol biomecánico del hiato diafragmático en la contención del contenido gástrico.",
+        "objetivo": "Revisar la base mecanística y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica analizando ensayos y estudios fisiológicos previos.",
+        "hallazgos": "La optimización de la función diafragmática mejora la presión del esfínter esofágico inferior y reduce los episodios de reflujo.",
+        "aplicacion": "Integra ejercicios de control diafragmático en pacientes respiratorios que además presenten síntomas de reflujo gastroesofágico crónico.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías de práctica clínica de la ASSOBRAFIR para la fisioterapia en pacientes críticos adultos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices clínicas establecen recomendaciones basadas en evidencia para optimizar las estrategias de movilización y rehabilitación en pacientes adultos críticos. Se enfatiza la importancia de la movilización precoz para prevenir la debilidad adquirida en la UCI.",
+        "objetivo": "Proporcionar recomendaciones actualizadas para las estrategias de rehabilitación en pacientes adultos ingresados en unidades de cuidados intensivos.",
+        "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la evidencia en fisioterapia intensiva.",
+        "hallazgos": "Las intervenciones estructuradas de movilización y rehabilitación mejoran la funcionalidad y reducen la estancia hospitalaria en UCI.",
+        "aplicacion": "Aplica protocolos basados en la evidencia de la ASSOBRAFIR para guiar la progresión segura de la movilización en el paciente crítico chileno.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Umbrales de dolor a la presión facial en adultos chinos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio evalúa la distribución de los umbrales de dolor a la presión en la musculatura facial y maseterina de adultos sanos. Los hallazgos sirven como referencia para comprender las alteraciones asociadas a trastornos temporomandibulares y dolor orofacial.",
+        "objetivo": "Determinar los umbrales de dolor a la presión facial y sus factores asociados en una cohorte de adultos sanos.",
+        "metodologia": "Estudio clínico transversal y analítico en una población de adultos sanos utilizando algometría de presión.",
+        "hallazgos": "Se establecieron valores normativos de referencia que muestran variaciones según zonas anatómicas y características demográficas.",
+        "aplicacion": "Utiliza la algometría de presión como herramienta objetiva para evaluar la sensibilidad muscular en pacientes con disfunción temporomandibular (ATM).",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Ventilación no invasiva intermitente guiada por fisioterapia para la hipoxemia postquirúrgica abdominal",
+        "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "resumen": "Este ensayo clínico piloto evaluó la factibilidad de la ventilación no invasiva intermitente liderada por fisioterapeutas para tratar la hipoxemia tras cirugía abdominal. Los resultados demuestran la viabilidad de implementar esta intervención respiratoria en el postoperatorio.",
+        "objetivo": "Evaluar la viabilidad y los efectos clínicos de la ventilación no invasiva intermitente en la hipoxemia postquirúrgica abdominal.",
+        "metodologia": "Ensayo clínico piloto aleatorizado realizado en un hospital cuaternario en pacientes con hipoxemia tras cirugía abdominal.",
+        "hallazgos": "La intervención demostró ser factible, segura y efectiva para mejorar los parámetros de oxigenación en el periodo postoperatorio.",
+        "aplicacion": "Considera protocolos de ventilación no invasiva liderados por kinesiólogos para el manejo precoz de la hipoxemia tras cirugías abdominales mayores.",
+        "revista": "BJA Open",
+        "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWVR0UU9KVlBheURnMjVMM0NRSnZFenZrX0dRM2dxdlVuOUlHVzk4dVVqLWVacmtUclFRYWJobWlkLWhiTnRqRTdVLWRlQXFxa3dkc3gwUlozaGhvSjRHLWJwQ2lYNkg0cEthQXNtMEUwVVZZTlBvNlFYY3NqZkF6VU95RFdUWW45cW1UeEM1a1NrdDJEM245enJjaTY5VXVNVGR5c0dRamRWLXNTUnh2WnpDVUs2MzdLMVRRZDJJS1gyS0JJOHdZaEluYlJ1S05PYjJoenN4NGh4czN6anpLbjFrcU1pa2FEaGtGb1Z3b1pHV25oaHh3THdMOHhwcEV5R2h5MFNtaHc?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Ni estudian ni trabajan: Los jóvenes \"ninis\" en Chile alcanzan nivel más alto de los últimos años",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcGE5OEIwcFRSMjlyajM1Q01saWpURzNDWHhSRlRVUU9IUk84NGxWZDlUbVp4eUE0LVpRbFo0ZW1jYXF0QXc0YUQybGt1d0pwWmlBMTFZRG5qMGxmRHBla01TZUFnemlCX0htSHduekhIeE91eEZVakxodGlxVi1MZWtNamtnX3BVNUhZ?oc=5",
+        "fuente": "Servicio Nacional de Migraciones",
+        "titulo": "Masiva fiscalización en Feria Monumental de Iquique",
+        "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-15T14:25:38.909Z"
   }
 };
