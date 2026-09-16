@@ -1335,5 +1335,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-15T14:25:38.909Z"
+  },
+  "2026-09-16": {
+    "fecha": "2026-09-16",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-2",
+      "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+      "referencia": "Isaías 40:31",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "11:56 – 14:12",
+        "tipo": "clinica",
+        "lugar": "Iquique IQQ",
+        "titulo": "Flight to Santiago de Chile (LA 163)"
+      },
+      {
+        "id": "cal-2",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Turno Mañana"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que la movilización temprana salva vidas en la UCI?",
+        "idea": "Carrusel explicando las nuevas directrices de ASSOBBRAFIR sobre cómo el kinesiólogo intensiwista previene el daño muscular en pacientes críticos. CTA: Guarda este post si trabajas en UCI.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42710394",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Te duele la mandíbula al presionar el masetero?",
+        "idea": "Reel mostrando cómo se evalúa el umbral de dolor facial con algometría en pacientes con disfunción temporomandibular (ATM). CTA: Comenta 'ATM' para más tips mandibulares.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42703050",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Sufres de reflujo y los medicamentos no bastan?",
+        "idea": "Carrusel revelando cómo la respiración diafragmática fortalece el esfínter esofágico según la evidencia reciente. CTA: Sígueme para descubrir el poder oculto de tu diafragma.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42735091",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Cómo evitamos que un paciente caiga en fallo respiratorio tras una cirugía abdominal?",
+        "idea": "Reel demostrando el rol clave del kinesiólogo aplicando ventilación no invasiva intermitente en el postoperatorio. CTA: Comparte este video con colegas de turno.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42518491",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Guías de práctica clínica de ASSOBRAFIR para la rehabilitación en fisioterapia intensiva en adultos críticos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices actualizan las estrategias de movilización y rehabilitación para adultos críticamente enfermos en la unidad de cuidados intensivos. Proporcionan un marco basado en evidencia para optimizar la recuperación funcional y respiratoria en pacientes complejos.",
+        "objetivo": "Establecer recomendaciones clínicas basadas en evidencia para la fisioterapia de rehabilitación en pacientes adultos críticos.",
+        "metodologia": "Revisión sistemática y desarrollo de guías de práctica clínica orientadas a profesionales de la salud en unidades de cuidados intensivos.",
+        "hallazgos": "Se definieron estrategias estandarizadas de movilización temprana y ejercicio en pacientes críticos para prevenir la debilidad adquirida en UCI.",
+        "aplicacion": "Implementa protocolos de movilización temprana y rehabilitación respiratoria basados en estas guías para mejorar el pronóstico funcional en pacientes críticos.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Umbrales de dolor por presión facial en adultos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio analiza los umbrales de dolor por presión en la musculatura facial y mandibular en población adulta sana. Los datos normativos ayudan a comprender mejor las alteraciones en pacientes con trastornos temporomandibulares (ATM).",
+        "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
+        "metodologia": "Estudio clínico observacional y transversal enfocado en la medición algométrica de la región craneofacial en voluntarios sanos.",
+        "hallazgos": "Se establecieron valores de referencia sobre la sensibilidad al dolor por presión en diferentes puntos anatómicos faciales y maseterinos.",
+        "aplicacion": "Utiliza estos valores normativos de algometría en tu consulta para evaluar con mayor precisión la hiperalgesia en pacientes con disfunción temporomandibular.",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión examina cómo el entrenamiento de la musculatura inspiratoria y la respiración diafragmática mejoran la función del esfínter esofágico inferior. El abordaje kinésico respiratorio demuestra ser una gran herramienta complementaria para reducir los síntomas de reflujo.",
+        "objetivo": "Analizar la base mecanicista y la evidencia clínica de la respiración diafragmática en el manejo del reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica enfocada en la relación entre la biomecánica diafragmática y la competencia esofágica.",
+        "hallazgos": "El fortalecimiento y control del diafragma reducen los episodios de reflujo al aumentar la presión de reposo en la unión esofagogástrica.",
+        "aplicacion": "Incorpora ejercicios de reeducación diafragmática en pacientes con patologías digestivas altas que también presenten alteraciones respiratorias o posturales.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Ventilación no invasiva intermitente liderada por fisioterapeutas para la hipoxemia postquirúrgica abdominal",
+        "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "resumen": "Este ensayo piloto evaluó la aplicación de ventilación no invasiva intermitente guiada por kinesiólogos para tratar la hipoxemia tras cirugía abdominal mayor. Los resultados demuestran la viabilidad y efectividad del rol kinésico en la prevención de complicaciones pulmonares.",
+        "objetivo": "Evaluar la factibilidad y eficacia de la ventilación no invasiva intermitente liderada por fisioterapeutas en pacientes con hipoxemia postoperatoria.",
+        "metodologia": "Ensayo clínico aleatorizado piloto realizado en pacientes adultos intervenidos de cirugía abdominal en un hospital de alta complejidad.",
+        "hallazgos": "La intervención kinésica precoz con soporte ventilatorio mejoró significativamente los parámetros de oxigenación tras la cirugía abdominal.",
+        "aplicacion": "Aplica protocolos de ventilación no invasiva intermitente en el postoperatorio abdominal para optimizar la función respiratoria y evitar reintubaciones.",
+        "revista": "BJA Open",
+        "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaWVNVzdYWkowUjR0QUd2S2ZDSEs2VVd3V1NuRFF0QllRc3JwSi1SenJGM3hPTFRfRnA0dGJzTTlxQk5kTGNWZ2ZCcVZvb2xCdGplM0FVMVV3clYtenNwSHZQcklFRmROdXJfN1JfalpMckpIUTBjMXllQV9GYnRMS09aenNZekNzR1FMV29XZGFaSGRuazNyMDBYYXJsLVliR0NsMnZ0cDZJSWRPSjlsdmQ1Tk4zQndyeVHSAc4BQVVfeXFMTjJIWmhTYm5vNzJ1QjRBcWFqX2lDUl8zZmpkbVNBN0FBcHJsaWxESlo0WmdaZUF5eHpjNl9CTDc2OXlOMDVUVVY0SmItb0RJWWJrbWNJS2ZKUWIzeVIteHU3RkItNS1LaUp4aHpKYmx5eEJLaG5ObVdXVHl6N0pCMEZDOXFCRjQ0cGlHVjZDa1ZUdTlVcHc5dEQxS0Vtd1VDa24zdUdwSXJ4eWVPdklpWVdtMzQ3RlpOeFl6ei1EcS1pRXM3UVdLbGFYSXhUcnc?oc=5",
+        "fuente": "EL PAÍS",
+        "titulo": "Por qué la economía de Chile no crea empleos: “Ninguna empresa quiere contratar”",
+        "detalle": "Información de actualidad en economía · chile según EL PAÍS.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUnpVY1hCaWVGb1VhMWhkZHpTLWpiU01DQmdfVzZQajFwTjQwRnA4eENqWHU0aGxUQUF1NnVYQ05LUGZIZzlRUEFmdy1KMmpGSTZnd2xXV1NLNG9MbmRsQjViZmlYM0ZCTjlySmFZLTN4em1GbURxMEZHOWJhbUVDQkZMc1JqMnhXTFhWLTJIakxjTXdCSkNv?oc=5",
+        "fuente": "El Ecosistema Startup",
+        "titulo": "Corfo abre 1.325 becas en IA, bioeconomía y construcción naval",
+        "detalle": "Información de actualidad en ia · mercados según El Ecosistema Startup.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzFLMGlhZzlmNGctOTgxaFJoRkRKMktpa3pIalRPSmlVMHRGWFF0bGlFZGI4cDN2eW0xXzFaWE1fUWJfQUxxSVd4YU9YcUU5R3ctR1FHY2ZEVmVIM2dDX2VSTV9pOXJybnlGY2hFbDlsYzNtYjBNMTR0UjVIQVJ5dGY2RzN0VU5mamNZWDZ0eFhRY3d4dEZ1Yw?oc=5",
+        "fuente": "armada.cl",
+        "titulo": "Buque Escuela “Esmeralda” recaló en Iquique para celebrar Fiestas Patrias",
+        "detalle": "Información de actualidad en norte grande según armada.cl.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-16T14:18:41.542Z"
   }
 };
