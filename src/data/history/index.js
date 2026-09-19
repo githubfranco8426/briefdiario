@@ -1779,5 +1779,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-18T13:45:45.260Z"
+  },
+  "2026-09-19": {
+    "fecha": "2026-09-19",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-5",
+      "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+      "referencia": "Proverbios 17:22",
+      "reflexion": "Una palabra de ánimo, una sonrisa y una escucha atenta potencian la recuperación del paciente tanto como la mejor técnica terapéutica."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "12:00 – 17:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Cupos de consulta (día libre - sábado)"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Hacer ejercicio con fatiga por Long-COVID te deja peor?",
+        "idea": "Explicar el concepto de gestión de la energía basado en el paper de Reeves et al., mostrando cómo dosificar cargas en pacientes con fatiga crónica. CTA: Comenta 'GUÍA' para recibir tips de rehabilitación respiratoria.",
+        "formato": "Reel 30 s",
+        "base": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Paciente crítico en UCI con balón intraaórtico y moviéndose?",
+        "idea": "Desmentir el mito de estricto reposo en cama en pacientes críticos con dispositivos femorales basándose en Velazquez et al. CTA: Sígueme para más evidencia en paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Sabías que entrenar la garganta previene la neumonía tras un ACV?",
+        "idea": "Resumir el metaanálisis de Pastor-Benavente et al. sobre el entrenamiento muscular para la disfagia post-stroke. CTA: Comparte este video con colegas fonoaudiólogos y kinesiólogos.",
+        "formato": "Reel 30 s",
+        "base": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿La hipertensión pulmonar ya no es barrera para operar el EPOC?",
+        "idea": "Analizar la revisión de Adamu Bala et al. sobre cómo la evidencia actual replantea los criterios en reducción de volumen pulmonar. CTA: Guarda esta publicación para tu próximo ateneo clínico.",
+        "formato": "Carrusel 6 slides",
+        "base": "Is pulmonary hypertension still a contraindication for lung volume reduction?",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Manejo fisioterapéutico del Long-COVID basado en la evidencia",
+        "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "resumen": "Este artículo revisa estrategias fisioterapéuticas basadas en la evidencia para el abordaje integral del Long-COVID. Destaca la importancia de adaptar la intensidad del ejercicio para evitar el empeoramiento de los síntomas por sobreesfuerzo.",
+        "objetivo": "Sintetizar la evidencia actual sobre el manejo fisioterapéutico óptimo para pacientes con síndrome de Long-COVID.",
+        "metodologia": "Revisión bibliográfica de la literatura científica reciente sobre intervenciones de fisioterapia respiratoria y funcional en pacientes con Long-COVID.",
+        "hallazgos": "Se identificó que un enfoque individualizado y la gestión de la energía son vitales para mejorar la capacidad funcional sin desencadenar fatiga crónica.",
+        "aplicacion": "Adapta tus pautas de rehabilitación respiratoria y motora evitando el ejercicio de alta intensidad en pacientes con fatiga post-viral en Chile.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Implementación de un programa de movilidad para pacientes pretransplante con balón de contrapulsación intraaórtico femoral",
+        "titulo_original": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+        "resumen": "Este estudio demuestra que la movilización temprana en pacientes críticos con dispositivos de soporte circulatorio es factible y segura. Se destaca el rol del equipo multidisciplinario en la prevención del desacondicionamiento físico severo en UCI.",
+        "objetivo": "Evaluar la implementación y seguridad de un programa de movilidad para pacientes en lista de espera de trasplante con balón intraaórtico femoral.",
+        "metodologia": "Estudio de mejora de la calidad liderado por enfermería y fisioterapia en pacientes críticos adultos con soporte femoral.",
+        "hallazgos": "La movilización temprana y protocolizada no aumentó las complicaciones vasculares asociadas al dispositivo y mejoró la funcionalidad previa al trasplante.",
+        "aplicacion": "Como kinesiólogos intensivistas, podemos y debemos promover la movilidad en pacientes críticos con dispositivos femorales bajo estricto monitoreo de seguridad.",
+        "revista": "Crit Care Nurs Q",
+        "doi": "https://doi.org/10.1097/CNQ.0000000000000609",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Eficacia del entrenamiento de los músculos de la deglución en la disfagia post-accidente cerebrovascular",
+        "titulo_original": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática evalúa el impacto del entrenamiento muscular específico para tratar la disfagia tras un ACV. Los resultados muestran una mejoría significativa en la función deglutoria y la seguridad en la alimentación de los pacientes.",
+        "objetivo": "Determinar la eficacia clínica del entrenamiento de la musculatura deglutoria en pacientes con disfagia posterior a un evento cerebrovascular.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos controlados sobre terapias de entrenamiento muscular deglutorio.",
+        "hallazgos": "El entrenamiento específico de la musculatura involucrada en la deglución reduce notablemente las complicaciones aspirativas y mejora la recuperación funcional.",
+        "aplicacion": "Integra ejercicios específicos de la musculatura suprahioidea y orofaríngea en el abordaje kinésico de pacientes neurológicos con alteraciones deglutorias.",
+        "revista": "Eur Ann Otorhinolaryngol Head Neck Dis",
+        "doi": "https://doi.org/10.1016/j.anorl.2026.03.005",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "La hipertensión pulmonar como contraindicación para la reducción de volumen pulmonar",
+        "titulo_original": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
+        "resumen": "Esta revisión narrativa analiza la evidencia contemporánea sobre la hipertensión pulmonar en pacientes candidatos a reducción de volumen pulmonar. Los datos sugieren una reevaluación de los criterios clásicos de exclusión en casos seleccionados.",
+        "objetivo": "Analizar si la hipertensión pulmonar sigue constituyendo una contraindicación absoluta para la cirugía de reducción de volumen pulmonar.",
+        "metodologia": "Revisión narrativa de estudios clínicos recientes que evalúan resultados postoperatorios en pacientes EPOC con hipertensión pulmonar asociada.",
+        "hallazgos": "La presencia de hipertensión pulmonar moderada ya no descarta de forma absoluta el beneficio funcional en pacientes respiratorios complejos bien seleccionados.",
+        "aplicacion": "Mantente actualizado en la evaluación pre y postoperatoria de pacientes EPOC severos para optimizar su derivación y rehabilitación pulmonar en Chile.",
+        "revista": "Ann Transl Med",
+        "doi": "https://doi.org/10.21037/atm-2026-1-0028",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQ3E2aHJmTFpJQVpSSFQzb0F4Ni1hZjBnUXVIaTdXcWVYTVZFa1pWUDBzVldtejBmX3UwT1gxV19ldEF3Y3ppTEdvZzRuTHpKQzJDeW54S3huQU1TRHcxSEtUSlJUbGdYYXBfM1ZrSUtqWjg5SUkxSUN6VkxVVE5XMjk0RG9NTFAyNEEtS18xUUZCdl8tYVFEYjFWM2xWQmRfc29mQ3h0WlRobDNMUUlzS0hrbXRqb2oycUFjR0lMc3Q2ZEFCcVFaR2QxYkpVUm5RMFRXdElMd3p1VWdiay0tWEhwVGwyNHJTcUh0aHhpSVN4THRyU2JXeUNVc0xQQUpL?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Fitch mantiene nota crediticia de Chile, pero recorta crecimiento esperado para 2026 a 0,7%",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "latercera.com",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según latercera.com.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzFLMGlhZzlmNGctOTgxaFJoRkRKMktpa3pIalRPSmlVMHRGWFF0bGlFZGI4cDN2eW0xXzFaWE1fUWJfQUxxSVd4YU9YcUU5R3ctR1FHY2ZEVmVIM2dDX2VSTV9pOXJybnlGY2hFbDlsYzNtYjBNMTR0UjVIQVJ5dGY2RzN0VU5mamNZWDZ0eFhRY3d4dEZ1Yw?oc=5",
+        "fuente": "armada.cl",
+        "titulo": "Buque Escuela “Esmeralda” recaló en Iquique para celebrar Fiestas Patrias",
+        "detalle": "Información de actualidad en norte grande según armada.cl.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-19T13:19:55.828Z"
   }
 };
