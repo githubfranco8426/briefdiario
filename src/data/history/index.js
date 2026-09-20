@@ -1920,5 +1920,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-19T13:19:55.828Z"
+  },
+  "2026-09-20": {
+    "fecha": "2026-09-20",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-6",
+      "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+      "referencia": "Jeremías 33:3",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Turno Mañana"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que mantener a un paciente crítico demasiado tiempo en cama destruye sus músculos?",
+        "idea": "Slide 1: Hook alarmante. Slide 2: Qué es la debilidad adquirida en UCI. Slide 3: El rol clave de la movilización temprana. Slide 4: Evidencia actual (Mishra et al., 2026). Slide 5: Beneficios directos en la sobrevida y funcionalidad. Slide 6: ¡Comenta si trabajas en unidades críticas! CTA: Sígueme para más evidencia en kinesiología intensiva.",
+        "formato": "Carrusel 6 slides",
+        "base": "Revisión sobre Debilidad Adquirida en UCI (PMID: 42220872)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "Operarse de cáncer de esófago ya no significa semanas postrado en cama.",
+        "idea": "Video dinámico donde explico cómo la rehabilitación postoperatoria multimodal reduce drásticamente las complicaciones pulmonares, mostrando datos del reciente estudio de Shen et al. (2026), finalizando con una invitación a derivar pacientes a tiempo.",
+        "formato": "Reel 30 s",
+        "base": "Estudio en postoperatorio de cáncer de esófago (PMID: 42058086)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la espalda baja pero el problema está en tu espalda alta?",
+        "idea": "Slide 1: Pregunta retórica. Slide 2: La conexión biomecánica torácica y lumbar. Slide 3: Cómo el dolor lumbar afecta la mente y viceversa. Slide 4: Lo que dice el metaanálisis de Mansouri et al. (2026). Slide 5: Abordaje clínico integral. Slide 6: CTA: Guarda este post si eres kinesiólogo o paciente.",
+        "formato": "Carrusel 6 slides",
+        "base": "Intervenciones torácicas en dolor lumbar (PMID: 41100221)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "Respira mejor para decirle adiós al dolor lumbar crónico.",
+        "idea": "Demostración en video de cómo el entrenamiento de los músculos respiratorios y el control diafragmático mejoran la estabilidad del core, basándome en la evidencia de Chen et al. (2026). CTA: Comenta 'RESPIRA' para recibir una guía rápida.",
+        "formato": "Reel 30 s",
+        "base": "Ejercicios respiratorios y dolor lumbar (PMID: 40965964)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Rehabilitación en la debilidad adquirida en UCI: una revisión narrativa basada en evidencia",
+        "titulo_original": "Rehabilitation in ICU-Acquired Weakness: An Evidence-Based Narrative Review",
+        "resumen": "Esta revisión analiza las estrategias basadas en evidencia para abordar la debilidad muscular severa en pacientes críticos hospitalizados en UCI. Destaca la importancia de la movilización temprana para mejorar la funcionalidad a largo plazo.",
+        "objetivo": "Revisar las intervenciones de rehabilitación basadas en evidencia para el manejo de la debilidad adquirida en la unidad de cuidados intensivos.",
+        "metodologia": "Revisión narrativa de la literatura científica enfocada en pacientes adultos ingresados en unidades de cuidados intensivos.",
+        "hallazgos": "La implementación oportuna de protocolos de movilización y ejercicio reduce significativamente el tiempo de ventilación mecánica y mejora la recuperación motora.",
+        "aplicacion": "Como kinesiólogo intensivista, debo priorizar la movilización precoz y segura en mis pacientes críticos para prevenir secuelas neuromusculares severas.",
+        "revista": "Cureus",
+        "doi": "https://doi.org/10.7759/cureus.107933",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Efectos de diferentes estrategias de rehabilitación sobre la función física y complicaciones en pacientes postoperatorios de cáncer de esófago",
+        "titulo_original": "Effects of different rehabilitation strategies on physical function and complications in postoperative patients with esophageal cancer: a systematic review and meta-analysis",
+        "resumen": "Este metaanálisis evalúa el impacto de distintas terapias de rehabilitación sobre la capacidad física y la prevención de complicaciones pulmonares y generales. Los resultados demuestran una mejora sustancial en la recuperación postoperatoria global.",
+        "objetivo": "Comparar la eficacia de diversas estrategias de rehabilitación en la función física y las complicaciones de pacientes operados por cáncer de esófago.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos en pacientes adultos sometidos a cirugía por cáncer esofágico.",
+        "hallazgos": "Los programas de rehabilitación multimodal reducen las complicaciones postoperatorias y aceleran el restablecimiento de la capacidad funcional.",
+        "aplicacion": "Integro protocolos de fisioterapia respiratoria y ejercicio pre y postoperatorio para disminuir la incidencia de atelectasias y neumonías en cirugía torácica.",
+        "revista": "Front Public Health",
+        "doi": "https://doi.org/10.3389/fpubh.2026.1788265",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Efectividad de las intervenciones torácicas sobre los factores psicológicos en el dolor lumbar",
+        "titulo_original": "Effectiveness of thoracic interventions on psychological factors in low back pain: a systematic review and meta-analysis",
+        "resumen": "Esta investigación analiza cómo el tratamiento de la columna torácica impacta positivamente en la esfera psicológica de pacientes con dolor lumbar crónico. Se observa una reducción notable en la ansiedad y el miedo al movimiento.",
+        "objetivo": "Determinar la efectividad de las intervenciones fisioterapéuticas dirigidas a la columna torácica sobre los aspectos psicológicos asociados al dolor lumbar.",
+        "metodologia": "Revisión sistemática y metaanálisis evaluando intervenciones torácicas en poblaciones con dolor lumbar no específico.",
+        "hallazgos": "Las terapias orientadas a la región dorsal logran disminuir el miedo al movimiento y mejorar los síntomas psicológicos vinculados al dolor lumbar.",
+        "aplicacion": "En mi práctica clínica, no limito el abordaje a la zona lumbar, sino que evalúo y trato la columna torácica para modular el dolor y la percepción del paciente.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2573167",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "¿Pueden los ejercicios respiratorios tratar eficazmente a personas con dolor lumbar crónico no específico?",
+        "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+        "resumen": "Este estudio evalúa el rol de la musculatura respiratoria y los patrones ventilatorios en la estabilización del tronco y el alivio del dolor lumbar. Los ejercicios respiratorios demuestran ser un coadyuvante muy efectivo en la terapia kinésica.",
+        "objetivo": "Evaluar la eficacia clínica de los ejercicios respiratorios en el tratamiento del dolor lumbar crónico no específico.",
+        "metodologia": "Revisión sistemática con metaanálisis que incluyó ensayos clínicos controlados sobre entrenamiento respiratorio en pacientes con lumbalgia crónica.",
+        "hallazgos": "La integración de ejercicios respiratorios mejora la función del core, reduce el dolor y optimiza la estabilidad lumbo-pélvica.",
+        "aplicacion": "Incorporo técnicas de reeducación respiratoria y control del diafragma en mis pacientes con dolor lumbar para mejorar la estabilidad central.",
+        "revista": "J Back Musculoskelet Rehabil",
+        "doi": "https://doi.org/10.1177/10538127251374357",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNWNqVU1sME45cl9CZGMzV3FCZTYtOUkyTFVCcS1YdDB5bEZRNGhLTjljV2JUSFpTOVktenhxNWl1TTAyOFVGMU41Z010NFUtMDlUYVhyaU40eDYzMnlpb1RDRnkzNXJzTVlUTU1MUGhXLTBKb0tMSHpOR3BEQVhPTC1GLURUTk9uNUlEZUpSdmx3QU1fVDdKTEdwaDNwTDZhT0FHNUNjS0E0cWVuN0FSQWxYb3F1SjZYajhrWWZ6ejM1WVpQa2RydzBaa1RjV29XMUNSb0hnYTJXWTI3RFVqU2xQT3BWUWl2djhLQWdTUmsyU2VMa0t5TEdzdjZRVWs3aGdB?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "\"Chile se ha vuelto más caro\": llaman a recuperar competitividad agricola ante avance de Perú",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "cienciaenchile.cl",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según cienciaenchile.cl.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzFLMGlhZzlmNGctOTgxaFJoRkRKMktpa3pIalRPSmlVMHRGWFF0bGlFZGI4cDN2eW0xXzFaWE1fUWJfQUxxSVd4YU9YcUU5R3ctR1FHY2ZEVmVIM2dDX2VSTV9pOXJybnlGY2hFbDlsYzNtYjBNMTR0UjVIQVJ5dGY2RzN0VU5mamNZWDZ0eFhRY3d4dEZ1Yw?oc=5",
+        "fuente": "armada.cl",
+        "titulo": "Buque Escuela “Esmeralda” recaló en Iquique para celebrar Fiestas Patrias",
+        "detalle": "Información de actualidad en norte grande según armada.cl.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-20T13:40:10.906Z"
   }
 };
