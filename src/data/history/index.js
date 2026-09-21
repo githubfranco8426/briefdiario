@@ -2061,5 +2061,152 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-20T13:40:10.906Z"
+  },
+  "2026-09-21": {
+    "fecha": "2026-09-21",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-7",
+      "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+      "referencia": "Filipenses 4:7",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "cal-1",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Turno Noche"
+      },
+      {
+        "id": "cal-2",
+        "hora": "12:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Cupos de consulta (turno noche)"
+      },
+      {
+        "id": "cal-3",
+        "hora": "14:09 – 16:39",
+        "tipo": "clinica",
+        "lugar": "Santiago de Chile SCL",
+        "titulo": "Flight to Iquique (LA 164)"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.31744%2Feinstein_journal%2F2026AO1720",
+        "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+        "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "titulo_original": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "revista": "Crit Care",
+        "doi": "https://doi.org/10.1186/s13054-026-05840-1",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs13054-026-05840-1",
+        "resumen": "Demuestra el beneficio de la estimulación motora y movilización temprana en pacientes críticos para reducir estancia hospitalaria y secuelas neuromusculares.",
+        "aplicacion": "Respalda protocolos de movilización precoz en pacientes críticos, coordinando estrechamente con el equipo médico multidisciplinario."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "titulo_original": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "revista": "J Clin Med",
+        "doi": "https://doi.org/10.3390/jcm15020655",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.3390%2Fjcm15020655",
+        "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+        "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+        "titulo_original": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+        "revista": "Case Rep Med",
+        "doi": "https://doi.org/10.1155/carm/2579261",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1155%2Fcarm%2F2579261",
+        "resumen": "Estudio reciente publicado en Case Rep Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZE5nZG9IbUFWaTF1bVNYMmQ5NEFBMDJkdjV1Q0oxUmdJRHAzSWNBVHAxZkxLazNJa1N3NnBHRXJmT1pEeDB0UERoT2ZRVUN2blJ2Mmczc2ZoSG9MTmlLVmJuX3RiNktuU20zaXRCZ2V0TlNKVTQzbUVPNmswNWhWZC11dmJQWWxfbFA3NDVybzU1U3RsY2xINnJPUXRjY0dRNGlzMHlPWWQ3a0Z6aHhDX1lCcWwzdlJFUHBIX2hzUFJnM28wdEVrb1hUbXlxd1FkMW5VS1VWMGZXc3ZheTdMOS1USVVRR3RNZHVCeS1rLTBDZ3prWVB0VFRGNUZXQXVIR2c0Y0Q4LXlOQQ?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Medio internacional publica que en Chile ni los completos se están salvando del golpe económico",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzFLMGlhZzlmNGctOTgxaFJoRkRKMktpa3pIalRPSmlVMHRGWFF0bGlFZGI4cDN2eW0xXzFaWE1fUWJfQUxxSVd4YU9YcUU5R3ctR1FHY2ZEVmVIM2dDX2VSTV9pOXJybnlGY2hFbDlsYzNtYjBNMTR0UjVIQVJ5dGY2RzN0VU5mamNZWDZ0eFhRY3d4dEZ1Yw?oc=5",
+        "fuente": "armada.cl",
+        "titulo": "Buque Escuela “Esmeralda” recaló en Iquique para celebrar Fiestas Patrias",
+        "detalle": "Información de actualidad en norte grande según armada.cl.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-21T16:00:06.738Z"
   }
 };
