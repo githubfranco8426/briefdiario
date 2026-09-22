@@ -11,7 +11,7 @@ export function MobileBottomNav({ activeTab, onSelectTab }) {
   ];
 
   return (
-    <nav className="sm:hidden fixed bottom-2.5 left-1/2 -translate-x-1/2 z-50 frosted-glass shadow-2xl flex justify-around items-center px-1.5 py-1.5 w-[94%] max-w-md rounded-2xl pb-safe">
+    <nav className="brief-mobile-nav sm:hidden fixed left-1/2 -translate-x-1/2 z-50 frosted-glass shadow-2xl flex justify-around items-center px-1.5 py-1.5 w-[94%] max-w-md rounded-2xl">
       {tabs.map((tab) => {
         const Icon = tab.icon;
         const isActive = activeTab === tab.id;
@@ -26,7 +26,7 @@ export function MobileBottomNav({ activeTab, onSelectTab }) {
               isActive ? 'text-cyan-400' : 'text-slate-400 hover:text-slate-200 active:scale-95'
             }`}
           >
-            <div className={`w-8 h-8 rounded-xl flex items-center justify-center ${isActive ? 'bg-cyan-400/15 shadow-inner' : ''}`}>
+              <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${isActive ? 'bg-cyan-400/15 shadow-inner' : ''}`}>
               <Icon className={`h-4 w-4 ${isActive ? 'stroke-[2.5]' : 'stroke-[1.8]'}`} />
             </div>
             <span className="text-[9px] font-medium tracking-tight leading-none">

@@ -328,6 +328,20 @@ body { background: var(--brief-canvas); color: var(--brief-ink); font-family: In
 }
 .brief-verse-expand { display: none !important; }
 @media (max-width: 640px) {
+  .pt-safe { padding-top: max(env(safe-area-inset-top), 3.25rem); }
+  .brief-mobile-nav {
+    bottom: max(env(safe-area-inset-bottom), .75rem);
+    min-height: 72px;
+    padding-bottom: max(env(safe-area-inset-bottom), .35rem);
+    background: #20332d;
+    border-color: rgba(255,253,248,.18);
+    box-shadow: 0 12px 32px rgba(29,38,33,.2);
+  }
+  .brief-mobile-nav button { min-height: 53px; }
+  .brief-mobile-nav button[class*='text-cyan'] { color: #e8a53d; }
+  .brief-mobile-nav button[class*='text-slate'] { color: #bdc7bd; }
+  .brief-mobile-nav [class*='bg-cyan'] { background-color: rgba(232,165,61,.14); }
+  .brief-mobile-nav [class*='bg-cyan-400'] { background-color: #e8a53d; }
   .brief-hero { min-height: 0; padding: 20px; }
   .brief-hero-copy { padding: 25px 0 18px; }
   .brief-hero h1 { margin: 8px 0; font-size: 31px; }
@@ -341,4 +355,12 @@ body { background: var(--brief-canvas); color: var(--brief-ink); font-family: In
   .brief-verse:not(.is-expanded) blockquote { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; margin: 13px 0 5px; font-size: 17px; }
   .brief-verse:not(.is-expanded) .brief-verse-reflection { display: none; }
   .brief-verse-reference { font-size: 11px; }
+  .brief-intro-grid { margin-bottom: 14px; }
+  .brief-filter-nav { margin-bottom: 14px; }
+  .brief-filter-scroll { gap: 18px; padding-right: 18px; }
+  .brief-agenda { padding: 18px; }
+  .brief-panel-header { padding-bottom: 15px; }
+  .brief-agenda-sync { margin-top: 11px; }
+  .brief-agenda-list { padding-top: 14px; }
+  .brief-agenda-availability { padding-top: 15px; }
 }

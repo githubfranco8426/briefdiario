@@ -83,7 +83,7 @@ export default function App() {
   };
 
   return (
-    <main className="brief-shell min-h-screen overflow-x-hidden pb-28 sm:pb-16 pt-safe">
+    <main className="brief-shell min-h-screen overflow-x-hidden pb-[12rem] sm:pb-16 pt-safe">
 
       {/* Banner de archivo si está viendo una fecha pasada */}
       {isViewingArchive && (
