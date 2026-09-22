@@ -161,49 +161,90 @@ function occursOnDate(dtstartYMD, rrule, targetYMD) {
 /**
  * Parser ligero de eventos iCal (.ics) para la fecha objetivo (incluye recurrencias simples)
  */
-function parseIcs(icsData, targetYMD) {
-  const events = [];
-  const rawEvents = icsData.split('BEGIN:VEVENT');
+function readProperty(block, field) {
+  const match = block.match(new RegExp(`^${field}((?:;[^:]*)?)\\s*:(.*)$`, 'm'));
+  if (!match) return { value: '', params: '' };
+  return {
+    params: match[1] || '',
+    value: match[2].replace(/\\n/g, '\n').replace(/\\,/g, ',').trim(),
+  };
+}
 
-  for (let i = 1; i < rawEvents.length; i++) {
-    const block = rawEvents[i].split('END:VEVENT')[0];
+function formatUtcTime(value) {
+  const match = value.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(?:\d{2})?Z$/);
+  if (!match) return '';
+  const date = new Date(Date.UTC(match[1], Number(match[2]) - 1, match[3], match[4], match[5]));
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Santiago', hour: '2-digit', minute: '2-digit', hour12: false,
+  }).formatToParts(date);
+  const part = (type) => parts.find((item) => item.type === type)?.value || '';
+  return `${part('hour')}:${part('minute')}`;
+}
 
-    const getField = (field) => {
-      const regex = new RegExp(`^${field}(?:;[^:]*)?:(.*)$`, 'm');
-      const m = block.match(regex);
-      return m ? m[1].replace(/\\n/g, '\n').replace(/\\,/g, ',').trim() : '';
-    };
+function getTime(value) {
+  if (!value.includes('T')) return '';
+  if (value.endsWith('Z')) return formatUtcTime(value);
+  return `${value.slice(9, 11)}:${value.slice(11, 13)}`;
+}
 
-    const summary = getField('SUMMARY') || 'Compromiso sin título';
-    const dtstart = getField('DTSTART');
-    const dtend = getField('DTEND');
-    const location = getField('LOCATION');
-    const rrule = getField('RRULE');
+function classifyEvent(summary, location) {
+  const description = `${summary} ${location}`.toLocaleLowerCase('es-CL');
+  if (/\bcupos?\b|disponibili(?:dad|ble)|agenda abierta/.test(description)) return 'disponibilidad';
+  if (/domicilio/.test(description)) return 'domicilio';
+  if (/piano|peluquer|barber|cumplea|familia|personal/.test(description)) return 'personal';
+  return 'clinica';
+}
 
-    const dtstartYMD = dtstart.slice(0, 8);
-    if (!dtstart || !occursOnDate(dtstartYMD, rrule, targetYMD)) continue;
+/**
+ * Parser ligero de iCal. Respeta actualizaciones de una misma cita, eventos
+ * cancelados y horas expresadas en UTC, que Google Calendar convierte a Chile.
+ */
+export function parseIcs(icsData, targetYMD) {
+  const unfoldedIcs = icsData.replace(/\r?\n[ \t]/g, '');
+  const rawEvents = unfoldedIcs.split('BEGIN:VEVENT').slice(1)
+    .map((entry) => entry.split('END:VEVENT')[0]);
+  const candidates = [];
 
-    let hora = 'Todo el día';
-    if (dtstart.includes('T')) {
-      const startH = dtstart.split('T')[1].slice(0, 2);
-      const startM = dtstart.split('T')[1].slice(2, 4);
-      let endStr = '';
-      if (dtend && dtend.includes('T')) {
-        const endH = dtend.split('T')[1].slice(0, 2);
-        const endM = dtend.split('T')[1].slice(2, 4);
-        endStr = ` – ${endH}:${endM}`;
-      }
-      hora = `${startH}:${startM}${endStr}`;
-    }
+  for (const block of rawEvents) {
+    const start = readProperty(block, 'DTSTART');
+    const end = readProperty(block, 'DTEND');
+    const recurrenceId = readProperty(block, 'RECURRENCE-ID').value;
+    const rrule = readProperty(block, 'RRULE').value;
+    const uid = readProperty(block, 'UID').value || `event-${candidates.length + 1}`;
+    const dateForOccurrence = (recurrenceId || start.value).slice(0, 8);
+    if (!start.value || !occursOnDate(dateForOccurrence, rrule, targetYMD)) continue;
 
-    events.push({
-      id: `cal-${events.length + 1}`,
-      hora,
-      tipo: location?.toLowerCase().includes('domicilio') ? 'domicilio' : 'clinica',
-      lugar: location || '',
-      titulo: summary
+    candidates.push({
+      uid,
+      recurrenceId,
+      sequence: Number(readProperty(block, 'SEQUENCE').value || 0),
+      status: readProperty(block, 'STATUS').value.toUpperCase(),
+      start: start.value,
+      end: end.value,
+      summary: readProperty(block, 'SUMMARY').value || 'Compromiso sin título',
+      location: readProperty(block, 'LOCATION').value,
     });
   }
 
-  return events;
+  const latestByOccurrence = new Map();
+  for (const event of candidates) {
+    const key = `${event.uid}:${event.recurrenceId || event.start.slice(0, 8)}`;
+    const previous = latestByOccurrence.get(key);
+    if (!previous || event.sequence >= previous.sequence) latestByOccurrence.set(key, event);
+  }
+
+  return [...latestByOccurrence.values()]
+    .filter((event) => event.status !== 'CANCELLED')
+    .map((event) => {
+      const startTime = getTime(event.start);
+      const endTime = getTime(event.end);
+      return {
+        id: `cal-${event.uid.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 48)}`,
+        hora: startTime ? `${startTime}${endTime ? ` – ${endTime}` : ''}` : 'Todo el día',
+        tipo: classifyEvent(event.summary, event.location),
+        lugar: event.location || '',
+        titulo: event.summary,
+      };
+    })
+    .sort((a, b) => a.hora.localeCompare(b.hora, 'es'));
 }
