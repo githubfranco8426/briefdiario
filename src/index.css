@@ -249,6 +249,80 @@ body { background: var(--brief-canvas); color: var(--brief-ink); }
   .brief-agenda-details { margin-top: 8px; }
   .brief-shell .glass-card { padding: 20px; }
 }
+
+/* 2026 editorial refresh: a calm paper-like workspace instead of a dashboard UI. */
+:root {
+  color-scheme: light;
+  --brief-canvas: #eee9df;
+  --brief-panel: #fffdf8;
+  --brief-raised: #f7f3eb;
+  --brief-border: #d9d1c2;
+  --brief-ink: #1e2926;
+  --brief-muted: #6b746c;
+  --brief-accent: #bf5639;
+}
+body { background: var(--brief-canvas); color: var(--brief-ink); font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+.brief-shell { background: linear-gradient(115deg, rgba(255,253,248,.78), rgba(238,233,223,.62)), repeating-linear-gradient(0deg, transparent 0 34px, rgba(74,61,44,.025) 35px); }
+.brief-shell .glass-card, .brief-panel { background: var(--brief-panel); border-color: var(--brief-border); border-radius: 14px; box-shadow: 0 8px 30px rgba(40,35,25,.045); }
+.brief-shell .glass-card:hover { border-color: #b9a994; box-shadow: 0 12px 34px rgba(40,35,25,.07); }
+.brief-hero { min-height: 350px; border: 0; border-radius: 14px; background: #20332d; box-shadow: 0 12px 32px rgba(27,40,35,.18); }
+.brief-hero::before { content: 'REHABILITA.ME'; color: rgba(246,242,232,.1); position: absolute; right: 26px; bottom: 21px; font: 700 11px/1 Inter, sans-serif; letter-spacing: .2em; }
+.brief-brand-mark { width: 34px; height: 34px; border-radius: 50%; background: #e8a53d; color: #20332d; }
+.brief-brand-name { color: #f8f5ed; letter-spacing: .02em; }
+.brief-brand-name span, .brief-local-time { color: #bec9c0; }
+.brief-live-dot { background: #e8a53d; }
+.brief-eyebrow { color: #e8a53d; }
+.brief-hero h1 { color: #fffdf8; font-family: Georgia, 'Times New Roman', serif; font-weight: 400; letter-spacing: -.045em; }
+.brief-hero h1 span { color: #e8a53d; }
+.brief-hero-description { color: #d5ddd5; font-size: 15px; }
+.brief-hero-bottom { border-color: rgba(255,255,255,.16); }
+.brief-shift-label, .brief-mobile-link { color: #e9eee9; }
+.brief-verse { border-color: #d8c2a0; border-radius: 14px; background: #e8a53d; color: #25332d; }
+.brief-verse-header, .brief-verse-reference { color: #344139; }
+.brief-verse blockquote { color: #24322c; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(21px, 2vw, 27px); }
+.brief-verse-reflection { color: #4d493b; border-color: rgba(50,58,47,.23); }
+.brief-verse-actions button { color: #334038; border-color: rgba(50,58,47,.26); }
+.brief-verse-actions button:hover { background: rgba(255,253,248,.25); }
+.brief-filter-nav { border-color: #cfc5b6; }
+.brief-filter-tab { color: #687067; }
+.brief-filter-tab:hover, .brief-filter-tab.is-active { color: #27332d; }
+.brief-filter-tab.is-active::after { background: #bf5639; height: 3px; }
+.brief-filter-tab.is-active .brief-filter-count { color: #bf5639; }
+.brief-section-icon { background: #e8eee7; color: #315c4e; border-radius: 50%; }
+.brief-section-kicker { color: #8d6350; }
+.brief-panel-header h2, .brief-shell .glass-card h2 { color: #1f2b27; font-family: Georgia, 'Times New Roman', serif; font-size: 25px; font-weight: 400; }
+.brief-progress, .brief-agenda-sync { color: #73786e; }
+.brief-agenda-item { background: #faf7f1; border-color: #e2d9cc; border-radius: 10px; }
+.brief-agenda-item:hover { background: #f2ede3; border-color: #bda88b; }
+.brief-agenda-time { color: #9b4b34; }
+.brief-agenda-type { color: #768376; }
+.brief-agenda-details strong { color: #26322d; }
+.brief-agenda-place { color: #6f746d; }
+.brief-agenda-check { border-color: #b9afa0; color: #fff; }
+.brief-agenda-item.is-complete .brief-agenda-check { background: #315c4e; border-color: #315c4e; }
+.brief-agenda-availability { border-color: #ded4c5; }
+.brief-agenda-availability > p, .brief-agenda-item--disponibilidad .brief-agenda-time, .brief-agenda-item--disponibilidad .brief-agenda-type { color: #9a6a20; }
+.brief-agenda-item--disponibilidad { background: #fff7e8; border-color: #d7b77d; }
+.brief-agenda-item--disponibilidad:hover { background: #f9efd9; border-color: #bf8d38; }
+.brief-shell .glass-card :is(article, a.group)[class*='bg-slate-900'], .brief-shell .glass-card a[class*='bg-slate-900'] { background: #faf7f1 !important; border-color: #e2d9cc !important; border-radius: 10px; }
+.brief-shell .glass-card :is(article, a.group)[class*='bg-slate-900']:hover, .brief-shell .glass-card a[class*='bg-slate-900']:hover { border-color: #bda88b !important; }
+.brief-shell .glass-card [class*='text-white'] { color: #22302a !important; }
+.brief-shell .glass-card [class*='text-slate-400'], .brief-shell .glass-card [class*='text-gray-400'] { color: #78776f !important; }
+.brief-shell .glass-card [class*='text-slate-300'], .brief-shell .glass-card [class*='text-gray-300'], .brief-shell .glass-card [class*='text-slate-200'] { color: #5e675f !important; }
+.brief-shell .glass-card [class*='bg-white/'], .brief-shell .glass-card [class*='bg-cyan-950'], .brief-shell .glass-card [class*='bg-violet-950'], .brief-shell .glass-card [class*='bg-emerald-950'] { background-color: #f4efe6 !important; }
+.brief-shell .glass-card [class*='border-white/'] { border-color: #e2d9cc !important; }
+.brief-shell .glass-card [class*='text-cyan-'], .brief-shell .glass-card [class*='text-teal-'] { color: #315c4e !important; }
+.brief-shell .glass-card [class*='text-violet-'] { color: #765a83 !important; }
+.brief-shell .glass-card [class*='text-emerald-'] { color: #48735c !important; }
+.brief-shell .glass-card [class*='text-amber-'] { color: #9a6a20 !important; }
+.brief-shell .glass-card [class*='bg-cyan-500'] { background-color: #315c4e !important; color: #fffdf8 !important; }
+.brief-shell .glass-card [class*='bg-violet-500'] { background-color: #765a83 !important; color: #fffdf8 !important; }
+.brief-shell .glass-card [class*='bg-emerald-500'] { background-color: #48735c !important; color: #fffdf8 !important; }
+@media (max-width: 640px) {
+  .brief-hero { min-height: 292px; border-radius: 12px; }
+  .brief-verse, .brief-shell .glass-card, .brief-panel { border-radius: 12px; }
+  .brief-panel-header h2, .brief-shell .glass-card h2 { font-size: 23px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .brief-shell *, .brief-shell *::before, .brief-shell *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
