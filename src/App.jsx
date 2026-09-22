@@ -83,9 +83,7 @@ export default function App() {
   };
 
   return (
-    <main className="radial-bg min-h-screen text-[#e2e8f0] selection:bg-cyan-500 selection:text-black relative overflow-x-hidden pb-28 sm:pb-16 pt-safe">
-      {/* Ambient glows extra (el degradado radial base ya vive en .radial-bg) */}
-      <div className="pointer-events-none fixed top-1/2 right-10 h-80 w-80 rounded-full bg-violet-500/[0.05] blur-[130px]"></div>
+    <main className="brief-shell min-h-screen overflow-x-hidden pb-28 sm:pb-16 pt-safe">
 
       {/* Banner de archivo si está viendo una fecha pasada */}
       {isViewingArchive && (
@@ -104,24 +102,19 @@ export default function App() {
         </div>
       )}
 
-      <div className="relative mx-auto max-w-7xl px-3.5 py-4 sm:py-10 sm:px-6 lg:px-8">
-        {/* Cabecera principal rediseñada */}
-        <Header
+      <div className="relative mx-auto max-w-7xl px-4 py-6 sm:px-8 sm:py-10 lg:px-10">
+        <div className="brief-intro-grid">
+          <Header
           userName={briefData.usuario}
           ciclo={briefData.ciclo}
           cicloDetalle={briefData.ciclo_detalle}
           currentFecha={briefData.fecha}
           onSelectDate={handleSelectDate}
           onOpenMobileModal={() => setShowMobileModal(true)}
-        />
+          />
+          <DailyVerseCard verseData={briefData.versiculo} />
+        </div>
 
-        {/* Versículo Bíblico del Día (Estilo Nórdico) */}
-        <DailyVerseCard verseData={briefData.versiculo} />
-
-        {/* Banner de instalación en pantalla de inicio */}
-        <InstallGuideBanner onOpenModal={() => setShowMobileModal(true)} />
-
-        {/* Píldoras de Filtro para orden visual perfecto */}
         <FilterPills
           activeFilter={activeFilter}
           onSelectFilter={handleSelectFilter}
@@ -144,13 +137,12 @@ export default function App() {
           </div>
         )}
 
-        {/* Bento Grid Adaptativo y Organizado */}
-        <div className="grid gap-6 lg:grid-cols-12">
+        <div className="grid gap-5 lg:grid-cols-12 lg:gap-6">
           {/* Agenda */}
           {(activeFilter === 'all' || activeFilter === 'agenda') && (
             <div
               id="agenda"
-              className={activeFilter === 'all' ? 'lg:col-span-5' : 'lg:col-span-12'}
+              className="lg:col-span-12"
             >
               <AgendaSection
                 key={resetKey}
@@ -163,7 +155,7 @@ export default function App() {
           {(activeFilter === 'all' || activeFilter === 'guiones') && (
             <div
               id="guiones"
-              className={activeFilter === 'all' ? 'lg:col-span-7' : 'lg:col-span-12'}
+              className={activeFilter === 'all' ? 'lg:col-span-6' : 'lg:col-span-12'}
             >
               <ContentSection
                 ideas={briefData.ideas}
@@ -190,7 +182,7 @@ export default function App() {
           {(activeFilter === 'all' || activeFilter === 'noticias') && (
             <div
               id="noticias"
-              className={activeFilter === 'all' ? 'lg:col-span-6' : 'lg:col-span-12'}
+              className="lg:col-span-12"
             >
               <NewsSection
                 news={briefData.noticias}
@@ -199,7 +191,8 @@ export default function App() {
           )}
         </div>
 
-        {/* Pie de página */}
+        <InstallGuideBanner onOpenModal={() => setShowMobileModal(true)} />
+
         <Footer
           briefData={briefData}
           onResetChecklist={handleResetChecklist}
