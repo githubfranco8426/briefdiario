@@ -10,10 +10,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
+function getChileDateString(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Santiago', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(date);
+  const part = (type) => parts.find((item) => item.type === type)?.value;
+  return `${part('year')}-${part('month')}-${part('day')}`;
+}
+
 async function main() {
   console.log('🚀 Iniciando pipeline de generación del Brief Diario...');
   const now = new Date();
-  const dateIso = now.toISOString().split('T')[0];
+  const dateIso = getChileDateString(now);
 
   // 0. Cargar histórico reciente para no repetir los mismos papers día tras día
   const historyDir = path.join(projectRoot, 'src', 'data', 'history');
@@ -50,7 +58,8 @@ async function main() {
   // Fecha ancla: Lunes 2026-09-07 fue Día 4 · Segundo libre (índice 3)
   // Martes 2026-09-08 es Día 1 · Turno Largo (índice 0)
   const anchorDate = new Date(2026, 8, 7); // Septiembre es mes 8 (0-indexed)
-  const targetDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const [year, month, day] = dateIso.split('-').map(Number);
+  const targetDate = new Date(year, month - 1, day);
   const diffDays = Math.round((targetDate.getTime() - anchorDate.getTime()) / (1000 * 60 * 60 * 24));
   const cycleIndex = ((3 + diffDays) % 4 + 4) % 4;
 

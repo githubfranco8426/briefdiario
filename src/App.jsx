@@ -147,6 +147,7 @@ export default function App() {
               <AgendaSection
                 key={resetKey}
                 agendaItems={briefData.agenda}
+                updatedAt={briefData.creado_en}
               />
             </div>
           )}
