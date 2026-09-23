@@ -76,15 +76,8 @@ async function main() {
   const agenda = await fetchCalendarEvents(now, process.env.GOOGLE_CALENDAR_ICS_URL, currentCycle);
   console.log(`✓ ${agenda.length} actividades de agenda preparadas.`);
 
-  // Si el calendario real trae un evento de Urgencias/Reanimador, prevalece sobre el ciclo sintético
-  const isUrgenciasShift = agenda.some((item) => /urgencia|reanimador/i.test(`${item.titulo} ${item.lugar}`));
-  if (isUrgenciasShift) {
-    currentCycle = {
-      ciclo: 'Turno Urgencias · Reanimador',
-      detalle: 'Servicio de Urgencia Adulto / Reanimador & Camas C1-C2',
-    };
-    console.log(`🚑 Turno de Urgencias detectado en el calendario: ${currentCycle.ciclo}`);
-  }
+  // La agenda ya está redactada antes de llegar aquí. No se inspeccionan ni
+  // persisten detalles de eventos para decidir el ciclo público.
 
   const versiculo = getDailyVerse(now, currentCycle);
   console.log(`📖 Versículo asignado: ${versiculo.referencia}`);

@@ -6,6 +6,44 @@
  * Configuración de Google Calendar -> Integrar el calendario -> Dirección secreta en formato iCal (.ics)
  */
 
+const PUBLIC_AGENDA_MODE = 'public';
+
+function getPublicAgendaMode() {
+  const configuredMode = (process.env.BRIEF_PUBLIC_AGENDA_MODE || PUBLIC_AGENDA_MODE).toLowerCase();
+  if (configuredMode !== PUBLIC_AGENDA_MODE) {
+    console.warn(`BRIEF_PUBLIC_AGENDA_MODE=${configuredMode} no es válido; se usará agenda pública redactada.`);
+  }
+  return PUBLIC_AGENDA_MODE;
+}
+
+const NEUTRAL_TITLES = {
+  clinica: 'Atención clínica',
+  domicilio: 'Atención a domicilio',
+  personal: 'Compromiso personal',
+  disponibilidad: 'Cupo disponible',
+  seguimiento: 'Seguimiento profesional',
+};
+
+function neutralTitle(tipo) {
+  return NEUTRAL_TITLES[tipo] || 'Actividad programada';
+}
+
+/**
+ * Convierte datos internos ya clasificados a la única forma que puede salir del
+ * servidor. Nunca copie UID, SUMMARY, LOCATION ni otros campos de iCal.
+ */
+function toPublicAgenda(events, dateKey) {
+  return [...events]
+    .sort((a, b) => a.hora.localeCompare(b.hora, 'es'))
+    .map((event, index) => ({
+      id: `agenda-${dateKey}-${index + 1}-${event.tipo || 'actividad'}`,
+      hora: event.hora,
+      tipo: event.tipo || 'clinica',
+      lugar: '',
+      titulo: neutralTitle(event.tipo),
+    }));
+}
+
 export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = process.env.GOOGLE_CALENDAR_ICS_URL, cycle = null) {
   const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
   const targetYear = targetDate.getFullYear();
@@ -32,91 +70,63 @@ export async function fetchCalendarEvents(targetDate = new Date(), icsUrl = proc
     }
   }
 
-  // Agenda adaptada al ciclo de turno de Franco si no hay feed .ics activo
+  // Agenda adaptada al ciclo de turno si no hay feed .ics activo. El adaptador
+  // público se aplica también a estos bloques para conservar un solo contrato.
+  getPublicAgendaMode();
   if (cycle?.ciclo?.includes('Turno Largo') || cycle?.ciclo?.includes('UPC')) {
-    return [
+    return toPublicAgenda([
       {
-        id: 'agenda-1',
         hora: '08:00 – 14:00',
         tipo: 'clinica',
-        lugar: 'UPC / Unidad de Paciente Crítico',
-        titulo: 'Ronda médica matutina y evaluaciones de ingreso kinésico'
       },
       {
-        id: 'agenda-2',
         hora: '14:30 – 18:30',
         tipo: 'clinica',
-        lugar: 'UCI / Hospital',
-        titulo: 'Protocolos de destete ventilatorio y movilización precoz'
       },
       {
-        id: 'agenda-3',
         hora: '18:30 – 20:00',
         tipo: 'seguimiento',
-        lugar: 'UPC',
-        titulo: 'Entrega de turno médico-kinésico y cierre de evoluciones'
       }
-    ];
+    ], dateStr);
   } else if (cycle?.ciclo?.includes('Turno Noche')) {
-    return [
+    return toPublicAgenda([
       {
-        id: 'agenda-1',
         hora: '15:00 – 17:00',
         tipo: 'seguimiento',
-        lugar: 'Domicilio / Fichas',
-        titulo: 'Revisión de casos clínicos y preparación de turno'
       },
       {
-        id: 'agenda-2',
         hora: '20:00 – 08:00',
         tipo: 'clinica',
-        lugar: 'Hospital / UPC',
-        titulo: 'Ingreso a guardia nocturna y monitoreo intensivo'
       }
-    ];
+    ], dateStr);
   } else if (cycle?.ciclo?.includes('Saliente')) {
-    return [
+    return toPublicAgenda([
       {
-        id: 'agenda-1',
         hora: '08:00 – 09:30',
         tipo: 'seguimiento',
-        lugar: 'Hospital',
-        titulo: 'Entrega de guardia matutina y pase de sala'
       },
       {
-        id: 'agenda-2',
         hora: '16:00 – 18:00',
         tipo: 'domicilio',
-        lugar: 'Iquique',
-        titulo: 'Atención kinesiológica respiratoria a domicilio (post-descanso)'
       }
-    ];
+    ], dateStr);
   }
 
   // Predeterminado para segundo libre / consultas y domicilios
-  return [
+  return toPublicAgenda([
     {
-      id: 'agenda-1',
       hora: '09:00 – 19:00',
       tipo: 'clinica',
-      lugar: 'Centro de rehabilitación',
-      titulo: 'Cupos de consulta (atención presencial)'
     },
     {
-      id: 'agenda-2',
       hora: '11:30 – 12:30',
       tipo: 'domicilio',
-      lugar: 'Alto Hospicio',
-      titulo: 'Atención kinesiológica respiratoria a domicilio'
     },
     {
-      id: 'agenda-3',
       hora: '17:00 – 18:00',
       tipo: 'seguimiento',
-      lugar: 'Iquique',
-      titulo: 'Evaluación y control disfunción ATM / Dolor orofacial'
     }
-  ];
+  ], dateStr);
 }
 
 /**
@@ -200,6 +210,7 @@ function classifyEvent(summary, location) {
  * cancelados y horas expresadas en UTC, que Google Calendar convierte a Chile.
  */
 export function parseIcs(icsData, targetYMD) {
+  getPublicAgendaMode();
   const unfoldedIcs = icsData.replace(/\r?\n[ \t]/g, '');
   const rawEvents = unfoldedIcs.split('BEGIN:VEVENT').slice(1)
     .map((entry) => entry.split('END:VEVENT')[0]);
@@ -233,18 +244,16 @@ export function parseIcs(icsData, targetYMD) {
     if (!previous || event.sequence >= previous.sequence) latestByOccurrence.set(key, event);
   }
 
-  return [...latestByOccurrence.values()]
+  const internalEvents = [...latestByOccurrence.values()]
     .filter((event) => event.status !== 'CANCELLED')
     .map((event) => {
       const startTime = getTime(event.start);
       const endTime = getTime(event.end);
       return {
-        id: `cal-${event.uid.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 48)}`,
         hora: startTime ? `${startTime}${endTime ? ` – ${endTime}` : ''}` : 'Todo el día',
         tipo: classifyEvent(event.summary, event.location),
-        lugar: event.location || '',
-        titulo: event.summary,
       };
-    })
-    .sort((a, b) => a.hora.localeCompare(b.hora, 'es'));
+    });
+
+  return toPublicAgenda(internalEvents, targetYMD);
 }

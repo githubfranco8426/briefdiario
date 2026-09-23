@@ -48,9 +48,19 @@ GEMINI_API_KEY=tu_api_key_aqui
 
 # Dirección secreta en formato iCal (.ics) de Google Calendar (opcional)
 GOOGLE_CALENDAR_ICS_URL=https://calendar.google.com/calendar/ical/.../basic.ics
+
+# Obligatorio para cualquier agenda publicada; "public" es el valor por defecto.
+# Solo publica horarios, categorías y títulos neutrales.
+BRIEF_PUBLIC_AGENDA_MODE=public
 ```
 
 > **Nota:** Si no defines ninguna variable, el sistema funciona al 100% utilizando el motor clínico local y el cálculo automático de rotativa de turnos.
+
+### Privacidad de la agenda pública
+
+La agenda publicada contiene solamente hora, categoría y un título neutral como “Atención clínica” o “Cupo disponible”. No publica títulos originales, ubicaciones, direcciones, UID ni otros detalles de Google Calendar. `BRIEF_PUBLIC_AGENDA_MODE` usa `public` por defecto y no habilita un modo con detalles para contenido publicable.
+
+Si este repositorio o Supabase ya publicó briefs creados antes de este cambio, esos históricos pueden conservar datos antiguos: retíralos explícitamente antes de compartir la app. Rota también la dirección secreta iCal de Google Calendar, ya que la URL anterior debe considerarse expuesta.
 
 ---
 

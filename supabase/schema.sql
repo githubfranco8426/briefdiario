@@ -7,6 +7,8 @@ create table if not exists public.brief_diario (
   fecha           date primary key,
   ciclo           text,                       -- "Día 4 · Segundo libre"
   ciclo_detalle   text,                       -- "Consultas 09:00–19:00"
+  -- Solo agenda pública redactada: id no sensible, hora, tipo, titulo neutral
+  -- y lugar vacío. Nunca guardar UID, resumen, ubicación ni invitados de Calendar.
   agenda          jsonb not null default '[]'::jsonb,
   ideas           jsonb not null default '[]'::jsonb,
   papers          jsonb not null default '[]'::jsonb,
@@ -19,7 +21,8 @@ create index if not exists brief_diario_fecha_desc
   on public.brief_diario (fecha desc);
 
 -- ============================================================
--- Seguridad: la página web es pública y solo lee.
+-- Seguridad: la página web es pública y solo lee. Por ello agenda debe contener
+-- exclusivamente los datos redactados definidos arriba.
 -- n8n escribe con la service role key, que ignora RLS.
 -- ============================================================
 
