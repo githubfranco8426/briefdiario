@@ -12,18 +12,18 @@
   },
   "agenda": [
     {
-      "id": "cal-1",
+      "id": "agenda-2026-09-16-1-clinica",
       "hora": "11:56 – 14:12",
       "tipo": "clinica",
-      "lugar": "Iquique IQQ",
-      "titulo": "Flight to Santiago de Chile (LA 163)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "cal-2",
+      "id": "agenda-2026-09-16-2-clinica",
       "hora": "08:00 – 20:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Turno Mañana"
+      "titulo": "Atención clínica",
+      "lugar": ""
     }
   ],
   "ideas": [

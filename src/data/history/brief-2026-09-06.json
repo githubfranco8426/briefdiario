@@ -6,18 +6,18 @@
   "ciclo_detalle": "Recuperación post-guardia y fichas clínicas",
   "agenda": [
     {
-      "id": "agenda-1",
+      "id": "agenda-2026-09-06-1-clinica",
       "hora": "10:00 – 12:00",
       "tipo": "clinica",
-      "lugar": "Online / Fichas",
-      "titulo": "Actualización de planes de tratamiento y epicrisis"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "agenda-2",
+      "id": "agenda-2026-09-06-2-domicilio",
       "hora": "16:00 – 17:30",
       "tipo": "domicilio",
-      "lugar": "Iquique Centro",
-      "titulo": "Control kinesiológico post-alta hospitalaria"
+      "titulo": "Atención a domicilio",
+      "lugar": ""
     }
   ],
   "ideas": [

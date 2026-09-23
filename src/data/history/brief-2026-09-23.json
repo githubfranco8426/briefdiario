@@ -12,18 +12,18 @@
   },
   "agenda": [
     {
-      "id": "cal-fru6b3fg6u91gqt4lrvl1t9foggooglecom",
+      "id": "agenda-2026-09-23-1-disponibilidad",
       "hora": "09:00 – 19:00",
       "tipo": "disponibilidad",
-      "lugar": "",
-      "titulo": "Cupos de consulta (día libre)"
+      "titulo": "Cupo disponible",
+      "lugar": ""
     },
     {
-      "id": "cal-2rss35pkcml740m7vc9s823gpsgooglecom",
+      "id": "agenda-2026-09-23-2-personal",
       "hora": "16:30 – 17:30",
       "tipo": "personal",
-      "lugar": "Peluqueria Navajas, Baquedano 1437, Iquique",
-      "titulo": "Reserva Actualizada en Peluqueria Navajas"
+      "titulo": "Compromiso personal",
+      "lugar": ""
     }
   ],
   "ideas": [

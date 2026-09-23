@@ -12,18 +12,18 @@
   },
   "agenda": [
     {
-      "id": "cal-65pa78089agpbsjrhsr5o6jhb4googlecom",
+      "id": "agenda-2026-09-22-1-personal",
       "hora": "08:00 – 08:15",
       "tipo": "personal",
-      "lugar": "",
-      "titulo": "🎹 Piano: Repaso semana 2 + grabación"
+      "titulo": "Compromiso personal",
+      "lugar": ""
     },
     {
-      "id": "cal-q7mvgka2cp3n24v9hfq1anb2sggooglecom",
+      "id": "agenda-2026-09-22-2-disponibilidad",
       "hora": "15:00 – 19:00",
       "tipo": "disponibilidad",
-      "lugar": "",
-      "titulo": "Cupos de consulta (saliente de noche)"
+      "titulo": "Cupo disponible",
+      "lugar": ""
     }
   ],
   "ideas": [

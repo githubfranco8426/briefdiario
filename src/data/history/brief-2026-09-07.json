@@ -11,25 +11,25 @@
   },
   "agenda": [
     {
-      "id": "agenda-1",
+      "id": "agenda-2026-09-07-1-clinica",
       "hora": "09:00 – 19:00",
       "tipo": "clinica",
-      "lugar": "Centro de rehabilitación",
-      "titulo": "Cupos de consulta (atención presencial)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "agenda-2",
+      "id": "agenda-2026-09-07-2-domicilio",
       "hora": "11:30 – 12:30",
       "tipo": "domicilio",
-      "lugar": "Alto Hospicio",
-      "titulo": "Atención kinesiológica respiratoria a domicilio"
+      "titulo": "Atención a domicilio",
+      "lugar": ""
     },
     {
-      "id": "agenda-3",
+      "id": "agenda-2026-09-07-3-seguimiento",
       "hora": "17:00 – 18:00",
       "tipo": "seguimiento",
-      "lugar": "Iquique",
-      "titulo": "Evaluación y control disfunción ATM / Dolor orofacial"
+      "titulo": "Seguimiento profesional",
+      "lugar": ""
     }
   ],
   "ideas": [

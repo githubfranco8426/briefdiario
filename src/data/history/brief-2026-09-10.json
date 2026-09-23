@@ -12,18 +12,18 @@
   },
   "agenda": [
     {
-      "id": "cal-1",
+      "id": "agenda-2026-09-10-1-clinica",
       "hora": "18:00 – 22:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Cupos de consulta (saliente de noche)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "cal-2",
+      "id": "agenda-2026-09-10-2-clinica",
       "hora": "11:00 – 11:15",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "🎹 Piano: Hanon nº1-2 + Mikrokosmos nº2 memoria"
+      "titulo": "Atención clínica",
+      "lugar": ""
     }
   ],
   "ideas": [

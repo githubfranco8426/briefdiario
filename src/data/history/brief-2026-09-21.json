@@ -12,25 +12,25 @@
   },
   "agenda": [
     {
-      "id": "cal-1",
+      "id": "agenda-2026-09-21-1-clinica",
       "hora": "20:00 – 08:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Turno Noche"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "cal-2",
+      "id": "agenda-2026-09-21-2-clinica",
       "hora": "12:00 – 20:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Cupos de consulta (turno noche)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     },
     {
-      "id": "cal-3",
+      "id": "agenda-2026-09-21-3-clinica",
       "hora": "14:09 – 16:39",
       "tipo": "clinica",
-      "lugar": "Santiago de Chile SCL",
-      "titulo": "Flight to Iquique (LA 164)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     }
   ],
   "ideas": [

@@ -12,11 +12,11 @@
   },
   "agenda": [
     {
-      "id": "cal-1",
+      "id": "agenda-2026-09-19-1-clinica",
       "hora": "12:00 – 17:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Cupos de consulta (día libre - sábado)"
+      "titulo": "Atención clínica",
+      "lugar": ""
     }
   ],
   "ideas": [

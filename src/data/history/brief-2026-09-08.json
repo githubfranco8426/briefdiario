@@ -12,11 +12,11 @@
   },
   "agenda": [
     {
-      "id": "cal-1",
+      "id": "agenda-2026-09-08-1-clinica",
       "hora": "08:00 – 20:00",
       "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Turno Mañana"
+      "titulo": "Atención clínica",
+      "lugar": ""
     }
   ],
   "ideas": [
