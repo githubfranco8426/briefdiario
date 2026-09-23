@@ -2356,5 +2356,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-22T18:59:28.612Z"
+  },
+  "2026-09-23": {
+    "fecha": "2026-09-23",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-2",
+      "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+      "referencia": "Isaías 40:31",
+      "reflexion": "Tu labor en rehabilitación exige paciencia y resistencia; recuerda que la renovación física y vocacional se recibe paso a paso cada mañana."
+    },
+    "agenda": [
+      {
+        "id": "cal-fru6b3fg6u91gqt4lrvl1t9foggooglecom",
+        "hora": "09:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupos de consulta (día libre)"
+      },
+      {
+        "id": "cal-2rss35pkcml740m7vc9s823gpsgooglecom",
+        "hora": "16:30 – 17:30",
+        "tipo": "personal",
+        "lugar": "Peluqueria Navajas, Baquedano 1437, Iquique",
+        "titulo": "Reserva Actualizada en Peluqueria Navajas"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que la telerehabilitación híbrida puede transformar la recuperación en esclerosis múltiple?",
+        "idea": "Slide 1: Hook sobre esclerosis múltiple. Slide 2: El desafío de la movilidad. Slide 3: Qué dice el estudio de 2026. Slide 4: Ventajas del modelo híbrido (presencial + virtual). Slide 5: Aplicación práctica en Chile. Slide 6: ¡Comenta si trabajas en neurorehabilitación!",
+        "formato": "Carrusel 6 slides",
+        "base": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis (PMID: 41106533)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "La gran actualización en Kinesiología Respiratoria para pacientes con EPOC",
+        "idea": "Video dinámico explicando las nuevas guías ASSOBRAFIR 2026. Muestra cómo prescribir ejercicio de manera segura en pacientes con EPOC para disminuir la disnea. CTA: Guárdate este tip clínico.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: COPD (PMID: 41106351)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula? El secreto podría estar en tu cuello",
+        "idea": "Slide 1: Dolor de ATM que no cede. Slide 2: La conexión cráneo-cérvico-mandibular. Slide 3: Evidencia 2026 sobre terapia manual y ejercicio. Slide 4: Beneficios de tratar el cuello en la disfunción temporomandibular. Slide 5: Ejemplo de ejercicio cervical simple. Slide 6: Agenda tu evaluación con un especialista en Chile.",
+        "formato": "Carrusel 6 slides",
+        "base": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain (PMID: 40928393)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "Movilización temprana en pacientes críticos: Lo que dice la nueva guía ASSOBRAFIR",
+        "idea": "Reel explicando la importancia del rol del kinesiólogo intensiwta en la UPC, destacando la prevención de la debilidad adquirida en UCI según las directrices 2026. CTA: Comparte este video con colegas de la salud.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Critically ill adults (PMID: 42710394)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos de la telerehabilitación híbrida en la esclerosis múltiple",
+        "titulo_original": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis: A Single-Blind Randomized Controlled Study",
+        "resumen": "Este estudio evalúa un modelo de telerehabilitación híbrida para mejorar la movilidad y capacidad funcional en pacientes con esclerosis múltiple. Los resultados demuestran que combinar la atención virtual y presencial optimiza la adherencia y los resultados motores.",
+        "objetivo": "Determinar los efectos de un modelo de telerehabilitación híbrida sobre la movilidad y la capacidad funcional en pacientes con esclerosis múltiple.",
+        "metodologia": "Estudio clínico controlado y aleatorizado, simple ciego, realizado en pacientes diagnosticados con esclerosis múltiple.",
+        "hallazgos": "Se observaron mejoras significativas en la movilidad y la capacidad funcional del grupo intervenido mediante el modelo híbrido.",
+        "aplicacion": "Implementa estrategias de telerehabilitación híbrida en tu clínica en Chile para mantener la continuidad del tratamiento y mejorar la funcionalidad de tus pacientes neurológicos.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2025.09.034",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guía clínica de fisioterapia respiratoria en EPOC",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with chronic obstructive pulmonary disease (COPD)",
+        "resumen": "Estas nuevas guías clínicas de ASSOBRAFIR establecen recomendaciones basadas en evidencia para las intervenciones basadas en ejercicio en pacientes con EPOC. Destacan el rol fundamental del kinesiólogo respiratorio en la prescripción de ejercicio para disminuir la disnea y mejorar la calidad de vida.",
+        "objetivo": "Proveer guías de práctica clínica actualizadas sobre intervenciones basadas en ejercicio para personas con EPOC.",
+        "metodologia": "Revisión sistemática y consenso de expertos para la elaboración de guías de práctica clínica en fisioterapia respiratoria.",
+        "hallazgos": "Las intervenciones basadas en ejercicio mejoran de forma segura la tolerancia al esfuerzo y reducen las exacerbaciones en pacientes con EPOC.",
+        "aplicacion": "Actualiza tus programas de rehabilitación pulmonar ambulatoria en Chile basándote en las pautas de ejercicio de ASSOBRAFIR para optimizar los resultados respiratorios.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2025.101539",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Terapia manual y ejercicio para el dolor orofacial y cervical",
+        "titulo_original": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain: a systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática analiza el impacto de combinar terapia manual y ejercicio dirigidos a las regiones cervical y orofacial en pacientes con dolor temporomandibular. Los hallazgos confirman una reducción significativa del dolor y una mejora en la apertura mandibular.",
+        "objetivo": "Evaluar la eficacia de la terapia manual y el ejercicio dirigidos al cuello y la región orofacial en pacientes con dolor orofacial.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en trastornos temporomandibulares y dolor cervical.",
+        "hallazgos": "La combinación de terapia manual y ejercicio cervical/orofacial disminuye notablemente el dolor y restaura la función mandibular.",
+        "aplicacion": "Evalúa siempre el segmento cervical en tus pacientes con disfunción temporomandibular (ATM) en Chile e integra ejercicios específicos para acelerar su recuperación.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2539469",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Estrategias de rehabilitación en adultos críticamente enfermos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Nuevas directrices de ASSOBRAFIR para la movilización temprana y la rehabilitación física en unidades de paciente crítico (UPC). Estas recomendaciones buscan prevenir la debilidad adquirida en la UCI y acelerar el destete ventilatorio.",
+        "objetivo": "Establecer estrategias de rehabilitación basadas en evidencia para adultos críticamente enfermos en la unidad de cuidados intensivos.",
+        "metodologia": "Desarrollo de guías de práctica clínica basadas en la evidencia actual sobre fisioterapia intensiva en adultos.",
+        "hallazgos": "La movilización precoz y estructurada en pacientes críticos disminuye los días de ventilación mecánica y mejora la funcionalidad al alta.",
+        "aplicacion": "Aplica protocolos actualizados de movilización temprana en tu práctica en UCI en Chile para reducir el impacto de la miopatía del paciente crítico.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZE5nZG9IbUFWaTF1bVNYMmQ5NEFBMDJkdjV1Q0oxUmdJRHAzSWNBVHAxZkxLazNJa1N3NnBHRXJmT1pEeDB0UERoT2ZRVUN2blJ2Mmczc2ZoSG9MTmlLVmJuX3RiNktuU20zaXRCZ2V0TlNKVTQzbUVPNmswNWhWZC11dmJQWWxfbFA3NDVybzU1U3RsY2xINnJPUXRjY0dRNGlzMHlPWWQ3a0Z6aHhDX1lCcWwzdlJFUHBIX2hzUFJnM28wdEVrb1hUbXlxd1FkMW5VS1VWMGZXc3ZheTdMOS1USVVRR3RNZHVCeS1rLTBDZ3prWVB0VFRGNUZXQXVIR2c0Y0Q4LXlOQQ?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Medio internacional publica que en Chile ni los completos se están salvando del golpe económico",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "latercera.com",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según latercera.com.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR0VxOHEzd1YteThYbDZWUnViOVE5N2hnZ0FsNkVVb01hbk1WbXRsLXFKZmVzbnBrWGd2WHhfLVhjX0l6dVBoT3Z4aTZZazJMMElsN0pGa1l6aFk4U3RSOW1KSzB1bmpQaG5pVV9Hemx2OFhxNVdPWl8xbUl2Y0NGdVNzLVN6SUU3aXl6Y2hFRkEyZVBNeUlHVEFjMHlaQjJXckFwNXRQTDFUQWc?oc=5",
+        "fuente": "Puranoticia",
+        "titulo": "Aduana de Iquique incautó más de 36 kilos de drogas durante las Fiestas Patrias",
+        "detalle": "Información de actualidad en norte grande según Puranoticia.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-23T14:20:39.289Z"
   }
 };
