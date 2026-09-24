@@ -8,18 +8,18 @@ export const historicalBriefs = {
     "ciclo_detalle": "Recuperación post-guardia y fichas clínicas",
     "agenda": [
       {
-        "id": "agenda-1",
+        "id": "agenda-2026-09-06-1-clinica",
         "hora": "10:00 – 12:00",
         "tipo": "clinica",
-        "lugar": "Online / Fichas",
-        "titulo": "Actualización de planes de tratamiento y epicrisis"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "agenda-2",
+        "id": "agenda-2026-09-06-2-domicilio",
         "hora": "16:00 – 17:30",
         "tipo": "domicilio",
-        "lugar": "Iquique Centro",
-        "titulo": "Control kinesiológico post-alta hospitalaria"
+        "titulo": "Atención a domicilio",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -74,25 +74,25 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "agenda-1",
+        "id": "agenda-2026-09-07-1-clinica",
         "hora": "09:00 – 19:00",
         "tipo": "clinica",
-        "lugar": "Centro de rehabilitación",
-        "titulo": "Cupos de consulta (atención presencial)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "agenda-2",
+        "id": "agenda-2026-09-07-2-domicilio",
         "hora": "11:30 – 12:30",
         "tipo": "domicilio",
-        "lugar": "Alto Hospicio",
-        "titulo": "Atención kinesiológica respiratoria a domicilio"
+        "titulo": "Atención a domicilio",
+        "lugar": ""
       },
       {
-        "id": "agenda-3",
+        "id": "agenda-2026-09-07-3-seguimiento",
         "hora": "17:00 – 18:00",
         "tipo": "seguimiento",
-        "lugar": "Iquique",
-        "titulo": "Evaluación y control disfunción ATM / Dolor orofacial"
+        "titulo": "Seguimiento profesional",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -224,11 +224,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-08-1-clinica",
         "hora": "08:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Mañana"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -342,18 +342,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-09-1-clinica",
         "hora": "20:00 – 08:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Noche"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-09-2-clinica",
         "hora": "12:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (turno noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -490,18 +490,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-10-1-clinica",
         "hora": "18:00 – 22:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (saliente de noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-10-2-clinica",
         "hora": "11:00 – 11:15",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "🎹 Piano: Hanon nº1-2 + Mikrokosmos nº2 memoria"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -638,11 +638,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-11-1-clinica",
         "hora": "12:00 – 22:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (día libre)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -779,11 +779,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-12-1-clinica",
         "hora": "08:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Mañana"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -920,11 +920,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-13-1-clinica",
         "hora": "20:00 – 08:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Noche"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1061,18 +1061,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-14-1-clinica",
         "hora": "18:00 – 22:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (saliente de noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-14-2-clinica",
         "hora": "11:00 – 11:15",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "🎹 Piano: Hanon nº2 juntas + ritmo combinado"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1209,11 +1209,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-15-1-clinica",
         "hora": "12:00 – 22:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (día libre)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1350,18 +1350,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-16-1-clinica",
         "hora": "11:56 – 14:12",
         "tipo": "clinica",
-        "lugar": "Iquique IQQ",
-        "titulo": "Flight to Santiago de Chile (LA 163)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-16-2-clinica",
         "hora": "08:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Mañana"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1498,18 +1498,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-17-1-clinica",
         "hora": "12:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (turno noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-17-2-clinica",
         "hora": "20:00 – 08:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Noche"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1646,18 +1646,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-18-1-clinica",
         "hora": "18:00 – 22:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (saliente de noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-18-2-clinica",
         "hora": "11:00 – 11:15",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "🎹 Piano: Hanon nº1-2 + Mikrokosmos nº1-2 memoria"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1794,11 +1794,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-19-1-clinica",
         "hora": "12:00 – 17:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (día libre - sábado)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -1935,11 +1935,11 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-20-1-clinica",
         "hora": "08:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Mañana"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -2076,25 +2076,25 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-1",
+        "id": "agenda-2026-09-21-1-clinica",
         "hora": "20:00 – 08:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Turno Noche"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-2",
+        "id": "agenda-2026-09-21-2-clinica",
         "hora": "12:00 – 20:00",
         "tipo": "clinica",
-        "lugar": "",
-        "titulo": "Cupos de consulta (turno noche)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       },
       {
-        "id": "cal-3",
+        "id": "agenda-2026-09-21-3-clinica",
         "hora": "14:09 – 16:39",
         "tipo": "clinica",
-        "lugar": "Santiago de Chile SCL",
-        "titulo": "Flight to Iquique (LA 164)"
+        "titulo": "Atención clínica",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -2223,18 +2223,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-65pa78089agpbsjrhsr5o6jhb4googlecom",
+        "id": "agenda-2026-09-22-1-personal",
         "hora": "08:00 – 08:15",
         "tipo": "personal",
-        "lugar": "",
-        "titulo": "🎹 Piano: Repaso semana 2 + grabación"
+        "titulo": "Compromiso personal",
+        "lugar": ""
       },
       {
-        "id": "cal-q7mvgka2cp3n24v9hfq1anb2sggooglecom",
+        "id": "agenda-2026-09-22-2-disponibilidad",
         "hora": "15:00 – 19:00",
         "tipo": "disponibilidad",
-        "lugar": "",
-        "titulo": "Cupos de consulta (saliente de noche)"
+        "titulo": "Cupo disponible",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -2371,18 +2371,18 @@ export const historicalBriefs = {
     },
     "agenda": [
       {
-        "id": "cal-fru6b3fg6u91gqt4lrvl1t9foggooglecom",
+        "id": "agenda-2026-09-23-1-disponibilidad",
         "hora": "09:00 – 19:00",
         "tipo": "disponibilidad",
-        "lugar": "",
-        "titulo": "Cupos de consulta (día libre)"
+        "titulo": "Cupo disponible",
+        "lugar": ""
       },
       {
-        "id": "cal-2rss35pkcml740m7vc9s823gpsgooglecom",
+        "id": "agenda-2026-09-23-2-personal",
         "hora": "16:30 – 17:30",
         "tipo": "personal",
-        "lugar": "Peluqueria Navajas, Baquedano 1437, Iquique",
-        "titulo": "Reserva Actualizada en Peluqueria Navajas"
+        "titulo": "Compromiso personal",
+        "lugar": ""
       }
     ],
     "ideas": [
@@ -2504,5 +2504,138 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-23T14:20:39.289Z"
+  },
+  "2026-09-24": {
+    "fecha": "2026-09-24",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20260924-1-clinica",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
+        "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
+        "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42735091%2F",
+        "resumen": "Estudio reciente publicado en Adv Mind Body Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "revista": "BJA Open",
+        "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjao.2026.100571",
+        "resumen": "Estudio reciente publicado en BJA Open sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPSWpsOU5hclN3Y01NVTFxYzFCTklDMHAwcGp1ajNnZnZCM1huWUhodmEtNTY0OWRIUEtCanJpLXd3SzJJUDFHM2JWUDFVbE9PUHMyNDlzZG9OU1ZlN2FjeEtuaW1BVHg2R1pMdGFPcmRBVFBvNHg1MmRaR1hmalVidTMza0pTZ3VVbEgyZWFsaF9aRl9EUm9pXzA2UnhvbzgweXl5dm9jRjYzX2o5S3plSUxjQ2R4d1B1bFZuei1ldU1Fb0lzbWdGaXN6LVZkREtKajdtbmVTWFp5V1cyX0hSa3U2QlJDT2hnczRaSEVlT1BGaHI3cDlIVlhZb0tPQ2piMTBlekJLV2Qzb2dsS2dV?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Minerales críticos e inversiones: La parte económica del Escudo de las Américas al que adhirió Chile",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "cienciaenchile.cl",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según cienciaenchile.cl.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQTnF1TGlnYjUxVVBjejRrQm4zZnZaUnBXbTJ5a2p4WUM5VFBsR3hZLURHMDZqTVNKd1dDbnpNMlR0b0RQOURnMjFvRzVBV1NzRnFra0M1R2xER2xsQ1VDX19uSHU3MEhaaWk4UXRGaWxLMUg1MTUzeUFyVS1ZZC1uZjRyanJVdVNnR0VoTnFxYzFhZUFTMWR2MDdGdmk5S29SYWo3QjEyS0J5ZTdrMVpud3lFVnI0MTR0a0VfZkxRR0VBR1hZM2V3dW90dWdYbWFYSVFlRXlDZjd2S25adjdkNUIzX2lqVGFoS0U2TDA5Y0pUdDQ?oc=5",
+        "fuente": "Radio Pauta 100.5",
+        "titulo": "Deportes Iquique vs Deportes Antofagasta: dónde ver en VIVO y online la ida de los octavos de final de la Copa Chile",
+        "detalle": "Información de actualidad en norte grande según Radio Pauta 100.5.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-24T14:21:34.130Z"
   }
 };
