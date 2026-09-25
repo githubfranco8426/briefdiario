@@ -2637,5 +2637,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-24T14:21:34.130Z"
+  },
+  "2026-09-25": {
+    "fecha": "2026-09-25",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-4",
+      "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+      "referencia": "Salmos 121:1-2",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20260925-1-disponibilidad",
+        "hora": "09:00 – 17:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20260925-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tus músculos respiratorios puede frenar el avance de la ELA?",
+        "idea": "Slide 1: Título llamativo sobre ELA y respiración. Slide 2: Qué dice el nuevo estudio de 2026 en J Neurol. Slide 3: Cómo actúa el entrenamiento muscular inspiratorio. Slide 4: Beneficios en la capacidad vital. Slide 5: Importancia de la intervención kinésica temprana. Slide 6: ¡Comenta si trabajas en neurorrehabilitación! CTA: Guarda este post.",
+        "formato": "Carrusel 6 slides",
+        "base": "Lei Y et al., 2026 (PMID: 42455190)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "La gran revolución en la UCI: ¿Por qué la movilización precoz ya no es opcional?",
+        "idea": "Video dinámico donde explicas las nuevas directrices de la ASSOBBRAFIR 2026 para el paciente crítico. Detallas cómo disminuir la debilidad en UCI y mejorar el pronóstico funcional. CTA: Comparte este video con colegas de turno.",
+        "formato": "Reel 30 s",
+        "base": "Neto SGB et al., 2026 (PMID: 42710394)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula o la cara y no sabes por qué tu umbral de dolor es tan bajo?",
+        "idea": "Slide 1: ¿Dolor en la ATM que no cede? Slide 2: Nuevos datos sobre umbrales de dolor facial. Slide 3: Por qué la algometría de presión cambia nuestra evaluación kinésica. Slide 4: Relación entre musculatura cervical, facial y ATM. Slide 5: Tratamiento kinésico integral de la disfunción temporomandibular. Slide 6: Agendemos tu evaluación. CTA: Escríbenos por DM.",
+        "formato": "Carrusel 6 slides",
+        "base": "Li H et al., 2026 (PMID: 42703050)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Sufres de reflujo y la medicación no basta? La solución podría estar en tu diafragma.",
+        "idea": "Video explicando cómo la respiración diafragmática fortalece el esfínter esofágico inferior según la evidencia reciente de 2026. Muestra brevemente una técnica de respiración correcta en cámara. CTA: Sígueme para más tips de salud respiratoria.",
+        "formato": "Reel 30 s",
+        "base": "Semwal A et al., 2026 (PMID: 42735091)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos del entrenamiento muscular respiratorio en la función respiratoria de pacientes con esclerosis lateral amiotrófica",
+        "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática y metaanálisis evaluó el impacto del entrenamiento muscular respiratorio en la ELA. Los resultados demuestran mejoras significativas en la función respiratoria y la preservación de la capacidad vital en estos pacientes.",
+        "objetivo": "Determinar la eficacia del entrenamiento de los músculos respiratorios sobre la función pulmonar en pacientes diagnosticados con esclerosis lateral amiotrófica.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos controlados en pacientes con esclerosis lateral amiotrófica.",
+        "hallazgos": "Se evidenció un incremento estadísticamente significativo en los parámetros de fuerza muscular inspiratoria y capacidad vital tras la intervención.",
+        "aplicacion": "Integra protocolos personalizados de entrenamiento muscular respiratorio en las etapas tempranas y medias de la ELA para retrasar el deterioro ventilatorio en tu consulta.",
+        "revista": "J Neurol",
+        "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías de práctica clínica de la ASSOBRAFIR en fisioterapia intensiva: estrategias de rehabilitación en adultos críticamente enfermos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices clínicas establecen recomendaciones basadas en evidencia para la movilización precoz y la rehabilitación en la unidad de cuidados intensivos. Su aplicación busca disminuir la debilidad adquirida en UCI y acortar los días de ventilación mecánica.",
+        "objetivo": "Proporcionar recomendaciones actualizadas para la práctica de la fisioterapia y la rehabilitación en pacientes adultos críticamente enfermos.",
+        "metodologia": "Guía de práctica clínica basada en la revisión y síntesis de la evidencia científica disponible en fisioterapia en paciente crítico.",
+        "hallazgos": "Se definieron algoritmos claros de progresión en la movilización temprana y el manejo respiratorio para reducir complicaciones por estancias prolongadas.",
+        "aplicacion": "Actualiza los protocolos de movilización precoz en tu servicio de paciente crítico basándote en estas recomendaciones internacionales para mejorar la funcionalidad al alta.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Umbrales de dolor por presión facial en adultos chinos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio analizó los umbrales de dolor a la presión en la musculatura facial y masetérica en adultos sanos. Los datos aportan valores de referencia cruciales para la evaluación clínica de pacientes con trastornos temporomandibulares (ATM).",
+        "objetivo": "Establecer la distribución y los factores asociados de los umbrales de dolor por presión facial en una cohortes de adultos sanos.",
+        "metodologia": "Estudio observacional y transversal de evaluación algométrica de la musculatura facial en una muestra de adultos sanos.",
+        "hallazgos": "Se determinaron mapas de sensibilidad y diferencias significativas según sexo y edad en los puntos evaluados de la región cráneo-cérvico-facial.",
+        "aplicacion": "Utiliza la algometría de presión como herramienta objetiva en la clínica kinésica para evaluar la hipersensibilidad en pacientes con disfunción temporomandibular.",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico: revisión narrativa de sus bases mecanicistas y evidencia clínica",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión narrativa examina cómo la respiración diafragmática fortalece el esfínter esofágico inferior y mejora la clínica del reflujo. Los autores destacan su rol como terapia no farmacológica complementaria de gran utilidad.",
+        "objetivo": "Revisar las bases mecanicistas y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de literatura científica sobre fisiología respiratoria y trastornos digestivos.",
+        "hallazgos": "Se demostró que el entrenamiento del diafragma reduce los episodios de relajación transitoria del esfínter esofágico inferior y disminuye los síntomas de reflujo.",
+        "aplicacion": "Incorpora ejercicios de control y fortalecimiento diafragmático en pacientes que presentan reflujo asociado a tensiones tóraco-abdominales y respiración apical.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQc2xWQXBmYkZYd3c2dDdDdXhEbXJGSHo1cTFfSFZJc3ZlRTJGMU0xQVBXWXVCQzBMRGUteTFDUklzbXhpZUVXOGRpNmRIOXBLMENwZk8zdGRraDd0YUFhNF9UQlVoelY2Wjg4X2VEMmNkSDBiVTZydndXYlp4RDZaNXR1SjlWYXFoRzhwaUF0a0hzY0tyaFZ0Rl9BRXRpMVlvMEtfaUxueTJhN1I1bXhUM0E2eWxkQmRKZUllMzlJMlE0RzFBNzBsRFJZXzNrZVJrSlFlbm8zV04wNGc2TmhmSUg3aGM2QldEUVNlRVVkWGpoTmk3VFpHbA?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "S&amp;P mantiene nota crediticia de Chile en \"A\" y afirma que el país pronto tendrá un repunte económico",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdnJvVFJqTWZFbU1EM0k2Q2pJNFJSc19QUmRpMTVleTJ6SF9pVXkyUnlaUWo1d21vcWhEYnhmUUgwSzdrb1dUVWJrREhpb0NHN3F1R3pwaFZDLWc2SVRONVBtNGszTDNqOHV3RU16VVo1bE1DNnNCN2FsbUhCNnBraVZBUUhXVXljRUU1bGxERmNXUFJseDRSS0NZR01rbW9FYndlWTZrdFNjYkczdWdmdWduLUQtYll2RllUclk0dno4NXRCS0pYdEdWcUtpRXdJZmN2blMwRUQtdw?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "IQUIQUE SE PREPARA PARA CELEBRAR EL DÍA MUNDIAL DEL TURISMO CON UN DESPLIEGUE CULTURAL Y GASTRONÓMICO EN TODA LA COMUNA",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-25T14:42:44.841Z"
   }
 };
