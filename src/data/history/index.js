@@ -2785,5 +2785,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-25T14:42:44.841Z"
+  },
+  "2026-09-26": {
+    "fecha": "2026-09-26",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 3 · Saliente / Libre",
+    "ciclo_detalle": "Recuperación y fichas clínicas",
+    "versiculo": {
+      "id": "verse-5",
+      "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+      "referencia": "Proverbios 17:22",
+      "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20260926-1-personal",
+        "hora": "08:00 – 08:15",
+        "tipo": "personal",
+        "lugar": "",
+        "titulo": "Compromiso personal"
+      },
+      {
+        "id": "agenda-20260926-2-disponibilidad",
+        "hora": "15:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tus músculos respiratorios puede ayudarte antes de una cirugía de rodilla?",
+        "idea": "Slide 1: Gancho sobre artrosis y respiración. Slide 2: El estudio reciente de Su et al. (2026). Slide 3: ¿Qué es el IMT (Entrenamiento Muscular Inspiratorio)? Slide 4: Beneficios en la lista de espera quirúrgica. Slide 5: Kinesiología respiratoria más allá de los pulmones. Slide 6: Comenta 'RODILLA' para conocer más sobre prehabilitación. ¡Guarda este post!",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42002253",
+        "id": "idea-1"
+      },
+      {
+        "hook": "El rol vital del kinesiólogo en pacientes con trasplante de células madre hematopoyéticas",
+        "idea": "Video dinámico explicando cómo la fisioterapia acompaña todo el proceso del paciente oncohematológico crítico, destacando la nueva revisión sistemática de Ben Jemia y colaboradores. Cierra invitando a colegas a actualizar sus protocolos clínicos.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42567275",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Puede la forma en que caminas predecir tu recuperación tras un infarto cardíaco grave?",
+        "idea": "Slide 1: Pregunta retórica sobre la marcha post-infarto. Slide 2: El impacto del soporte circulatorio mecánico. Slide 3: Datos clave del estudio de Hanada et al. (2026) a los 14 días. Slide 4: La importancia de la movilización precoz en UCI. Slide 5: El rol del kinesiólogo intensivista. Slide 6: Síguenos para más evidencia en paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42523488",
+        "id": "idea-3"
+      },
+      {
+        "hook": "COVID prolongado y fatiga crónica: ¿Qué dice la última ciencia sobre su tratamiento?",
+        "idea": "Breve video analizando la revisión sistemática de Tamariz et al. (2026) sobre Long COVID. Explica los desafíos del manejo kinésico y la importancia de no sobrepasar los límites energéticos del paciente. Llamado a la acción: agenda tu evaluación respiratoria.",
+        "format": "Reel 30 s",
+        "base": "PMID: 42630997",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Viabilidad y efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con artrosis de rodilla en espera de artroplastia total: un ensayo controlado aleatorizado piloto de 8 semanas",
+        "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "resumen": "Este ensayo evaluó el entrenamiento muscular inspiratorio en pacientes con artrosis de rodilla severa antes de la cirugía. Los resultados demuestran que es una intervención factible y con beneficios clínicos preliminares positivos.",
+        "objetivo": "Evaluar la viabilidad y los efectos preliminares del entrenamiento muscular inspiratorio en pacientes en espera de artroplastia total de rodilla.",
+        "metodologia": "Ensayo controlado aleatorizado piloto de 8 semanas en pacientes con artrosis de rodilla que esperaban cirugía.",
+        "hallazgos": "Se demostró la alta factibilidad de la intervención y mejoras preliminares en la capacidad funcional y respiratoria de los pacientes.",
+        "aplicacion": "Integra el entrenamiento muscular inspiratorio en el preoperatorio de pacientes osteoartríticos para optimizar su reserva funcional.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "El papel de la fisioterapia a lo largo de la trayectoria del trasplante en el trasplante alogénico de células madre hematopoyéticas: una revisión sistemática y marco clínico",
+        "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "resumen": "Esta revisión sistemática analiza la importancia crucial de la fisioterapia en todas las fases del trasplante alogénico de células madre hematopoyéticas. Proporciona un marco clínico para guiar la intervención kinésica en pacientes altamente complejos.",
+        "objetivo": "Sintetizar el rol de la fisioterapia a lo largo de la trayectoria del trasplante de células madre hematopoyéticas y proponer un marco clínico.",
+        "metodologia": "Revisión sistemática de la literatura científica centrada en las intervenciones de fisioterapia durante el trasplante hematopoyético.",
+        "hallazgos": "Se identificó que la rehabilitación temprana y estructurada mejora significativamente los resultados clínicos y la calidad de vida en estos pacientes críticos.",
+        "aplicacion": "Utiliza este marco clínico para diseñar programas de movilización y ejercicio temprano en pacientes hematológicos complejos.",
+        "revista": "Transplant Cell Ther",
+        "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Significado pronóstico de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en el infarto agudo de miocardio: un análisis de puntos de referencia de 14 días",
+        "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+        "resumen": "Este estudio investiga cómo la recuperación de la marcha tras el destete de soporte circulatorio mecánico impacta el pronóstico en infarto agudo de miocardio. La evaluación temprana de la movilidad se confirma como un potente marcador pronóstico.",
+        "objetivo": "Determinar el valor pronóstico de la recuperación de la marcha a los 14 días tras el destete de soporte circulatorio mecánico en infarto de miocardio.",
+        "metodologia": "Análisis de puntos de referencia a 14 días en pacientes post-infarto agudo de miocardio sometidos a soporte circulatorio mecánico.",
+        "hallazgos": "La pronta recuperación de la capacidad de marcha se asoció fuertemente con mejores resultados clínicos a corto y mediano plazo.",
+        "aplicacion": "Evalúa y prioriza la recuperación de la marcha desde las primeras fases tras el retiro de asistencia circulatoria mecánica en pacientes críticos.",
+        "revista": "Prog Rehabil Med",
+        "doi": "https://doi.org/10.2490/prm.20260038",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Revisión sistemática de ensayos clínicos aleatorizados para el tratamiento del síndrome de COVID prolongado",
+        "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+        "resumen": "Esta revisión sistemática analiza la evidencia actual de ensayos clínicos aleatorizados enfocados en el manejo del síndrome de COVID prolongado. Los hallazgos buscan estandarizar abordajes terapéuticos efectivos para la fatiga y disfunción respiratoria persistente.",
+        "objetivo": "Revisar la evidencia de ensayos clínicos aleatorizados sobre las opciones terapéuticas disponibles para el síndrome de COVID prolongado.",
+        "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados publicados sobre intervenciones para Long COVID.",
+        "hallazgos": "Se evidenció una gran heterogeneidad en los tratamientos, destacando la necesidad de enfoques multidisciplinarios e individualizados.",
+        "aplicacion": "Personaliza los programas de rehabilitación respiratoria y acondicionamiento físico evitando el desencadenamiento de fatiga extrema (PEM) en pacientes con Long COVID.",
+        "revista": "J Community Hosp Intern Med Perspect",
+        "doi": "https://doi.org/10.55729/2000-9666.1612",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQc2xWQXBmYkZYd3c2dDdDdXhEbXJGSHo1cTFfSFZJc3ZlRTJGMU0xQVBXWXVCQzBMRGUteTFDUklzbXhpZUVXOGRpNmRIOXBLMENwZk8zdGRraDd0YUFhNF9UQlVoelY2Wjg4X2VEMmNkSDBiVTZydndXYlp4RDZaNXR1SjlWYXFoRzhwaUF0a0hzY0tyaFZ0Rl9BRXRpMVlvMEtfaUxueTJhN1I1bXhUM0E2eWxkQmRKZUllMzlJMlE0RzFBNzBsRFJZXzNrZVJrSlFlbm8zV04wNGc2TmhmSUg3aGM2QldEUVNlRVVkWGpoTmk3VFpHbA?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "S&amp;P mantiene nota crediticia de Chile en \"A\" y afirma que el país pronto tendrá un repunte económico",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "cienciaenchile.cl",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según cienciaenchile.cl.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOamc2bk5Zbm9UM0V3a211WjlrT1hUSkpjMzBUNHJBSFVMckJkVXUyQzJPdUw3M1hpZWcyQ2RXMGlxSVkzODdVWE5pcGNWU1FOcnhKZE1yOHFjenNCdWtoSDAzNDJNeFZUamNRQm01eFVGUXU0OUEwNlZ6VVY5SU95TVpFVG9oSzhNQjctV1pDWnUwckJ0UURsODVndjBDLWtBaGFpZmlXV0d5WDVYZXVuX0dfTVJWSzJ6MzVjUi12OGNvd3k3ZWw0WXR2T2tvSEVmR05CWTRsYmhhZGdSMHM0Q1lNYmFMcnc?oc=5",
+        "fuente": "El Reportero de Iquique",
+        "titulo": "Más de mil 500 prestaciones médicas gratuitas se realizan en Iquique y Alto Hospicio para reducir las listas de espera",
+        "detalle": "Información de actualidad en norte grande según El Reportero de Iquique.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-26T13:49:47.817Z"
   }
 };
