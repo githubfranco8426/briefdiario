@@ -3229,5 +3229,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-28T17:47:06.842Z"
+  },
+  "2026-09-29": {
+    "fecha": "2026-09-29",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-1",
+      "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
+      "referencia": "Josué 1:9",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20260929-1-disponibilidad",
+        "hora": "09:00 – 17:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20260929-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tu respiración puede salvar tu calidad de vida después de una cirugía al corazón?",
+        "idea": "Slide 1: Hook llamativo. Slide 2: El desafío del post-operatorio cardíaco. Slide 3: Qué dice el estudio de Ribeiro et al. (2026). Slide 4: Beneficios en la capacidad funcional. Slide 5: Cómo aplicarlo en kinesiología respiratoria. Slide 6: Sígueme para más evidencia clínica.",
+        "formato": "Carrusel 6 slides",
+        "base": "Ribeiro MSDCN et al., 2026 (PMID: 41711778)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Cómo devolvemos la fuerza a pacientes que llevan semanas atrapados en la UCI?",
+        "idea": "Video dinámico donde explico el uso de dispositivos de suspensión para combatir la debilidad adquirida en pacientes críticos, mostrando la importancia de la movilización precoz basada en el estudio de Xu et al. (2026), con llamado a comentar tu experiencia en UCI.",
+        "formato": "Reel 30 s",
+        "base": "Xu L et al., 2026 (PMID: 41545879)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te truena la mandíbula y no sabes qué ejercicio hacer? La cinemática tiene la respuesta.",
+        "idea": "Slide 1: Pregunta sobre dolor de ATM. Slide 2: El error común de hacer ejercicios genéricos. Slide 3: El enfoque innovador basado en análisis cinemático (Woo et al., 2026). Slide 4: Cómo individualizar el tratamiento. Slide 5: Resultados en la clínica. Slide 6: Agenda tu evaluación de ATM aquí.",
+        "formato": "Carrusel 6 slides",
+        "base": "Woo J et al., 2026 (PMID: 41598590)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Dolor lumbar por hernia discal? Prueba este movimiento en camilla",
+        "idea": "Demostración práctica en video corto de la técnica de extensión de rodilla en decúbito prono según el reporte de caso de Shahbazi & Fatemi (2026), explicando su beneficio para la centralización del dolor y invitando a compartir el reel con pacientes lumbares.",
+        "formato": "Reel 30 s",
+        "base": "Shahbazi M, Fatemi TS, 2026 (PMID: 41522824)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efecto del entrenamiento de la musculatura respiratoria en la capacidad funcional y calidad de vida tras cirugía de revascularización coronaria",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "resumen": "Este ensayo clínico evaluó el impacto del entrenamiento muscular respiratorio en pacientes sometidos a bypass coronario. Los resultados demuestran mejoras significativas en la capacidad funcional y la calidad de vida de los pacientes intervenidos.",
+        "objetivo": "Determinar la efectividad del entrenamiento de los músculos respiratorios sobre la capacidad funcional y la calidad de vida en pacientes post-cirugía cardíaca.",
+        "metodologia": "Ensayo clínico aleatorizado realizado en pacientes adultos sometidos a cirugía de revascularización coronaria con circulación extracorpórea.",
+        "hallazgos": "Se observó una recuperación más rápida y eficiente de la función respiratoria y la capacidad de esfuerzo en el grupo intervenido.",
+        "aplicacion": "Implementa protocolos precoces de entrenamiento muscular respiratorio en pacientes post-operados de cirugía cardíaca para acelerar su alta funcional.",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Eficacia de un dispositivo de rehabilitación de extremidades inferiores basado en suspensión en pacientes con debilidad adquirida en UCI",
+        "titulo_original": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "resumen": "Este estudio investigó un dispositivo de suspensión para mejorar la función de extremidades inferiores en pacientes críticos con debilidad adquirida en la UCI. Se comprobó una recuperación motora favorable y segura durante la fase de hospitalización.",
+        "objetivo": "Evaluar la eficacia de un dispositivo de suspensión para mejorar la función de las extremidades inferiores en pacientes con debilidad adquirida en UCI.",
+        "metodologia": "Ensayo clínico aleatorizado auto-controlado en pacientes adultos con debilidad neuromuscular derivada de su estancia prolongada en unidades de paciente crítico.",
+        "hallazgos": "El uso del sistema de suspensión facilitó la movilización temprana y mejoró la fuerza y funcionalidad de las extremidades inferiores.",
+        "aplicacion": "Utiliza sistemas de asistencia por suspensión en la unidad de paciente crítico para facilitar la movilización precoz y contrarrestar la debilidad adquirida.",
+        "revista": "Crit Care",
+        "doi": "https://doi.org/10.1186/s13054-026-05840-1",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Ejercicio individualizado guiado por análisis cinemático para trastornos temporomandibulares",
+        "titulo_original": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "resumen": "Esta serie de casos analizó la aplicación de ejercicios personalizados basados en análisis cinemático para tratar los trastornos de la articulación temporomandibular (ATM). Los pacientes experimentaron una notable reducción del dolor y optimización del rango de movimiento mandibular.",
+        "objetivo": "Describir los efectos de un programa de ejercicios individualizados guiados por cinemática en pacientes con disfunción temporomandibular.",
+        "metodologia": "Estudio de serie de casos clínicos en pacientes diagnosticados con trastornos temporomandibulares sometidos a evaluación cinemática y tratamiento kinesiologico específico.",
+        "hallazgos": "El enfoque guiado por cinemática logró corregir los patrones de movimiento mandibular disfuncionales y disminuir la sintomatología dolorosa.",
+        "aplicacion": "Integra evaluaciones cinemáticas precisas en tu consulta de ATM para diseñar pautas de ejercicios kinésicos altamente personalizados.",
+        "revista": "J Clin Med",
+        "doi": "https://doi.org/10.3390/jcm15020655",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Una nueva perspectiva en el manejo de la hernia discal lumbar mediante la extensión de rodilla en decúbito prono",
+        "titulo_original": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+        "resumen": "Este reporte de caso exploró el uso de la extensión de rodilla en decúbito prono como estrategia terapéutica para la hernia discal lumbar. La intervención demostró ser una alternativa efectiva para el alivio sintomático y la centralización del dolor.",
+        "objetivo": "Analizar la respuesta clínica al aplicar la extensión de rodilla en decúbito prono en el tratamiento de la hernia discal lumbar.",
+        "metodologia": "Reporte de caso clínico enfocado en la aplicación de una maniobra específica de terapia física en pacientes con patología discal lumbar.",
+        "hallazgos": "La maniobra facilitó la disminución de la irradiación del dolor y mejoró la tolerancia a la carga en la columna lumbar.",
+        "aplicacion": "Considera incorporar la extensión de rodilla en prono dentro de las opciones de manejo conservador para pacientes con radiculopatía por hernia discal.",
+        "revista": "Case Rep Med",
+        "doi": "https://doi.org/10.1155/carm/2579261",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNTWxyVFNfc0VkdW1mRWg4X2V4UUJSSXhQWVpyOExuTmkweklBdC1PRWQ5REVGMzJjT18yRkFLWEREaXhjNlFxdG1QNS1JU0FaQl9FNVFSV2FyYTJ1R3JMUHRXT2ZvU2dab25EQ19kZTh2dmp1b1poTS1mTXZZbFVyQlZ1NFZZbmNiQmZUY0FIQzBaM1lyenV6ZllNM1hiUGxQT2JlU0g1amRJTW5xc25JWkdGX2llTjQzdHc3OVNBc0h6WkFZZC1FOXdvLWR2alFPR1FmZjBIZmJJUjBZaHVwRV9vNERwX0RTd0p6VTdSSWpMMHlQNDJFeEJDX2NRa2FJVkxTbmJDR2thQmFuOE9ieVNB?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Kast lanza plan que promete más de 100 mil empleos y destaca que inversiones están regresando a Chile",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUVluR2VJaXcyeC1hN1BmUFRhMFctWHNuVlRMNURnQWY3QmdBenkwbmRsZW0wbHpFaGptWDJDUVFLenZXYjBuSkRRV3c1eVlzTnVWR2RCQksxQm9yRGhGclVjMUd4SkxjSDl6dU5ocFdpZ0Vqc0kzbjJTWlExSmtPSTUtU2lNNzFhZ3VtcVl5ZmZzdHdOa0RoNG1vM3Z6bVIxbmNRRVZtcG11RG5YcGVzUE5nS3VGZkRZVzl6di1wNkxVMWVFRGNxWVFueDRZbVdHNncwOVkwN18wUW5sMHA5Q3o4T2J2OHM?oc=5",
+        "fuente": "elreporterodeiquique.com",
+        "titulo": "Más de 1.500 prestaciones médicas gratuitas se realizaron en Iquique y Alto Hospicio para reducir las listas de espera",
+        "detalle": "Información de actualidad en norte grande según elreporterodeiquique.com.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-09-29T16:05:16.648Z"
   }
 };
