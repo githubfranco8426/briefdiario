@@ -3525,5 +3525,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-09-30T16:02:57.251Z"
+  },
+  "2026-10-01": {
+    "fecha": "2026-10-01",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-1",
+      "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
+      "referencia": "Josué 1:9",
+      "reflexion": "Hoy en tu labor clínica: serenidad y firmeza para liderar procedimientos y acompañar con empatía a cada paciente y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261001-1-disponibilidad",
+        "hora": "09:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sufres de esclerosis múltiple y te cuesta asistir a todas tus sesiones de kinesiología?",
+        "idea": "Carrusel explicando cómo la telerehabilitación híbrida combina lo mejor de la atención presencial y remota para mejorar la movilidad. Slide 1: El problema de la asistencia. Slide 2: ¿Qué dice la ciencia 2026? Slide 3: Ventajas del modelo híbrido. Slide 4: Ejemplos de ejercicios en casa. Slide 5: El rol del kinesiólogo. Slide 6: ¡Agenda tu evaluación híbrida hoy!",
+        "formato": "Carrusel 6 slides",
+        "base": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Te falta el aire al caminar y crees que hacer ejercicio empeorará tu EPOC?",
+        "idea": "Reel dinámico donde el kinesiólogo desmitifica el reposo en la EPOC, mostrando según nuevas guías ASSOBRAFIR por qué el ejercicio es la mejor medicina. Incluye llamado a la acción para integrarse a un programa de rehabilitación pulmonar.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in COPD",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te truena la mandíbula o te duele al masticar y ya probaste de todo?",
+        "idea": "Carrusel revelando por qué tratar solo la mandíbula en la disfunción de ATM es un error y cómo la ciencia avala incluir el cuello. Slide 1: El mito de la ATM aislada. Slide 2: La conexión cráneo-cervical. Slide 3: El estudio revelador. Slide 4: Terapia manual clave. Slide 5: Ejercicios combinados. Slide 6: Reserva tu hora de kinesiología ATM en Chile.",
+        "formato": "Carrusel 6 slides",
+        "base": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Sabías que la debilidad después de estar grave en la UCI se puede prevenir a tiempo?",
+        "idea": "Reel explicando la importancia de la movilización temprana en pacientes críticos según las nuevas guías ASSOBRAFIR en UCI. Llamado a la acción para valorar el rol crucial del kinesiólogo intensivista.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos de un modelo de telerehabilitación híbrida en la esclerosis múltiple",
+        "titulo_original": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis: A Single-Blind Randomized Controlled Study",
+        "resumen": "La telerehabilitación híbrida demostró ser una estrategia eficaz para mejorar la movilidad y capacidad funcional en pacientes con esclerosis múltiple. Este enfoque combina sesiones presenciales y remotas facilitando la adherencia al tratamiento kinésico.",
+        "objetivo": "Evaluar los efectos de un modelo de telerehabilitación híbrida sobre la movilidad y la capacidad funcional en pacientes con esclerosis múltiple.",
+        "metodologia": "Estudio clínico aleatorizado y simple ciego realizado en pacientes diagnosticados con esclerosis múltiple para comparar intervenciones a distancia y presenciales.",
+        "hallazgos": "Se observaron mejoras significativas en la movilidad y en la capacidad funcional general de los pacientes sometidos al modelo híbrido.",
+        "aplicacion": "Implementa programas híbridos en tu consulta en Chile para optimizar los tiempos de recuperación y mantener la continuidad asistencial en pacientes neurológicos.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2025.09.034",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías clínicas de la ASSOBRAFIR: ejercicio en EPOC",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with chronic obstructive pulmonary disease (COPD)",
+        "resumen": "Estas guías clínicas actualizan las recomendaciones basadas en ejercicio para la rehabilitación respiratoria en pacientes con enfermedad pulmonar obstructiva crónica (EPOC). Destacan la importancia del entrenamiento aeróbico y de fuerza para disminuir la disnea y mejorar la calidad de vida.",
+        "objetivo": "Establecer recomendaciones clínicas basadas en evidencia para las intervenciones basadas en ejercicio en personas con EPOC.",
+        "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la literatura sobre intervenciones de ejercicio en pacientes con EPOC.",
+        "hallazgos": "El ejercicio estructurado reduce significativamente las hospitalizaciones y mejora la tolerancia al esfuerzo en la población con EPOC.",
+        "aplicacion": "Utiliza estas pautas basadas en evidencia para prescribir ejercicio físico seguro y efectivo en tus pacientes respiratorios crónicos.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2025.101539",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Terapia manual y ejercicio para dolor orofacial y cervical",
+        "titulo_original": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain: a systematic review and meta-analysis",
+        "resumen": "La combinación de terapia manual y ejercicio dirigido a las regiones cervical y orofacial reduce de forma efectiva el dolor en pacientes con trastornos temporomandibulares (ATM). Este enfoque integral aborda la alta correlación biomecánica entre la columna cervical alta y la mandíbula.",
+        "objetivo": "Analizar la eficacia de la terapia manual y el ejercicio en la zona cervical y orofacial para el manejo del dolor orofacial.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en pacientes con dolor orofacial y disfunción cráneo-cérvico-mandibular.",
+        "hallazgos": "La intervención multimodal dirigida al cuello y la ATM genera una reducción superior del dolor y mejora la funcionalidad mandibular.",
+        "aplicacion": "Si tratas disfunción de ATM en Chile, no olvides evaluar ni tratar la columna cervical alta en conjunto con la musculatura masticatoria.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2539469",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Estrategias de rehabilitación en adultos críticamente enfermos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Las nuevas directrices para pacientes críticos recomiendan la movilización temprana y estrategias de rehabilitación adaptadas a la UCI para prevenir la debilidad adquirida en cuidados intensivos. Esto acelera el destete ventilatorio y disminuye los días de estancia hospitalaria.",
+        "objetivo": "Proveer recomendaciones estandarizadas sobre estrategias de rehabilitación para adultos críticamente enfermos.",
+        "metodologia": "Guía de práctica clínica desarrollada mediante consenso y análisis crítico de la literatura en fisioterapia intensiva.",
+        "hallazgos": "La movilización temprana y protocolizada en UCI es segura y mejora drásticamente los resultados funcionales a largo plazo.",
+        "aplicacion": "Aplica estos protocolos basados en la evidencia para estructurar planes de movilización segura en la unidad de paciente crítico.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdnZVSkZnXy1rWTFXQk5wT1pDZEVwS2dUQ2JxckZMNWhWLVlVb0kwMHVkQmpDbi1FZDk1c1J3dzFvR25wLWFpTGVQWmZzU2dtY2Zqai1KRDkwMVpGMVR0VTdWQlpDb2ZDRTdOS1UyMDBEVEhRaE9aX2VwZGktTHVfMjF2MThiS2dBOWVvNkdRbDB5eFhCZnRTYV9MTnRSOEhOTEpJR3dYU19hakRlWVNkVjZlU3lGUnVpazNaeHRhODFwa19ONEJVYVVna0YtY2VuU2pGQklxYkJTakVBRFNWeDln0gH2AUFVX3lxTFBwYUpEYlNqaWhaVkV4TkdVZXBrYkJwX0ZTeWFHU1BYcFNZeG56cEp6MFVmVU5ORFQwMEYyYUNXQXFLcE1aQ2xLQXE0NE50bEdlakUxaVdFTHBLTW9xUDdEa3B6UjRMdlZGeHlrZzhkX19zQUtsX0FFQi1hR1Y5QmJKeE1YNW96MUlTSE1fMVU4ZlZwOW96eU9IV1ZESHBRTkRiQ3VmS01tNk90UDMwS1Ewd2ZEdWJReTAyazc1b2FaTk51akVicG1YR3lkSjJiRFhucm1rMFVGZ0pMcndidTJwYmwtRHFoS2JqWVRiVXZzN0tRWHREUQ?oc=5",
+        "fuente": "adnradio.cl",
+        "titulo": "Golpe a la economía chilena tras caída del Imacec: Gobierno afirma que empleo y crecimiento “comenzarán a remontar”",
+        "detalle": "Información de actualidad en economía · chile según adnradio.cl.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmNWWTFiR3hkWTNwQVRzZ016Yk5DT2g2LVRpd0pSRnZvVE81d3Zac1JyM1Fsc185OU9BaTJuNF90ZTF6TkVCWThnT3Rrc3VNSTFaeFI5ZTR0SEtXNEExWTVva1ctdHI4TmNPLUp0RldiNVZzcDRVSFQ2Q000V01PTWZzaThoajRwaE5EUDRYZEs3SEdEQjFoQ1pSMTFfWUpqVE1UcWM0WlVJY2Zha2VsWXNTdkpPYl9zckRFX3lOdGthdHQzSkhGZzVCUHI2WWtCaTc3SnhIbm00clF2R1FzYTVwZl8zVTlNR0HSAYsCQVVfeXFMUFhIdWhXemgxaFRuUVViZWIzR0hsXzN0UWVzTmZ3RnJ0cm1rQS1xaEJycGFEd3Z6X1M4aktyQktwM0dMZmJTQVJNYmNlYzJDU2JrV01sRFFQbVEzT0J3akdUSE0yMTRmdTlHd3ZvRXBxLW1PMEpiZlJENFVqclUxS3lORkhnTXpiTF9qTG0yemlxRXlPajVtc3JlZnpoQXJyMW9JQ21LZnd5T3ZvVWRSeTNOTVpnLWU5QlA1dXN0cG9XS1JHUFhRVkd2NHNkSkJxa0ttbmh2dVZMUFR0QVFKSlJJUm1TWl96VDVDZm53VE54V2czeERFRTU0XzFkWTdDYXhNVk0xeDBpclBJ?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Ministerio de Ciencia fija seis ejes para 2026-2030 y prepara nuevo proyecto de ley sobre inteligencia artificial",
+        "detalle": "Información de actualidad en ia · mercados según La Tercera.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQjFBcWdnSHRuZU9UcFBNOTJyVUdSQlJaNVZwSWtINlNXdm1pcHZWeFJVM25ScG5WVzQ5eEQ2UHNtUnBFZnJrVEZVM3dnRjNybVFaWEMzbnBxX0t5MTAxSWZuSEdDZmxPNXNGLWpSaHczRzh4S0lsT3BUV0luSzNxcURwWUVRQ2JFajRLQXlTVElpZUY0UzRaUS1HYzE?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "ALTO HOSPICIO APRUEBA MÁS DE $115 MILLONES EN COMPRA DE JUGUETES NAVIDEÑOS",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-01T16:39:46.485Z"
   }
 };
