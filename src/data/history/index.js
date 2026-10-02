@@ -3666,5 +3666,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-01T16:39:46.485Z"
+  },
+  "2026-10-02": {
+    "fecha": "2026-10-02",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-2",
+      "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+      "referencia": "Isaías 40:31",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261002-1-clinica",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que la rehabilitación en pacientes críticos ya tiene nuevas directrices internacionales?",
+        "idea": "Carrusel de 6 slides explicando las nuevas recomendaciones de la ASSOBBRAFIR para la movilización temprana en UCI, terminando con una invitación a actualizarse en Kinesiología Intensiva.",
+        "formato": "Carrusel 6 slides",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy (PMID: 42710394)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Te duele la mandíbula y no sabes por qué? La clave podría estar en la sensibilidad facial",
+        "idea": "Reel de 30 segundos mostrando cómo se evalúa el dolor a la presión en pacientes con disfunción temporomandibular (ATM) basándose en nuevos estudios normativos.",
+        "formato": "Reel 30 s",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults (PMID: 42703050)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Sufres de reflujo y los medicamentos no bastan? Tu diafragma tiene la respuesta",
+        "idea": "Carrusel de 6 slides detallando cómo la respiración diafragmática fortalece el esfínter esofágico y disminuye el reflujo, con llamados a agendar evaluación kinésica.",
+        "formato": "Carrusel 6 slides",
+        "base": "Diaphragmatic Breathing in Gastroesophageal Reflux Disease (PMID: 42735091)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Problemas para respirar bien después de una cirugía de abdomen?",
+        "idea": "Reel de 30 segundos explicando el rol del kinesiólogo aplicando ventilación no invasiva intermitente en pacientes postquirúrgicos para evitar complicaciones.",
+        "formato": "Reel 30 s",
+        "base": "Physiotherapist-led intermittent noninvasive ventilation following abdominal surgery (PMID: 42518491)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Guías de práctica clínica de la ASSOBRAFIR para la fisioterapia en cuidados intensivos: estrategias de rehabilitación en adultos críticamente enfermos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices clínicas establecen recomendaciones basadas en evidencia para optimizar los procesos de movilización y rehabilitación temprana en pacientes adultos en unidades de cuidados intensivos. Su implementación busca reducir la debilidad adquirida en UCI y mejorar los desenlaces funcionales a largo plazo.",
+        "objetivo": "Proveer guías clínicas actualizadas sobre estrategias de rehabilitación física para pacientes adultos críticamente enfermos.",
+        "metodologia": "Guía de práctica clínica basada en una revisión sistemática y consenso de expertos sobre fisioterapia en pacientes críticos adultos.",
+        "hallazgos": "Se definieron protocolos claros para la movilización temprana segura, minimizando las complicaciones asociadas a la ventilación mecánica prolongada y el reposo en cama.",
+        "aplicacion": "Integra estos protocolos basados en evidencia en tu práctica hospitalaria para estandarizar el inicio seguro de la movilización temprana en pacientes críticos.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribución y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio analiza la distribución de los umbrales de dolor a la presión en la musculatura facial y masetérica de adultos sanos, identificando variables fisiológicas asociadas. Estos valores normativos son esenciales para el diagnóstico preciso de trastornos temporomandibulares y dolor orofacial.",
+        "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor a la presión en estructuras faciales en población sana.",
+        "metodologia": "Estudio observacional transversal enfocado en la medición algométrica de la presión facial en una cohorte de adultos sanos.",
+        "hallazgos": "Se establecieron rangos de referencia para la sensibilidad a la presión en puntos clave de la cara y la mandíbula, evidenciando diferencias según sexo y edad.",
+        "aplicacion": "Utiliza estos parámetros normativos de algometría en tu clínica para mejorar la precisión diagnóstica en pacientes con sospecha de disfunción temporomandibular (ATM).",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico: revisión narrativa de su base mecanística y evidencia clínica",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión explora cómo el entrenamiento de la musculatura inspiratoria y la respiración diafragmática mejoran la presión del esfínter esofágico inferior mediante el fortalecimiento del pilar diafragmático. Se postula como una intervención kinésica complementaria altamente efectiva para el manejo sintomático del reflujo.",
+        "objetivo": "Examinar los mecanismos fisiológicos y la evidencia clínica del uso de la respiración diafragmática en el manejo del reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica sobre la interacción anatómica y funcional entre el diafragma y la unión gastroesofágica.",
+        "hallazgos": "El fortalecimiento y control del diafragma reducen de forma significativa los episodios de relajación transitoria del esfínter esofágico inferior y los síntomas de reflujo.",
+        "aplicacion": "Incorpora ejercicios de respiración diafragmática en pacientes con trastornos digestivos altos y sintomatología respiratoria asociada en tu consulta.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Ventilación no invasiva intermitente liderada por fisioterapeutas para la hipoxemia postquirúrgica abdominal en un hospital australiano de cuarto nivel: un ensayo piloto aleatorizado de factibilidad",
+        "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "resumen": "Este ensayo evaluó la viabilidad y seguridad de un protocolo de ventilación no invasiva intermitente aplicado por fisioterapeutas para tratar la hipoxemia tras cirugías abdominales mayores. Los resultados demuestran que la intervención es segura, factible y reduce la necesidad de rescates respiratorios avanzados.",
+        "objetivo": "Evaluar la factibilidad y eficacia clínica de la ventilación no invasiva intermitente dirigida por fisioterapeutas en pacientes con hipoxemia postquirúrgica abdominal.",
+        "metodologia": "Ensayo clínico piloto aleatorizado controlado en pacientes adultos sometidos a cirugía abdominal mayor con complicaciones hipoxémicas.",
+        "hallazgos": "El manejo kinésico oportuno con ventilación no invasiva mejoró rápidamente los parámetros oxigenatorios y previno el deterioro respiratorio postoperatorio.",
+        "aplicacion": "Aplica protocolos de ventilación no invasiva guiados por profesionales de la kinesiología en el postoperatorio abdominal para optimizar la función pulmonar.",
+        "revista": "BJA Open",
+        "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQVVXejhkdDRtTGNXdlctLWxEVnJnT3V0VWJ5ODFSdEM0aDJhVWtTVnFTUGVWb1VRWVltYVNwc19aR1EtNkc5MkxkbGtCMTRzNTYwVzlRc0w5U0trMmlVQS1aU1hab0tId1Q2VjkyV1NUbmJ3MHlubDd6XzNqYnV6aldVUGFiZFFGWGJ5TVg4dEozLU5yaF8yV3lXWU9WUGtGVWFVRC1qUW4yOVlhYkl5V1RWbVd0SjNibUV1YXFwMFlraGdXd1lLMGQyUdIB3wFBVV95cUxNWWZLMjNDd1ZzYzhnQTlFb1NCbVRQMXJia0pta0ZOM0FJREZaV3puREluZ1ZHNnBfRGItRTVGT2xjQVJFT001dzQwSU1sdE9WQ3RIalNPamx6RDcwdHJyQnhvMU5wN19jMVR6R2NQSjN4YTl4c3QxWG55QU5YQUN5aEE1cnZVQzg4RXE3Q2pUdjJyajFsLWZySENHN2d6UDlkNU1jLWdkLTdBYmNNc1hHUDl3T3JFOHBwaXRQbWdPb1FqRFJKb0V4eUV3b2NPeUZYWFdhb1IybVA4Zy1KS2FN?oc=5",
+        "fuente": "ADN Radio",
+        "titulo": "“El 2026 está prácticamente perdido”: expertos advierten por duro escenario de la economía chilena",
+        "detalle": "Información de actualidad en economía · chile según ADN Radio.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "fch.cl",
+        "titulo": "Chile apuesta por inteligencia artificial y satélites para detectar mercados ilegales de vertido de residuos",
+        "detalle": "Información de actualidad en ia · mercados según fch.cl.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZjhpN2dkc25mT3BIUE1TUkdyY1JyQk41Y0dCOVdYajBvcEYtdy14WUZ0bW4xQ0VhODdVZHk2dzZyaHliVzk4dmRZUFVxSjMyWFB5NGsxU1pPaS0wLWVDVGtRTk5QTjRDRENlVVlDTmhGS2kwa1JPYm4zVzhaVHA2emdadndTbXJLZlNQSHcwQ2M?oc=5",
+        "fuente": "El Mostrador",
+        "titulo": "Muestra de Rafael Lara en Iquique",
+        "detalle": "Información de actualidad en norte grande según El Mostrador.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-02T15:56:33.415Z"
   }
 };
