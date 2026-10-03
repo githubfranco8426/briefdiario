@@ -3807,5 +3807,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-02T15:56:33.415Z"
+  },
+  "2026-10-03": {
+    "fecha": "2026-10-03",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261003-1-disponibilidad",
+        "hora": "09:00 – 14:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20261003-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tu respiración puede retrasar el avance de la ELA?",
+        "idea": "Slide 1: Hook sobre ELA y respiración. Slide 2: Qué dice el nuevo estudio de 2026. Slide 3: Beneficios en la Presión Inspiratoria Máxima (PIM). Slide 4: Cómo se aplica el entrenamiento muscular respiratorio. Slide 5: Importancia de la kinesiología respiratoria oportuna. Slide 6: CTA comentando 'Especialista' para recibir una guía.",
+        "formato": "Carrusel 6 slides",
+        "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis (PMID: 42455190)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Paciente crítico en UCI? La clave ya no es solo esperar, es moverlo hoy.",
+        "idea": "Video dinámico explicando las nuevas guías internacionales ASSOBBRAFIR 2026. Se muestran imágenes de manejo kinésico en paciente crítico, destacando la reducción de días en ventilación mecánica mediante la movilización precoz segura. CTA: Comparte este video con un colega de la salud.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy (PMID: 42710394)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula o la cara al presionarla? Esto dice la ciencia sobre tus umbrales de dolor.",
+        "idea": "Slide 1: Pregunta sobre dolor facial y ATM. Slide 2: Cómo la algometría mide el dolor en la mandíbula. Slide 3: Hallazgos del estudio en adultos sanos vs patológicos. Slide 4: Por qué los maseteros y músculos faciales sufren en silencio. Slide 5: El rol del kinesiólogo especialista en ATM. Slide 6: CTA agendando evaluación kinésica.",
+        "formato": "Carrusel 6 slides",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults (PMID: 42703050)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Sufres de reflujo y los medicamentos no bastan? Tu diafragma podría ser la solución.",
+        "idea": "Video explicando cómo la respiración diafragmática actúa como una barrera mecánica contra el reflujo gastroesofágico según la evidencia de 2026. Demostración rápida de una correcta toma de aire abdominal en consulta kinésica. CTA: Comenta 'Diafragma' para más tips de reeducación respiratoria.",
+        "formato": "Reel 30 s",
+        "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease (PMID: 42735091)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos del entrenamiento de los músculos respiratorios en pacientes con esclerosis lateral amiotrófica",
+        "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática y metaanálisis evalúa el impacto del entrenamiento muscular respiratorio en la función pulmonar de pacientes con ELA. Los resultados demuestran mejoras significativas en la preservación de la capacidad vital y la fuerza muscular inspiratoria.",
+        "objetivo": "Determinar la eficacia del entrenamiento de los músculos respiratorios sobre la función respiratoria en pacientes diagnosticados con ELA.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos controlados en pacientes adultos con esclerosis lateral amiotrófica.",
+        "hallazgos": "Se evidenció un incremento estadísticamente significativo en la presión inspiratoria máxima (PIM) y la función respiratoria global tras la intervención.",
+        "aplicacion": "Integra protocolos de entrenamiento muscular respiratorio de forma temprana en pacientes con ELA para retrasar el deterioro ventilatorio en la práctica clínica.",
+        "revista": "J Neurol",
+        "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías de práctica clínica de la ASSOBRAFIR para la rehabilitación en fisioterapia intensiva de adultos críticos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices clínicas establecen recomendaciones basadas en evidencia para optimizar las estrategias de movilización y rehabilitación en pacientes adultos ingresados en unidades de cuidados intensivos. Se enfatiza la importancia de la movilización precoz para prevenir la debilidad adquirida en UCI.",
+        "objetivo": "Proporcionar recomendaciones actualizadas basadas en evidencia para la práctica de la fisioterapia y rehabilitación en adultos críticamente enfermos.",
+        "metodologia": "Guía de práctica clínica basada en la síntesis de la literatura científica y consenso de expertos en fisioterapia intensiva.",
+        "hallazgos": "La aplicación temprana de protocolos de rehabilitación guiados reduce los días de ventilación mecánica y mejora la funcionalidad al alta hospitalaria.",
+        "aplicacion": "Actualiza los protocolos de manejo kinésico en el paciente crítico priorizando la movilización precoz segura según estas nuevas directrices.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Umbrales de dolor por presión facial en adultos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio analiza la distribución de los umbrales de dolor a la presión en distintas zonas faciales de adultos sanos, estableciendo parámetros de normalidad. Estos datos son fundamentales para comprender mejor los trastornos temporomandibulares y el dolor orofacial.",
+        "objetivo": "Mapear los umbrales de dolor por presión en la musculatura facial y mandibular en población adulta sana identificando factores asociados.",
+        "metodologia": "Estudio observacional y transversal con algometría de presión en puntos anatómicos faciales y maseterinos de adultos sanos.",
+        "hallazgos": "Se observaron diferencias significativas en los umbrales de dolor según el sexo y la ubicación anatómica específica en la región orofacial.",
+        "aplicacion": "Utiliza la algometría de presión en la evaluación clínica kinésica de la ATM para objetivar la hiperalgesia y la evolución del dolor orofacial.",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión narrativa examina cómo la respiración diafragmática fortalece el esfínter esofágico inferior y mejora los síntomas del reflujo gastroesofágico. Se destaca el rol biomecánico del diafragma en la contención de las aprensiones gástricas.",
+        "objetivo": "Explicar las bases mecánicas y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica enfocada en la interacción entre la función del diafragma y la fisiopatología gastroesofágica.",
+        "hallazgos": "El entrenamiento del patrón respiratorio diafragmático reduce los episodios de reflujo ácido al mejorar la presión de la unión gastroesofágica.",
+        "aplicacion": "Incorpora ejercicios de reeducación diafragmática en pacientes con reflujo y comorbilidades respiratorias o posturales.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQVVXejhkdDRtTGNXdlctLWxEVnJnT3V0VWJ5ODFSdEM0aDJhVWtTVnFTUGVWb1VRWVltYVNwc19aR1EtNkc5MkxkbGtCMTRzNTYwVzlRc0w5U0trMmlVQS1aU1hab0tId1Q2VjkyV1NUbmJ3MHlubDd6XzNqYnV6aldVUGFiZFFGWGJ5TVg4dEozLU5yaF8yV3lXWU9WUGtGVWFVRC1qUW4yOVlhYkl5V1RWbVd0SjNibUV1YXFwMFlraGdXd1lLMGQyUdIB3wFBVV95cUxNWWZLMjNDd1ZzYzhnQTlFb1NCbVRQMXJia0pta0ZOM0FJREZaV3puREluZ1ZHNnBfRGItRTVGT2xjQVJFT001dzQwSU1sdE9WQ3RIalNPamx6RDcwdHJyQnhvMU5wN19jMVR6R2NQSjN4YTl4c3QxWG55QU5YQUN5aEE1cnZVQzg4RXE3Q2pUdjJyajFsLWZySENHN2d6UDlkNU1jLWdkLTdBYmNNc1hHUDl3T3JFOHBwaXRQbWdPb1FqRFJKb0V4eUV3b2NPeUZYWFdhb1IybVA4Zy1KS2FN?oc=5",
+        "fuente": "ADN Radio",
+        "titulo": "“El 2026 está prácticamente perdido”: expertos advierten por duro escenario de la economía chilena",
+        "detalle": "Información de actualidad en economía · chile según ADN Radio.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "Chile apuesta por inteligencia artificial y satélites para detectar mercados ilegales de vertido de residuos",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXNTM2J0QlBEbFJYbVRVSWdPVjhkbnBvdVdacnlZMWRabUlRR1lYOUJsTTZuOFZQUHNicTJHcTJaMHN6MVo1ZmJsaVYxM1FNQUgyY0I2Q0NKUUhnMUZsS3FOMjlhTnEyMk95eU95YkNrejlpQU5vY2dkZ3YtalZkeUhwWWp2LXJIVUpoX1JrZHROeTJHNTA2VjAtc3M1TlQ1bXVHWDZQd2xSNEdlSUtEQ1RkVUd1Unh2NjVPSU5zM1RvSGRqcEp2bnBmbWpzZENOeHpz?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "AGUAS DEL ALTIPLANO BENEFICIA A 48 ORGANIZACIONES SOCIALES DE IQUIQUE Y ALTO HOSPICIO CON FONDOS CONCURSABLES 2026",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-03T14:23:54.188Z"
   }
 };
