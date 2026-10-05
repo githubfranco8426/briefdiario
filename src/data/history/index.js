@@ -4096,5 +4096,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-04T14:57:00.228Z"
+  },
+  "2026-10-05": {
+    "fecha": "2026-10-05",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-5",
+      "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+      "referencia": "Proverbios 17:22",
+      "reflexion": "Una palabra de ánimo, una sonrisa y una escucha atenta potencian la recuperación del paciente tanto como la mejor técnica terapéutica."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261005-1-disponibilidad",
+        "hora": "09:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sientes fatiga extrema meses después del COVID? Podría ser Long-COVID.",
+        "idea": "Slide 1: Hook visual. Slide 2: ¿Qué es el Long-COVID? Slide 3: El error de hacer ejercicio sin supervisión. Slide 4: El enfoque de la fisioterapia basada en evidencia. Slide 5: Beneficios del ejercicio graduado. Slide 6: CTA comentando 'FATIGA' para recibir guía de manejo.",
+        "formato": "Carrusel 6 slides",
+        "base": "Reeves et al. (Braz J Phys Ther, 2026)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Se puede mover a un paciente crítico con soporte vital avanzado en la UCI?",
+        "idea": "Video corto mostrando simulación de movilización en paciente crítico, explicando cómo la kinesiología previene la debilidad adquirida en UCI incluso con dispositivos complejos. CTA: Guárdatelo si eres broncopulmonar o intensivista.",
+        "formato": "Reel 30 s",
+        "base": "Velazquez et al. (Crit Care Nurs Q, 2026)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Problemas para tragar después de un ACV? La solución podría estar en entrenar estos músculos.",
+        "idea": "Slide 1: Impacto de la disfagia post-stroke. Slide 2: ¿Qué dicen los nuevos metaanálisis? Slide 3: Importancia de la musculatura deglutoria y respiratoria alta. Slide 4: Ejemplos de ejercicios efectivos. Slide 5: Rol clave del Kinesiólogo especialista. Slide 6: CTA para agendar evaluación.",
+        "formato": "Carrusel 6 slides",
+        "base": "Pastor-Benavente et al. (Eur Ann Otorhinolaryngol, 2026)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿La hipertensión pulmonar frena la rehabilitación o cirugía respiratoria? La ciencia cambió.",
+        "idea": "Video dinámico explicando cómo la evidencia más reciente desafía los mitos antiguos en pacientes respiratorios complejos y EPOC avanzado. CTA: Comenta 'RESPIRA' para más info.",
+        "formato": "Reel 30 s",
+        "base": "Adamu Bala et al. (Ann Transl Med, 2026)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Manejo fisioterapéutico del Long-COVID basado en la evidencia",
+        "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "resumen": "Este artículo revisa las estrategias de fisioterapia basadas en evidencia para el abordaje integral de pacientes con COVID prolongado. Destaca la importancia de adaptar la rehabilitación al esfuerzo y la fatiga crónica.",
+        "objetivo": "Sintetizar la evidencia actual sobre el manejo fisioterapéutico en pacientes con Long-COVID.",
+        "metodologia": "Revisión basada en la evidencia de la literatura científica reciente sobre intervenciones en Long-COVID.",
+        "hallazgos": "Se identificaron enfoques efectivos para la gestión de la fatiga, el acondicionamiento físico dosificado y la rehabilitación respiratoria.",
+        "aplicacion": "Implementa programas de ejercicio graduado personalizados y monitoreo de la fatiga en pacientes con secuelas post-COVID.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Programa de movilidad en pacientes pre-transplante con balón de contrapulsación aórtica",
+        "titulo_original": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+        "resumen": "Este estudio describe la implementación exitosa de un programa de movilización precoz en pacientes críticos en espera de trasplante con balón intraaórtico. Demuestra que la intervención kinésica y de enfermería es segura y previene el desacondicionamiento severo.",
+        "objetivo": "Evaluar la implementación de un programa de movilidad en pacientes críticos con asistencia ventricular temporal.",
+        "metodologia": "Estudio de mejora de la calidad enfocado en pacientes pre-transplante con balón intraaórtico femoral.",
+        "hallazgos": "La movilización precoz en esta población crítica es factible, segura y mejora los estándares de atención hospitalaria.",
+        "aplicacion": "Considera protocolos de movilización temprana en pacientes críticos altamente complejos para evitar complicaciones por estasis prolongada.",
+        "revista": "Crit Care Nurs Q",
+        "doi": "https://doi.org/10.1097/CNQ.0000000000000609",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Eficacia del entrenamiento de los músculos deglutorios en disfagia post-accidente cerebrovascular",
+        "titulo_original": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática analiza el impacto del entrenamiento muscular específico para mejorar la deglución en pacientes tras un ACV. Los resultados respaldan el uso de ejercicios funcionales para reducir la aspiración.",
+        "objetivo": "Determinar la eficacia del entrenamiento de la musculatura deglutoria en pacientes con disfagia post-ACV.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos sobre disfagia post-stroke.",
+        "hallazgos": "El entrenamiento muscular específico mejora significativamente la función deglutoria en esta población.",
+        "aplicacion": "Integra ejercicios de fortalecimiento muscular suprahyoideo y de la vía aérea superior en pacientes neurológicos con trastornos de deglución.",
+        "revista": "Eur Ann Otorhinolaryngol Head Neck Dis",
+        "doi": "https://doi.org/10.1016/j.anorl.2026.03.005",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "¿Es la hipertensión pulmonar una contraindicación para la reducción de volumen pulmonar?",
+        "titulo_original": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
+        "resumen": "Esta revisión narrativa examina la evidencia contemporánea sobre la cirugía de reducción de volumen pulmonar en pacientes con hipertensión pulmonar. Cuestiona dogmas antiguos y abre puertas para la selección cuidadosa de pacientes respiratorios complejos.",
+        "objetivo": "Analizar si la hipertensión pulmonar continúa siendo una contraindicación absoluta para la reducción de volumen pulmonar.",
+        "metodologia": "Revisión narrativa de la literatura científica reciente sobre neumología intervencionista y cirugía.",
+        "hallazgos": "La evidencia contemporánea sugiere que ciertos pacientes seleccionados pueden beneficiarse a pesar de presentar hipertensión pulmonar leve a moderada.",
+        "aplicacion": "Evalúa de manera multidisciplinaria a tus pacientes respiratorios crónicos complejos antes de descartar opciones quirúrgicas o de rehabilitación avanzada.",
+        "revista": "Ann Transl Med",
+        "doi": "https://doi.org/10.21037/atm-2026-1-0028",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQVVXejhkdDRtTGNXdlctLWxEVnJnT3V0VWJ5ODFSdEM0aDJhVWtTVnFTUGVWb1VRWVltYVNwc19aR1EtNkc5MkxkbGtCMTRzNTYwVzlRc0w5U0trMmlVQS1aU1hab0tId1Q2VjkyV1NUbmJ3MHlubDd6XzNqYnV6aldVUGFiZFFGWGJ5TVg4dEozLU5yaF8yV3lXWU9WUGtGVWFVRC1qUW4yOVlhYkl5V1RWbVd0SjNibUV1YXFwMFlraGdXd1lLMGQyUdIB3wFBVV95cUxNWWZLMjNDd1ZzYzhnQTlFb1NCbVRQMXJia0pta0ZOM0FJREZaV3puREluZ1ZHNnBfRGItRTVGT2xjQVJFT001dzQwSU1sdE9WQ3RIalNPamx6RDcwdHJyQnhvMU5wN19jMVR6R2NQSjN4YTl4c3QxWG55QU5YQUN5aEE1cnZVQzg4RXE3Q2pUdjJyajFsLWZySENHN2d6UDlkNU1jLWdkLTdBYmNNc1hHUDl3T3JFOHBwaXRQbWdPb1FqRFJKb0V4eUV3b2NPeUZYWFdhb1IybVA4Zy1KS2FN?oc=5",
+        "fuente": "ADN Radio",
+        "titulo": "“El 2026 está prácticamente perdido”: expertos advierten por duro escenario de la economía chilena",
+        "detalle": "Información de actualidad en economía · chile según ADN Radio.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "fch.cl",
+        "titulo": "Chile apuesta por inteligencia artificial y satélites para detectar mercados ilegales de vertido de residuos",
+        "detalle": "Información de actualidad en ia · mercados según fch.cl.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZGJSNUxzSHpFaW84SHFqVHg5TmVKSUN6Q2ZYMDhNcEtXbkltT0xuUTJqTHMzTkpIR0FXYk5ZbEtMUDZVTUd5UlQ2NDNUYmdya2lqY3A5RU55ZjJZR0RSNVNPbHJGR2JIWmtieFNRZGNEUlVHU2EybzJDOFc3YUg4Wm1HQ1ZKamdqbFViTzNmUG8xdGg3RFRrVHJjcFoxUG14dDJpaTZfTFlvRjBiREkxOURDLS0?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "ALERTA EN EL SLEP IQUIQUE POR RETIRO DE 16 DOCENTES A FIN DE MES SIN REEMPLAZOS CONFIRMADOS",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-05T18:46:37.927Z"
   }
 };
