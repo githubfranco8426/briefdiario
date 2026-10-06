@@ -4237,5 +4237,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-05T18:46:37.927Z"
+  },
+  "2026-10-06": {
+    "fecha": "2026-10-06",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-6",
+      "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+      "referencia": "Jeremías 33:3",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261006-1-clinica",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que la debilidad en la UCI se puede prevenir desde el día uno?",
+        "idea": "Slide 1: Hook sobre pacientes críticos. Slide 2: El problema de la debilidad adquirida en UCI. Slide 3: Evidencia reciente (Cureus, 2026). Slide 4: Rol clave de la movilización precoz y la kinesiterapia respiratoria. Slide 5: Beneficios clínicos comprobados. Slide 6: CTA comentando 'UCI' para más info.",
+        "formato": "Carrusel 6 slides",
+        "base": "Mishra et al., 2026 (PMID: 42220872)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "Pacientes oncológicos: ¿por qué la kinesiología respiratoria salva vidas tras una cirugía?",
+        "idea": "Video corto explicando cómo el ejercicio y la fisioterapia respiratoria previenen complicaciones pulmonares graves tras cirugías de cáncer de esófago, cerrando con invitación a agendar evaluación prequirúrgica.",
+        "formato": "Reel 30 s",
+        "base": "Shen et al., 2026 (PMID: 42058086)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la espalda baja y la causa está en tu columna torácica?",
+        "idea": "Slide 1: Pregunta disruptiva sobre el dolor lumbar. Slide 2: La conexión biomecánica entre tórax y zona lumbar. Slide 3: Cómo influye en los factores psicológicos y el estrés según la ciencia. Slide 4: El impacto de liberar el tórax. Slide 5: Tips prácticos de movilidad. Slide 6: CTA para agendar hora en la clínica.",
+        "formato": "Carrusel 6 slides",
+        "base": "Mansouri Josheqan et al., 2026 (PMID: 41100221)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "Respira mejor para decirle adiós a ese dolor lumbar que no se va",
+        "idea": "Video demostrando un ejercicio simple de control respiratorio y activación diafragmática para mejorar la estabilidad lumbar, basado en el último metaanálisis de 2026. CTA: Guárdate este video y pruébalo hoy.",
+        "formato": "Reel 30 s",
+        "base": "Chen et al., 2026 (PMID: 40965964)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Rehabilitación en la debilidad adquirida en UCI: una revisión narrativa basada en la evidencia",
+        "titulo_original": "Rehabilitation in ICU-Acquired Weakness: An Evidence-Based Narrative Review",
+        "resumen": "Esta revisión analiza las estrategias de rehabilitación más efectivas para pacientes que sufren debilidad muscular tras estancias prolongadas en unidades de cuidados intensivos. Destaca la importancia de la movilización precoz y el manejo respiratorio para mejorar los desenlaces funcionales a largo plazo.",
+        "objetivo": "Sintetizar la evidencia actual sobre las intervenciones de rehabilitación para la debilidad adquirida en UCI.",
+        "metodologia": "Revisión narrativa basada en la evidencia de la literatura reciente sobre pacientes críticos en UCI.",
+        "hallazgos": "La implementación oportuna de protocolos de movilización y ejercicio reduce el deterioro funcional y acorta la estancia hospitalaria.",
+        "aplicacion": "En la práctica clínica en Chile, debemos priorizar la movilización temprana y el entrenamiento muscular respiratorio desde las fases iniciales en UCI.",
+        "revista": "Cureus",
+        "doi": "https://doi.org/10.7759/cureus.107933",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Efectos de diferentes estrategias de rehabilitación en la función física y complicaciones en pacientes postoperatorios con cáncer de esófago",
+        "titulo_original": "Effects of different rehabilitation strategies on physical function and complications in postoperative patients with esophageal cancer: a systematic review and meta-analysis",
+        "resumen": "Este metaanálisis compara diversas estrategias de rehabilitación en pacientes operados de cáncer esofágico, evaluando su impacto en la función física y las complicaciones pulmonares. Los resultados demuestran que la fisioterapia respiratoria y el ejercicio multimodal reducen significativamente las complicaciones postoperatorias.",
+        "objetivo": "Determinar la efectividad de las estrategias de rehabilitación sobre la función física y las complicaciones postoperatorias en cáncer de esófago.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos en pacientes postoperatorios de cáncer de esófago.",
+        "hallazgos": "Las intervenciones combinadas de ejercicio físico y terapia respiratoria mejoran la capacidad funcional y disminuyen las complicaciones pulmonares.",
+        "aplicacion": "Integra siempre la rehabilitación respiratoria pre y postoperatoria en pacientes oncológicos torácicos para prevenir atelectasias y mejorar su recuperación.",
+        "revista": "Front Public Health",
+        "doi": "https://doi.org/10.3389/fpubh.2026.1788265",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Efectividad de las intervenciones torácicas sobre los factores psicológicos en el dolor lumbar",
+        "titulo_original": "Effectiveness of thoracic interventions on psychological factors in low back pain: a systematic review and meta-analysis",
+        "resumen": "Esta investigación evalúa cómo el tratamiento enfocado en la columna torácica impacta en los aspectos psicológicos de pacientes con dolor lumbar crónico. Se evidencia una correlación positiva entre la terapia manual torácica, la mejora respiratoria y la reducción de la ansiedad y el miedo al movimiento.",
+        "objetivo": "Evaluar el impacto de las intervenciones en la región torácica sobre los factores psicológicos asociados al dolor lumbar.",
+        "metodologia": "Revisión sistemática con metaanálisis de estudios que aplican terapia física torácica en pacientes con dolor lumbar.",
+        "hallazgos": "Las intervenciones torácicas disminuyen la ansiedad y el catastrofismo, mejorando el perfil clínico global del paciente con dolor lumbar.",
+        "aplicacion": "Al tratar dolores lumbares complejos, evalúa la movilidad torácica y su conexión con la mecánica respiratoria para abordar también la esfera psicosocial.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2573167",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "¿Pueden los ejercicios respiratorios tratar eficazmente a personas con dolor lumbar crónico inespecífico?",
+        "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+        "resumen": "Este estudio analiza el rol de los ejercicios de control respiratorio en el manejo del dolor lumbar crónico inespecífico. Los autores concluyen que modular la respiración optimiza la función del core y reduce el dolor gracias a la estabilización del diafragma.",
+        "objetivo": "Analizar la eficacia de los ejercicios respiratorios en la reducción del dolor y mejora funcional en dolor lumbar crónico.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en entrenamiento respiratorio para lumbalgia.",
+        "hallazgos": "El entrenamiento específico de la musculatura respiratoria mejora significativamente el control postural y disminuye la intensidad del dolor lumbar.",
+        "aplicacion": "Incorpora ejercicios de patrón respiratorio y activación diafragmática en tus pacientes con dolor lumbar crónico para mejorar la estabilidad lumbopélvica.",
+        "revista": "J Back Musculoskelet Rehabil",
+        "doi": "https://doi.org/10.1177/10538127251374357",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQN3o4OEtMYk5selpXLXZKeHJELVgzRG12LTIyUHJxbEtXeVRabTJxM3Y0R0F2YTlyOU9HRWs3RWdNajR2RUhwUnl5bVFHMU8yOEtxeHhaakF6dHRrVkRJbEIxdEVqOTh3VVB4OVI5V01vLVBzVkR6R3J2ZTlzd2ZZWHRLd1VBYkE3bklPSW9zZGhOcXZ2T2c1dFRBaVNyT2ZFZnlSd0JNbENzZnA1dU0yTnhtMXFfSTBCUmRaWDFJUHg2WHY3TlNuc1NMLXFseHEtSjVPd3RsQmZyY1FUSVEyZnRpa3R0Unhmc1JCVENTY3owODVPSUoxeE5xeGlVS3ZzTE1lODRqaU5aNTJ1a05V?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Banco Mundial baja con fuerza su proyección de crecimiento para Chile al 0,8% y prevé repunte en 2027",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "Chile apuesta por inteligencia artificial y satélites para detectar mercados ilegales de vertido de residuos",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObmVmbG45alFvczVFUWZvaG91VnUxaDl0SEZjdTlXWlZZOFhaWGxiWU1MQ1EzSzIybWQ5eFhFMlJTR3BfMmlaZkUwM3ZZd1JOazFIWGxGYVhEQkdEZzA5S1RuX0NBaDJTV0tDOTQwWHlzSHZtTTZ2RWp4NS05cGF4VUNUWDU1R1BqYW9Wdm1jeGxzWlIzTUhTRkVlRFlhZHo5b2lQeUIxLXdzYkhEeVo1THZBM1hfNmlITkRjTg?oc=5",
+        "fuente": "El Sol de Iquique",
+        "titulo": "Obra “Cenizas” En Iquique Y Alto Hospicio Con Una Mirada íntima Sobre La Memoria Y El Desamparo",
+        "detalle": "Información de actualidad en norte grande según El Sol de Iquique.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-06T16:12:12.648Z"
   }
 };
