@@ -4378,5 +4378,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-06T16:12:12.648Z"
+  },
+  "2026-10-07": {
+    "fecha": "2026-10-07",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-7",
+      "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+      "referencia": "Filipenses 4:7",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261007-1-disponibilidad",
+        "hora": "09:00 – 17:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20261007-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que respirar mejor acelera tu recuperación después de una cirugía de corazón?",
+        "idea": "Carrusel explicando cómo el entrenamiento muscular respiratorio previene complicaciones pulmonares y mejora la calidad de vida post-bypass. CTA: Comenta 'RESPIRA' para recibir nuestra guía de ejercicios.",
+        "formato": "Carrusel 6 slides",
+        "base": "Ribeiro et al., 2026 (PMID: 41711778)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "La debilidad en la UCI se combate con movimiento temprano: así funciona la terapia en suspensión",
+        "idea": "Reel mostrando cómo los dispositivos en suspensión ayudan a los pacientes críticos a recuperar la fuerza en piernas sin sobrecargar las articulaciones. CTA: Síguenos para más contenido de paciente crítico.",
+        "formato": "Reel 30 s",
+        "base": "Xu et al., 2026 (PMID: 41545879)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te truena la mandíbula o te duele al masticar? Esto te interesa",
+        "idea": "Carrusel sobre cómo el análisis cinemático revoluciona el tratamiento de la ATM con ejercicios ultra personalizados. CTA: Guarda este post si sufres de bruxismo o dolor mandibular.",
+        "formato": "Carrusel 6 slides",
+        "base": "Woo et al., 2026 (PMID: 41598590)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Dolor lumbar por hernia discal? Prueba este ejercicio en camilla",
+        "idea": "Reel demostrando de forma segura cómo la extensión de rodilla en prono puede ayudar a aliviar el dolor lumbar bajo. CTA: Agenda tu evaluación kinésica en nuestra clínica.",
+        "formato": "Reel 30 s",
+        "base": "Shahbazi & Fatemi, 2026 (PMID: 41522824)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efecto del entrenamiento muscular respiratorio en la capacidad funcional y calidad de vida tras cirugía cardíaca",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "resumen": "Este ensayo clínico evaluó el impacto del entrenamiento de los músculos respiratorios en pacientes sometidos a bypass coronario. Los resultados demuestran mejoras significativas en su capacidad funcional y calidad de vida postoperatoria.",
+        "objetivo": "Evaluar la eficacia del entrenamiento muscular respiratorio sobre la capacidad funcional y la calidad de vida en pacientes postoperados de cirugía cardíaca.",
+        "metodologia": "Ensayo clínico aleatorizado realizado en pacientes adultos sometidos a cirugía de revascularización coronaria con circulación extracorpórea.",
+        "hallazgos": "Se observó una recuperación más rápida y eficiente de la función pulmonar y la capacidad de esfuerzo en el grupo intervenido.",
+        "aplicacion": "Integra protocolos de entrenamiento muscular respiratorio de forma precoz en la fase I de la rehabilitación cardiaca para acelerar el alta funcional.",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Dispositivo de rehabilitación en suspensión para debilidad adquirida en UCI",
+        "titulo_original": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "resumen": "Se investigó un novedoso sistema de suspensión para extremidades inferiores en pacientes críticos con debilidad muscular adquirida en UCI. El estudio confirma su utilidad para potenciar la recuperación funcional temprana en este grupo vulnerable.",
+        "objetivo": "Determinar la eficacia de un dispositivo de rehabilitación basado en suspensión para mejorar la función de extremidades inferiores en pacientes con debilidad en UCI.",
+        "metodologia": "Ensayo clínico aleatorizado autocontrolado en pacientes críticos que presentaron debilidad muscular secundaria a su estancia prolongada en unidad de paciente crítico.",
+        "hallazgos": "El uso del dispositivo mejoró significativamente la fuerza y la funcionalidad de las extremidades inferiores facilitando la movilización precoz.",
+        "aplicacion": "Utiliza sistemas de suspensión kinésica en la UCI para reducir la carga articular y facilitar el movimiento activo asistido en pacientes críticos descondicionados.",
+        "revista": "Crit Care",
+        "doi": "https://doi.org/10.1186/s13054-026-05840-1",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Ejercicio individualizado guiado por análisis cinemático para trastornos temporomandibulares",
+        "titulo_original": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "resumen": "Esta serie de casos analizó la aplicación de ejercicios cérvico-mandibulares personalizados basados en análisis cinemático para tratar disfunciones temporomandibulares (ATM). Los pacientes reportaron una notable reducción del dolor y mejor apertura bucal.",
+        "objetivo": "Describir los efectos de un programa de ejercicios individualizados guiados por cinemática en pacientes con trastornos temporomandibulares.",
+        "metodologia": "Serie de casos clínicos evaluados mediante tecnología de análisis de movimiento mandibular antes y después de la intervención kinésica.",
+        "hallazgos": "La precisión en el ejercicio basada en datos cinemáticos corrigió los patrones anormales de apertura y redujo la sintomatología de la ATM.",
+        "aplicacion": "Incorpora evaluaciones biomecánicas precisas de la mandíbula antes de prescribir terapia de ejercicio en tus pacientes con disfunción temporomandibular.",
+        "revista": "J Clin Med",
+        "doi": "https://doi.org/10.3390/jcm15020655",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Una nueva perspectiva en el manejo de la hernia discal lumbar usando extensión de rodilla en prono",
+        "titulo_original": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+        "resumen": "Este reporte examinó una técnica kinésica específica de extensión de rodilla en decúbito prono para el manejo clínico de la hernia discal lumbar. El enfoque demostró ser una alternativa efectiva para aliviar la sintomatología radicular.",
+        "objetivo": "Explorar el abordaje terapéutico de la hernia discal lumbar mediante el uso de la extensión de rodilla en posición prona.",
+        "metodologia": "Reporte de casos clínicos enfocados en la respuesta sintomática y biomecánica lumbar ante maniobras específicas de extensión en miembro inferior.",
+        "hallazgos": "El ejercicio dirigido logró centralizar el dolor y mejorar la movilidad en pacientes con patología discal lumbar diagnosticada.",
+        "aplicacion": "Considera integrar esta maniobra clínica de extensión en prono dentro del arsenal de terapia manual y ejercicio para dolor lumbar discogénico.",
+        "revista": "Case Rep Med",
+        "doi": "https://doi.org/10.1155/carm/2579261",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWjhiRmpJa0hfSkJmdnRNX0dKUGtlaXRNcXBwTXpGZHQwZjRMTlFYeWdncWptcjBOZGZQZklubEwyV0hWOUpzRGppX3M2TnVhOUVEcm85QzUzMkltU0tCVHhWYlJQeHRmZWFQUWR3ZWNrVmVqWmU5NmlHdDIzVDhFUzhDX2Ntd1lPTHg4VFIwWVY0ZHZCV3NwNlJaeWlwTUVRbDdld09ZUENaRDFYT3lDWHUxSFR5TXgxYjJLRVpXbFBnekxETGx5aDBQZGp1NDB6Ul9B0gH0AUFVX3lxTFAwTEFiZEhxdzZWakVvYy1lWHpPd3hNR3hlNENuNTJBTUszdC1JenA0b3NsbmxHelgyVU1sS0tSalQ2MGNxdmFkeDI4RThuQVY5Mzk2NGVGUTllT09LMHlnMS16Q1pQcHlxUjI1SkhvWjF0MHdpWmRmSWhkM29Qc2d2cTJybG9vOWNXMVloZ3lCNlJDbWtZQkNQMTBOM0NOTHNZTzctdk52TWE0cl9obVlEcThPZmtFcXdUYUdPaWRuVVAwUVR1LVBDaGpfRTdFd2Z0bWg0eXh6SWFKd084Y2tXTU5QTXBiRHdFTExSRHgwM215amg?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "Los argumentos de Quiroz para explicar por qué el mal desempeño de la economía chilena este 2026",
+        "detalle": "Información de actualidad en economía · chile según La Tercera.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "Chile apuesta por inteligencia artificial y satélites para detectar mercados ilegales de vertido de residuos",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORWc4VnhhNWRERi1tVXdfOWVVZy1ES21MaDZPNkJOUG5qcVU2Rmw4MGZCUG81dGFtQnpKMlczbG53VFBDOGctV0REYy1uMGdqMXJZblBHd0ZMcnphbng1WlN2ZXhvQ3Z3T3BiTFAwak5FbWxtNUgtMlNfQnNCMnFkTndvUEZvdEwxRlNNUUd3cUJhUkJUaFlRR1l4Y2FxSmtTYkV0dVFVbHpXUVJ0bmFuMV92OUhWQVVzdGNn?oc=5",
+        "fuente": "PortalPortuario",
+        "titulo": "Puerto de Iquique transfiere 633 mil toneladas de carga boliviana de enero a agosto de 2026",
+        "detalle": "Información de actualidad en norte grande según PortalPortuario.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-07T16:50:52.514Z"
   }
 };
