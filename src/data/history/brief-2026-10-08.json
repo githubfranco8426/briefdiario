@@ -1,4 +1,4 @@
-export const initialBriefData = {
+{
   "fecha": "2026-10-08",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
@@ -137,4 +137,4 @@ export const initialBriefData = {
     }
   ],
   "creado_en": "2026-10-08T16:50:10.404Z"
-};
+}
