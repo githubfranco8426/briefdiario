@@ -4666,5 +4666,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-08T16:50:10.404Z"
+  },
+  "2026-10-09": {
+    "fecha": "2026-10-09",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-2",
+      "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+      "referencia": "Isaías 40:31",
+      "reflexion": "Tu labor en rehabilitación exige paciencia y resistencia; recuerda que la renovación física y vocacional se recibe paso a paso cada mañana."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261009-1-disponibilidad",
+        "hora": "09:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sufres de esclerosis múltiple y te cuesta asistir a todas tus sesiones de kine?",
+        "idea": "Slide 1: El problema de la distancia y fatiga. Slide 2: Qué dice el nuevo estudio de 2026 sobre telerehabilitación híbrida. Slide 3: Ventajas de combinar casa y clínica. Slide 4: Ejemplos de ejercicios seguros. Slide 5: Resultados en movilidad. Slide 6: ¡Agenda tu evaluación híbrida hoy con nosotros! CTA: Comenta 'HÍBRIDO' y te mando la info.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 41106533",
+        "id": "idea-1"
+      },
+      {
+        "hook": "Si tienes EPOC, caminar te da miedo, pero es justamente lo que te salvará la vida.",
+        "idea": "Video dinámico explicando las nuevas guías internacionales ASSOBRAFIR 2026. Muestra cómo se prescribe el ejercicio aeróbico de forma segura sin desaturar, usando escalas de Borg. CTA: Comparte este video con un paciente respiratorio.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 41106351",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula y tu kinesiólogo solo te toca la cara? Están cometiendo un error.",
+        "idea": "Slide 1: Dolor de ATM que no se pasa. Slide 2: La ciencia demuestra que el cuello tiene la culpa. Slide 3: Metaanálisis 2026 sobre terapia manual cervical. Slide 4: Relación biomecánica ATM-Cervical. Slide 5: Qué ejercicios hacer en casa. Slide 6: Tratamiento integral en consulta. CTA: Guarda este post si te truena la mandíbula.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 40928393",
+        "id": "idea-3"
+      },
+      {
+        "hook": "Despertar de un coma farmacológico en la UCI ya no es una sentencia de postración gracias a la kine.",
+        "idea": "Reel mostrando simulación de cicloergometría pasiva o sedestación temprana en UCI, respaldado por las nuevas directrices ASSOBRAFIR 2026 para pacientes críticos. Explica cómo previene la debilidad adquirida en UCI. CTA: Sígueme para más contenido de paciente crítico.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42710394",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos de un modelo de telerehabilitación híbrida en la esclerosis múltiple",
+        "titulo_original": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis: A Single-Blind Randomized Controlled Study",
+        "resumen": "Evalúa el impacto de la telerehabilitación híbrida en la movilidad y capacidad funcional de pacientes con esclerosis múltiple. Demuestra que este enfoque mejora significativamente los parámetros motores en comparación con la atención convencional.",
+        "objetivo": "Determinar la efectividad de un modelo de telerehabilitación híbrida sobre la movilidad y capacidad funcional en esclerosis múltiple.",
+        "metodologia": "Estudio controlado aleatorizado y cegado simple en pacientes diagnosticados con esclerosis múltiple.",
+        "hallazgos": "Se observaron mejoras clínicas y estadísticas relevantes en la movilidad y la capacidad funcional tras la intervención híbrida.",
+        "aplicacion": "Implementa programas híbridos combinando sesiones presenciales y virtuales para optimizar la adherencia y funcionalidad en pacientes neurológicos crónicos.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2025.09.034",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías clínicas de ASSOBRAFIR sobre intervenciones basadas en ejercicio en EPOC",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with chronic obstructive pulmonary disease (COPD)",
+        "resumen": "Establece recomendaciones basadas en la evidencia para el uso de ejercicio físico en pacientes con enfermedad pulmonar obstructiva crónica. Destaca la prescripción individualizada para mejorar la tolerancia al esfuerzo y calidad de vida.",
+        "objetivo": "Proveer directrices clínicas basadas en evidencia para intervenciones de ejercicio en pacientes con EPOC.",
+        "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la literatura científica en fisioterapia respiratoria.",
+        "hallazgos": "El ejercicio aeróbico y de fuerza supervisado reduce los reingresos y mejora sustancialmente la capacidad aeróbica en la EPOC.",
+        "aplicacion": "Integra programas de entrenamiento físico estructurado y personalizado en la rutina de rehabilitación respiratoria de tus pacientes con EPOC.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2025.101539",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Terapia manual y ejercicio en cuello y región orofacial para el dolor temporomandibular",
+        "titulo_original": "Manual therapy and exercise targeted to the neck and orofacial regions for patients with orofacial pain: a systematic review and meta-analysis",
+        "resumen": "Analiza la eficacia de combinar terapia manual y ejercicio dirigidos a la columna cervical y la zona orofacial. Los resultados confirman una reducción significativa del dolor y mejora en la apertura mandibular.",
+        "objetivo": "Evaluar el efecto de la terapia manual y el ejercicio cervicofacial en pacientes con dolor orofacial y disfunción de ATM.",
+        "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos enfocados en dolor orofacial y región cervical.",
+        "hallazgos": "La combinación de intervenciones cervicales y orofaciales disminuye notablemente el dolor y la discapacidad en la ATM.",
+        "aplicacion": "Evalúa siempre la columna cervical en tus pacientes con bruxismo o dolor de ATM y añade terapia manual específica.",
+        "revista": "Disabil Rehabil",
+        "doi": "https://doi.org/10.1080/09638288.2025.2539469",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Estrategias de rehabilitación en adultos críticamente enfermos según ASSOBRAFIR",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Define las mejores estrategias de movilización y rehabilitación temprana en unidades de paciente crítico. Busca prevenir la debilidad adquirida en UCI y acelerar la independencia funcional post-extubación.",
+        "objetivo": "Consensuar y actualizar las estrategias de fisioterapia para la rehabilitación de adultos en estado crítico.",
+        "metodologia": "Guía de práctica clínica elaborada mediante consenso de expertos y revisión crítica de evidencia en paciente crítico.",
+        "hallazgos": "La movilización precoz y protocolizada en la UCI reduce los días de ventilación mecánica y mejora la funcionalidad al alta.",
+        "aplicacion": "Aplica protocolos seguros de movilización temprana en tu unidad de paciente crítico para evitar el deterioro neuromuscular severo.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVDc3UkVyRU5pTHRQOWx1TTNneFFpUkxfc3hEUjlNajUzZi11Nll0aGdBS2NnMG1laVZkOEk5R2k3aWFfY01od0VrT0p3OTlFQkFxblluT24wRlp5SF8yeDRoUWYta0xtWnFNQmFtOUk1N3lGcERxbmUtMENFQzhvY3pTVzhUMnR0d2o4b2NRbnBIMGRGRmkta0JrWGZqQWYxVUU4ck5ZMWRFUEpjRWI5QVZNUXNXS2NfT0JJNTlyak9hLXBybk9uU3lIQ0dXY2p3V0czRHRPdVNub1BYMUE4NUJqc0xSUU5fQlM2N0ZHeC0xMjJocFBnYg?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Telefónica pone a la venta la empresa de fibra OnNet para sellar su salida de Chile",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzZubWZFUUhvckY4YVdOQXdYWDBOQmpDeXBhOXJ5eWFOR21mMjE4QXFFalNwY2I2V1h2RlUtMmZYVzF1LUdQRk03WDVMMnFpRU1wRVBtUmd4MUU2OWRaUG0yOHg2M0M5cldTZEJPeGhJd2dsdmFleTVpaS1lR0o0T0pMLTgwamVPMThiSmV3?oc=5",
+        "fuente": "Servicio Nacional de Migraciones",
+        "titulo": "Fiscalización deja 21 personas denunciadas en Iquique",
+        "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-09T16:29:05.548Z"
   }
 };
