@@ -4807,5 +4807,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-09T16:29:05.548Z"
+  },
+  "2026-10-10": {
+    "fecha": "2026-10-10",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261010-1-clinica",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que mover a un paciente crítico a tiempo salva su funcionalidad?",
+        "idea": "Carrusel explicando las nuevas directrices internacionales de ASSOBRAFIR para la movilización temprana en UCI, terminando con la importancia de evitar la debilidad adquirida en paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy (PMID: 42710394)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Te duele la mandíbula o la cara y no sabes por qué?",
+        "idea": "Reel mostrando cómo medimos los umbrales de dolor en la ATM con un algómetro y por qué es clave diferenciar los puntos gatillo en pacientes con disfunción temporomandibular.",
+        "formato": "Reel 30 s",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults (PMID: 42703050)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Sufres de reflujo y ya no sabes qué hacer? ¿Y si el problema es tu diafragma?",
+        "idea": "Carrusel detallando la conexión entre la respiración diafragmática, el esfínter esofágico inferior y cómo un Kine respiratorio puede ayudarte a controlar el reflujo.",
+        "formato": "Carrusel 6 slides",
+        "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease (PMID: 42735091)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Problemas para respirar bien después de una cirugía de abdomen?",
+        "idea": "Reel explicando cómo la ventilación no invasiva intermitente aplicada por kinesiólogos acelera la recuperación pulmonar y previene complicaciones postoperatorias.",
+        "formato": "Reel 30 s",
+        "base": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery (PMID: 42518491)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Guías de práctica clínica de ASSOBRAFIR para la rehabilitación en adultos críticamente enfermos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Estas directrices actualizan las estrategias de movilización y rehabilitación en pacientes críticos adultos en unidades de cuidados intensivos. Proveen recomendaciones basadas en evidencia para prevenir la debilidad adquirida en UCI y acelerar la recuperación funcional.",
+        "objetivo": "Establecer guías clínicas estandarizadas para la fisioterapia de rehabilitación en adultos críticamente enfermos.",
+        "metodologia": "Revisión sistemática y consenso de expertos para la formulación de guías de práctica clínica en fisioterapia intensiva.",
+        "hallazgos": "Se definieron recomendaciones clave para optimizar la seguridad y dosificación del ejercicio temprano en pacientes críticos.",
+        "aplicacion": "Implementar movilización precoz protocolizada en la UCI para reducir los días de ventilación mecánica y mejorar la funcionalidad al alta.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio evalúa los umbrales de dolor a la presión en distintas zonas faciales en población sana para entender mejor la sensibilidad craneofacial. Estos datos normativos son cruciales para el diagnóstico diferencial en trastornos temporomandibulares (ATM) y dolor orofacial.",
+        "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión en la musculatura facial y de la ATM en adultos sanos.",
+        "metodologia": "Estudio transversal observacional que midió umbrales de dolor mediante algometría en participantes adultos sanos.",
+        "hallazgos": "Se establecieron valores de referencia de sensibilidad al dolor facial que varían según zonas anatómicas y factores demográficos.",
+        "aplicacion": "Utilizar la algometría de presión con valores normativos para mejorar la evaluación clínica de pacientes con disfunción temporomandibular en la consulta.",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión analiza cómo el entrenamiento de la musculatura inspiratoria y la respiración diafragmática mejoran la función del esfínter esofágico inferior. Demuestra que el control respiratorio reduce los episodios de reflujo al fortalecer el pilar diafragmático.",
+        "objetivo": "Revisar la base mecanística y la evidencia clínica del uso de la respiración diafragmática en el manejo del reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica sobre la interacción entre la biomecánica diafragmática y el reflujo gastroesofágico.",
+        "hallazgos": "El fortalecimiento y control del diafragma disminuyen significativamente la exposición ácida esofágica y los síntomas clínicos.",
+        "aplicacion": "Integrar ejercicios de patrón respiratorio diafragmático en pacientes con síntomas de reflujo y alteraciones tónicas del piso toracoabdominal.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Ventilación no invasiva intermitente liderada por fisioterapeutas tras cirugía abdominal: ensayo piloto aleatorizado",
+        "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+        "resumen": "Este ensayo evaluó la viabilidad y eficacia de la ventilación no invasiva intermitente aplicada por kinesiólogos para tratar la hipoxemia postquirúrgica abdominal. Los resultados muestran una optimización en la recuperación respiratoria y prevención de complicaciones pulmonares.",
+        "objetivo": "Evaluar la factibilidad de un protocolo de ventilación no invasiva intermitente dirigido por fisioterapeutas en pacientes con hipoxemia post-cirugía abdominal.",
+        "metodologia": "Ensayo clínico piloto aleatorizado controlado realizado en un hospital cuaternario con pacientes postoperados abdominales.",
+        "aplicacion de la VNI": "El manejo kinesiológico activo con soporte ventilatorio no invasivo redujo la hipoxemia y mejoró los parámetros de oxigenación.",
+        "aplicacion": "Aplicar protocolos de ventilación no invasiva liderados por kinesiología en el postoperatorio abdominal para el manejo precoz de la hipoxemia.",
+        "revista": "BJA Open",
+        "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTducGkyajk1UXEybGZZaVllR3hJNERRLVpqcDJLSHNBeC1SVWtWTlB2c3piODVDbFpKaTZJMTVKM05oZ0UwYmFmTzU0a1M0cjRDMFh0T2dsQUlsT3VQR3JRXzZkMlloRUhiRUdCU0tBRndVVURFOEx5T0dDRFo1ZHVFSExxdw?oc=5",
+        "fuente": "Agencia de noticias",
+        "titulo": "Kast promulga su megarreforma económica sin ceremonia debido a la emergencia en Chile - EFE",
+        "detalle": "Información de actualidad en economía · chile según Agencia de noticias.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSTNfVWYyNWotNkowYnJjVk9BNmgzcWRIeE9EaXZnbG8xMEFMel9nb0VGYVNqNWlxZVJINUppLUt3Z3dXYU0tbWlnOG9IQjZ1Q05hVFEzeTQ1SzIydENHbVNDb3lYSWxQVzE2TVJDME1IRnNQc1hRNjJOZW5sSHY4SGY1d2pkWFlVekE1NVF4TklRYXViamtsRGNMSEJNcGlFanBIdHZqOTJYSVhVaDdIcDJMN05QZS1NZEZ6VHd0S0R1Rnc?oc=5",
+        "fuente": "Edición Cero",
+        "titulo": "El Frankenstein de nuestra memoria: “Cenizas” es el espejo incómodo que Iquique necesita mirar",
+        "detalle": "Información de actualidad en norte grande según Edición Cero.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-10T15:32:26.546Z"
   }
 };
