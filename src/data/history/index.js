@@ -4948,5 +4948,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-10T15:32:26.546Z"
+  },
+  "2026-10-11": {
+    "fecha": "2026-10-11",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-4",
+      "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+      "referencia": "Salmos 121:1-2",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261011-1-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tus músculos respiratorios puede retrasar el avance de la ELA?",
+        "idea": "Carrusel de 6 slides explicando qué es el entrenamiento muscular respiratorio, cómo impacta en la ELA según la ciencia del 2026, y un llamado a la acción para agendar evaluación kinésica.",
+        "formato": "Carrusel 6 slides",
+        "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
+        "id": "idea-1"
+      },
+      {
+        "hook": "Movilizar a un paciente crítico en UCI: ¿cuándo y cómo hacerlo de forma segura?",
+        "idea": "Reel dinámico de 30 segundos resumiendo las nuevas guías ASSOBBRAFIR para evitar la debilidad muscular en pacientes críticos, terminando con invitación a comentar.",
+        "formato": "Reel 30 s",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te duele la mandíbula y no sabes por qué? La clave podría estar en tu sensibilidad al dolor facial",
+        "idea": "Carrusel de 6 slides mostrando cómo la algometría de presión ayuda a diagnosticar con precisión la disfunción temporomandibular (ATM), con llamado a evaluación en consulta.",
+        "formato": "Carrusel 6 slides",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Sufres de reflujo? Tu diafragma podría ser la solución que nadie te recomendó",
+        "idea": "Reel de 30 segundos explicando la conexión entre la respiración diafragmática y el alivio del reflujo gastroesofágico, cerrando con un llamado a seguir la cuenta para más tips de salud.",
+        "formato": "Reel 30 s",
+        "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Efectos del entrenamiento muscular respiratorio en pacientes con esclerosis lateral amiotrófica",
+        "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+        "resumen": "Esta revisión sistemática analiza cómo el entrenamiento de la musculatura respiratoria mejora la función pulmonar en pacientes con ELA. Como kinesiólogo respiratorio, destaco su impacto para retrasar el deterioro ventilatorio en esta población compleja.",
+        "objetivo": "Evaluar los efectos del entrenamiento de los músculos respiratorios sobre la función respiratoria en pacientes con esclerosis lateral amiotrófica.",
+        "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en pacientes adultos diagnosticados con ELA sometidos a entrenamiento muscular respiratorio.",
+        "hallazgos": "Se evidenciaron mejoras significativas en los parámetros de función respiratoria y capacidad vital tras la intervención muscular.",
+        "aplicacion": "Implementar protocolos personalizados de fortalecimiento de músculos inspiratorios para preservar la capacidad ventilatoria en etapas tempranas y moderadas de la ELA.",
+        "revista": "J Neurol",
+        "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva: estrategias de rehabilitación en adultos críticos",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "resumen": "Nuevas directrices internacionales optimizan las estrategias de movilización y rehabilitación temprana en la unidad de cuidados intensivos. Su aplicación clínica reduce la debilidad adquirida en UCI y acelera el destete ventilatorio.",
+        "objetivo": "Proporcionar directrices basadas en evidencia para las estrategias de rehabilitación en pacientes adultos críticamente enfermos.",
+        "metodologia": "Guía de práctica clínica basada en la revisión exhaustiva de la literatura sobre fisioterapia intensiva y movilización temprana en pacientes críticos.",
+        "hallazgos": "Las directrices estandarizan protocolos seguros de movilización y ejercicio que mejoran los resultados funcionales al alta de la UCI.",
+        "aplicacion": "Adoptar estas recomendaciones en el manejo diario del paciente crítico para minimizar las secuelas neuromusculares y mejorar el pronóstico funcional.",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribuciones y factores asociados",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "resumen": "Este estudio mapea los umbrales de dolor por presión en la musculatura facial y zonas relacionadas con la articulación temporomandibular. Estos datos normativos son claves para evaluar con precisión la hiperalgesia en pacientes con trastornos de la ATM.",
+        "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
+        "metodologia": "Estudio clínico observacional y transversal que midió los umbrales de dolor a la presión mediante algometría en una cohorte de adultos sanos.",
+        "hallazgos": "Se establecieron valores de referencia claros que varían según la región anatómica evaluada en la cara y los músculos masticatorios.",
+        "aplicacion": "Utilizar la algometría de presión en la clínica para un diagnóstico más objetivo y un monitoreo eficaz de los pacientes con disfunción temporomandibular.",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico: revisión narrativa",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión analiza cómo la reeducación del patrón respiratorio diafragmático fortalece el esfínter esofágico inferior mediante la biomecánica del hiato. Como especialista en rehabilitación respiratoria, encuentro fascinante esta conexión visceral y postural.",
+        "objetivo": "Revisar las bases mecánicas y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de estudios mecanicistas y ensayos clínicos que evalúan el impacto de ejercicios respiratorios en pacientes con ERGE.",
+        "hallazgos": "El entrenamiento diafragmático mejora la presión de reposo del esfínter esofágico inferior y reduce los síntomas ácido-reflujo.",
+        "aplicacion": "Integrar ejercicios de control diafragmático en pacientes que presentan reflujo y disfunción tensional asociada en la consulta kinésica.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTducGkyajk1UXEybGZZaVllR3hJNERRLVpqcDJLSHNBeC1SVWtWTlB2c3piODVDbFpKaTZJMTVKM05oZ0UwYmFmTzU0a1M0cjRDMFh0T2dsQUlsT3VQR3JRXzZkMlloRUhiRUdCU0tBRndVVURFOEx5T0dDRFo1ZHVFSExxdw?oc=5",
+        "fuente": "Agencia de noticias",
+        "titulo": "Kast promulga su megarreforma económica sin ceremonia debido a la emergencia en Chile - EFE",
+        "detalle": "Información de actualidad en economía · chile según Agencia de noticias.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzZubWZFUUhvckY4YVdOQXdYWDBOQmpDeXBhOXJ5eWFOR21mMjE4QXFFalNwY2I2V1h2RlUtMmZYVzF1LUdQRk03WDVMMnFpRU1wRVBtUmd4MUU2OWRaUG0yOHg2M0M5cldTZEJPeGhJd2dsdmFleTVpaS1lR0o0T0pMLTgwamVPMThiSmV3?oc=5",
+        "fuente": "Servicio Nacional de Migraciones",
+        "titulo": "Fiscalización deja 21 personas denunciadas en Iquique",
+        "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-11T15:54:52.111Z"
   }
 };

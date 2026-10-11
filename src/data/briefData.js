@@ -1,19 +1,19 @@
 export const initialBriefData = {
-  "fecha": "2026-10-10",
+  "fecha": "2026-10-11",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-3",
-    "texto": "Todo lo puedo en Cristo que me fortalece.",
-    "referencia": "Filipenses 4:13",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-4",
+    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+    "referencia": "Salmos 121:1-2",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261010-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261011-1-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -21,81 +21,81 @@ export const initialBriefData = {
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que mover a un paciente crítico a tiempo salva su funcionalidad?",
-      "idea": "Carrusel explicando las nuevas directrices internacionales de ASSOBRAFIR para la movilización temprana en UCI, terminando con la importancia de evitar la debilidad adquirida en paciente crítico.",
+      "hook": "¿Sabías que entrenar tus músculos respiratorios puede retrasar el avance de la ELA?",
+      "idea": "Carrusel de 6 slides explicando qué es el entrenamiento muscular respiratorio, cómo impacta en la ELA según la ciencia del 2026, y un llamado a la acción para agendar evaluación kinésica.",
       "formato": "Carrusel 6 slides",
-      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy (PMID: 42710394)",
+      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
       "id": "idea-1"
     },
     {
-      "hook": "¿Te duele la mandíbula o la cara y no sabes por qué?",
-      "idea": "Reel mostrando cómo medimos los umbrales de dolor en la ATM con un algómetro y por qué es clave diferenciar los puntos gatillo en pacientes con disfunción temporomandibular.",
+      "hook": "Movilizar a un paciente crítico en UCI: ¿cuándo y cómo hacerlo de forma segura?",
+      "idea": "Reel dinámico de 30 segundos resumiendo las nuevas guías ASSOBBRAFIR para evitar la debilidad muscular en pacientes críticos, terminando con invitación a comentar.",
       "formato": "Reel 30 s",
-      "base": "Facial pressure pain thresholds in healthy Chinese adults (PMID: 42703050)",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
       "id": "idea-2"
     },
     {
-      "hook": "¿Sufres de reflujo y ya no sabes qué hacer? ¿Y si el problema es tu diafragma?",
-      "idea": "Carrusel detallando la conexión entre la respiración diafragmática, el esfínter esofágico inferior y cómo un Kine respiratorio puede ayudarte a controlar el reflujo.",
+      "hook": "¿Te duele la mandíbula y no sabes por qué? La clave podría estar en tu sensibilidad al dolor facial",
+      "idea": "Carrusel de 6 slides mostrando cómo la algometría de presión ayuda a diagnosticar con precisión la disfunción temporomandibular (ATM), con llamado a evaluación en consulta.",
       "formato": "Carrusel 6 slides",
-      "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease (PMID: 42735091)",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
       "id": "idea-3"
     },
     {
-      "hook": "¿Problemas para respirar bien después de una cirugía de abdomen?",
-      "idea": "Reel explicando cómo la ventilación no invasiva intermitente aplicada por kinesiólogos acelera la recuperación pulmonar y previene complicaciones postoperatorias.",
+      "hook": "¿Sufres de reflujo? Tu diafragma podría ser la solución que nadie te recomendó",
+      "idea": "Reel de 30 segundos explicando la conexión entre la respiración diafragmática y el alivio del reflujo gastroesofágico, cerrando con un llamado a seguir la cuenta para más tips de salud.",
       "formato": "Reel 30 s",
-      "base": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery (PMID: 42518491)",
+      "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Guías de práctica clínica de ASSOBRAFIR para la rehabilitación en adultos críticamente enfermos",
+      "titulo": "Efectos del entrenamiento muscular respiratorio en pacientes con esclerosis lateral amiotrófica",
+      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+      "resumen": "Esta revisión sistemática analiza cómo el entrenamiento de la musculatura respiratoria mejora la función pulmonar en pacientes con ELA. Como kinesiólogo respiratorio, destaco su impacto para retrasar el deterioro ventilatorio en esta población compleja.",
+      "objetivo": "Evaluar los efectos del entrenamiento de los músculos respiratorios sobre la función respiratoria en pacientes con esclerosis lateral amiotrófica.",
+      "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en pacientes adultos diagnosticados con ELA sometidos a entrenamiento muscular respiratorio.",
+      "hallazgos": "Se evidenciaron mejoras significativas en los parámetros de función respiratoria y capacidad vital tras la intervención muscular.",
+      "aplicacion": "Implementar protocolos personalizados de fortalecimiento de músculos inspiratorios para preservar la capacidad ventilatoria en etapas tempranas y moderadas de la ELA.",
+      "revista": "J Neurol",
+      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+      "id": "paper-1"
+    },
+    {
+      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva: estrategias de rehabilitación en adultos críticos",
       "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "resumen": "Estas directrices actualizan las estrategias de movilización y rehabilitación en pacientes críticos adultos en unidades de cuidados intensivos. Proveen recomendaciones basadas en evidencia para prevenir la debilidad adquirida en UCI y acelerar la recuperación funcional.",
-      "objetivo": "Establecer guías clínicas estandarizadas para la fisioterapia de rehabilitación en adultos críticamente enfermos.",
-      "metodologia": "Revisión sistemática y consenso de expertos para la formulación de guías de práctica clínica en fisioterapia intensiva.",
-      "hallazgos": "Se definieron recomendaciones clave para optimizar la seguridad y dosificación del ejercicio temprano en pacientes críticos.",
-      "aplicacion": "Implementar movilización precoz protocolizada en la UCI para reducir los días de ventilación mecánica y mejorar la funcionalidad al alta.",
+      "resumen": "Nuevas directrices internacionales optimizan las estrategias de movilización y rehabilitación temprana en la unidad de cuidados intensivos. Su aplicación clínica reduce la debilidad adquirida en UCI y acelera el destete ventilatorio.",
+      "objetivo": "Proporcionar directrices basadas en evidencia para las estrategias de rehabilitación en pacientes adultos críticamente enfermos.",
+      "metodologia": "Guía de práctica clínica basada en la revisión exhaustiva de la literatura sobre fisioterapia intensiva y movilización temprana en pacientes críticos.",
+      "hallazgos": "Las directrices estandarizan protocolos seguros de movilización y ejercicio que mejoran los resultados funcionales al alta de la UCI.",
+      "aplicacion": "Adoptar estas recomendaciones en el manejo diario del paciente crítico para minimizar las secuelas neuromusculares y mejorar el pronóstico funcional.",
       "revista": "Braz J Phys Ther",
       "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
-      "id": "paper-1"
+      "id": "paper-2"
     },
     {
       "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribuciones y factores asociados",
       "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "resumen": "Este estudio evalúa los umbrales de dolor a la presión en distintas zonas faciales en población sana para entender mejor la sensibilidad craneofacial. Estos datos normativos son cruciales para el diagnóstico diferencial en trastornos temporomandibulares (ATM) y dolor orofacial.",
-      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión en la musculatura facial y de la ATM en adultos sanos.",
-      "metodologia": "Estudio transversal observacional que midió umbrales de dolor mediante algometría en participantes adultos sanos.",
-      "hallazgos": "Se establecieron valores de referencia de sensibilidad al dolor facial que varían según zonas anatómicas y factores demográficos.",
-      "aplicacion": "Utilizar la algometría de presión con valores normativos para mejorar la evaluación clínica de pacientes con disfunción temporomandibular en la consulta.",
+      "resumen": "Este estudio mapea los umbrales de dolor por presión en la musculatura facial y zonas relacionadas con la articulación temporomandibular. Estos datos normativos son claves para evaluar con precisión la hiperalgesia en pacientes con trastornos de la ATM.",
+      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
+      "metodologia": "Estudio clínico observacional y transversal que midió los umbrales de dolor a la presión mediante algometría en una cohorte de adultos sanos.",
+      "hallazgos": "Se establecieron valores de referencia claros que varían según la región anatómica evaluada en la cara y los músculos masticatorios.",
+      "aplicacion": "Utilizar la algometría de presión en la clínica para un diagnóstico más objetivo y un monitoreo eficaz de los pacientes con disfunción temporomandibular.",
       "revista": "Cranio",
       "doi": "https://doi.org/10.1080/08869634.2026.2725144",
-      "id": "paper-2"
-    },
-    {
-      "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "resumen": "Esta revisión analiza cómo el entrenamiento de la musculatura inspiratoria y la respiración diafragmática mejoran la función del esfínter esofágico inferior. Demuestra que el control respiratorio reduce los episodios de reflujo al fortalecer el pilar diafragmático.",
-      "objetivo": "Revisar la base mecanística y la evidencia clínica del uso de la respiración diafragmática en el manejo del reflujo gastroesofágico.",
-      "metodologia": "Revisión narrativa de la literatura científica sobre la interacción entre la biomecánica diafragmática y el reflujo gastroesofágico.",
-      "hallazgos": "El fortalecimiento y control del diafragma disminuyen significativamente la exposición ácida esofágica y los síntomas clínicos.",
-      "aplicacion": "Integrar ejercicios de patrón respiratorio diafragmático en pacientes con síntomas de reflujo y alteraciones tónicas del piso toracoabdominal.",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-3"
     },
     {
-      "titulo": "Ventilación no invasiva intermitente liderada por fisioterapeutas tras cirugía abdominal: ensayo piloto aleatorizado",
-      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
-      "resumen": "Este ensayo evaluó la viabilidad y eficacia de la ventilación no invasiva intermitente aplicada por kinesiólogos para tratar la hipoxemia postquirúrgica abdominal. Los resultados muestran una optimización en la recuperación respiratoria y prevención de complicaciones pulmonares.",
-      "objetivo": "Evaluar la factibilidad de un protocolo de ventilación no invasiva intermitente dirigido por fisioterapeutas en pacientes con hipoxemia post-cirugía abdominal.",
-      "metodologia": "Ensayo clínico piloto aleatorizado controlado realizado en un hospital cuaternario con pacientes postoperados abdominales.",
-      "aplicacion de la VNI": "El manejo kinesiológico activo con soporte ventilatorio no invasivo redujo la hipoxemia y mejoró los parámetros de oxigenación.",
-      "aplicacion": "Aplicar protocolos de ventilación no invasiva liderados por kinesiología en el postoperatorio abdominal para el manejo precoz de la hipoxemia.",
-      "revista": "BJA Open",
-      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+      "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico: revisión narrativa",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión analiza cómo la reeducación del patrón respiratorio diafragmático fortalece el esfínter esofágico inferior mediante la biomecánica del hiato. Como especialista en rehabilitación respiratoria, encuentro fascinante esta conexión visceral y postural.",
+      "objetivo": "Revisar las bases mecánicas y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de estudios mecanicistas y ensayos clínicos que evalúan el impacto de ejercicios respiratorios en pacientes con ERGE.",
+      "hallazgos": "El entrenamiento diafragmático mejora la presión de reposo del esfínter esofágico inferior y reduce los síntomas ácido-reflujo.",
+      "aplicacion": "Integrar ejercicios de control diafragmático en pacientes que presentan reflujo y disfunción tensional asociada en la consulta kinésica.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-4"
     }
   ],
@@ -129,13 +129,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSTNfVWYyNWotNkowYnJjVk9BNmgzcWRIeE9EaXZnbG8xMEFMel9nb0VGYVNqNWlxZVJINUppLUt3Z3dXYU0tbWlnOG9IQjZ1Q05hVFEzeTQ1SzIydENHbVNDb3lYSWxQVzE2TVJDME1IRnNQc1hRNjJOZW5sSHY4SGY1d2pkWFlVekE1NVF4TklRYXViamtsRGNMSEJNcGlFanBIdHZqOTJYSVhVaDdIcDJMN05QZS1NZEZ6VHd0S0R1Rnc?oc=5",
-      "fuente": "Edición Cero",
-      "titulo": "El Frankenstein de nuestra memoria: “Cenizas” es el espejo incómodo que Iquique necesita mirar",
-      "detalle": "Información de actualidad en norte grande según Edición Cero.",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzZubWZFUUhvckY4YVdOQXdYWDBOQmpDeXBhOXJ5eWFOR21mMjE4QXFFalNwY2I2V1h2RlUtMmZYVzF1LUdQRk03WDVMMnFpRU1wRVBtUmd4MUU2OWRaUG0yOHg2M0M5cldTZEJPeGhJd2dsdmFleTVpaS1lR0o0T0pMLTgwamVPMThiSmV3?oc=5",
+      "fuente": "Servicio Nacional de Migraciones",
+      "titulo": "Fiscalización deja 21 personas denunciadas en Iquique",
+      "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-10T15:32:26.546Z"
+  "creado_en": "2026-10-11T15:54:52.111Z"
 };
