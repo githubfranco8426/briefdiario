@@ -1,111 +1,118 @@
 export const initialBriefData = {
-  "fecha": "2026-10-11",
+  "fecha": "2026-10-12",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-4",
-    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
-    "referencia": "Salmos 121:1-2",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261011-1-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
+      "id": "agenda-20261012-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
       "lugar": "",
-      "titulo": "Atención clínica"
+      "titulo": "Compromiso personal"
+    },
+    {
+      "id": "agenda-20261012-2-disponibilidad",
+      "hora": "15:00 – 19:00",
+      "tipo": "disponibilidad",
+      "lugar": "",
+      "titulo": "Cupo disponible"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que entrenar tus músculos respiratorios puede retrasar el avance de la ELA?",
-      "idea": "Carrusel de 6 slides explicando qué es el entrenamiento muscular respiratorio, cómo impacta en la ELA según la ciencia del 2026, y un llamado a la acción para agendar evaluación kinésica.",
+      "hook": "¿Sabías que entrenar tus pulmones puede ayudarte antes de una cirugía de rodilla?",
+      "idea": "Slide 1: El problema de la artrosis de rodilla y la espera quirúrgica. Slide 2: ¿Qué es el entrenamiento muscular inspiratorio? Slide 3: Resultados del estudio reciente en APMR. Slide 4: Beneficios en la función física general. Slide 5: Cómo aplicarlo en kinesiología prequirúrgica. Slide 6: ¡Guarda este post y compártelo con quien espere cirugía!",
       "formato": "Carrusel 6 slides",
-      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
+      "base": "Su S et al., Arch Phys Med Rehabil 2026",
       "id": "idea-1"
     },
     {
-      "hook": "Movilizar a un paciente crítico en UCI: ¿cuándo y cómo hacerlo de forma segura?",
-      "idea": "Reel dinámico de 30 segundos resumiendo las nuevas guías ASSOBBRAFIR para evitar la debilidad muscular en pacientes críticos, terminando con invitación a comentar.",
+      "hook": "El rol vital del kinesiólogo en pacientes con trasplante de células madre",
+      "idea": "Video directo a cámara explicando cómo la fisioterapia cambia la trayectoria de un paciente oncohematológico complejo, destacando la evidencia del último paper publicado en Transplant and Cellular Therapy. CTA: Comenta 'TRASPLANTE' para recibir la guía clínica.",
       "formato": "Reel 30 s",
-      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
+      "base": "Ben Jemia H et al., Transplant Cell Ther 2026",
       "id": "idea-2"
     },
     {
-      "hook": "¿Te duele la mandíbula y no sabes por qué? La clave podría estar en tu sensibilidad al dolor facial",
-      "idea": "Carrusel de 6 slides mostrando cómo la algometría de presión ayuda a diagnosticar con precisión la disfunción temporomandibular (ATM), con llamado a evaluación en consulta.",
+      "hook": "¿Volver a caminar tras un infarto grave define tu pronóstico?",
+      "idea": "Slide 1: Soporte circulatorio mecánico en infarto agudo. Slide 2: El reto de la UCI cardiológica moderna. Slide 3: El estudio landmark a 14 días. Slide 4: Por qué la marcha temprana salva vidas y previene secuelas. Slide 5: El rol del kinesiólogo intensivista. Slide 6: Síguenos para más evidencia en paciente crítico.",
       "formato": "Carrusel 6 slides",
-      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "base": "Hanada S et al., Prog Rehabil Med 2026",
       "id": "idea-3"
     },
     {
-      "hook": "¿Sufres de reflujo? Tu diafragma podría ser la solución que nadie te recomendó",
-      "idea": "Reel de 30 segundos explicando la conexión entre la respiración diafragmática y el alivio del reflujo gastroesofágico, cerrando con un llamado a seguir la cuenta para más tips de salud.",
+      "hook": "¿Fatiga extrema por Long COVID? Cuidado con el ejercicio tradicional",
+      "idea": "Reel dinámico donde explico qué dice la nueva revisión sistemática sobre el manejo del Long COVID y por qué la kinesiología respiratoria con pacing (dosificación) es la clave. CTA: Agenda tu evaluación kinésica respiratoria hoy.",
       "formato": "Reel 30 s",
-      "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease",
+      "base": "Tamariz L et al., J Community Hosp Intern Med Perspect 2026",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Efectos del entrenamiento muscular respiratorio en pacientes con esclerosis lateral amiotrófica",
-      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
-      "resumen": "Esta revisión sistemática analiza cómo el entrenamiento de la musculatura respiratoria mejora la función pulmonar en pacientes con ELA. Como kinesiólogo respiratorio, destaco su impacto para retrasar el deterioro ventilatorio en esta población compleja.",
-      "objetivo": "Evaluar los efectos del entrenamiento de los músculos respiratorios sobre la función respiratoria en pacientes con esclerosis lateral amiotrófica.",
-      "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos enfocados en pacientes adultos diagnosticados con ELA sometidos a entrenamiento muscular respiratorio.",
-      "hallazgos": "Se evidenciaron mejoras significativas en los parámetros de función respiratoria y capacidad vital tras la intervención muscular.",
-      "aplicacion": "Implementar protocolos personalizados de fortalecimiento de músculos inspiratorios para preservar la capacidad ventilatoria en etapas tempranas y moderadas de la ELA.",
-      "revista": "J Neurol",
-      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+      "titulo": "Entrenamiento de músculos inspiratorios en artrosis de rodilla",
+      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "resumen": "Este ensayo controlado aleatorizado evaluó la factibilidad y efectos preliminares del entrenamiento muscular inspiratorio durante 8 semanas en pacientes esperando cirugía de rodilla. Los resultados sugieren mejoras funcionales relevantes para la práctica kinésica prequirúrgica.",
+      "objetivo": "Evaluar la factibilidad y los efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con artrosis de rodilla candidatos a artroplastia total.",
+      "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes en lista de espera para artroplastia total de rodilla.",
+      "hallazgos": "El entrenamiento inspiratorio demostró ser factible y generó efectos preliminares positivos en la capacidad funcional de los pacientes.",
+      "aplicacion": "Integra el entrenamiento muscular inspiratorio en la prehabilitación de pacientes con patología ortopédica severa de extremidades inferiores.",
+      "revista": "Arch Phys Med Rehabil",
+      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
       "id": "paper-1"
     },
     {
-      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva: estrategias de rehabilitación en adultos críticos",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "resumen": "Nuevas directrices internacionales optimizan las estrategias de movilización y rehabilitación temprana en la unidad de cuidados intensivos. Su aplicación clínica reduce la debilidad adquirida en UCI y acelera el destete ventilatorio.",
-      "objetivo": "Proporcionar directrices basadas en evidencia para las estrategias de rehabilitación en pacientes adultos críticamente enfermos.",
-      "metodologia": "Guía de práctica clínica basada en la revisión exhaustiva de la literatura sobre fisioterapia intensiva y movilización temprana en pacientes críticos.",
-      "hallazgos": "Las directrices estandarizan protocolos seguros de movilización y ejercicio que mejoran los resultados funcionales al alta de la UCI.",
-      "aplicacion": "Adoptar estas recomendaciones en el manejo diario del paciente crítico para minimizar las secuelas neuromusculares y mejorar el pronóstico funcional.",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "titulo": "El rol de la fisioterapia en el trasplante de células madre hematopoyéticas",
+      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "resumen": "Esta revisión sistemática establece un marco clínico para guiar la intervención de fisioterapia en todas las etapas del trasplante alogénico. Destaca la importancia crítica del movimiento y la rehabilitación en pacientes oncohematológicos complejos.",
+      "objetivo": "Definir el rol y establecer un marco clínico para la fisioterapia a lo largo de la trayectoria del trasplante de células madre hematopoyéticas alogénico.",
+      "metodologia": "Revisión sistemática de la literatura orientada a la creación de un marco de intervención clínica multidisciplinaria.",
+      "hallazgos": "Se identificó que la fisioterapia estructurada mejora significativamente la recuperación funcional y reduce las complicaciones en pacientes trasplantados.",
+      "aplicacion": "Aplica protocolos de movilización temprana y acondicionamiento físico adaptados a pacientes inmunosuprimidos y críticos.",
+      "revista": "Transplant Cell Ther",
+      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
       "id": "paper-2"
     },
     {
-      "titulo": "Umbrales de dolor a la presión facial en adultos sanos: distribuciones y factores asociados",
-      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "resumen": "Este estudio mapea los umbrales de dolor por presión en la musculatura facial y zonas relacionadas con la articulación temporomandibular. Estos datos normativos son claves para evaluar con precisión la hiperalgesia en pacientes con trastornos de la ATM.",
-      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
-      "metodologia": "Estudio clínico observacional y transversal que midió los umbrales de dolor a la presión mediante algometría en una cohorte de adultos sanos.",
-      "hallazgos": "Se establecieron valores de referencia claros que varían según la región anatómica evaluada en la cara y los músculos masticatorios.",
-      "aplicacion": "Utilizar la algometría de presión en la clínica para un diagnóstico más objetivo y un monitoreo eficaz de los pacientes con disfunción temporomandibular.",
-      "revista": "Cranio",
-      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+      "titulo": "Pronóstico de la recuperación de la marcha tras soporte circulatorio mecánico",
+      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "resumen": "Este estudio analizó el valor pronóstico de recuperar la marcha en los primeros días tras el destete de soporte circulatorio mecánico por infarto. Los hallazgos subrayan la marcha precoz como un marcador vital en la unidad de paciente crítico cardiológico.",
+      "objetivo": "Determinar la significancia pronóstica de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en infarto agudo de miocardio.",
+      "metodologia": "Análisis de puntos de referencia (landmark analysis) a 14 días en pacientes con infarto y soporte circulatorio mecánico.",
+      "hallazgos": "La pronta recuperación de la capacidad de marchar se asoció fuertemente con un mejor pronóstico vital y funcional a corto plazo.",
+      "aplicacion": "Prioriza la evaluación y reeducación temprana de la marcha en pacientes críticos cardiovasculares estabilizados.",
+      "revista": "Prog Rehabil Med",
+      "doi": "https://doi.org/10.2490/prm.20260038",
       "id": "paper-3"
     },
     {
-      "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico: revisión narrativa",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "resumen": "Esta revisión analiza cómo la reeducación del patrón respiratorio diafragmático fortalece el esfínter esofágico inferior mediante la biomecánica del hiato. Como especialista en rehabilitación respiratoria, encuentro fascinante esta conexión visceral y postural.",
-      "objetivo": "Revisar las bases mecánicas y la evidencia clínica del uso de la respiración diafragmática en el manejo de la enfermedad por reflujo gastroesofágico.",
-      "metodologia": "Revisión narrativa de estudios mecanicistas y ensayos clínicos que evalúan el impacto de ejercicios respiratorios en pacientes con ERGE.",
-      "hallazgos": "El entrenamiento diafragmático mejora la presión de reposo del esfínter esofágico inferior y reduce los síntomas ácido-reflujo.",
-      "aplicacion": "Integrar ejercicios de control diafragmático en pacientes que presentan reflujo y disfunción tensional asociada en la consulta kinésica.",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "titulo": "Revisión sistemática de ensayos clínicos para el síndrome de Long COVID",
+      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "resumen": "Esta revisión analiza la evidencia de ensayos clínicos aleatorizados enfocados en el tratamiento farmacológico y no farmacológico del Long COVID. Aporta claridad sobre las intervenciones más efectivas para el manejo de la fatiga crónica y disfunción respiratoria.",
+      "objetivo": "Sintetizar la evidencia de ensayos clínicos aleatorizados disponibles para el tratamiento integral del síndrome de Long COVID.",
+      "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados enfocados en intervenciones terapéuticas para el Long COVID.",
+      "hallazgos": "Se evidenció la necesidad de enfoques multidisciplinarios, destacando la kinesiología respiratoria y la dosificación cuidadosa del ejercicio.",
+      "aplicacion": "Diseña programas de rehabilitación respiratoria graduados y evita el sobreejercicio en pacientes con fatiga post-viral.",
+      "revista": "J Community Hosp Intern Med Perspect",
+      "doi": "https://doi.org/10.55729/2000-9666.1612",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTducGkyajk1UXEybGZZaVllR3hJNERRLVpqcDJLSHNBeC1SVWtWTlB2c3piODVDbFpKaTZJMTVKM05oZ0UwYmFmTzU0a1M0cjRDMFh0T2dsQUlsT3VQR3JRXzZkMlloRUhiRUdCU0tBRndVVURFOEx5T0dDRFo1ZHVFSExxdw?oc=5",
-      "fuente": "Agencia de noticias",
-      "titulo": "Kast promulga su megarreforma económica sin ceremonia debido a la emergencia en Chile - EFE",
-      "detalle": "Información de actualidad en economía · chile según Agencia de noticias.",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWVpWTDBzQ2ljbF9hcFpvdVg2cUhIVlRTUFotdXlaSGgwNWVjVGg0YUVuNFl3aHBTcDBlYm9wWm8xcUt2dkFzNmYtUW1JOEtGXzltdDZ1OFhITk10ZU9xMDJScWM4SERPS0NaQXZkM21RZFJkdVY4RXBjRm55cnMwSE8yYTgxTllaOW9sR3d5amZLczQycUhmbGFzN2gyam9qb2FkSnY2OFMwY1VMcEtWLUtNTlVPQjNRamdSY3cxZlcwLXhqOTRvSVJhREJOZnR0SXlITmh5bHZkOGFiOVB4QV9VQkxPT3Ay?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "El creciente negocio de venta de lingotes de oro: No pagan IVA en Chile",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -121,21 +128,21 @@ export const initialBriefData = {
     {
       "id": "news-3",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
-      "fuente": "Fundación Chile",
+      "fuente": "Fundación Chile | FCh",
       "titulo": "IA y satélites para detectar vertederos ilegales",
-      "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzZubWZFUUhvckY4YVdOQXdYWDBOQmpDeXBhOXJ5eWFOR21mMjE4QXFFalNwY2I2V1h2RlUtMmZYVzF1LUdQRk03WDVMMnFpRU1wRVBtUmd4MUU2OWRaUG0yOHg2M0M5cldTZEJPeGhJd2dsdmFleTVpaS1lR0o0T0pMLTgwamVPMThiSmV3?oc=5",
-      "fuente": "Servicio Nacional de Migraciones",
-      "titulo": "Fiscalización deja 21 personas denunciadas en Iquique",
-      "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmptM04zRmpqSk1CdDd4amxtaHRRd2RpbURtdHNhYlhsLWV4Zi1pQmJpSFRqWnJaOVluMThJY0NxNU9QS1hMNEpYUVBGZ3c5MkR4bVVOUTZ3QWoxSUQ1SFc5dlg3cUNKNDdHM3o0amN2VktfWktWdnlUSHJoUnhmMlBsSHFCa2ZoOHpGV1pvWUhQQ3B2alR4akl5UEN3MC1aVWxoUTliZG0xVkNIX3haWlFzM1V0YXI1LTlr?oc=5",
+      "fuente": "PortalPortuario",
+      "titulo": "Empresa Portuaria Iquique y Zofri consolidan alianza estratégica para potenciar integración",
+      "detalle": "Información de actualidad en norte grande según PortalPortuario.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-11T15:54:52.111Z"
+  "creado_en": "2026-10-12T19:15:50.557Z"
 };

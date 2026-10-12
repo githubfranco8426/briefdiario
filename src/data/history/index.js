@@ -5089,5 +5089,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-11T15:54:52.111Z"
+  },
+  "2026-10-12": {
+    "fecha": "2026-10-12",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 3 · Saliente / Libre",
+    "ciclo_detalle": "Recuperación y fichas clínicas",
+    "versiculo": {
+      "id": "verse-5",
+      "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+      "referencia": "Proverbios 17:22",
+      "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261012-1-personal",
+        "hora": "08:00 – 08:15",
+        "tipo": "personal",
+        "lugar": "",
+        "titulo": "Compromiso personal"
+      },
+      {
+        "id": "agenda-20261012-2-disponibilidad",
+        "hora": "15:00 – 19:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que entrenar tus pulmones puede ayudarte antes de una cirugía de rodilla?",
+        "idea": "Slide 1: El problema de la artrosis de rodilla y la espera quirúrgica. Slide 2: ¿Qué es el entrenamiento muscular inspiratorio? Slide 3: Resultados del estudio reciente en APMR. Slide 4: Beneficios en la función física general. Slide 5: Cómo aplicarlo en kinesiología prequirúrgica. Slide 6: ¡Guarda este post y compártelo con quien espere cirugía!",
+        "formato": "Carrusel 6 slides",
+        "base": "Su S et al., Arch Phys Med Rehabil 2026",
+        "id": "idea-1"
+      },
+      {
+        "hook": "El rol vital del kinesiólogo en pacientes con trasplante de células madre",
+        "idea": "Video directo a cámara explicando cómo la fisioterapia cambia la trayectoria de un paciente oncohematológico complejo, destacando la evidencia del último paper publicado en Transplant and Cellular Therapy. CTA: Comenta 'TRASPLANTE' para recibir la guía clínica.",
+        "formato": "Reel 30 s",
+        "base": "Ben Jemia H et al., Transplant Cell Ther 2026",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Volver a caminar tras un infarto grave define tu pronóstico?",
+        "idea": "Slide 1: Soporte circulatorio mecánico en infarto agudo. Slide 2: El reto de la UCI cardiológica moderna. Slide 3: El estudio landmark a 14 días. Slide 4: Por qué la marcha temprana salva vidas y previene secuelas. Slide 5: El rol del kinesiólogo intensivista. Slide 6: Síguenos para más evidencia en paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "Hanada S et al., Prog Rehabil Med 2026",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Fatiga extrema por Long COVID? Cuidado con el ejercicio tradicional",
+        "idea": "Reel dinámico donde explico qué dice la nueva revisión sistemática sobre el manejo del Long COVID y por qué la kinesiología respiratoria con pacing (dosificación) es la clave. CTA: Agenda tu evaluación kinésica respiratoria hoy.",
+        "formato": "Reel 30 s",
+        "base": "Tamariz L et al., J Community Hosp Intern Med Perspect 2026",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Entrenamiento de músculos inspiratorios en artrosis de rodilla",
+        "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "resumen": "Este ensayo controlado aleatorizado evaluó la factibilidad y efectos preliminares del entrenamiento muscular inspiratorio durante 8 semanas en pacientes esperando cirugía de rodilla. Los resultados sugieren mejoras funcionales relevantes para la práctica kinésica prequirúrgica.",
+        "objetivo": "Evaluar la factibilidad y los efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con artrosis de rodilla candidatos a artroplastia total.",
+        "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes en lista de espera para artroplastia total de rodilla.",
+        "hallazgos": "El entrenamiento inspiratorio demostró ser factible y generó efectos preliminares positivos en la capacidad funcional de los pacientes.",
+        "aplicacion": "Integra el entrenamiento muscular inspiratorio en la prehabilitación de pacientes con patología ortopédica severa de extremidades inferiores.",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "El rol de la fisioterapia en el trasplante de células madre hematopoyéticas",
+        "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "resumen": "Esta revisión sistemática establece un marco clínico para guiar la intervención de fisioterapia en todas las etapas del trasplante alogénico. Destaca la importancia crítica del movimiento y la rehabilitación en pacientes oncohematológicos complejos.",
+        "objetivo": "Definir el rol y establecer un marco clínico para la fisioterapia a lo largo de la trayectoria del trasplante de células madre hematopoyéticas alogénico.",
+        "metodologia": "Revisión sistemática de la literatura orientada a la creación de un marco de intervención clínica multidisciplinaria.",
+        "hallazgos": "Se identificó que la fisioterapia estructurada mejora significativamente la recuperación funcional y reduce las complicaciones en pacientes trasplantados.",
+        "aplicacion": "Aplica protocolos de movilización temprana y acondicionamiento físico adaptados a pacientes inmunosuprimidos y críticos.",
+        "revista": "Transplant Cell Ther",
+        "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Pronóstico de la recuperación de la marcha tras soporte circulatorio mecánico",
+        "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+        "resumen": "Este estudio analizó el valor pronóstico de recuperar la marcha en los primeros días tras el destete de soporte circulatorio mecánico por infarto. Los hallazgos subrayan la marcha precoz como un marcador vital en la unidad de paciente crítico cardiológico.",
+        "objetivo": "Determinar la significancia pronóstica de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en infarto agudo de miocardio.",
+        "metodologia": "Análisis de puntos de referencia (landmark analysis) a 14 días en pacientes con infarto y soporte circulatorio mecánico.",
+        "hallazgos": "La pronta recuperación de la capacidad de marchar se asoció fuertemente con un mejor pronóstico vital y funcional a corto plazo.",
+        "aplicacion": "Prioriza la evaluación y reeducación temprana de la marcha en pacientes críticos cardiovasculares estabilizados.",
+        "revista": "Prog Rehabil Med",
+        "doi": "https://doi.org/10.2490/prm.20260038",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Revisión sistemática de ensayos clínicos para el síndrome de Long COVID",
+        "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+        "resumen": "Esta revisión analiza la evidencia de ensayos clínicos aleatorizados enfocados en el tratamiento farmacológico y no farmacológico del Long COVID. Aporta claridad sobre las intervenciones más efectivas para el manejo de la fatiga crónica y disfunción respiratoria.",
+        "objetivo": "Sintetizar la evidencia de ensayos clínicos aleatorizados disponibles para el tratamiento integral del síndrome de Long COVID.",
+        "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados enfocados en intervenciones terapéuticas para el Long COVID.",
+        "hallazgos": "Se evidenció la necesidad de enfoques multidisciplinarios, destacando la kinesiología respiratoria y la dosificación cuidadosa del ejercicio.",
+        "aplicacion": "Diseña programas de rehabilitación respiratoria graduados y evita el sobreejercicio en pacientes con fatiga post-viral.",
+        "revista": "J Community Hosp Intern Med Perspect",
+        "doi": "https://doi.org/10.55729/2000-9666.1612",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWVpWTDBzQ2ljbF9hcFpvdVg2cUhIVlRTUFotdXlaSGgwNWVjVGg0YUVuNFl3aHBTcDBlYm9wWm8xcUt2dkFzNmYtUW1JOEtGXzltdDZ1OFhITk10ZU9xMDJScWM4SERPS0NaQXZkM21RZFJkdVY4RXBjRm55cnMwSE8yYTgxTllaOW9sR3d5amZLczQycUhmbGFzN2gyam9qb2FkSnY2OFMwY1VMcEtWLUtNTlVPQjNRamdSY3cxZlcwLXhqOTRvSVJhREJOZnR0SXlITmh5bHZkOGFiOVB4QV9VQkxPT3Ay?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "El creciente negocio de venta de lingotes de oro: No pagan IVA en Chile",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile | FCh",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmptM04zRmpqSk1CdDd4amxtaHRRd2RpbURtdHNhYlhsLWV4Zi1pQmJpSFRqWnJaOVluMThJY0NxNU9QS1hMNEpYUVBGZ3c5MkR4bVVOUTZ3QWoxSUQ1SFc5dlg3cUNKNDdHM3o0amN2VktfWktWdnlUSHJoUnhmMlBsSHFCa2ZoOHpGV1pvWUhQQ3B2alR4akl5UEN3MC1aVWxoUTliZG0xVkNIX3haWlFzM1V0YXI1LTlr?oc=5",
+        "fuente": "PortalPortuario",
+        "titulo": "Empresa Portuaria Iquique y Zofri consolidan alianza estratégica para potenciar integración",
+        "detalle": "Información de actualidad en norte grande según PortalPortuario.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-12T19:15:50.557Z"
   }
 };
