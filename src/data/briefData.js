@@ -1,26 +1,19 @@
 export const initialBriefData = {
-  "fecha": "2026-10-12",
+  "fecha": "2026-10-13",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 3 · Saliente / Libre",
-  "ciclo_detalle": "Recuperación y fichas clínicas",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
   "versiculo": {
-    "id": "verse-5",
-    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
-    "referencia": "Proverbios 17:22",
-    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "En diagnósticos complejos o cuadros atípicos, pide discernimiento y sabiduría clínica para orientar el mejor camino de tratamiento."
   },
   "agenda": [
     {
-      "id": "agenda-20261012-1-personal",
-      "hora": "08:00 – 08:15",
-      "tipo": "personal",
-      "lugar": "",
-      "titulo": "Compromiso personal"
-    },
-    {
-      "id": "agenda-20261012-2-disponibilidad",
-      "hora": "15:00 – 19:00",
+      "id": "agenda-20261013-1-disponibilidad",
+      "hora": "09:00 – 19:00",
       "tipo": "disponibilidad",
       "lugar": "",
       "titulo": "Cupo disponible"
@@ -28,91 +21,91 @@ export const initialBriefData = {
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que entrenar tus pulmones puede ayudarte antes de una cirugía de rodilla?",
-      "idea": "Slide 1: El problema de la artrosis de rodilla y la espera quirúrgica. Slide 2: ¿Qué es el entrenamiento muscular inspiratorio? Slide 3: Resultados del estudio reciente en APMR. Slide 4: Beneficios en la función física general. Slide 5: Cómo aplicarlo en kinesiología prequirúrgica. Slide 6: ¡Guarda este post y compártelo con quien espere cirugía!",
+      "hook": "¿Sientes que el ejercicio te agota en vez de ayudarte tras tener COVID?",
+      "idea": "Slide 1: El mito del 'puedes con todo'. Slide 2: Qué es realmente el Long-COVID y la fatiga post-esfuerzo. Slide 3: Por qué el cardio intenso puede empeorar tus síntomas respiratorios. Slide 4: La nueva evidencia en fisioterapia respiratoria. Slide 5: Pautas de esfuerzo adaptado. Slide 6: Guárdatelo y compártelo con quien lo necesite. Comenta 'COVID' para más info.",
       "formato": "Carrusel 6 slides",
-      "base": "Su S et al., Arch Phys Med Rehabil 2026",
+      "base": "Reeves et al., 2026 (Braz J Phys Ther)",
       "id": "idea-1"
     },
     {
-      "hook": "El rol vital del kinesiólogo en pacientes con trasplante de células madre",
-      "idea": "Video directo a cámara explicando cómo la fisioterapia cambia la trayectoria de un paciente oncohematológico complejo, destacando la evidencia del último paper publicado en Transplant and Cellular Therapy. CTA: Comenta 'TRASPLANTE' para recibir la guía clínica.",
+      "hook": "¿Paciente crítico con balón en la ingle = 100% inmovilizado en cama?",
+      "idea": "0-5s: Mito vs Realidad en la UCI. 5-15s: Explicar cómo la nueva evidencia permite mover a pacientes con balón de contrapulsación aórtica de forma segura. 15-25s: Beneficios clave para evitar el daño muscular severo. 25-30s: Sígueme para más tips de paciente crítico. Comenta si trabajas en UCI.",
       "formato": "Reel 30 s",
-      "base": "Ben Jemia H et al., Transplant Cell Ther 2026",
+      "base": "Velazquez et al., 2026 (Crit Care Nurs Q)",
       "id": "idea-2"
     },
     {
-      "hook": "¿Volver a caminar tras un infarto grave define tu pronóstico?",
-      "idea": "Slide 1: Soporte circulatorio mecánico en infarto agudo. Slide 2: El reto de la UCI cardiológica moderna. Slide 3: El estudio landmark a 14 días. Slide 4: Por qué la marcha temprana salva vidas y previene secuelas. Slide 5: El rol del kinesiólogo intensivista. Slide 6: Síguenos para más evidencia en paciente crítico.",
+      "hook": "¿Sabías que la fuerza en el cuello y la garganta previene ahogos tras un ACV?",
+      "idea": "Slide 1: Disfagia post-ACV y su impacto oculto. Slide 2: Lo que dice el nuevo metaanálisis sobre entrenar la musculatura deglutoria. Slide 3: Conexión entre respiración, deglución y vía aérea. Slide 4: Ejemplos prácticos de entrenamiento muscular específico. Slide 5: El rol clave del kinesiólogo especialista. Slide 6: ¡Comparte este dato vital! Déjanos tus dudas en comentarios.",
       "formato": "Carrusel 6 slides",
-      "base": "Hanada S et al., Prog Rehabil Med 2026",
+      "base": "Pastor-Benavente et al., 2026 (Eur Ann Otorhinolaryngol Head Neck Dis)",
       "id": "idea-3"
     },
     {
-      "hook": "¿Fatiga extrema por Long COVID? Cuidado con el ejercicio tradicional",
-      "idea": "Reel dinámico donde explico qué dice la nueva revisión sistemática sobre el manejo del Long COVID y por qué la kinesiología respiratoria con pacing (dosificación) es la clave. CTA: Agenda tu evaluación kinésica respiratoria hoy.",
+      "hook": "¿La hipertensión pulmonar prohíbe mejorar tu capacidad respiratoria?",
+      "idea": "0-10s: Derribando mitos antiguos en pacientes respiratorios complejos. 10-20s: Qué revela la revisión de 2026 sobre la reducción de volumen pulmonar y la hipertensión. 20-25s: La importancia de un equipo multidisciplinario experto. 25-30s: Dale like si te apasiona la fisiología respiratoria avanzada.",
       "formato": "Reel 30 s",
-      "base": "Tamariz L et al., J Community Hosp Intern Med Perspect 2026",
+      "base": "Adamu Bala et al., 2026 (Ann Transl Med)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Entrenamiento de músculos inspiratorios en artrosis de rodilla",
-      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
-      "resumen": "Este ensayo controlado aleatorizado evaluó la factibilidad y efectos preliminares del entrenamiento muscular inspiratorio durante 8 semanas en pacientes esperando cirugía de rodilla. Los resultados sugieren mejoras funcionales relevantes para la práctica kinésica prequirúrgica.",
-      "objetivo": "Evaluar la factibilidad y los efectos preliminares del entrenamiento de los músculos inspiratorios en pacientes con artrosis de rodilla candidatos a artroplastia total.",
-      "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes en lista de espera para artroplastia total de rodilla.",
-      "hallazgos": "El entrenamiento inspiratorio demostró ser factible y generó efectos preliminares positivos en la capacidad funcional de los pacientes.",
-      "aplicacion": "Integra el entrenamiento muscular inspiratorio en la prehabilitación de pacientes con patología ortopédica severa de extremidades inferiores.",
-      "revista": "Arch Phys Med Rehabil",
-      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+      "titulo": "Manejo fisioterapéutico del Long-COVID basado en la evidencia",
+      "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
+      "resumen": "Este artículo revisa el abordaje fisioterapéutico contemporáneo para pacientes con COVID persistente. Destaca estrategias de rehabilitación respiratoria y manejo de la fatiga crónica.",
+      "objetivo": "Actualizar las directrices clínicas basadas en evidencia para la intervención kinésica en Long-COVID.",
+      "metodologia": "Revisión de la literatura científica reciente enfocada en protocolos de rehabilitación respiratoria y ejercicio graduado.",
+      "hallazgos": "Se identificó que un enfoque individualizado y monitorizado reduce los síntomas de fatiga y mejora la capacidad funcional.",
+      "aplicacion": "Debemos evaluar la fatiga post-esfuerzo antes de prescribir cualquier pauta de ejercicio aeróbico en pacientes con Long-COVID.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
       "id": "paper-1"
     },
     {
-      "titulo": "El rol de la fisioterapia en el trasplante de células madre hematopoyéticas",
-      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
-      "resumen": "Esta revisión sistemática establece un marco clínico para guiar la intervención de fisioterapia en todas las etapas del trasplante alogénico. Destaca la importancia crítica del movimiento y la rehabilitación en pacientes oncohematológicos complejos.",
-      "objetivo": "Definir el rol y establecer un marco clínico para la fisioterapia a lo largo de la trayectoria del trasplante de células madre hematopoyéticas alogénico.",
-      "metodologia": "Revisión sistemática de la literatura orientada a la creación de un marco de intervención clínica multidisciplinaria.",
-      "hallazgos": "Se identificó que la fisioterapia estructurada mejora significativamente la recuperación funcional y reduce las complicaciones en pacientes trasplantados.",
-      "aplicacion": "Aplica protocolos de movilización temprana y acondicionamiento físico adaptados a pacientes inmunosuprimidos y críticos.",
-      "revista": "Transplant Cell Ther",
-      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+      "titulo": "Programa de movilidad para pacientes pretransplante con balón de contrapulsación aórtica",
+      "titulo_original": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+      "resumen": "Este estudio aborda la implementación segura de programas de movilización temprana en pacientes críticos en lista de espera para trasplante. Demuestra que es viable mantener el movimiento a pesar de dispositivos de soporte vital femoral.",
+      "objetivo": "Evaluar la seguridad y viabilidad de un protocolo de movilidad temprana en pacientes críticos con balón de contrapulsación.",
+      "metodologia": "Estudio de mejora de la calidad liderado por personal clínico en pacientes adultos hospitalizados en unidades de cuidados intensivos.",
+      "hallazgos": "La movilización temprana bajo estricto monitoreo clínico previno el desacondicionamiento físico severo sin aumentar las complicaciones vasculares.",
+      "aplicacion": "En la UCI, la presencia de dispositivos femorales ya no es una contraindicación absoluta para iniciar la sedestación y movilización precoz.",
+      "revista": "Crit Care Nurs Q",
+      "doi": "https://doi.org/10.1097/CNQ.0000000000000609",
       "id": "paper-2"
     },
     {
-      "titulo": "Pronóstico de la recuperación de la marcha tras soporte circulatorio mecánico",
-      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
-      "resumen": "Este estudio analizó el valor pronóstico de recuperar la marcha en los primeros días tras el destete de soporte circulatorio mecánico por infarto. Los hallazgos subrayan la marcha precoz como un marcador vital en la unidad de paciente crítico cardiológico.",
-      "objetivo": "Determinar la significancia pronóstica de la recuperación de la marcha tras el destete de soporte circulatorio mecánico en infarto agudo de miocardio.",
-      "metodologia": "Análisis de puntos de referencia (landmark analysis) a 14 días en pacientes con infarto y soporte circulatorio mecánico.",
-      "hallazgos": "La pronta recuperación de la capacidad de marchar se asoció fuertemente con un mejor pronóstico vital y funcional a corto plazo.",
-      "aplicacion": "Prioriza la evaluación y reeducación temprana de la marcha en pacientes críticos cardiovasculares estabilizados.",
-      "revista": "Prog Rehabil Med",
-      "doi": "https://doi.org/10.2490/prm.20260038",
+      "titulo": "Eficacia del entrenamiento de la musculatura deglutoria en disfagia post-accidente cerebrovascular",
+      "titulo_original": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+      "resumen": "Esta revisión sistemática evalúa el impacto de ejercicios específicos sobre la musculatura deglutoria y respiratoria en pacientes post-ACV. Los resultados confirman mejoras significativas en la seguridad de la deglución.",
+      "objetivo": "Determinar la eficacia clínica del entrenamiento muscular específico para tratar la disfagia tras un evento cerebrovascular.",
+      "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos aleatorizados enfocados en la rehabilitación de la deglución.",
+      "hallazgos": "El entrenamiento resistido de los músculos deglutorios mejoró notablemente la función y redujo el riesgo de broncoaspiración.",
+      "aplicacion": "Integra ejercicios específicos de la musculatura suprahioidea y control respiratorio en pacientes post-ACV con alteraciones deglutorias.",
+      "revista": "Eur Ann Otorhinolaryngol Head Neck Dis",
+      "doi": "https://doi.org/10.1016/j.anorl.2026.03.005",
       "id": "paper-3"
     },
     {
-      "titulo": "Revisión sistemática de ensayos clínicos para el síndrome de Long COVID",
-      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
-      "resumen": "Esta revisión analiza la evidencia de ensayos clínicos aleatorizados enfocados en el tratamiento farmacológico y no farmacológico del Long COVID. Aporta claridad sobre las intervenciones más efectivas para el manejo de la fatiga crónica y disfunción respiratoria.",
-      "objetivo": "Sintetizar la evidencia de ensayos clínicos aleatorizados disponibles para el tratamiento integral del síndrome de Long COVID.",
-      "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados enfocados en intervenciones terapéuticas para el Long COVID.",
-      "hallazgos": "Se evidenció la necesidad de enfoques multidisciplinarios, destacando la kinesiología respiratoria y la dosificación cuidadosa del ejercicio.",
-      "aplicacion": "Diseña programas de rehabilitación respiratoria graduados y evita el sobreejercicio en pacientes con fatiga post-viral.",
-      "revista": "J Community Hosp Intern Med Perspect",
-      "doi": "https://doi.org/10.55729/2000-9666.1612",
+      "titulo": "¿Es la hipertensión pulmonar una contraindicación para la reducción del volumen pulmonar?",
+      "titulo_original": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
+      "resumen": "Esta revisión analiza la evidencia contemporánea sobre la cirugía de reducción de volumen pulmonar en pacientes con EPOC e hipertensión pulmonar asociada. Cuestiona los criterios tradicionales de exclusión quirúrgica y rehabilitadora.",
+      "objetivo": "Analizar si la hipertensión pulmonar sigue siendo una contraindicación absoluta para los procedimientos de reducción de volumen pulmonar.",
+      "metodologia": "Revisión narrativa de estudios clínicos recientes y literatura contemporánea sobre neumología y rehabilitación respiratoria.",
+      "hallazgos": "La selección cuidadosa de pacientes demuestra que algunos subgrupos pueden beneficiarse significativamente sin un riesgo desproporcionado.",
+      "aplicacion": "No descartes automáticamente programas avanzados de rehabilitación respiratoria en pacientes con EPOC e hipertensión pulmonar leve a moderada.",
+      "revista": "Ann Transl Med",
+      "doi": "https://doi.org/10.21037/atm-2026-1-0028",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWVpWTDBzQ2ljbF9hcFpvdVg2cUhIVlRTUFotdXlaSGgwNWVjVGg0YUVuNFl3aHBTcDBlYm9wWm8xcUt2dkFzNmYtUW1JOEtGXzltdDZ1OFhITk10ZU9xMDJScWM4SERPS0NaQXZkM21RZFJkdVY4RXBjRm55cnMwSE8yYTgxTllaOW9sR3d5amZLczQycUhmbGFzN2gyam9qb2FkSnY2OFMwY1VMcEtWLUtNTlVPQjNRamdSY3cxZlcwLXhqOTRvSVJhREJOZnR0SXlITmh5bHZkOGFiOVB4QV9VQkxPT3Ay?oc=5",
-      "fuente": "BioBioChile",
-      "titulo": "El creciente negocio de venta de lingotes de oro: No pagan IVA en Chile",
-      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdENjLU1UR2Y3N2FHYy11bWNQUWptUDRaN0Y4OUZ0clJoOEEwSzVLUldMVmFKVXNJcmsxNC1xZUhkYW5LeTJpUW5GUnZiZXRrWk9nYS1jb09MNThxRlpLa3VFUDA4ckxtbVVaelhUZUlTYlJUcFFsdHlXUUJ3enFIS210eDZfUlozc3Faam5NU0dkVUJRclhhZnBuX3NuVDlXSktibGRiaVJmVzlMQ0p3bHAyMFlRVTh6X0VqY01iOV9zSnZ2bHZCY3NpemVGV0pyS0RoRnZuNUhfb1k5N3ItUVlTY3pReHRNTEFmZtIBjAFBVV95cUxPWXJkSE9wejEzRng3LTFhOXdhd0RkZFhzanVXZjZuakpjYXdPTHU3Z1VyUlgxZmluRnZSb1ZnTE1pSmt3QUt2aDBObHgxMEZQUWdWOVFNaVpGSUhfRXloUmdzeTc3ME1GdEVWMGcxNTRyQ2U2UFRiamdsQUV1ZzV2Y0xVa2YzUm9BSlJBeA?oc=5",
+      "fuente": "Cooperativa",
+      "titulo": "En la penumbra de la región: FMI recortó al 0,6% el crecimiento de Chile para 2026",
+      "detalle": "Información de actualidad en economía · chile según Cooperativa.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -136,13 +129,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWmptM04zRmpqSk1CdDd4amxtaHRRd2RpbURtdHNhYlhsLWV4Zi1pQmJpSFRqWnJaOVluMThJY0NxNU9QS1hMNEpYUVBGZ3c5MkR4bVVOUTZ3QWoxSUQ1SFc5dlg3cUNKNDdHM3o0amN2VktfWktWdnlUSHJoUnhmMlBsSHFCa2ZoOHpGV1pvWUhQQ3B2alR4akl5UEN3MC1aVWxoUTliZG0xVkNIX3haWlFzM1V0YXI1LTlr?oc=5",
-      "fuente": "PortalPortuario",
-      "titulo": "Empresa Portuaria Iquique y Zofri consolidan alianza estratégica para potenciar integración",
-      "detalle": "Información de actualidad en norte grande según PortalPortuario.",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONTFLM1QyblNPbko0X3BmRzlwZFJ3ZzdDdkRnbTBVemlYeGRHLTV6Rm9ITENmUmJ1UXp3cm1yV1haR2hJMlMtVnRlSGFrRjEtZHRwQWt4bS13bmRrcXRBbHZES01hbGZad2pHRVMxVDhRbTVEb0otOTN3Ul9vMHV2SURMRzRGbDVSa1hBUS1ORVpBUDF3VTBwNTNsMGtlNGktR21KWTBrVmJFMVdfQ3RQcFpmc1FZdGppVE5wOG5GeW5taHFnVXFEYg?oc=5",
+      "fuente": "CEI Noticias",
+      "titulo": "“Relatos Tejidos” abre sus puertas en Iquique conectando patrimonio textil, memoria y creación contemporánea",
+      "detalle": "Información de actualidad en norte grande según CEI Noticias.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-12T19:15:50.557Z"
+  "creado_en": "2026-10-13T17:05:17.272Z"
 };
