@@ -1,110 +1,110 @@
 export const initialBriefData = {
-  "fecha": "2026-10-17",
+  "fecha": "2026-10-18",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-3",
-    "texto": "Todo lo puedo en Cristo que me fortalece.",
-    "referencia": "Filipenses 4:13",
-    "reflexion": "Para enfrentar los casos más desafiantes en UPC, consulta o a domicilio: cuentas con respaldo y templanza inquebrantable."
+    "id": "verse-4",
+    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+    "referencia": "Salmos 121:1-2",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-20261017-1-disponibilidad",
-      "hora": "09:00 – 14:00",
-      "tipo": "disponibilidad",
+      "id": "agenda-20261018-1-clinica",
+      "hora": "08:00 – 20:00",
+      "tipo": "clinica",
       "lugar": "",
-      "titulo": "Cupo disponible"
+      "titulo": "Atención clínica"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que la realidad virtual puede hacer que respires mejor después de una cirugía de abdomen?",
-      "idea": "Slide 1: Hook visual. Slide 2: El problema de la debilidad diafragmática post-cirugía. Slide 3: Qué dice el nuevo estudio de Allam et al. (2026). Slide 4: Cómo actúa la realidad virtual en la excursión diafragmática. Slide 5: Beneficios directos para el paciente. Slide 6: CTA: Sígueme para más evidencia en kine respiratoria.",
+      "hook": "¿Realidad virtual para recuperarse de una cirugía de abdomen?",
+      "idea": "Slide 1: Hook visual. Slide 2: Explica el estudio de Allam et al. sobre RV y función pulmonar. Slide 3: Beneficios en la excursión diafragmática. Slide 4: Aplicación práctica postoperatoria. Slide 5: Mejora de la calidad de vida. Slide 6: CTA comentando 'RV' para más info.",
       "formato": "Carrusel 6 slides",
       "base": "PMID: 42886015",
       "id": "idea-1"
     },
     {
-      "hook": "Telerrehabilitación en Esclerosis Múltiple: ¿Funciona realmente el modelo híbrido?",
-      "idea": "Video dinámico explicando cómo combinar sesiones presenciales y remotas mejora la movilidad en pacientes con esclerosis múltiple según Aytutuldu et al. (2026). Mostrar ejemplos prácticos de ejercicios supervisados a distancia. CTA: Comenta 'HÍBRIDO' y te comparto el artículo.",
+      "hook": "¿Cuál es el estándar de oro actual para mover a un paciente crítico en la UCI?",
+      "idea": "Video dinámico explicando las nuevas guías ASSOBBRAFIR. Se abordan los mitos de la movilización temprana, la seguridad del paciente crítico y la importancia del equipo kinésico en la UPC. Cierre con llamado a seguir la cuenta para más evidencia en UCI.",
       "formato": "Reel 30 s",
-      "base": "PMID: 41106533",
+      "base": "PMID: 42710394",
       "id": "idea-2"
     },
     {
-      "hook": "Nuevas guías ASSOBRAFIR 2026: ¿Cómo entrenar correctamente a un paciente con EPOC?",
-      "idea": "Slide 1: Titular fuerte sobre EPOC. Slide 2: La importancia del ejercicio basado en evidencia. Slide 3: Puntos claves de las nuevas directrices de Camillo et al. (2026). Slide 4: Frecuencia, intensidad y tipo de ejercicio recomendado. Slide 5: Errores comunes en la rehabilitación pulmonar. Slide 6: CTA: Guarda este post para tu próxima planificación clínica.",
+      "hook": "¿Te duele la mandíbula y no sabes por qué la palpación duele tanto?",
+      "idea": "Slide 1: Pregunta sobre dolor en la ATM. Slide 2: Qué son los umbrales de presión facial según Li et al. Slide 3: Cómo medimos la sensibilidad con algometría. Slide 4: Relación entre estrés, bruxismo y dolor miofacial. Slide 5: Importancia de la evaluación kinésica de la ATM. Slide 6: CTA pidiendo una evaluación.",
       "formato": "Carrusel 6 slides",
-      "base": "PMID: 41106351",
+      "base": "PMID: 42703050",
       "id": "idea-3"
     },
     {
-      "hook": "Movilización temprana en pacientes críticos: Lo que dice la nueva guía de la UCI",
-      "idea": "Video enfocado en kinesiología intensiva explicando las recomendaciones de Neto et al. (2026) para adultos críticamente enfermos. Explicar cómo evitar la debilidad adquirida en UPC de forma segura. CTA: Comparte este video con colegas de turno.",
+      "hook": "¿Sabías que respirar mal puede empeorar tu reflujo estomacal?",
+      "idea": "Video donde el kinesiólogo explica la conexión anatómica entre el diafragma y el estómago. Muestra cómo la reeducación diafragmática ayuda en el reflujo gastroesofágico basándose en la revisión de Semwal et al. CTA: Guarda este video si sufres de acidez.",
       "formato": "Reel 30 s",
-      "base": "PMID: 42710394",
+      "base": "PMID: 42735091",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Impacto de la realidad virtual en la función pulmonar y diafragmática tras cirugías abdominales altas",
+      "titulo": "Impacto del entrenamiento con realidad virtual en cirugía abdominal alta",
       "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "resumen": "Este estudio evaluó cómo la realidad virtual mejora la excursión diafragmática y la fuerza muscular respiratoria post-cirugía. Los resultados muestran beneficios clínicos significativos en la recuperación funcional de los pacientes.",
-      "objetivo": "Evaluar el impacto del entrenamiento con realidad virtual en la calidad de vida, excursión diafragmática y función pulmonar tras cirugía abdominal alta.",
-      "metodologia": "Ensayo clínico controlado aleatorizado en pacientes sometidos a cirugía abdominal alta.",
-      "hallazgos": "El entrenamiento con realidad virtual mejoró significativamente la fuerza muscular respiratoria y la excursión del diafragma.",
-      "aplicacion": "Integra herramientas de realidad virtual en el protocolo de kinesiterapia respiratoria postoperatoria para potenciar la recuperación diafragmática.",
+      "resumen": "Este estudio evaluó cómo la realidad virtual mejora la excursión diafragmática y la función pulmonar postoperatoria. Demostró ser una herramienta innovadora y eficaz en la recuperación respiratoria tras cirugía abdominal alta.",
+      "objetivo": "Determinar el impacto del entrenamiento con realidad virtual en la calidad de vida, función pulmonar y fuerza muscular respiratoria tras cirugías abdominales altas.",
+      "metodologia": "Estudio controlado aleatorizado en pacientes sometidos a intervención quirúrgica abdominal superior.",
+      "hallazgos": "Se observaron mejoras significativas en la excursión del diafragma, la fuerza de los músculos respiratorios y la calidad de vida de los pacientes.",
+      "aplicacion": "Integra ejercicios de realidad virtual en tu pauta de kinesiología respiratoria postquirúrgica para acelerar la recuperación diafragmática.",
       "revista": "Phys Ther",
       "doi": "https://doi.org/10.1093/ptj/pzag106",
       "id": "paper-1"
     },
     {
-      "titulo": "Efectos de la telerrehabilitación híbrida en la movilidad y capacidad funcional en esclerosis múltiple",
-      "titulo_original": "Effects of a Hybrid Telerehabilitation Model on Mobility and Functional Capacity in Patients With Multiple Sclerosis: A Single-Blind Randomized Controlled Study",
-      "resumen": "Se investigó un modelo de telerrehabilitación híbrida demostrando mejoras en la movilidad y capacidad funcional de pacientes con esclerosis múltiple. Este enfoque optimiza la adherencia y continuidad del tratamiento kinésico.",
-      "objetivo": "Determinar los efectos de un modelo de telerrehabilitación híbrida sobre la movilidad y capacidad funcional en pacientes con esclerosis múltiple.",
-      "metodologia": "Ensayo clínico controlado aleatorizado y simple ciego en pacientes diagnosticados con esclerosis múltiple.",
-      "hallazgos": "El modelo híbrido mejoró de manera efectiva la movilidad y la capacidad funcional general de los participantes.",
-      "aplicacion": "Implementa esquemas híbridos de rehabilitación a distancia para mantener el seguimiento y la constancia de tus pacientes neurológicos.",
-      "revista": "Arch Phys Med Rehabil",
-      "doi": "https://doi.org/10.1016/j.apmr.2025.09.034",
+      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "resumen": "Nuevas directrices brasileñas establecen estrategias basadas en evidencia para la movilización y rehabilitación del paciente crítico adulto. Su aplicación busca estandarizar y optimizar el manejo kinésico en unidades de paciente crítico (UPC).",
+      "objetivo": "Proveer recomendaciones clínicas basadas en evidencia para las estrategias de rehabilitación en adultos críticamente enfermos.",
+      "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la literatura y consenso de expertos en terapia intensiva.",
+      "hallazgos": "Se establecen recomendaciones claras sobre el momento oportuno y la intensidad de la movilización temprana en la unidad de cuidados intensivos.",
+      "aplicacion": "Actualiza los protocolos de la UPC en Chile alineándote con estas recomendaciones internacionales para mejorar los desenlaces funcionales.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
       "id": "paper-2"
     },
     {
-      "titulo": "Guías de práctica clínica de ASSOBRAFIR para la rehabilitación basada en ejercicio en EPOC",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in respiratory physical therapy: Exercise-based interventions in people with chronic obstructive pulmonary disease (COPD)",
-      "resumen": "Nuevas directrices clínicas establecen los estándares basados en ejercicio para el manejo kinésico de pacientes con EPOC. Estas recomendaciones buscan estandarizar intervenciones que disminuyan la disnea y mejoren la tolerancia al esfuerzo.",
-      "objetivo": "Proveer directrices basadas en evidencia para las intervenciones basadas en ejercicio en personas con EPOC.",
-      "metodologia": "Guía de práctica clínica desarrollada mediante revisión sistemática y consenso de expertos en fisioterapia respiratoria.",
-      "hallazgos": "Se definieron recomendaciones clave para optimizar la prescripción de ejercicio físico y mejorar la calidad de vida en EPOC.",
-      "aplicacion": "Actualiza tus pautas de entrenamiento aeróbico y de fuerza en pacientes con EPOC basándote en estas recomendaciones internacionales.",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2025.101539",
+      "titulo": "Umbrales de dolor por presión facial en adultos sanos",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "resumen": "Esta investigación analiza la distribución de los umbrales de dolor por presión en la musculatura facial y su relación con diversos factores. Aporta datos normativos muy útiles para la evaluación clínica de pacientes con disfunción temporomandibular (ATM).",
+      "objetivo": "Investigar la distribución de los umbrales de dolor por presión en la cara de adultos sanos y los factores asociados.",
+      "metodologia": "Estudio observacional transversal en una cohorte de adultos sanos mediante algometría de presión facial.",
+      "hallazgos": "Se mapearon los valores normales de sensibilidad al dolor en diferentes puntos craneofaciales y maseterinos.",
+      "aplicacion": "Utiliza la algometría de presión en tu consulta para objetivar la hiperalgesia en pacientes con patología de la ATM y bruxismo.",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
       "id": "paper-3"
     },
     {
-      "titulo": "Estrategias de rehabilitación en adultos críticamente enfermos según ASSOBRAFIR",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "resumen": "Esta guía recopila las mejores estrategias de movilización y rehabilitación temprana para pacientes en unidades de paciente crítico (UPC). Su aplicación reduce las secuelas de la debilidad adquirida en UCI.",
-      "objetivo": "Establecer estrategias de rehabilitación basadas en evidencia para adultos en estado crítico dentro de la unidad de cuidados intensivos.",
-      "metodologia": "Guía de práctica clínica de terapia física en cuidados intensivos basada en la revisión crítica de la literatura.",
-      "hallazgos": "Se identificaron protocolos óptimos de movilización temprana que reducen los días de ventilación mecánica y estancia en UPC.",
-      "aplicacion": "Aplica protocolos actualizados de movilización precoz en pacientes críticos para prevenir la miopatía del enfermo crítico.",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "titulo": "La respiración diafragmática como enfoque adjunto en el reflujo gastroesofágico",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión explora cómo el entrenamiento de los músculos respiratorios fortalece el esfínter esofágico inferior a través del pilar diafragmático. Demuestra el rol fundamental de la kinesiología respiratoria en patologías digestivas.",
+      "objetivo": "Analizar la base mecanicista y la evidencia clínica del uso de la respiración diafragmática en el tratamiento del reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de la literatura científica sobre la biomecánica diafragmática y su impacto gastrointestinal.",
+      "hallazgos": "El fortalecimiento y control diafragmático reducen los episodios de reflujo al mejorar la competencia de la unión esofagogástrica.",
+      "aplicacion": "Incorpora técnicas de reeducación diafragmática en pacientes con reflujo y comorbilidades respiratorias o posturales.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYS1KVGEwellnUDhhQ2tscFFaZFp3X1dqWXVpSUJseV8zd2R0RVd3RWYzUFhWRXpTT3pIMDN0ZW8xclR3V3Q0Wk81VGRCS3dzeXFTTzBVUnJvc1VwcGN4NjhPODltcVptQ0haV09NY1V1UmdqNG1zYnM4Z254X0NhT2lxM0NkM1VwV1c0cmV5ZVVMbWI5MGtNYTAtU0RvdGxDQklObFZRdXRjRjJ6eVpBMlFlM2t0VWVZWnBKemc2Z1BtVjRjbzU1S0d3aWJOaUFpNVlsQ0tlYUtwYkhOSU5LbUd4ZTRTUnM0aDNJWWlObGc3akVOMHl2ZFJ5ZDNMakRmUE01SDc5RmJmSVN1TlNz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMnJ5ZGtGaUs1dlBLekFCcWdPdk1pSmZfcjFqY0Z4Vmlfd0ZYdUg3QXJjVEhoY2tHR3dWcTc5Z0dBY2o1TC13SHotWTc0Z0pvaTJ5eWJVM2JUMjdwMlFGQzJEaGg0ODlOQmhRXzU4ZjMxNWVYYlc4MTNWNXBYWUdXT0ZvN2x0X2RNMTQtY043SFJrdVQ5ZWd3MFIzbDk5TmE4OU9pN0tBRk1wOFM2NWZjR05DWmhDWnBTOGhFNV9QMERWR2FPcC1RYjR4ZUlnTF93SXNuZlVoZlB5bGhNR00ycGRQYnhVNS1WSlhqNXNEZzNoMDlvYlZyWjlDVDhsMTJqb1RtZXh6a3JfX0xVQmxENw?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Cómo Chile y Perú teniendo AFP tan similares logran resultados distintos en los fondos de pensiones",
+      "titulo": "Chile anota superávit comercial histórico y la India desplaza a Brasil como quinto destino del cobre",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -120,22 +120,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXhQWUVocWpQVFhrUXYyYzZhU1dPaldDZDhjQlpmUl9Ya05GNzgxSDZCVTNpSUkwWWRwd3Y2d0RWbWdRX1dYVzE4Tkp6eEItYU9CTHNWQVhMU1lLYWZDOEdac29NTlVQMllLU3c1RlVqMWo4eC1Sdk5rSVc0Ti1ZdjFlMmRNaGtld1JUWlFFaXB3NFRIVHl1aEJCM3ZtOW_SAa8BQVVfeXFMT1ZhMXN3N3JoaFRDOEw2Y3FiWHJkd1lYMC1TS2R6TGxjOUI1ckhIcENnZjFWR1BkOWpIa0xtWnNDd3h2a3MwSzdYSFZGNUNQREdWZEdMeGZnQlNvWjlSdHI1ZHhPRjJ0c05aZ240LTMxbVQ5ZjVVMnloYmY4Mlk1S3NETDUxdV9xd2E1NW9RbVpaTGtjeHB6alZGOXlIdDFndU5WR19jdVE0LWF3d0hHSQ?oc=5",
-      "fuente": "InvestChile",
-      "titulo": "Accenture crea en Chile unidad de Inteligencia Artificial Aplicada",
-      "detalle": "Información de actualidad en ia · mercados según InvestChile.",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+      "fuente": "Fundación Chile | FCh",
+      "titulo": "IA y satélites para detectar vertederos ilegales",
+      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSlNCYjBiNEVkckxuR0trV2pTeEFhTFUtYVlUYmZXYVdncXB4SE9iaVcwdkk0b3RrY3Zra2h1MkFqMU1MUEdHYkRzdldySzNXalBFZ09JS0JFOVBXSTk3RU1udUNqNGZXRWJINDhwa1FHTVJaNmJJV21xZEFaUERwRVRPaWRNU3pyWk9BY1NkajJJTHBwVVJHb0d2Z0hwV1hYVjM2T2hLTFU3cnhGVUd1YXlIZ1ZheFhpSWFOSFQ4eGtjemlubkFJMlQ2Y0hNTjNvUUVNMkR1ejRZZ2IzQmFRaFhzTVV6WHh5ODBRVjRfcWR3RU5tUm9RVF9qanlDVXU2?oc=5",
-      "fuente": "BioBioChile",
-      "titulo": "Corte de Iquique confirma condena a seis miembros de \"Los Piratas\", célula del Tren de Aragua",
-      "detalle": "Información de actualidad en norte grande según BioBioChile.",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBGajd2NGY0ejBlUkFwZDZLZWt6UGVfZndUZE9STGQ1WnAxbmVEX1hpbm1nTzlTbHdieXVoYjlhbW5weHJTTG9EOFJKNkkxYi1FaDY0Y1IxbmJTcXNLaXF5bnRPMHFKNHBOUlNsN1NVQXB5Y1NCdTJSc0FHOW0wLUZXUHNKNklDTTRCRmcyRXQwaVFUMGljenA4N1hZcXBPUHk0LThWYVBValNNa0ZidG5DMjY1ZVBZeHU4RFNnWQ?oc=5",
+      "fuente": "Teletón",
+      "titulo": "Más de 15 mil personas repletaron la Playa Brava de Iquique para disfrutar de la Gira Teletón 2026",
+      "detalle": "Información de actualidad en norte grande según Teletón.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-17T13:07:37.069Z"
+  "creado_en": "2026-10-18T13:28:46.428Z"
 };

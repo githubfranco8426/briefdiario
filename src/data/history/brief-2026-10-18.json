@@ -1,0 +1,141 @@
+{
+  "fecha": "2026-10-18",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "versiculo": {
+    "id": "verse-4",
+    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+    "referencia": "Salmos 121:1-2",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+  },
+  "agenda": [
+    {
+      "id": "agenda-20261018-1-clinica",
+      "hora": "08:00 – 20:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Atención clínica"
+    }
+  ],
+  "ideas": [
+    {
+      "hook": "¿Realidad virtual para recuperarse de una cirugía de abdomen?",
+      "idea": "Slide 1: Hook visual. Slide 2: Explica el estudio de Allam et al. sobre RV y función pulmonar. Slide 3: Beneficios en la excursión diafragmática. Slide 4: Aplicación práctica postoperatoria. Slide 5: Mejora de la calidad de vida. Slide 6: CTA comentando 'RV' para más info.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID: 42886015",
+      "id": "idea-1"
+    },
+    {
+      "hook": "¿Cuál es el estándar de oro actual para mover a un paciente crítico en la UCI?",
+      "idea": "Video dinámico explicando las nuevas guías ASSOBBRAFIR. Se abordan los mitos de la movilización temprana, la seguridad del paciente crítico y la importancia del equipo kinésico en la UPC. Cierre con llamado a seguir la cuenta para más evidencia en UCI.",
+      "formato": "Reel 30 s",
+      "base": "PMID: 42710394",
+      "id": "idea-2"
+    },
+    {
+      "hook": "¿Te duele la mandíbula y no sabes por qué la palpación duele tanto?",
+      "idea": "Slide 1: Pregunta sobre dolor en la ATM. Slide 2: Qué son los umbrales de presión facial según Li et al. Slide 3: Cómo medimos la sensibilidad con algometría. Slide 4: Relación entre estrés, bruxismo y dolor miofacial. Slide 5: Importancia de la evaluación kinésica de la ATM. Slide 6: CTA pidiendo una evaluación.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID: 42703050",
+      "id": "idea-3"
+    },
+    {
+      "hook": "¿Sabías que respirar mal puede empeorar tu reflujo estomacal?",
+      "idea": "Video donde el kinesiólogo explica la conexión anatómica entre el diafragma y el estómago. Muestra cómo la reeducación diafragmática ayuda en el reflujo gastroesofágico basándose en la revisión de Semwal et al. CTA: Guarda este video si sufres de acidez.",
+      "formato": "Reel 30 s",
+      "base": "PMID: 42735091",
+      "id": "idea-4"
+    }
+  ],
+  "papers": [
+    {
+      "titulo": "Impacto del entrenamiento con realidad virtual en cirugía abdominal alta",
+      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "resumen": "Este estudio evaluó cómo la realidad virtual mejora la excursión diafragmática y la función pulmonar postoperatoria. Demostró ser una herramienta innovadora y eficaz en la recuperación respiratoria tras cirugía abdominal alta.",
+      "objetivo": "Determinar el impacto del entrenamiento con realidad virtual en la calidad de vida, función pulmonar y fuerza muscular respiratoria tras cirugías abdominales altas.",
+      "metodologia": "Estudio controlado aleatorizado en pacientes sometidos a intervención quirúrgica abdominal superior.",
+      "hallazgos": "Se observaron mejoras significativas en la excursión del diafragma, la fuerza de los músculos respiratorios y la calidad de vida de los pacientes.",
+      "aplicacion": "Integra ejercicios de realidad virtual en tu pauta de kinesiología respiratoria postquirúrgica para acelerar la recuperación diafragmática.",
+      "revista": "Phys Ther",
+      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "id": "paper-1"
+    },
+    {
+      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "resumen": "Nuevas directrices brasileñas establecen estrategias basadas en evidencia para la movilización y rehabilitación del paciente crítico adulto. Su aplicación busca estandarizar y optimizar el manejo kinésico en unidades de paciente crítico (UPC).",
+      "objetivo": "Proveer recomendaciones clínicas basadas en evidencia para las estrategias de rehabilitación en adultos críticamente enfermos.",
+      "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la literatura y consenso de expertos en terapia intensiva.",
+      "hallazgos": "Se establecen recomendaciones claras sobre el momento oportuno y la intensidad de la movilización temprana en la unidad de cuidados intensivos.",
+      "aplicacion": "Actualiza los protocolos de la UPC en Chile alineándote con estas recomendaciones internacionales para mejorar los desenlaces funcionales.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "id": "paper-2"
+    },
+    {
+      "titulo": "Umbrales de dolor por presión facial en adultos sanos",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "resumen": "Esta investigación analiza la distribución de los umbrales de dolor por presión en la musculatura facial y su relación con diversos factores. Aporta datos normativos muy útiles para la evaluación clínica de pacientes con disfunción temporomandibular (ATM).",
+      "objetivo": "Investigar la distribución de los umbrales de dolor por presión en la cara de adultos sanos y los factores asociados.",
+      "metodologia": "Estudio observacional transversal en una cohorte de adultos sanos mediante algometría de presión facial.",
+      "hallazgos": "Se mapearon los valores normales de sensibilidad al dolor en diferentes puntos craneofaciales y maseterinos.",
+      "aplicacion": "Utiliza la algometría de presión en tu consulta para objetivar la hiperalgesia en pacientes con patología de la ATM y bruxismo.",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+      "id": "paper-3"
+    },
+    {
+      "titulo": "La respiración diafragmática como enfoque adjunto en el reflujo gastroesofágico",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión explora cómo el entrenamiento de los músculos respiratorios fortalece el esfínter esofágico inferior a través del pilar diafragmático. Demuestra el rol fundamental de la kinesiología respiratoria en patologías digestivas.",
+      "objetivo": "Analizar la base mecanicista y la evidencia clínica del uso de la respiración diafragmática en el tratamiento del reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de la literatura científica sobre la biomecánica diafragmática y su impacto gastrointestinal.",
+      "hallazgos": "El fortalecimiento y control diafragmático reducen los episodios de reflujo al mejorar la competencia de la unión esofagogástrica.",
+      "aplicacion": "Incorpora técnicas de reeducación diafragmática en pacientes con reflujo y comorbilidades respiratorias o posturales.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "id": "paper-4"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMnJ5ZGtGaUs1dlBLekFCcWdPdk1pSmZfcjFqY0Z4Vmlfd0ZYdUg3QXJjVEhoY2tHR3dWcTc5Z0dBY2o1TC13SHotWTc0Z0pvaTJ5eWJVM2JUMjdwMlFGQzJEaGg0ODlOQmhRXzU4ZjMxNWVYYlc4MTNWNXBYWUdXT0ZvN2x0X2RNMTQtY043SFJrdVQ5ZWd3MFIzbDk5TmE4OU9pN0tBRk1wOFM2NWZjR05DWmhDWnBTOGhFNV9QMERWR2FPcC1RYjR4ZUlnTF93SXNuZlVoZlB5bGhNR00ycGRQYnhVNS1WSlhqNXNEZzNoMDlvYlZyWjlDVDhsMTJqb1RtZXh6a3JfX0xVQmxENw?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Chile anota superávit comercial histórico y la India desplaza a Brasil como quinto destino del cobre",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+      "fuente": "Ciencia en Chile",
+      "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+      "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+      "fuente": "Fundación Chile | FCh",
+      "titulo": "IA y satélites para detectar vertederos ilegales",
+      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBGajd2NGY0ejBlUkFwZDZLZWt6UGVfZndUZE9STGQ1WnAxbmVEX1hpbm1nTzlTbHdieXVoYjlhbW5weHJTTG9EOFJKNkkxYi1FaDY0Y1IxbmJTcXNLaXF5bnRPMHFKNHBOUlNsN1NVQXB5Y1NCdTJSc0FHOW0wLUZXUHNKNklDTTRCRmcyRXQwaVFUMGljenA4N1hZcXBPUHk0LThWYVBValNNa0ZidG5DMjY1ZVBZeHU4RFNnWQ?oc=5",
+      "fuente": "Teletón",
+      "titulo": "Más de 15 mil personas repletaron la Playa Brava de Iquique para disfrutar de la Gira Teletón 2026",
+      "detalle": "Información de actualidad en norte grande según Teletón.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-10-18T13:28:46.428Z"
+}
