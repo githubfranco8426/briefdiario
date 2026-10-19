@@ -1,19 +1,26 @@
 export const initialBriefData = {
-  "fecha": "2026-10-18",
+  "fecha": "2026-10-19",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-4",
-    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
-    "referencia": "Salmos 121:1-2",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261018-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261019-1-disponibilidad",
+      "hora": "09:00 – 17:00",
+      "tipo": "disponibilidad",
+      "lugar": "",
+      "titulo": "Cupo disponible"
+    },
+    {
+      "id": "agenda-20261019-2-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -21,81 +28,82 @@ export const initialBriefData = {
   ],
   "ideas": [
     {
-      "hook": "¿Realidad virtual para recuperarse de una cirugía de abdomen?",
-      "idea": "Slide 1: Hook visual. Slide 2: Explica el estudio de Allam et al. sobre RV y función pulmonar. Slide 3: Beneficios en la excursión diafragmática. Slide 4: Aplicación práctica postoperatoria. Slide 5: Mejora de la calidad de vida. Slide 6: CTA comentando 'RV' para más info.",
+      "hook": "¿Sabías que el entrenamiento respiratorio puede cambiar el pronóstico en ELA?",
+      "idea": "Slide 1: Título llamativo. Slide 2: El desafío respiratorio en ELA. Slide 3: Qué dice el nuevo estudio de Lei et al. (2026). Slide 4: Beneficios en la fuerza inspiratoria y espiratoria. Slide 5: Cómo aplicarlo en kinesiología respiratoria. Slide 6: Guárdate este post y sígueme para más evidencia clínica.",
       "formato": "Carrusel 6 slides",
-      "base": "PMID: 42886015",
+      "base": "Lei Y et al., 2026 (PMID: 42455190)",
       "id": "idea-1"
     },
     {
-      "hook": "¿Cuál es el estándar de oro actual para mover a un paciente crítico en la UCI?",
-      "idea": "Video dinámico explicando las nuevas guías ASSOBBRAFIR. Se abordan los mitos de la movilización temprana, la seguridad del paciente crítico y la importancia del equipo kinésico en la UPC. Cierre con llamado a seguir la cuenta para más evidencia en UCI.",
+      "hook": "¿Realidad virtual en la UCI o en postoperatorio? ¡Mira cómo recupera el diafragma!",
+      "idea": "Video corto mostrando simulación de uso de RV. Explicar cómo el ensayo de Allam et al. (2026) demuestra mejoras en la excursión diafragmática tras cirugías abdominales. CTA: Comenta si usarías tecnología en tus pacientes.",
       "formato": "Reel 30 s",
-      "base": "PMID: 42710394",
+      "base": "Allam NM et al., 2026 (PMID: 42886015)",
       "id": "idea-2"
     },
     {
-      "hook": "¿Te duele la mandíbula y no sabes por qué la palpación duele tanto?",
-      "idea": "Slide 1: Pregunta sobre dolor en la ATM. Slide 2: Qué son los umbrales de presión facial según Li et al. Slide 3: Cómo medimos la sensibilidad con algometría. Slide 4: Relación entre estrés, bruxismo y dolor miofacial. Slide 5: Importancia de la evaluación kinésica de la ATM. Slide 6: CTA pidiendo una evaluación.",
+      "hook": "Nuevas guías internacionales para el paciente crítico: ¿Qué debes actualizar en tu UCI?",
+      "idea": "Slide 1: Lo que debes saber de las nuevas guías ASSOBRAFIR. Slide 2: El rol del kinesiólogo intensivista hoy. Slide 3: Estrategias de movilización precoz basadas en evidencia 2026. Slide 4: Seguridad y efectividad en pacientes ventilados. Slide 5: Reducción de la debilidad adquirida en UCI. Slide 6: Comparte esto con colegas de turno.",
       "formato": "Carrusel 6 slides",
-      "base": "PMID: 42703050",
+      "base": "Neto SGB et al., 2026 (PMID: 42710394)",
       "id": "idea-3"
     },
     {
-      "hook": "¿Sabías que respirar mal puede empeorar tu reflujo estomacal?",
-      "idea": "Video donde el kinesiólogo explica la conexión anatómica entre el diafragma y el estómago. Muestra cómo la reeducación diafragmática ayuda en el reflujo gastroesofágico basándose en la revisión de Semwal et al. CTA: Guarda este video si sufres de acidez.",
+      "hook": "¿Te duele la mandíbula o la cara y no sabes por qué? Hablemos de la ATM.",
+      "idea": "Video dinámico explicando la importancia de medir los umbrales de dolor por presión en la musculatura maseterina y facial según Li et al. (2026). Mostrar brevemente cómo se evalúa en clínica. CTA: Agenda tu evaluación kinésica de ATM.",
+      "format": "Reel 30 s",
       "formato": "Reel 30 s",
-      "base": "PMID: 42735091",
+      "base": "Li H et al., 2026 (PMID: 42703050)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Impacto del entrenamiento con realidad virtual en cirugía abdominal alta",
-      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "resumen": "Este estudio evaluó cómo la realidad virtual mejora la excursión diafragmática y la función pulmonar postoperatoria. Demostró ser una herramienta innovadora y eficaz en la recuperación respiratoria tras cirugía abdominal alta.",
-      "objetivo": "Determinar el impacto del entrenamiento con realidad virtual en la calidad de vida, función pulmonar y fuerza muscular respiratoria tras cirugías abdominales altas.",
-      "metodologia": "Estudio controlado aleatorizado en pacientes sometidos a intervención quirúrgica abdominal superior.",
-      "hallazgos": "Se observaron mejoras significativas en la excursión del diafragma, la fuerza de los músculos respiratorios y la calidad de vida de los pacientes.",
-      "aplicacion": "Integra ejercicios de realidad virtual en tu pauta de kinesiología respiratoria postquirúrgica para acelerar la recuperación diafragmática.",
-      "revista": "Phys Ther",
-      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "titulo": "Efectos del entrenamiento muscular respiratorio en pacientes con esclerosis lateral amiotrófica",
+      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+      "resumen": "Esta revisión sistemática y metaanálisis evalúa el impacto del entrenamiento muscular respiratorio en pacientes con ELA. Los resultados demuestran mejoras significativas en la función pulmonar y la fuerza muscular de esta población.",
+      "objetivo": "Analizar los efectos del entrenamiento de los músculos respiratorios sobre la función pulmonar en pacientes con esclerosis lateral amiotrófica.",
+      "metodologia": "Revisión sistemática y metaanálisis de literatura científica previa sobre pacientes con ELA sometidos a entrenamiento respiratorio.",
+      "hallazgos": "Se evidenció una mejora estadísticamente significativa en los parámetros de función respiratoria y fuerza muscular inspiratoria y espiratoria.",
+      "aplicacion": "Implementa programas de entrenamiento muscular respiratorio individualizados en tus pacientes con ELA para retrasar el deterioro ventilatorio.",
+      "revista": "J Neurol",
+      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
       "id": "paper-1"
     },
     {
-      "titulo": "Guías de práctica clínica de ASSOBRAFIR en fisioterapia intensiva",
+      "titulo": "Impacto de la realidad virtual en la función diafragmática tras cirugías abdominales altas",
+      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "resumen": "Este ensayo clínico controlado demuestra que el uso de realidad virtual mejora notablemente la excursión diafragmática y la fuerza respiratoria postquirúrgica. Además, optimiza la calidad de vida de los pacientes intervenidos de cirugía abdominal alta.",
+      "objetivo": "Determinar el impacto del entrenamiento con realidad virtual en la función respiratoria y fuerza muscular tras cirugías abdominales altas.",
+      "metodologia": "Ensayo clínico aleatorizado y controlado en pacientes sometidos a cirugías abdominales superiores con intervención de realidad virtual.",
+      "hallazgos": "El grupo de intervención mostró una mayor excursión diafragmática, mejor función pulmonar y mayor fuerza muscular respiratoria en comparación con el control.",
+      "aplicacion": "Integra herramientas de realidad virtual en el protocolo de rehabilitación kinésica postoperatoria para potenciar la recuperación diafragmática.",
+      "revista": "Phys Ther",
+      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "id": "paper-2"
+    },
+    {
+      "titulo": "Guías clínicas ASSOBRAFIR para la fisioterapia en pacientes críticos adultos",
       "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "resumen": "Nuevas directrices brasileñas establecen estrategias basadas en evidencia para la movilización y rehabilitación del paciente crítico adulto. Su aplicación busca estandarizar y optimizar el manejo kinésico en unidades de paciente crítico (UPC).",
-      "objetivo": "Proveer recomendaciones clínicas basadas en evidencia para las estrategias de rehabilitación en adultos críticamente enfermos.",
-      "metodologia": "Guía de práctica clínica basada en la revisión sistemática de la literatura y consenso de expertos en terapia intensiva.",
-      "hallazgos": "Se establecen recomendaciones claras sobre el momento oportuno y la intensidad de la movilización temprana en la unidad de cuidados intensivos.",
-      "aplicacion": "Actualiza los protocolos de la UPC en Chile alineándote con estas recomendaciones internacionales para mejorar los desenlaces funcionales.",
+      "resumen": "Estas nuevas guías clínicas establecen estrategias de rehabilitación basadas en la evidencia para adultos en unidades de cuidados intensivos. Su aplicación busca estandarizar y mejorar la seguridad de la movilización temprana en el paciente crítico.",
+      "objetivo": "Proporcionar directrices clínicas basadas en evidencia para las estrategias de rehabilitación en adultos críticamente enfermos.",
+      "metodologia": "Desarrollo de guías de práctica clínica mediante revisión y consenso de expertos en fisioterapia intensiva.",
+      "hallazgos": "Se definieron recomendaciones estandarizadas sobre los protocolos de movilización y ejercicio para reducir las secuelas en pacientes críticos.",
+      "aplicacion": "Adopta estas recomendaciones actualizadas en tu Unidad de Paciente Crítico para optimizar los tiempos de deshabituación y el pronóstico funcional.",
       "revista": "Braz J Phys Ther",
       "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
-      "id": "paper-2"
+      "id": "paper-3"
     },
     {
       "titulo": "Umbrales de dolor por presión facial en adultos sanos",
       "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "resumen": "Esta investigación analiza la distribución de los umbrales de dolor por presión en la musculatura facial y su relación con diversos factores. Aporta datos normativos muy útiles para la evaluación clínica de pacientes con disfunción temporomandibular (ATM).",
-      "objetivo": "Investigar la distribución de los umbrales de dolor por presión en la cara de adultos sanos y los factores asociados.",
-      "metodologia": "Estudio observacional transversal en una cohorte de adultos sanos mediante algometría de presión facial.",
-      "hallazgos": "Se mapearon los valores normales de sensibilidad al dolor en diferentes puntos craneofaciales y maseterinos.",
-      "aplicacion": "Utiliza la algometría de presión en tu consulta para objetivar la hiperalgesia en pacientes con patología de la ATM y bruxismo.",
+      "resumen": "Este estudio analiza la distribución de los umbrales de dolor a la presión en la musculatura facial y maseterina de adultos sanos. Estos valores normativos son fundamentales para una correcta valoración clínica de la disfunción temporomandibular (ATM).",
+      "objetivo": "Investigar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
+      "metodologia": "Estudio observacional transversal enfocado en la medición algodométrica de la musculatura facial y maxilofacial en una cohorte de adultos sanos.",
+      "hallazgos": "Se establecieron mapas de distribución de la sensibilidad dolorosa facial que sirven como referencia para la evaluación clínica del dolor orofacial.",
+      "aplicacion": "Utiliza algodometría y toma como referencia los umbrales de dolor facial para diagnosticar con mayor precisión los trastornos de la ATM en tu consulta.",
       "revista": "Cranio",
       "doi": "https://doi.org/10.1080/08869634.2026.2725144",
-      "id": "paper-3"
-    },
-    {
-      "titulo": "La respiración diafragmática como enfoque adjunto en el reflujo gastroesofágico",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "resumen": "Esta revisión explora cómo el entrenamiento de los músculos respiratorios fortalece el esfínter esofágico inferior a través del pilar diafragmático. Demuestra el rol fundamental de la kinesiología respiratoria en patologías digestivas.",
-      "objetivo": "Analizar la base mecanicista y la evidencia clínica del uso de la respiración diafragmática en el tratamiento del reflujo gastroesofágico.",
-      "metodologia": "Revisión narrativa de la literatura científica sobre la biomecánica diafragmática y su impacto gastrointestinal.",
-      "hallazgos": "El fortalecimiento y control diafragmático reducen los episodios de reflujo al mejorar la competencia de la unión esofagogástrica.",
-      "aplicacion": "Incorpora técnicas de reeducación diafragmática en pacientes con reflujo y comorbilidades respiratorias o posturales.",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-4"
     }
   ],
@@ -129,13 +137,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBGajd2NGY0ejBlUkFwZDZLZWt6UGVfZndUZE9STGQ1WnAxbmVEX1hpbm1nTzlTbHdieXVoYjlhbW5weHJTTG9EOFJKNkkxYi1FaDY0Y1IxbmJTcXNLaXF5bnRPMHFKNHBOUlNsN1NVQXB5Y1NCdTJSc0FHOW0wLUZXUHNKNklDTTRCRmcyRXQwaVFUMGljenA4N1hZcXBPUHk0LThWYVBValNNa0ZidG5DMjY1ZVBZeHU4RFNnWQ?oc=5",
-      "fuente": "Teletón",
-      "titulo": "Más de 15 mil personas repletaron la Playa Brava de Iquique para disfrutar de la Gira Teletón 2026",
-      "detalle": "Información de actualidad en norte grande según Teletón.",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kYzg4SUlXdUV5djNkbG5FNnFpRXZJazA2ZHlRSEM1X2NFU2NtQUxaTElnVHFSLXRSRUlvQWJJSVhVcHFrX0kxbVlmMGNxWmJrUWpETGVoY2RSd1U?oc=5",
+      "fuente": "Gran Logia de Chile",
+      "titulo": "Masonería iquiqueña rinde homenaje a Bomberos",
+      "detalle": "Información de actualidad en norte grande según Gran Logia de Chile.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-18T13:28:46.428Z"
+  "creado_en": "2026-10-19T16:36:05.773Z"
 };
