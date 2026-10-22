@@ -1,110 +1,110 @@
 export const initialBriefData = {
-  "fecha": "2026-10-21",
+  "fecha": "2026-10-22",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-7",
-    "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
-    "referencia": "Filipenses 4:7",
-    "reflexion": "Que la calma y la claridad mental gobiernen cada decisión terapéutica de este día, aun en los momentos de mayor urgencia."
+    "id": "verse-1",
+    "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
+    "referencia": "Josué 1:9",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-20261021-1-disponibilidad",
-      "hora": "09:00 – 19:00",
-      "tipo": "disponibilidad",
+      "id": "agenda-20261022-1-clinica",
+      "hora": "08:00 – 20:00",
+      "tipo": "clinica",
       "lugar": "",
-      "titulo": "Cupo disponible"
+      "titulo": "Atención clínica"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sientes que el cansancio no se va tras el COVID?",
-      "idea": "Explica en formato de carrusel cómo la fisioterapia respiratoria aborda el Long-COVID evitando el sobreesfuerzo. Slide 1: El gancho. Slide 2: ¿Qué es el Long-COVID? Slide 3: El error de entrenar con fatiga. Slide 4: El enfoque gradual basado en evidencia. Slide 5: Beneficios de la rehabilitación kinésica. Slide 6: Comenta si necesitas guía profesional.",
-      "formato": "Carrusel 6 slides",
-      "base": "Physiotherapy management of Long-COVID: an evidence-based approach (PMID: 42320154)",
+      "hook": "¿Sabías que la debilidad en la UCI se puede prevenir antes de que el paciente se levante?",
+      "idea": "Explicar mediante un reel dinámico los conceptos clave de la movilización temprana en pacientes críticos basándose en evidencia reciente, finalizando con una invitación a debatir en comentarios sobre protocolos en Chile.",
+      "formato": "Reel 30 s",
+      "base": "Mishra et al., 2026 (PMID: 42220872)",
       "id": "idea-1"
     },
     {
-      "hook": "¿Caminar en la UCI con un catéter femoral? ¡Sí es posible!",
-      "idea": "Video corto mostrando la importancia de la movilización temprana en el paciente crítico usando evidencia reciente sobre balones intraaórticos. Muestra la preparación del equipo multidisciplinario y la ejecución segura de la sedestación. CTA: Sígueme para más contenido de paciente crítico.",
-      "formato": "Reel 30 s",
-      "base": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump (PMID: 42202153)",
+      "hook": "Pacientes con cáncer de esófago: ¿Por qué la kine respiratoria es vital en su recuperación?",
+      "idea": "Desglosar en un carrusel educativo cómo la fisioterapia disminuye las complicaciones pulmonares postquirúrgicas, cerrando con un llamado a derivar oportunamente.",
+      "formato": "Carrusel 6 slides",
+      "base": "Shen et al., 2026 (PMID: 42058086)",
       "id": "idea-2"
     },
     {
-      "hook": "¿Problemas para tragar después de un ACV?",
-      "idea": "Carrusel educativo sobre la disfagia y el rol del entrenamiento muscular específico. Slide 1: Portada impactante. Slide 2: ¿Qué es la disfagia post-ACV? Slide 3: El impacto de entrenar los músculos de la deglución. Slide 4: Resultados del último metaanálisis. Slide 5: Ejemplos prácticos de intervención. Slide 6: Agenda tu evaluación con un especialista.",
-      "formato": "Carrusel 6 slides",
-      "base": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia (PMID: 42014247)",
+      "hook": "¿Te duele la espalda baja pero el problema viene de más arriba?",
+      "idea": "Video corto demostrando cómo una intervención en la columna torácica cambia la percepción del dolor lumbar y la ansiedad del paciente, terminando con una pregunta para colegas clínicos.",
+      "formato": "Reel 30 s",
+      "base": "Mansouri Josheqan et al., 2026 (PMID: 41100221)",
       "id": "idea-3"
     },
     {
-      "hook": "¿La hipertensión pulmonar frena la cirugía respiratoria?",
-      "idea": "Reel analizando cómo la evidencia reciente está cambiando los paradigmas en pacientes respiratorios graves y su preparación kinésica. Explica por qué la evaluación integral abre nuevas puertas a pacientes complejos. CTA: Comparte este video con un colega de la salud.",
-      "formato": "Reel 30 s",
-      "base": "Is pulmonary hypertension still a contraindication for lung volume reduction? (PMID: 42164044)",
+      "hook": "¡Respira mejor para que te deje de doler la espalda!",
+      "idea": "Carrusel paso a paso que enseña cómo el entrenamiento del diafragma y la respiración mejoran la estabilidad lumbar según los últimos meta-análisis, invitando a guardar el post.",
+      "formato": "Carrusel 6 slides",
+      "base": "Chen et al., 2026 (PMID: 40965964)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Manejo fisioterapéutico del Long-COVID basado en evidencia",
-      "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
-      "resumen": "Este estudio revisa las estrategias de fisioterapia basadas en evidencia para el abordaje integral del Long-COVID. Destaca la importancia de adaptar la intervención kinésica a la fatiga crónica y los síntomas respiratorios persistentes de los pacientes.",
-      "objetivo": "Sintetizar la evidencia actual sobre las intervenciones de fisioterapia para el manejo clínico del Long-COVID.",
-      "metodologia": "Revisión de literatura científica y recomendaciones basadas en la práctica clínica para pacientes con síntomas post-COVID prolongados.",
-      "hallazgos": "Se identificó que un enfoque gradual y personalizado mejora la capacidad funcional y reduce la fatiga en pacientes con Long-COVID.",
-      "aplicacion": "Implementa programas de rehabilitación respiratoria y acondicionamiento físico altamente individualizados, evitando el esfuerzo excesivo en pacientes con fatiga crónica.",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
+      "titulo": "Rehabilitación en la debilidad adquirida en UCI: una revisión narrativa basada en evidencia",
+      "titulo_original": "Rehabilitation in ICU-Acquired Weakness: An Evidence-Based Narrative Review",
+      "resumen": "Esta revisión analiza las estrategias actuales basadas en evidencia para abordar la debilidad muscular severa en pacientes críticos hospitalizados. Destaca la importancia de la movilización temprana para mejorar los resultados funcionales a largo plazo.",
+      "objetivo": "Sintetizar la evidencia actual sobre las intervenciones de rehabilitación efectivas para pacientes con debilidad adquirida en la unidad de cuidados intensivos.",
+      "metodologia": "Revisión narrativa basada en la literatura científica reciente sobre pacientes adultos hospitalizados en unidades de cuidados intensivos.",
+      "hallazgos": "La intervención kinésica oportuna y protocolizada disminuye significativamente el tiempo de ventilación mecánica y mejora la funcionalidad al alta.",
+      "aplicacion": "Implementa protocolos de movilización precoz y verticalización gradual en pacientes críticos estables para prevenir secuelas neuromusculares.",
+      "revista": "Cureus",
+      "doi": "https://doi.org/10.7759/cureus.107933",
       "id": "paper-1"
     },
     {
-      "titulo": "Implementación de un programa de movilidad para pacientes pre-transplante con balón intraaórtico femoral",
-      "titulo_original": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
-      "resumen": "Esta investigación analiza la seguridad y viabilidad de un programa de movilización temprana en pacientes críticos que esperan un trasplante y utilizan balón intraaórtico femoral. Demuestra que la intervención kinésica y de enfermería reduce las complicaciones por estada prolongada en UCI.",
-      "objetivo": "Evaluar el impacto de un programa de mejora de la calidad enfocado en la movilidad precoz en pacientes críticos con soporte circulatorio mecánico.",
-      "metodologia": "Estudio de mejora de la calidad enfocado en pacientes pre-transplante sometidos a soporte con balón intraaórtico femoral vía femoral.",
-      "hallazgos": "La movilización temprana guiada es segura, factible y previene el deterioro neuromuscular severo en esta población crítica.",
-      "aplicacion": "En la UCI, evalúa la integración segura de cambios posturales y sedestación precoz en pacientes críticos con dispositivos femorales bajo monitorización estricta.",
-      "revista": "Crit Care Nurs Q",
-      "doi": "https://doi.org/10.1097/CNQ.0000000000000609",
+      "titulo": "Efectos de diferentes estrategias de rehabilitación sobre la función física y complicaciones en pacientes postoperatorios de cáncer de esófago",
+      "titulo_original": "Effects of different rehabilitation strategies on physical function and complications in postoperative patients with esophageal cancer: a systematic review and meta-analysis",
+      "resumen": "Este meta-análisis evalúa cómo las diversas estrategias de rehabilitación impactan en la recuperación física y la reducción de complicaciones postquirúrgicas. Los resultados demuestran un claro beneficio de la fisioterapia respiratoria y general en el postoperatorio.",
+      "objetivo": "Comparar la eficacia de diferentes intervenciones de rehabilitación sobre la función física y las complicaciones en pacientes operados de cáncer de esófago.",
+      "metodologia": "Revisión sistemática y meta-análisis de ensayos clínicos en pacientes adultos sometidos a cirugía por cáncer esofágico.",
+      "hallazgos": "Los programas estructurados de rehabilitación redujeron las complicaciones pulmonares postoperatorias y mejoraron la capacidad funcional global de los pacientes.",
+      "aplicacion": "Integra ejercicios respiratorios específicos y acondicionamiento físico guiado en el manejo kinésico pre y postoperatorio de cirugía torácica.",
+      "revista": "Front Public Health",
+      "doi": "https://doi.org/10.3389/fpubh.2026.1788265",
       "id": "paper-2"
     },
     {
-      "titulo": "Eficacia del entrenamiento de los músculos de la deglución en la disfagia post-accidente cerebrovascular",
-      "titulo_original": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
-      "resumen": "Este metaanálisis evalúa el impacto del entrenamiento muscular específico en la recuperación de la deglución en pacientes con disfagia tras un accidente cerebrovascular. Los resultados confirman mejoras significativas en la funcionalidad deglutoria y prevención de neumonías aspirativas.",
-      "objetivo": "Determinar la eficacia clínica del entrenamiento de los músculos de la deglución para tratar la disfagia post-ACV.",
-      "metodologia": "Revisión sistemática y metaanálisis de ensayos clínicos aleatorizados sobre intervenciones en la musculatura deglutoria.",
-      "hallazgos": "El entrenamiento muscular específico mejoró significativamente la función de deglución en comparación con el manejo convencional.",
-      "aplicacion": "Incorpora ejercicios de fortalecimiento de la musculatura suprahioidea y orofaríngea en pacientes neurológicos para mejorar su seguridad alimentaria.",
-      "revista": "Eur Ann Otorhinolaryngol Head Neck Dis",
-      "doi": "https://doi.org/10.1016/j.anorl.2026.03.005",
+      "titulo": "Efectividad de las intervenciones torácicas sobre los factores psicológicos en el lumbago: una revisión sistemática y meta-análisis",
+      "titulo_original": "Effectiveness of thoracic interventions on psychological factors in low back pain: a systematic review and meta-analysis",
+      "resumen": "Este estudio investiga la conexión entre el tratamiento de la columna torácica y la mejora de variables psicológicas en pacientes con dolor lumbar crónico. Se evidencia que tratar zonas vecinas influye positivamente en la percepción del dolor y el bienestar.",
+      "objetivo": "Determinar el impacto de las terapias dirigidas a la columna torácica sobre los factores psicológicos en personas con lumbalgia.",
+      "metodologia": "Revisión sistemática con meta-análisis que incluyó ensayos clínicos aleatorizados enfocados en intervenciones torácicas para el dolor lumbar.",
+      "hallazgos": "Las intervenciones en la región torácica mostraron efectos favorables significativos sobre la ansiedad, el miedo al movimiento y el estado psicológico general asociado al lumbago.",
+      "aplicacion": "No te cortes solo en la zona lumbar; evalúa y moviliza la columna torácica de tus pacientes para modular su dolor y factores psicosociales.",
+      "revista": "Disabil Rehabil",
+      "doi": "https://doi.org/10.1080/09638288.2025.2573167",
       "id": "paper-3"
     },
     {
-      "titulo": "¿Es la hipertensión pulmonar una contraindicación para la reducción del volumen pulmonar?",
-      "titulo_original": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
-      "resumen": "Esta revisión narrativa examina la evidencia contemporánea sobre la cirugía de reducción de volumen pulmonar en pacientes con hipertensión pulmonar concomitante. Cuestiona los paradigmas tradicionales y abre nuevas opciones terapéuticas para pacientes respiratorios complejos.",
-      "objetivo": "Analizar la literatura actual para determinar si la hipertensión pulmonar sigue siendo una contraindicación absoluta para la reducción del volumen pulmonar.",
-      "metodologia": "Revisión narrativa de estudios clínicos contemporáneos y guías de práctica clínica en neumología y cirugía torácica.",
-      "hallazgos": "La evidencia sugiere que ciertos pacientes seleccionados con hipertensión pulmonar moderada pueden beneficiarse de la reducción de volumen pulmonar bajo un estricto manejo multidisciplinario.",
-      "aplicacion": "Considera un enfoque de rehabilitación respiratoria pre y post-quirúrgico altamente especializado en pacientes EPOC con comorbilidades vasculares complejas.",
-      "revista": "Ann Transl Med",
-      "doi": "https://doi.org/10.21037/atm-2026-1-0028",
+      "titulo": "¿Pueden los ejercicios respiratorios tratar eficazmente a personas con dolor lumbar crónico inespecífico?",
+      "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+      "resumen": "Este meta-análisis evalúa el rol de la musculatura respiratoria y los patrones de ventilación en la estabilidad del tronco y el dolor lumbar crónico. Demuestra que integrar el control diafragmático reduce notablemente los síntomas lumbares.",
+      "objetivo": "Evaluar la efectividad clínica de los ejercicios de entrenamiento respiratorio en el manejo del dolor lumbar crónico inespecífico.",
+      "metodologia": "Revisión sistemática y meta-análisis analizando estudios que implementaron programas de ejercicios respiratorios en pacientes con lumbalgia crónica.",
+      "hallazgos": "La inclusión de entrenamiento de la musculatura respiratoria mejoró significativamente el control postural, la función y la intensidad del dolor lumbar.",
+      "aplicacion": "Utiliza patrones de respiración diafragmática y control de la presión intraabdominal en tu pauta kinésica para pacientes con dolor lumbar persistente.",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127251374357",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQcE9RY2JSM2FYYzVlMUl0RW9KLWhJLWpUdmFkTGtLaHJOdUtmdGdLMXRQTjhHSEVsUlpDVldTZ1JoV01UR296NkNPTHlVTnVmOTd4Sjd4ZjRXYWNFUVhnbDItOTRSWjlIdkptUHdDNkxlN2E0Wm1wTlFiVnlQdzlRdGJCUmFxc2pSczY4QjFNN2lsbUVWd0Vod0ZtbGhLdElzc1cxOUpRX3A2cXpoejZja2hMaGtHV2d6dHN6TGVDbXVVQlBsamdBYzhIUExxeU9zUWVYdDRoRmhlbXBOcnRaR2l5c19tamoxYVlfczR3b3RkdU5abjFrWWRSTXNvZ0ZSOFNMRjA1cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX041di1pX0NRY182YWxaRU1aazBmLTItVTNqTkhrVWZmQVd5aTAyeU9DNlpKZnhfZDY1RlR0UGVQLTZnMDdWSXlmVmt4dHZCQ2g4a0ZpRThZN1IzcmpxVWhUQkFaSE1SbHhhMW84UE5xc0E5ZG1XM29YU3dCX3ZuM2RZNi1MSG9qbVE2NzdfZDItXzFiRUpUai0wMFZhRTVaYjdXaXlBcXRJZVdGcGYtY1VQN2s3NTNhTHdTLUUxRkpiUzBOallCaWIxR1pkS1lURmF3ZFRkMElwVV9FX2NYSk5R?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Bloomberg dice que los altos precios del cobre ocultan \"una creciente ’recesión minera’\" en Chile",
+      "titulo": "El diésel en Chile acumula una subida de $400 desde fines de julio",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -120,22 +120,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXhQWUVocWpQVFhrUXYyYzZhU1dPaldDZDhjQlpmUl9Ya05GNzgxSDZCVTNpSUkwWWRwd3Y2d0RWbWdRX1dYVzE4Tkp6eEItYU9CTHNWQVhMU1lLYWZDOEdac29NTlVQMllLU3c1RlVqMWo4eC1Sdk5rSVc0Ti1ZdjFlMmRNaGtld1JUWlFFaXB3NFRIVHl1aEJCM3ZtOW_SAa8BQVVfeXFMT1ZhMXN3N3JoaFRDOEw2Y3FiWHJkd1lYMC1TS2R6TGxjOUI1ckhIcENnZjFWR1BkOWpIa0xtWnNDd3h2a3MwSzdYSFZGNUNQREdWZEdMeGZnQlNvWjlSdHI1ZHhPRjJ0c05aZ240LTMxbVQ5ZjVVMnloYmY4Mlk1S3NETDUxdV9xd2E1NW9RbVpaTGtjeHB6alZGOXlIdDFndU5WR19jdVE0LWF3d0hHSQ?oc=5",
-      "fuente": "InvestChile",
-      "titulo": "Accenture crea en Chile unidad de Inteligencia Artificial Aplicada",
-      "detalle": "Información de actualidad en ia · mercados según InvestChile.",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+      "fuente": "Fundación Chile | FCh",
+      "titulo": "IA y satélites para detectar vertederos ilegales",
+      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeXRZUEw1Wk5wLWMwc3llMkZCYi1LbEtoQUtlc3ZwY1NPRnVXQUNlYVplSDJicW9qVDE2X0dxUGpXQTU0cUdDVHhJejl6MHFDS05Qbjg5dFl5Mm5xRmhhSmY3a0F5WXhSUGd0aEpSV2wySlY1bFQ1TGJWLXRXZ3BMMkhVeDNRS0ZodXB4UG1PVUNzbGNDczhWc09GZw?oc=5",
-      "fuente": "Servicio Nacional de Migraciones",
-      "titulo": "“Migraciones en tu Barrio” atendió a 62 personas en Alto Hospicio",
-      "detalle": "Información de actualidad en norte grande según Servicio Nacional de Migraciones.",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU1p2bGhaOGpzbmZNREtJdkprR25LTXlWbmNYeFoyZGhZcmpaa0RGNlp5QjNuTkEzQUFvVVVOWXRSY2dyZTN4R2FqbU1sVFV4WlVqQmdaZ2xxc3RiX0JqQUZ6cnlaMnN5dUN0Tk1UdC1QcFI3WVc2RGd0U2ZGUnlFUGlTQ1JHb0gzU21QdUdHU29xakZHLXAzV3dzMmtWLTRkMDRvSTV3dkVwbWt6T1JTZ200dVhIczR2SndMVDRkZw?oc=5",
+      "fuente": "G5noticias",
+      "titulo": "Iquique recibe una nueva edición del único BT400 que se disputa en la costa del Pacífico",
+      "detalle": "Información de actualidad en norte grande según G5noticias.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-21T14:35:40.809Z"
+  "creado_en": "2026-10-22T14:36:55.825Z"
 };
