@@ -6676,5 +6676,160 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-22T14:36:55.825Z"
+  },
+  "2026-10-23": {
+    "fecha": "2026-10-23",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-2",
+      "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+      "referencia": "Isaías 40:31",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261023-1-disponibilidad",
+        "hora": "09:00 – 17:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20261023-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      },
+      {
+        "id": "agenda-20261023-3-clinica",
+        "hora": "Todo el día",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que prevenir infecciones en pacientes críticos depende también del equipo de kinesiología?",
+        "idea": "Slide 1: El desafío del paciente crítico con soporte circulatorio. Slide 2: Riesgos de infecciones nosocomiales. Slide 3: El rol clave del kinesiólogo en la prevención. Slide 4: Movilización segura y protocolos estrictos. Slide 5: Evidencia reciente 2026. Slide 6: Comenta si trabajas en UCI. CTA: Sígueme para más evidencia en paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Tu paciente operado del corazón se sigue cansando al caminar? ¡Esto le falta a su rehabilitación!",
+        "idea": "Slide 1: Cirugía cardíaca y bypass. Slide 2: El problema de la fatiga postoperatoria. Slide 3: La solución con entrenamiento muscular respiratorio. Slide 4: Beneficios en la capacidad funcional. Slide 5: Resultados del nuevo estudio clínico. Slide 6: Comparte con colegas. CTA: Guarda este post para tu próxima pauta respiratoria.",
+        "formato": "Carrusel 6 slides",
+        "base": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "id": "idea-2"
+      },
+      {
+        "hook": "Pacientes postrados en UCI: ¿Cómo vencer la debilidad severa antes del alta?",
+        "idea": "Mostrar en video de 30 segundos cómo se utiliza un sistema de suspensión para extremidades inferiores en pacientes con debilidad adquirida en UCI, destacando la recuperación motora precoz y segura. CTA: Comenta 'UCI' y te envío el paper completo.",
+        "formato": "Reel 30 s",
+        "base": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Te suena la mandíbula al abrir la boca? El secreto está en la cinemática de tu ATM.",
+        "idea": "Slide 1: Dolor o chasquido en la mandíbula. Slide 2: Por qué los ejercicios genéricos no siempre funcionan. Slide 3: El poder del análisis cinemático individualizado. Slide 4: Casos clínicos con mejoras reales. Slide 5: Abordaje especializado en fisioterapia ATM. Slide 6: Agenda tu evaluación. CTA: Escríbeme por DM si sufres de bruxismo o dolor mandibular.",
+        "formato": "Carrusel 6 slides",
+        "base": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "Prevención de infecciones nosocomiales en soporte circulatorio mecánico temporal",
+        "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "resumen": "Analiza el manejo de infecciones nosocomiales en pacientes críticos con soporte circulatorio mecánico temporal. Destaca la importancia del control estricto de complicaciones para optimizar la sobrevida en unidades de paciente crítico.",
+        "objetivo": "Evaluar el impacto y manejo de las infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal.",
+        "metodologia": "Estudio de revisión y análisis clínico en pacientes críticos con soporte circulatorio temporal.",
+        "hallazgos": "Se identificaron factores de riesgo críticos para infecciones asociadas a la atención en salud en esta población vulnerable.",
+        "aplicacion": "Extremar las medidas de prevención de infecciones durante la movilización temprana y la terapia respiratoria en pacientes críticos.",
+        "revista": "JHLT Open",
+        "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Entrenamiento muscular respiratorio tras cirugía cardíaca con circulación extracorpórea",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "resumen": "Este ensayo clínico evalúa cómo el entrenamiento de la musculatura respiratoria mejora la capacidad funcional y calidad de vida. Los resultados demuestran un beneficio directo en la recuperación postoperatoria de cirugía cardíaca.",
+        "objetivo": "Determinar el efecto del entrenamiento muscular respiratorio en la capacidad funcional y calidad de vida post-bypass coronario.",
+        "metodologia": "Ensayo clínico aleatorizado en pacientes sometidos a cirugía de revascularización miocárdica con circulación extracorpórea.",
+        "hallazgos": "El entrenamiento respiratorio mejoró significativamente la capacidad funcional y la calidad de vida de los pacientes.",
+        "aplicacion": "Implementar protocolos de entrenamiento muscular respiratorio de forma precoz en pacientes sometidos a cirugía cardíaca en Chile.",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Rehabilitación de extremidades inferiores en debilidad adquirida en UCI",
+        "titulo_original": "Efficacy of suspension-based lower-limb rehabilitation device in enhancing lower limb function among patients with ICU-acquired weakness: a self-controlled randomized clinical trial",
+        "resumen": "Investiga la eficacia de un dispositivo de suspensión para extremidades inferiores en pacientes con debilidad adquirida en la UCI. Demuestra mejoras funcionales notables en la recuperación de la fuerza y movilidad.",
+        "objetivo": "Evaluar la eficacia de la rehabilitación basada en suspensión para mejorar la función de extremidades inferiores en debilidad por UCI.",
+        "metodologia": "Ensayo clínico aleatorizado auto-controlado en pacientes adultos con debilidad adquirida en unidades de paciente crítico.",
+        "hallazgos": "El uso del dispositivo de suspensión mejoró significativamente la función motora de las extremidades inferiores.",
+        "aplicacion": "Utilizar herramientas de asistencia por suspensión para facilitar la kinesiología motora temprana en pacientes críticos.",
+        "revista": "Crit Care",
+        "doi": "https://doi.org/10.1186/s13054-026-05840-1",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Ejercicio individualizado guiado por análisis cinemático en trastornos temporomandibulares",
+        "titulo_original": "Kinematic Analysis-Guided Individualized Exercise for Temporomandibular Disorders: A Case Series",
+        "resumen": "Explora un enfoque de ejercicios personalizados basados en análisis cinemático para la disfunción temporomandibular (ATM). Los casos muestran una reducción efectiva del dolor y mejoría en el rango de movimiento mandibular.",
+        "objetivo": "Describir los resultados de un programa de ejercicios individualizados guiados por cinemática en pacientes con disfunción temporomandibular.",
+        "metodologia": "Serie de casos clínicos evaluados mediante análisis cinemático del movimiento mandibular antes y después de la intervención.",
+        "hallazgos": "El tratamiento cinemático personalizado redujo los síntomas y mejoró la biomecánica mandibular en los pacientes evaluados.",
+        "aplicacion": "Integrar el análisis del movimiento mandibular en la evaluación kinésica para personalizar el tratamiento de la ATM en la consulta.",
+        "revista": "J Clin Med",
+        "doi": "https://doi.org/10.3390/jcm15020655",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPay02eWd2SngxUFhpQzFVbkNWeVcwS1IxcC1YRkxNaG1mTV9aTE1XekdMZlkyS2dMeVFHUUVXOHljTlZ3SXh2OFFiY2Z1WkhKRGlFRmtqdmVNeUFFODhKWHhGc1FxbVQwQTNtWkNFR3RKWGVHbjY5VDRIbEt0Zk9WMm9qUU9KOTVBRkZGWjZPbGlxUkNJcFRsTHVXTlV5T1hlMUlKWDVVZ25iVkVDZXp1ODRxQTNodw?oc=5",
+        "fuente": "Diario Financiero",
+        "titulo": "Chile seguiría pegado en el 2%: proyección para el crecimiento del PIB de largo plazo no logra despegar",
+        "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile | FCh",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMF9acnBfdGVnU0NKazBRSG96czRRVEdGaTVNQm5aSmJUUm0tVHd4UWRNYWM2Wm1yMWZoWjcwdWRza1pGZFNLYW9KS29YMU9SWDJoNjVid3RRRTQxZ2ltSzNvbkxXLW5yV1hQdm1hWGhDODFKaVljM3lsakJEX2xDdHppcjFubnNmN0hvZExCTmsxS2ZNYlpnRVFmUzhrLXFERm1HTDNxX3g4aHc4ZGNFWVNBczdDNW5pbllDN0o4eTNpdFI0YmxvLTgwT3d5WDJsd0NQQ01GSm5DX29ZRk9sWHRnSEs?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "IQUIQUE SE TRANSFORMA EN LA CAPITAL MUNDIAL DEL TENIS PLAYA CON EL ARRANQUE DEL TORNEO INTERNACIONAL BT400 EN EL ARENA CAVANCHA",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-23T14:21:37.795Z"
   }
 };
