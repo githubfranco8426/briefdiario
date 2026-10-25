@@ -1,106 +1,113 @@
 export const initialBriefData = {
-  "fecha": "2026-10-24",
+  "fecha": "2026-10-25",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 3 · Saliente / Libre",
-  "ciclo_detalle": "Recuperación y fichas clínicas",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
   "versiculo": {
-    "id": "verse-3",
-    "texto": "Todo lo puedo en Cristo que me fortalece.",
-    "referencia": "Filipenses 4:13",
-    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    "id": "verse-4",
+    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+    "referencia": "Salmos 121:1-2",
+    "reflexion": "En medio del dinamismo de la jornada, eleva la mirada: el propósito de sanar y servir trasciende cada rutina médica."
   },
   "agenda": [
     {
-      "id": "agenda-20261024-1-personal",
-      "hora": "08:00 – 08:15",
-      "tipo": "personal",
+      "id": "agenda-2026-10-25-1-clinica",
+      "hora": "09:00 – 19:00",
+      "tipo": "clinica",
       "lugar": "",
-      "titulo": "Compromiso personal"
+      "titulo": "Atención clínica"
     },
     {
-      "id": "agenda-20261024-2-disponibilidad",
-      "hora": "15:00 – 19:00",
-      "tipo": "disponibilidad",
+      "id": "agenda-2026-10-25-2-domicilio",
+      "hora": "11:30 – 12:30",
+      "tipo": "domicilio",
       "lugar": "",
-      "titulo": "Cupo disponible"
+      "titulo": "Atención a domicilio"
+    },
+    {
+      "id": "agenda-2026-10-25-3-seguimiento",
+      "hora": "17:00 – 18:00",
+      "tipo": "seguimiento",
+      "lugar": "",
+      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que la Ventilación No Invasiva intermitente puede evitar que te reintuben tras una cirugía abdominal?",
-      "idea": "Carrusel de 6 slides explicando cómo la evidencia de 2026 respalda el rol del kinesiólogo intensivista en la prevención de la hipoxemia postoperatoria. CTA: Comenta 'VNI' y te envío el resumen clínico.",
+      "hook": "¿Sabías que el dolor de mandíbula crónico no duele igual en todo el músculo?",
+      "idea": "Carrusel de 6 slides explicando cómo la sensibilidad a la presión varía en los músculos de la ATM según recientes estudios, finalizando con un llamado a agendar evaluación kinésica especializada.",
       "formato": "Carrusel 6 slides",
-      "base": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery",
+      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles",
       "id": "idea-1"
     },
     {
-      "hook": "¿Dolor lumbar y hernia discal? Prueba este ejercicio de extensión de rodilla en prono",
-      "idea": "Reel de 30 segundos demostrando la ejecución de la técnica basada en el reporte de caso de 2026 para aliviar la compresión discal. CTA: Guarda este video para tu próxima sesión de kine.",
+      "hook": "¿Respirar mal te puede impedir mover el hombro?",
+      "idea": "Reel mostrando cómo los ejercicios respiratorios reducen el dolor y aumentan el rango de movimiento en pacientes con hombro congelado, invitando a probarlo en consulta.",
       "formato": "Reel 30 s",
-      "base": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
+      "base": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation",
       "id": "idea-2"
     },
     {
-      "hook": "El gran peligro oculto en pacientes críticos con soporte mecánico: ¿Cómo prevenimos las infecciones?",
-      "idea": "Carrusel de 6 slides analizando el impacto de las infecciones nosocomiales en pacientes con soporte circulatorio y la importancia de la movilización temprana segura. CTA: Comparte este post con colegas de la UCI.",
+      "hook": "El gran desafío del paciente crítico: evitar infecciones con soporte circulatorio",
+      "idea": "Carrusel analizando la prevención de infecciones nosocomiales en unidades de paciente crítico y el rol clave del equipo multidisciplinario, con CTA para compartir.",
       "formato": "Carrusel 6 slides",
       "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
       "id": "idea-3"
     },
     {
-      "hook": "¡Realidad virtual en la UCI! Así es como entrenamos el diafragma después de una cirugía mayor",
-      "idea": "Reel de 30 segundos mostrando tecnología inmersiva aplicada a la rehabilitación respiratoria post-cirugía abdominal alta según el estudio de 2026. CTA: Sígueme para más innovación en kinesiología respiratoria.",
+      "hook": "¡Entrenar el diafragma jugando con Realidad Virtual es posible!",
+      "idea": "Reel demostrando la aplicación de tecnología inmersiva en la recuperación respiratoria post-cirugía abdominal, llamando a conocer nuestros servicios de kinesiología avanzada.",
       "formato": "Reel 30 s",
-      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function",
+      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, and Pulmonary Function",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Ventilación no invasiva intermitente guiada por kinesiólogo para la hipoxemia postquirúrgica abdominal",
-      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
-      "resumen": "Este ensayo evaluó la viabilidad de la ventilación no invasiva intermitente liderada por fisioterapeutas para tratar la hipoxemia tras cirugía abdominal. Los resultados demuestran que esta intervención kinésica es factible y segura en el entorno hospitalario crítico.",
-      "objetivo": "Evaluar la viabilidad y seguridad de la ventilación no invasiva intermitente guiada por kinesiólogos para la hipoxemia posterior a cirugía abdominal.",
-      "metodologia": "Ensayo clínico piloto aleatorizado realizado en un hospital cuaternario australiano con pacientes postoperados de cirugía abdominal.",
-      "hallazgos": "Se confirmó la alta factibilidad de implementar protocolos de ventilación no invasiva intermitente bajo manejo kinésico para corregir la hipoxemia.",
-      "aplicacion": "Integra protocolos de ventilación no invasiva intermitente en el manejo respiratorio postoperatorio inmediato para prevenir complicaciones hipoxémicas.",
-      "revista": "BJA Open",
-      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+      "titulo": "Evaluación de las variaciones de sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio de casos y controles analiza cómo varía la sensibilidad a la presión dentro de los músculos mandibulares en pacientes con dolor crónico. Los hallazgos permiten comprender mejor la distribución espacial del dolor en los trastornos temporomandibulares (ATM).",
+      "objetivo": "Evaluar las variaciones espaciales en la sensibilidad a la presión dentro y entre los músculos masticatorios dolorosos crónicos.",
+      "metodologia": "Estudio clínico de casos y controles que evaluó umbrales de dolor a la presión en pacientes con dolor mandibular crónico.",
+      "hallazgos": "Se identificaron patrones específicos de hipersensibilidad a la presión dentro de los músculos masticatorios evaluados.",
+      "aplicacion": "Integra la algometría de presión detallada en tu evaluación kinésica para mapear con precisión los puntos gatillo en pacientes con disfunción de ATM.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
       "id": "paper-1"
     },
     {
-      "titulo": "Una nueva perspectiva en el manejo de la hernia discal lumbar utilizando extensión de rodilla en decúbito prono",
-      "titulo_original": "A New Perspective on Lumbar Disc Herniation Management Using Prone Knee Extension",
-      "resumen": "Este reporte de caso explora la aplicación de la extensión de rodilla en decúbito prono como enfoque terapéutico innovador para la hernia discal lumbar. Muestra una mejoría clínica significativa en la sintomatología del paciente.",
-      "objetivo": "Describir un nuevo enfoque de manejo kinesiológico para la hernia discal lumbar basado en la extensión de rodilla en prono.",
-      "metodologia": "Estudio de caso clínico que detalla la evaluación, intervención y seguimiento de un paciente con diagnóstico de hernia discal lumbar.",
-      "hallazgos": "La técnica demostró ser una alternativa efectiva para aliviar los síntomas y mejorar la función en el caso evaluado.",
-      "aplicacion": "Considera incorporar la extensión de rodilla en prono dentro de las estrategias de terapia manual para pacientes con radiculopatía o hernia lumbar.",
-      "revista": "Case Rep Med",
-      "doi": "https://doi.org/10.1155/carm/2579261",
+      "titulo": "El efecto de los ejercicios respiratorios en la rehabilitación del hombro congelado",
+      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
+      "resumen": "Esta investigación evalúa el impacto de incorporar ejercicios respiratorios en la rehabilitación de pacientes con capsulitis adhesiva. Los resultados demuestran mejoras significativas en el dolor, la movilidad y la calidad de vida.",
+      "objetivo": "Determinar el impacto de los ejercicios respiratorios sobre el dolor, el rango de movimiento y la calidad de vida en la rehabilitación del hombro congelado.",
+      "metodologia": "Ensayo clínico controlado aleatorizado en pacientes diagnosticados con hombro congelado.",
+      "hallazgos": "La inclusión de patrones respiratorios específicos aceleró la ganancia de rango articular y la disminución del dolor.",
+      "aplicacion": "Incorpora la regulación del patrón respiratorio y la movilización torácica en tus protocolos de rehabilitación de extremidad superior para potenciar la analgesia.",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127261500497",
       "id": "paper-2"
     },
     {
-      "titulo": "Limitando el daño colateral: infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal",
+      "titulo": "Limitando el daño colateral: infecciones nosocomiales en soporte circulatorio mecánico temporal",
       "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "resumen": "Esta revisión analiza las infecciones nosocomiales en pacientes críticos con soporte circulatorio mecánico temporal, destacando la importancia del manejo integral. Se enfatiza la prevención y el rol del equipo de salud en la reducción de complicaciones infecciosas.",
-      "objetivo": "Analizar la incidencia y el impacto de las infecciones nosocomiales en pacientes críticos que requieren soporte circulatorio mecánico temporal.",
-      "metodologia": "Estudio de revisión clínica enfocado en pacientes hospitalizados bajo soporte circulatorio mecánico avanzado.",
-      "hallazgos": "Se identificaron factores de riesgo clave asociados a infecciones nosocomiales en esta población altamente vulnerable.",
-      "aplicacion": "Extremar las medidas de prevención de infecciones asociadas a la atención de salud durante la movilización temprana del paciente crítico con soporte circulatorio.",
+      "resumen": "Este artículo aborda el manejo crítico y la prevención de infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal. Su enfoque es vital para reducir complicaciones en unidades de pacientes críticos.",
+      "objetivo": "Analizar la incidencia y estrategias para limitar infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal.",
+      "metodologia": "Estudio clínico enfocado en el seguimiento de complicaciones infecciosas en pacientes críticos con dispositivos de soporte circulatorio.",
+      "hallazgos": "Se identificaron factores de riesgo clave asociados al desarrollo de infecciones nosocomiales en esta población vulnerable.",
+      "aplicacion": "Extrema las medidas de asepsia y los protocolos de movilización precoz en pacientes críticos con asistencia ventricular para prevenir complicaciones infecciosas.",
       "revista": "JHLT Open",
       "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
       "id": "paper-3"
     },
     {
-      "titulo": "Impacto del entrenamiento con realidad virtual en la función pulmonar y fuerza muscular tras cirugías abdominales altas",
+      "titulo": "Impacto de la realidad virtual en la función pulmonar y fuerza muscular tras cirugías abdominales altas",
       "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "resumen": "Este estudio evaluó el uso de realidad virtual para mejorar la excursión diafragmática y la fuerza respiratoria tras cirugías abdominales altas. Los resultados evidencian beneficios significativos en la función pulmonar y calidad de vida de los pacientes.",
-      "objetivo": "Determinar el impacto de un programa de entrenamiento con realidad virtual sobre la función pulmonar, fuerza muscular respiratoria y excursión diafragmática post-cirugía abdominal alta.",
-      "metodologia": "Estudio controlado aleatorizado con pacientes sometidos a cirugías abdominales altas, comparando la rehabilitación tradicional con la intervención mediante realidad virtual.",
-      "hallazgos": "El entrenamiento con realidad virtual mejoró significativamente la excursión diafragmática, la fuerza respiratoria y la calidad de vida en comparación con el grupo control.",
-      "aplicacion": "Utiliza herramientas de realidad virtual en tus programas de rehabilitación respiratoria postoperatoria para potenciar la recuperación diafragmática y la adherencia del paciente.",
+      "resumen": "Este estudio demuestra que el entrenamiento con realidad virtual mejora la excursión diafragmática y la función pulmonar postquirúrgica. Es una herramienta innovadora en la kinesiología respiratoria.",
+      "objetivo": "Evaluar el impacto de la realidad virtual en la calidad de vida, excursión diafragmática y fuerza respiratoria tras cirugía abdominal alta.",
+      "metodologia": "Ensayo clínico controlado aleatorizado con pacientes sometidos a cirugías abdominales superiores.",
+      "hallazgos": "El uso de realidad virtual mejoró significativamente la función pulmonar y la fuerza de los músculos respiratorios en comparación con la terapia convencional.",
+      "aplicacion": "Utiliza tecnologías inmersivas y gamificación en tus pautas de rehabilitación respiratoria postoperatoria para mejorar la adherencia y los parámetros diafragmáticos.",
       "revista": "Phys Ther",
       "doi": "https://doi.org/10.1093/ptj/pzag106",
       "id": "paper-4"
@@ -127,22 +134,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTXd2Ny02cFVGNUtCSG5nS2k2bXZJYTJ3c1hpOV9hQncwUFlIOWExYl9NXy1YbnVOOXFJN0RvZ09iak42WTJ0eEdPaTNrVk81Vkc1X1RoTG05MktJRERZOTFSOEtpbXlJSjg5S0JFUm11NVBpd0VaZ1VHSVA5eGlKbWxjTHZzc2pWai1HSEgzTHJxWEpGb3h3a0J0cEt3Z1ZoUll2REkwY1NOVjd4THhOUlYwQ0JOUnhfWnJlMFctQ25WQlJ1T1AyekVubElRUk9WUVlIVDk5V0tSVVdFemRhRFJGeEgwS1JtS0E?oc=5",
-      "fuente": "Cooperativa Ciencia",
-      "titulo": "Chile lidera por cuarto año consecutivo el desarrollo de Inteligencia Artificial en Latinoamérica",
-      "detalle": "Información de actualidad en ia · mercados según Cooperativa Ciencia.",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnE2c3hfRER0amM5VGl5UUJacUdjOURjczN1UGI1bVItZDkzSXNZaUpQQjhmaUdzUDlNSHFPOWNQc2NfbVdTc1ZQd0N5U3FiU1hTR054QjNwRVNuLTFSaXU5T0dCNTM1MFR0eFFJR1M0YTQwMW5LbXdid1hyQ2pfZkJwSWYxaXBHMnNSWWVNdi11TkFVV3ViT0xNSGJiWGNWRjM5LXF3cHJ1cnRFd1RsemhTb2VkakpfYTBrZHJFejh5Nl9L0gHMAUFVX3lxTE51eVlpcnhoTkhlR0lDcklZdHV4TUp4S2tfZWVwYVR0NXdIM0NEc1ptVjFwV3RpSmJtb0ZxR2JiSGNHTzhMS3pESnZNQzhjdmRiSUJFUjhQNGVGWjh0ejJ0TktaLWgzQUhhWXhUWUpFMGhKRUVfSTZGSVNjcThOTDJWMjdHZTZWQUsxTUJ1UEg3VWNOU3NnMlZpWDB3VF9oZ2N6TVkxYjdEMEkyNUYxMHhZMDVPLUF4MnNjWEdYc1cwWkJNMXNCMzE2S0cycA?oc=5",
+      "fuente": "Alerta Geek",
+      "titulo": "OpenAI expande los anuncios de ChatGPT a Chile y otros 13 mercados de Latinoamérica",
+      "detalle": "Información de actualidad en ia · mercados según Alerta Geek.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMjFiZm5YRVEwcEtBSnI0NnFjUGx0c0pwbS1aa1c0NF82VGpQSUhqUnpDd2xmNGY2RTBCUFBzRkhKSFFxQk16eG91TmdCWXJNcGVRVllCWDRvT3ZCNVd1dENmX0d5SXB6R2lsdFR1XzVrUVlwTGpHbUhMbzdqdnU2MXJ4eGNyWGdFZGUwRGNHZjJMNk9na0xOZUFjZ3dPTE8yQVIzN2FkSFFwVFVRNzNz?oc=5",
-      "fuente": "Puranoticia.cl",
-      "titulo": "Deportes Iquique golea a Magallanes y se acerca a la liguilla de promoción",
-      "detalle": "Información de actualidad en norte grande según Puranoticia.cl.",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb0FLTmdfX0ZNMUZ6R0h1NzdfZU40QkdhNFlkZEEwNWNsekttbXJ0NVZkUzRVOHo5NVRnS0FWcjFBYk41dzUtMmdnVU1oVGRHRzJhdTJNYjdMQjgyVTZTRHZraWt2OUYwOGhGSkJPMFhHMkhpTk80NXN6UkxQVlVhMEhJNXFuTW5FTGJBTzZDRWRVVV9LQXYzck1CZGV6ejA4NUtjU3c5R0NCMEJqMUtwYURMbVpxanlSSnQ3LUFmRkJzUXBpZm9sVUFkRm1EWkNKeW1xdTkta1hQcFY0VFBNZXVGTGtxOEUzQ3pxemx3dEltV1dBR3Bn?oc=5",
+      "fuente": "Diario Constitucional",
+      "titulo": "Condenan a ocho personas por tráfico de drogas en Iquique y Alto Hospicio, pero tribunal descarta asociación criminal",
+      "detalle": "Información de actualidad en norte grande según Diario Constitucional.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-24T13:32:23.134Z"
+  "creado_en": "2026-10-25T13:52:14.699Z"
 };
