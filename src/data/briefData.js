@@ -1,19 +1,26 @@
 export const initialBriefData = {
-  "fecha": "2026-10-26",
+  "fecha": "2026-10-27",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-5",
-    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
-    "referencia": "Proverbios 17:22",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261026-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261027-1-disponibilidad",
+      "hora": "09:00 – 17:00",
+      "tipo": "disponibilidad",
+      "lugar": "",
+      "titulo": "Cupo disponible"
+    },
+    {
+      "id": "agenda-20261027-2-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -21,81 +28,81 @@ export const initialBriefData = {
   ],
   "ideas": [
     {
-      "hook": "¿Sufres de reflujo crónico y ya no sabes qué hacer?",
-      "idea": "Explica cómo la respiración diafragmática fortalece el esfínter esofágico según la ciencia reciente. Slide 1: El problema del reflujo. Slide 2: El rol del diafragma. Slide 3: Cómo entrenarlo. Slide 4: Beneficios clínicos. Slide 5: Evidencia científica. Slide 6: ¡Comenta si quieres una rutina guiada! Guárdalo y compártelo.",
+      "hook": "¿Sabías que mover los brazos puede ayudar a respirar mejor a un paciente con traqueostomía?",
+      "idea": "Slide 1: El mito del reposo absoluto. Slide 2: Qué dice el estudio de Wang et al. (2026). Slide 3: Conexión entre la cintura escapular y la mecánica ventilatoria. Slide 4: Beneficios clínicos observados. Slide 5: Cómo aplicarlo en la práctica kinésica diaria. Slide 6: Comenta si trabajas en UCI o paciente crónico.",
       "formato": "Carrusel 6 slides",
-      "base": "Semwal et al., 2026",
+      "base": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients",
       "id": "idea-1"
     },
     {
-      "hook": "¿Te truena la mandíbula o te duele al masticar?",
-      "idea": "Video corto mostrando cómo varía la sensibilidad a la presión en los músculos masticatorios en pacientes con disfunción temporomandibular (ATM) y por qué la evaluación kinésica marca la diferencia. Llama a la acción agendando tu evaluación en consulta.",
+      "hook": "¿Cómo medir objetivamente el dolor de mandíbula y ATM en la consulta?",
+      "idea": "Video dinámico explicando el uso del algómetro de presión basándose en los nuevos valores de referencia en adultos sanos (Li et al., 2026). Muestra en cámara cómo se aplica en el músculo masetero y haz un llamado a dejar las evaluaciones subjetivas.",
       "formato": "Reel 30 s",
-      "base": "Oyarzo et al., 2026",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
       "id": "idea-2"
     },
     {
-      "hook": "¿Cómo es la recuperación de un paciente crítico en la UCI?",
-      "idea": "Carrusel educativo sobre el manejo de infecciones nosocomiales y la importancia de la kinesiología respiratoria y motora temprana en pacientes con soporte vital. Slide 1: El paciente crítico. Slide 2: El riesgo de infección. Slide 3: Soporte circulatorio. Slide 4: Rol kinesiológico. Slide 5: Prevención. Slide 6: ¡Síguenos para más contenido clínico!",
+      "hook": "Nuevas directrices internacionales cambian la rehabilitación del paciente crítico en UCI",
+      "idea": "Slide 1: La actualización ASSOBBRAFIR 2026 ya está aquí. Slide 2: Puntos clave sobre movilización temprana. Slide 3: Rol del kinesiólogo intensivistista en el destete ventilatorio. Slide 4: Reducción de la debilidad adquirida en UCI. Slide 5: El impacto directo en el pronóstico del paciente. Slide 6: Guarda este post para tus turnos de UCI.",
       "formato": "Carrusel 6 slides",
-      "base": "Dodge et al., 2026",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
       "id": "idea-3"
     },
     {
-      "hook": "¿Sabías que respirar mal puede empeorar el dolor de tu hombro congelado?",
-      "idea": "Video explicando el estudio sobre cómo los ejercicios respiratorios reducen el dolor y mejoran el rango de movimiento en hombro congelado. Muestra una técnica rápida y finaliza invitando a visitar al kinesiólogo especialista.",
+      "hook": "¿Sirve realmente el entrenamiento muscular respiratorio en pacientes con ELA?",
+      "idea": "Video corto directo a cámara analizando el último metaanálisis de Lei et al. (2026). Explica cómo el IMT ayuda a preservar la presión inspiratoria máxima y mejora la calidad de vida. Cierra invitando a los colegas a debatir en comentarios.",
       "formato": "Reel 30 s",
-      "base": "Çelik Benli & Akçay Genal, 2026",
+      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "La respiración diafragmática como enfoque coadyuvante en la enfermedad por reflujo gastroesofágico",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "resumen": "Esta revisión narrativa analiza las bases mecánicas y la evidencia clínica sobre cómo la respiración diafragmática ayuda en el manejo del reflujo gastroesofágico. Se destaca su rol en la modulación de la presión del esfínter esofágico inferior mediante el entrenamiento muscular.",
-      "objetivo": "Revisar la base mecánica y la evidencia clínica de la respiración diafragmática como tratamiento coadyuvante en el reflujo gastroesofágico.",
-      "metodologia": "Revisión narrativa de literatura científica reciente sobre fisiología respiratoria y trastornos gastrointestinales.",
-      "hallazgos": "La reeducación del patrón respiratorio diafragmático mejora la función de la barrera antirreflujo y disminuye los síntomas clínicos.",
-      "aplicacion": "Integra ejercicios respiratorios diafragmáticos en pacientes con reflujo crónico para mejorar el tono del esfínter y reducir síntomas.",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "titulo": "Guías clínicas de la ASSOBBRAFIR sobre fisioterapia en cuidados intensivos",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "resumen": "Estas nuevas directrices establecen estrategias de rehabilitación basadas en evidencia para adultos críticamente enfermos. Buscan optimizar la recuperación funcional y reducir las secuelas de la estancia en UCI en nuestro país.",
+      "objetivo": "Actualizar y estandarizar las estrategias de rehabilitación física para pacientes adultos críticamente enfermos.",
+      "metodologia": "Guía de práctica clínica basada en una revisión sistemática exhaustiva de la literatura en pacientes adultos en unidades de cuidados intensivos.",
+      "hallazgos": "Se definieron recomendaciones clave sobre movilización temprana, ventilación mecánica y destete para mejorar la funcionalidad global.",
+      "aplicacion": "Implementa estas pautas actualizadas en la unidad de paciente crítico para estandarizar la movilización y acelerar el alta del paciente.",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
       "id": "paper-1"
     },
     {
-      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión dentro y entre los músculos masticatorios dolorosos crónicos",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "resumen": "Este estudio clínico de casos y controles evaluó las diferencias espaciales en la sensibilidad a la presión en los músculos masticatorios de pacientes con dolor crónico. Los resultados demuestran patrones específicos de hiperalgesia que son clave para el abordaje kinésico de la ATM.",
-      "objetivo": "Evaluar las variaciones espaciales de la sensibilidad a la presión dentro y entre los músculos masticatorios en pacientes con dolor mandibular crónico.",
-      "metodologia": "Estudio clínico de casos y controles que midió umbrales de dolor a la presión en la musculatura masticatoria.",
-      "hallazgos": "Existe una distribución heterogénea de la sensibilidad dolorosa en los músculos masticatorios, relevante para el diagnóstico y tratamiento de la disfunción temporomandibular.",
-      "aplicacion": "Utiliza la algometría de presión localizada para identificar puntos gatillo específicos en la evaluación de pacientes con disfunción temporomandibular.",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
+      "titulo": "Umbrales de dolor por presión facial en adultos sanos",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "resumen": "Este estudio analiza la distribución de los umbrales de dolor por presión en la musculatura facial y maseterina. Estos datos son vitales para mejorar la precisión diagnóstica en pacientes con trastornos temporomandibulares (ATM).",
+      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
+      "metodologia": "Estudio observacional y transversal enfocado en la medición algométrica de la región facial en una cohorte de adultos sanos.",
+      "hallazgos": "Se establecieron valores de referencia normativos que permiten diferenciar de manera objetiva los puntos gatillo miofasciales patológicos.",
+      "aplicacion": "Utiliza algometría de presión en tu consulta para evaluar de forma cuantitativa la sensibilidad facial y el progreso en pacientes con dolor orofacial y ATM.",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
       "id": "paper-2"
     },
     {
-      "titulo": "Limitando el daño colateral: Infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal",
-      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "resumen": "Este artículo analiza la incidencia y el manejo de infecciones nosocomiales en pacientes críticos que requieren soporte circulatorio mecánico temporal. Subraya la importancia del manejo multidisciplinario y la prevención precoz en unidades de paciente crítico.",
-      "objetivo": "Analizar el impacto y las estrategias para limitar las infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal.",
-      "metodologia": "Estudio clínico enfocado en la epidemiología y el manejo de complicaciones infecciosas en pacientes críticos cardiovasculares.",
-      "hallazgos": "Las infecciones nosocomiales representan un desafío crítico que prolonga la estancia en UCI y complica la rehabilitación temprana del paciente.",
-      "aplicacion": "Extrema las medidas de bioseguridad y movilización precoz segura en pacientes críticos con dispositivos de soporte vital avanzado.",
-      "revista": "JHLT Open",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+      "titulo": "Impacto del entrenamiento de extremidades superiores en pacientes con traqueostomía prolongada",
+      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "resumen": "Investiga cómo el ejercicio de extremidades superiores influye en la mecánica ventilatoria de pacientes con traqueostomía. Los resultados demuestran una sinergia positiva entre la musculatura escapular y la función respiratoria.",
+      "objetivo": "Evaluar el impacto del entrenamiento de extremidades superiores sobre la función respiratoria en pacientes con traqueostomía de larga duración.",
+      "metodologia": "Estudio clínico aleatorizado cruzado, unicéntrico, realizado en pacientes adultos con traqueostomía crónica sometidos a protocolos de rehabilitación.",
+      "hallazgos": "El entrenamiento específico de brazos mejoró significativamente los parámetros ventilatorios y la tolerancia al esfuerzo de los pacientes.",
+      "aplicacion": "Incorpora ejercicios de miembros superiores en el programa de rehabilitación de tus pacientes con traqueostomía para potenciar su capacidad respiratoria.",
+      "revista": "BMC Pulm Med",
+      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
       "id": "paper-3"
     },
     {
-      "titulo": "El efecto de los ejercicios respiratorios en el dolor, rango de movimiento y calidad de vida en la rehabilitación del hombro congelado",
-      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "resumen": "Este estudio aleatorizado controlado demostró que la incorporación de ejercicios respiratorios estructurados mejora significativamente el dolor y la movilidad en pacientes con capsulitis adhesiva. Se evidencia una conexión directa entre el control respiratorio y la biomecánica del cinturón escapular.",
-      "objetivo": "Determinar el efecto de los ejercicios respiratorios sobre el dolor, la movilidad y la calidad de vida en la rehabilitación del hombro congelado.",
-      "metodologia": "Ensayo clínico controlado aleatorizado con pacientes diagnosticados de hombro congelado sometidos a intervención respiratoria.",
-      "hallazgos": "La inclusión de ejercicios respiratorios acelera la recuperación del rango de movimiento y disminuye la percepción del dolor en comparación con la terapia convencional sola.",
-      "aplicacion": "Combina patrones respiratorios específicos en las primeras fases de la rehabilitación de hombro para reducir el tono muscular accesorio y mejorar la movilidad.",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+      "titulo": "Efectos del entrenamiento muscular respiratorio en la esclerosis lateral amiotrófica",
+      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+      "resumen": "Este metaanálisis evalúa la eficacia del entrenamiento muscular respiratorio (IMT) en pacientes con ELA. Demuestra que es una herramienta útil para enlentecer el deterioro de la función pulmonar.",
+      "objetivo": "Sintetizar la evidencia sobre los efectos del entrenamiento muscular respiratorio en la función pulmonar de pacientes con esclerosis lateral amiotrófica.",
+      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos controlados que evaluaron el IMT en pacientes diagnosticados con ELA.",
+      "hallazgos": "El entrenamiento mejoró de manera significativa la presión inspiratoria máxima (PIM) y retrasó la pérdida de capacidad vital forzada.",
+      "aplicacion": "Prescribe protocolos individualizados de IMT en pacientes con ELA para preservar su función respiratoria y calidad de vida por más tiempo.",
+      "revista": "J Neurol",
+      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
       "id": "paper-4"
     }
   ],
@@ -120,22 +127,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnE2c3hfRER0amM5VGl5UUJacUdjOURjczN1UGI1bVItZDkzSXNZaUpQQjhmaUdzUDlNSHFPOWNQc2NfbVdTc1ZQd0N5U3FiU1hTR054QjNwRVNuLTFSaXU5T0dCNTM1MFR0eFFJR1M0YTQwMW5LbXdid1hyQ2pfZkJwSWYxaXBHMnNSWWVNdi11TkFVV3ViT0xNSGJiWGNWRjM5LXF3cHJ1cnRFd1RsemhTb2VkakpfYTBrZHJFejh5Nl9L0gHMAUFVX3lxTE51eVlpcnhoTkhlR0lDcklZdHV4TUp4S2tfZWVwYVR0NXdIM0NEc1ptVjFwV3RpSmJtb0ZxR2JiSGNHTzhMS3pESnZNQzhjdmRiSUJFUjhQNGVGWjh0ejJ0TktaLWgzQUhhWXhUWUpFMGhKRUVfSTZGSVNjcThOTDJWMjdHZTZWQUsxTUJ1UEg3VWNOU3NnMlZpWDB3VF9oZ2N6TVkxYjdEMEkyNUYxMHhZMDVPLUF4MnNjWEdYc1cwWkJNMXNCMzE2S0cycA?oc=5",
-      "fuente": "Alerta Geek",
-      "titulo": "OpenAI expande los anuncios de ChatGPT a Chile y otros 13 mercados de Latinoamérica",
-      "detalle": "Información de actualidad en ia · mercados según Alerta Geek.",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWkN6RVF6UDFJY3l2YmIwamlmZU1qYjUxMXlJeEc5OWNkY2EzT1ZsNDlzSC1ISm1QZHZFRDNLSHZ0b3o4Z0JaTk1SUXRzbzNTR2tQaXA4YXRweXRBQWRqX0I3Um9lZWJfMWozOUNWbVZ6MWNYZFA0OHAtb18xa0hoTjAzWUQtalVQZFI3OGtwTm85RVhMMkxPbEdzT0JndlRnM1NyWEI5VV93WWJ5R0t5eXFNZzFxNS13YWdkb1RiMlpIblJUWms5RTZjcS0wQQ?oc=5",
+      "fuente": "El Mostrador",
+      "titulo": "Inteligencia artificial y productividad: los desafíos que marcarán el CEO Meeting 2026",
+      "detalle": "Información de actualidad en ia · mercados según El Mostrador.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iR1JESU0wa3dOek05THJOc1IxdTlveFZXUUNLYmJGV3pZeHQyOFNUd3pBNVJTdVlQVjNDYVJqZVNybjc0MHJhNDB5dTN3MUtwQ2w3TEd4TTRQWUVOaVN1WVhNY3R0am5yQ3o0dEU0dw?oc=5",
-      "fuente": "JOIA MAGAZINE",
-      "titulo": "Sobre el calor de Iquique: Nena Delka",
-      "detalle": "Información de actualidad en norte grande según JOIA MAGAZINE.",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON1NhSVlJSTEwY3NFejJ2enl4OTdNVk9UU1hHbVpwelFpNWtWc3hiVkZ3aTNoMnJGZkdkczVZNzdRN3R4ZkNyM0M4dWIxZDJBZXAzdHowN1dEOVNJMXZydXd2U2phS1dzU3dRV1dNdnZXdUdfT2tCNk5iYVozdGwyeUpjNkFSWDAyRklxQ1JsbVZaaU9OdlhRa2Jsd2pZVVNfbEUyMWZCdTE5TVp2RTg3VUY2ZjBrMGRnbXBKMDNpcVhqM0hZc1Z6RzllX0gwczd3dllrcU1sY0lkam_SAYwBQVVfeXFMT0J2NkxPdmdqLVNNSlljNU9pS3Zib2dJVktsV3dRdmtpU09lQ1pjTmJtMUxPNnlPWG41dTZrR21HbXR1NllSTU40VklnTW8yNk9hOEFBVFo1eEJrTTBSLXp6cFAyempiWlFTUTJEWG81X042WjllUTdBZlI3dHNoNkVIMFN2eS14QTJHMVM?oc=5",
+      "fuente": "Cooperativa",
+      "titulo": "Carabineros realiza allanamientos simultáneos en Iquique, Alto Hospicio y Pozo Almonte",
+      "detalle": "Información de actualidad en norte grande según Cooperativa.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-26T16:16:53.322Z"
+  "creado_en": "2026-10-27T15:30:33.293Z"
 };
