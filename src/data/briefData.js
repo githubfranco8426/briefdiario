@@ -1,117 +1,117 @@
 export const initialBriefData = {
-  "fecha": "2026-10-27",
+  "fecha": "2026-10-28",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-6",
-    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
-    "referencia": "Jeremías 33:3",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-7",
+    "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+    "referencia": "Filipenses 4:7",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261027-1-disponibilidad",
-      "hora": "09:00 – 17:00",
+      "id": "agenda-20261028-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
+      "lugar": "",
+      "titulo": "Compromiso personal"
+    },
+    {
+      "id": "agenda-20261028-2-disponibilidad",
+      "hora": "15:00 – 19:00",
       "tipo": "disponibilidad",
       "lugar": "",
       "titulo": "Cupo disponible"
-    },
-    {
-      "id": "agenda-20261027-2-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
-      "lugar": "",
-      "titulo": "Atención clínica"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que mover los brazos puede ayudar a respirar mejor a un paciente con traqueostomía?",
-      "idea": "Slide 1: El mito del reposo absoluto. Slide 2: Qué dice el estudio de Wang et al. (2026). Slide 3: Conexión entre la cintura escapular y la mecánica ventilatoria. Slide 4: Beneficios clínicos observados. Slide 5: Cómo aplicarlo en la práctica kinésica diaria. Slide 6: Comenta si trabajas en UCI o paciente crónico.",
+      "hook": "¿Sabías que entrenar tus pulmones puede ayudarte antes de una cirugía de rodilla?",
+      "idea": "Slide 1: Hook sobre artrosis y pulmones. Slide 2: Qué dice el nuevo estudio de 2026. Slide 3: Beneficios del entrenamiento inspiratorio prequirúrgico. Slide 4: Cómo se aplica en la práctica clínica. Slide 5: Importancia de la kinesiología integral. Slide 6: ¡Guarda este post y compártelo con quien se vaya a operar! CTA.",
       "formato": "Carrusel 6 slides",
-      "base": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients",
+      "base": "Su S et al., 2026 (PMID: 42002253)",
       "id": "idea-1"
     },
     {
-      "hook": "¿Cómo medir objetivamente el dolor de mandíbula y ATM en la consulta?",
-      "idea": "Video dinámico explicando el uso del algómetro de presión basándose en los nuevos valores de referencia en adultos sanos (Li et al., 2026). Muestra en cámara cómo se aplica en el músculo masetero y haz un llamado a dejar las evaluaciones subjetivas.",
+      "hook": "El rol clave del kinesiólogo en pacientes con trasplante de células madre",
+      "idea": "Video dinámico explicando cómo la fisioterapia acompaña todo el proceso del trasplante alogénico. Se detalla la importancia de prevenir el descondicionamiento físico desde el aislamiento hasta el alta. Cierre con llamado a comentar tus dudas sobre pacientes críticos.",
       "formato": "Reel 30 s",
-      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "base": "Ben Jemia H et al., 2026 (PMID: 42567275)",
       "id": "idea-2"
     },
     {
-      "hook": "Nuevas directrices internacionales cambian la rehabilitación del paciente crítico en UCI",
-      "idea": "Slide 1: La actualización ASSOBBRAFIR 2026 ya está aquí. Slide 2: Puntos clave sobre movilización temprana. Slide 3: Rol del kinesiólogo intensivistista en el destete ventilatorio. Slide 4: Reducción de la debilidad adquirida en UCI. Slide 5: El impacto directo en el pronóstico del paciente. Slide 6: Guarda este post para tus turnos de UCI.",
+      "hook": "¿Qué tan rápido vuelve a caminar un paciente tras salir del soporte vital cardíaco?",
+      "idea": "Slide 1: Titular sobre infarto y marcha. Slide 2: Explicación del análisis a 14 días post-destete. Slide 3: Por qué la marcha es un marcador pronóstico vital. Slide 4: El rol del kinesiólogo intensivista en la movilización precoz. Slide 5: Retos en la unidad de paciente crítico. Slide 6: ¡Sígueme para más evidencia en paciente crítico! CTA.",
       "formato": "Carrusel 6 slides",
-      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy",
+      "base": "Hanada S et al., 2026 (PMID: 42523488)",
       "id": "idea-3"
     },
     {
-      "hook": "¿Sirve realmente el entrenamiento muscular respiratorio en pacientes con ELA?",
-      "idea": "Video corto directo a cámara analizando el último metaanálisis de Lei et al. (2026). Explica cómo el IMT ayuda a preservar la presión inspiratoria máxima y mejora la calidad de vida. Cierra invitando a los colegas a debatir en comentarios.",
+      "hook": "Nuevas luces en el tratamiento del Long COVID: ¿Qué funciona realmente?",
+      "idea": "Video enfocado en la evidencia reciente sobre la fatiga crónica y la disfunción respiratoria post-COVID. Se explican los hallazgos de la revisión sistemática y cómo estructurar una rehabilitación sin gatillar recaídas. CTA para agendar evaluación kinésica.",
       "formato": "Reel 30 s",
-      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
+      "base": "Tamariz L et al., 2026 (PMID: 42630997)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Guías clínicas de la ASSOBBRAFIR sobre fisioterapia en cuidados intensivos",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "resumen": "Estas nuevas directrices establecen estrategias de rehabilitación basadas en evidencia para adultos críticamente enfermos. Buscan optimizar la recuperación funcional y reducir las secuelas de la estancia en UCI en nuestro país.",
-      "objetivo": "Actualizar y estandarizar las estrategias de rehabilitación física para pacientes adultos críticamente enfermos.",
-      "metodologia": "Guía de práctica clínica basada en una revisión sistemática exhaustiva de la literatura en pacientes adultos en unidades de cuidados intensivos.",
-      "hallazgos": "Se definieron recomendaciones clave sobre movilización temprana, ventilación mecánica y destete para mejorar la funcionalidad global.",
-      "aplicacion": "Implementa estas pautas actualizadas en la unidad de paciente crítico para estandarizar la movilización y acelerar el alta del paciente.",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "titulo": "Entrenamiento de músculos inspiratorios en artrosis de rodilla",
+      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "resumen": "Este ensayo controlado aleatorizado evaluó la factibilidad y los efectos preliminares del entrenamiento muscular inspiratorio durante 8 semanas en pacientes que esperaban una artroplastia total de rodilla. Los resultados demuestran que esta intervención respiratoria es viable y genera beneficios clínicos previos a la cirugía.",
+      "objetivo": "Evaluar la factibilidad y los efectos preliminares del entrenamiento muscular inspiratorio en pacientes con artrosis de rodilla en lista de espera quirúrgica.",
+      "metodologia": "Ensayo clínico controlado aleatorizado piloto de 8 semanas de duración en pacientes con artrosis de rodilla avanzada.",
+      "hallazgos": "Se observó una alta viabilidad de la intervención y mejoras preliminares significativas en la capacidad funcional y respiratoria de los pacientes.",
+      "aplicacion": "Incorpora el entrenamiento muscular inspiratorio en pacientes prequirúrgicos para optimizar su capacidad funcional antes de una cirugía ortopédica mayor.",
+      "revista": "Arch Phys Med Rehabil",
+      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
       "id": "paper-1"
     },
     {
-      "titulo": "Umbrales de dolor por presión facial en adultos sanos",
-      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "resumen": "Este estudio analiza la distribución de los umbrales de dolor por presión en la musculatura facial y maseterina. Estos datos son vitales para mejorar la precisión diagnóstica en pacientes con trastornos temporomandibulares (ATM).",
-      "objetivo": "Determinar la distribución y los factores asociados a los umbrales de dolor por presión facial en adultos sanos.",
-      "metodologia": "Estudio observacional y transversal enfocado en la medición algométrica de la región facial en una cohorte de adultos sanos.",
-      "hallazgos": "Se establecieron valores de referencia normativos que permiten diferenciar de manera objetiva los puntos gatillo miofasciales patológicos.",
-      "aplicacion": "Utiliza algometría de presión en tu consulta para evaluar de forma cuantitativa la sensibilidad facial y el progreso en pacientes con dolor orofacial y ATM.",
-      "revista": "Cranio",
-      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+      "titulo": "Fisioterapia en el trasplante de células madre hematopoyéticas",
+      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "resumen": "Esta revisión sistemática analiza el rol fundamental de la fisioterapia a lo largo de toda la trayectoria clínica en pacientes sometidos a trasplante alogénico de células madre hematopoyéticas. Se establece un marco clínico integral para guiar la intervención kinésica desde el acondicionamiento hasta la fase de recuperación.",
+      "objetivo": "Determinar el rol de la fisioterapia y establecer un marco clínico a lo largo de la trayectoria del trasplante de células madre hematopoyéticas alogénico.",
+      "metodologia": "Revisión sistemática de literatura científica con análisis de intervenciones de fisioterapia en pacientes hematológicos complejos.",
+      "hallazgos": "La integración temprana y estructurada de la fisioterapia previene el deterioro físico severo y mejora la recuperación global del paciente trasplantado.",
+      "aplicacion": "Diseña programas de movilización y acondicionamiento físico temprano y continuo para pacientes hematológicos complejos en unidades de alta complejidad.",
+      "revista": "Transplant Cell Ther",
+      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
       "id": "paper-2"
     },
     {
-      "titulo": "Impacto del entrenamiento de extremidades superiores en pacientes con traqueostomía prolongada",
-      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
-      "resumen": "Investiga cómo el ejercicio de extremidades superiores influye en la mecánica ventilatoria de pacientes con traqueostomía. Los resultados demuestran una sinergia positiva entre la musculatura escapular y la función respiratoria.",
-      "objetivo": "Evaluar el impacto del entrenamiento de extremidades superiores sobre la función respiratoria en pacientes con traqueostomía de larga duración.",
-      "metodologia": "Estudio clínico aleatorizado cruzado, unicéntrico, realizado en pacientes adultos con traqueostomía crónica sometidos a protocolos de rehabilitación.",
-      "hallazgos": "El entrenamiento específico de brazos mejoró significativamente los parámetros ventilatorios y la tolerancia al esfuerzo de los pacientes.",
-      "aplicacion": "Incorpora ejercicios de miembros superiores en el programa de rehabilitación de tus pacientes con traqueostomía para potenciar su capacidad respiratoria.",
-      "revista": "BMC Pulm Med",
-      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
+      "titulo": "Recuperación de la marcha tras soporte circulatorio mecánico",
+      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "resumen": "Este estudio analizó el valor pronóstico de la recuperación de la marcha durante los primeros 14 días posteriores al destete de soporte circulatorio mecánico en pacientes con infarto agudo de miocardio. Los hallazgos demuestran que la capacidad de deambulación temprana es un marcador pronóstico crítico de supervivencia y funcionalidad.",
+      "objetivo": "Investigar la significancia prognóstica de la recuperación de la marcha tras el destete de soporte circulatorio mecánico por infarto agudo de miocardio.",
+      "metodologia": "Análisis tipo landmark de 14 días en pacientes críticos post-infarto sometidos a asistencia circulatoria mecánica.",
+      "hallazgos": "Una recuperación temprana de la marcha se asoció fuertemente con un mejor pronóstico vital y funcional a corto y mediano plazo.",
+      "aplicacion": "Prioriza la evaluación y el entrenamiento precoz de la marcha en pacientes críticos cardiovasculares apenas se retire el soporte mecánico.",
+      "revista": "Prog Rehabil Med",
+      "doi": "https://doi.org/10.2490/prm.20260038",
       "id": "paper-3"
     },
     {
-      "titulo": "Efectos del entrenamiento muscular respiratorio en la esclerosis lateral amiotrófica",
-      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
-      "resumen": "Este metaanálisis evalúa la eficacia del entrenamiento muscular respiratorio (IMT) en pacientes con ELA. Demuestra que es una herramienta útil para enlentecer el deterioro de la función pulmonar.",
-      "objetivo": "Sintetizar la evidencia sobre los efectos del entrenamiento muscular respiratorio en la función pulmonar de pacientes con esclerosis lateral amiotrófica.",
-      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos controlados que evaluaron el IMT en pacientes diagnosticados con ELA.",
-      "hallazgos": "El entrenamiento mejoró de manera significativa la presión inspiratoria máxima (PIM) y retrasó la pérdida de capacidad vital forzada.",
-      "aplicacion": "Prescribe protocolos individualizados de IMT en pacientes con ELA para preservar su función respiratoria y calidad de vida por más tiempo.",
-      "revista": "J Neurol",
-      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+      "titulo": "Revisión de ensayos clínicos para el síndrome de Long COVID",
+      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "resumen": "Esta revisión sistemática evaluó la eficacia de diversos ensayos clínicos aleatorizados enfocados en el tratamiento integral del síndrome de Long COVID. El análisis compila las estrategias terapéuticas actuales con mayor evidencia científica para el manejo de la fatiga crónica y la disfunción respiratoria.",
+      "objetivo": "Sintetizar la evidencia de ensayos clínicos aleatorizados orientados al tratamiento efectivo del síndrome de Long COVID.",
+      "metodologia": "Revisión sistemática de ensayos clínicos aleatorizados enfocados en intervenciones terapéuticas para pacientes con COVID persistente.",
+      "hallazgos": "Se identificaron intervenciones multidisciplinarias, incluyendo la rehabilitación respiratoria y física graduada, como pilares fundamentales para reducir los síntomas persistentes.",
+      "aplicacion": "Implementa programas de rehabilitación respiratoria personalizados y dosificados para pacientes con secuelas persistentes de COVID-19.",
+      "revista": "J Community Hosp Intern Med Perspect",
+      "doi": "https://doi.org/10.55729/2000-9666.1612",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZGRFQlY2TDQwdlhkaDgxSmEta1p3Uy1XMWtSM0FxYVVQVUNXdXBzSUdxS21ITC1GNjk4aW9NUWUyS1N1NUt0X1phVnZGbE5ja3hDQWpxR1NnQWtGaERNdlo3clNOSG9keFpzdk53Ql9BSjhlSHpMZXBvSTBHcXRQRXBNQnNBREdtRnJzVG5USE85Z2FsRmhqTllSRTNFZ0JNQkl1ZVNtQm5VVHY3dm1QVTBlUnJadjBTdUk4b0E0eVB3MWtMeVBJSXZPVjY5V0p4R3pkLU1yYjRaSnNuSVJBbHgwWEJfSE0zR1Z2b0xfOWVwVWtoWGFlOHhSLTlSbnhJb3pUVzBraVNnc0dZYlE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPYVl4SW1sQlhlOU12elM4WWtpSkVWQkkzSWNLLTQ1T1FjVmJzckk1eXJMVTl3bEwtRFFHc2dfWk5ZMy05SlZMWlRrWVBJblh6eUFzcmI5WHM1cEJhcE4zdkpnRzRQTXhXZFlPM2MwTklNTzNHcXZ2dXZlYWp3a1JleTY1TVlwaFNvQmttTWtlSF8yY1Vpdm1PUWdMeDRMbzF4TlphM3NJajNYM0VpcndBT3c2MjlzcjFveHl3T1dQUzdRdFRnZXdGSENxLUN1T0l2MFBWWkVLU29WdXdjdHgyNWduZGphT0tNdnZHWGVSR1dBT2RjMXZCU216WGRia3NOdWExRXBYeWFqdk41?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Inflación, deuda pública y crecimiento bajo 1%: los principales nubarrones sobre la economía de Chile",
+      "titulo": "Quiroz prevé que Chile crezca un 3,3% en 2027 pero reconoce que \"somos humanos, nos podemos equivocar\"",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -136,13 +136,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON1NhSVlJSTEwY3NFejJ2enl4OTdNVk9UU1hHbVpwelFpNWtWc3hiVkZ3aTNoMnJGZkdkczVZNzdRN3R4ZkNyM0M4dWIxZDJBZXAzdHowN1dEOVNJMXZydXd2U2phS1dzU3dRV1dNdnZXdUdfT2tCNk5iYVozdGwyeUpjNkFSWDAyRklxQ1JsbVZaaU9OdlhRa2Jsd2pZVVNfbEUyMWZCdTE5TVp2RTg3VUY2ZjBrMGRnbXBKMDNpcVhqM0hZc1Z6RzllX0gwczd3dllrcU1sY0lkam_SAYwBQVVfeXFMT0J2NkxPdmdqLVNNSlljNU9pS3Zib2dJVktsV3dRdmtpU09lQ1pjTmJtMUxPNnlPWG41dTZrR21HbXR1NllSTU40VklnTW8yNk9hOEFBVFo1eEJrTTBSLXp6cFAyempiWlFTUTJEWG81X042WjllUTdBZlI3dHNoNkVIMFN2eS14QTJHMVM?oc=5",
-      "fuente": "Cooperativa",
-      "titulo": "Carabineros realiza allanamientos simultáneos en Iquique, Alto Hospicio y Pozo Almonte",
-      "detalle": "Información de actualidad en norte grande según Cooperativa.",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdEtlc09GZUtpUVhWTUpwUjlqcmtmUUp3VDMxYmp2eXkzT3dlbmJMdXJ5cjd0cW12X2piNVVGQkRveGx3YUNSaEVMemtIV3VRQ2oyYmJOaWxBRF9GRlpNamU4Y3EyZnlZeVdvcmdUc3Etb3RkOUJSVlU0aG5UVGtPMmNreGF3NWo1MzZVSlE2bUlyNG1JYVRET09JNzZmUzNyeWZxbElrdkJ2dkdYZGJj?oc=5",
+      "fuente": "Universidad Católica de la Santísima Concepción",
+      "titulo": "Secretarias representarán a UCSC en Congreso Nacional de Iquique",
+      "detalle": "Información de actualidad en norte grande según Universidad Católica de la Santísima Concepción.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-27T15:30:33.293Z"
+  "creado_en": "2026-10-28T16:13:31.905Z"
 };
