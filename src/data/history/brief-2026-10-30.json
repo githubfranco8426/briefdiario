@@ -1,0 +1,141 @@
+{
+  "fecha": "2026-10-30",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "versiculo": {
+    "id": "verse-2",
+    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+    "referencia": "Isaías 40:31",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+  },
+  "agenda": [
+    {
+      "id": "agenda-20261030-1-clinica",
+      "hora": "08:00 – 20:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Atención clínica"
+    }
+  ],
+  "ideas": [
+    {
+      "hook": "¿Espirómetro o técnica manual? ¿Qué sirve realmente para expandir los pulmones?",
+      "idea": "Slide 1: Mito vs realidad de la espirometría. Slide 2: Qué dice el estudio de Jones et al. (2026). Slide 3: Ventajas de la tos y respiración profunda. Slide 4: Cuándo elegir cada herramienta. Slide 5: Aplicación clínica en pacientes respiratorios. Slide 6: ¡Guarda este post y sígueme para más evidencia! Comenta 'RESPIRA'.",
+      "formato": "Carrusel 6 slides",
+      "base": "Jones et al., 2026 (PMID: 42960488)",
+      "id": "idea-1"
+    },
+    {
+      "hook": "La debilidad en la UCI no es inevitable: así se previene con kinesiología",
+      "idea": "Video dinámico explicando cómo la movilización temprana en el paciente crítico evita el daño neuromuscular severo según Mishra et al. (2026). Cierre: Comenta 'UCI' si quieres conocer los protocolos de movilización precoz.",
+      "formato": "Reel 30 s",
+      "base": "Mishra et al., 2026 (PMID: 42220872)",
+      "id": "idea-2"
+    },
+    {
+      "hook": "¿Operado de cáncer de esófago? La rehabilitación respiratoria salva vidas",
+      "idea": "Slide 1: El reto del postoperatorio torácico. Slide 2: Lo que revela el nuevo metaanálisis de Shen et al. (2026). Slide 3: Menos complicaciones pulmonares. Slide 4: Mayor independencia física. Slide 5: El rol clave del kinesiólogo respiratorio. Slide 6: Comparte con colegas y pacientes. Comenta 'CIRUGÍA'.",
+      "formato": "Carrusel 6 slides",
+      "base": "Shen et al., 2026 (PMID: 42058086)",
+      "id": "idea-3"
+    },
+    {
+      "hook": "¿Te duele la espalda baja y la mandíbula? La solución podría estar en tu tórax",
+      "idea": "Video explicando cómo tratar la columna torácica mejora no solo el dolor lumbar (Mansouri et al., 2026), sino también la tensión en la ATM por la conexión postural y respiratoria. Cierre: Agenda tu evaluación kinésica integral en Santiago.",
+      "formato": "Reel 30 s",
+      "base": "Mansouri Josheqan et al., 2026 (PMID: 41100221)",
+      "id": "idea-4"
+    }
+  ],
+  "papers": [
+    {
+      "titulo": "Tos y respiración profunda versus espirometría incentivada en intervenciones de enfermería",
+      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "resumen": "Este análisis retrospectivo compara la eficacia clínica de la tos y la respiración profunda frente al uso de espirometría incentivada. Los resultados aportan evidencia valiosa para optimizar las estrategias de expansión pulmonar en la práctica clínica diaria.",
+      "objetivo": "Comparar los efectos clínicos de las intervenciones de tos y respiración profunda versus espirometría incentivada.",
+      "metodologia": "Estudio retrospectivo analítico basado en registros clínicos de pacientes sometidos a intervenciones respiratorias.",
+      "hallazgos": "Se identificaron diferencias clínicamente relevantes en la selección de técnicas de expansión pulmonar según el perfil del paciente.",
+      "aplicacion": "Integra la tos dirigida y la respiración profunda como alternativas costo-efectivas para la expansión pulmonar en pacientes con riesgo respiratorio.",
+      "revista": "Am J Nurs",
+      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+      "id": "paper-1"
+    },
+    {
+      "titulo": "Rehabilitación en la debilidad adquirida en la UCI: una revisión narrativa basada en evidencia",
+      "titulo_original": "Rehabilitation in ICU-Acquired Weakness: An Evidence-Based Narrative Review",
+      "resumen": "Esta revisión narrativa aborda las estrategias de rehabilitación más efectivas para combatir la debilidad adquirida en la unidad de cuidados intensivos. Destaca la importancia de la movilización temprana para mejorar los desenlaces funcionales a largo plazo.",
+      "objetivo": "Sintetizar la evidencia actual sobre las intervenciones de rehabilitación en pacientes con debilidad adquirida en la UCI.",
+      "metodologia": "Revisión narrativa basada en la literatura científica reciente sobre manejo kinésico en pacientes críticos.",
+      "hallazgos": "La movilización precoz y el entrenamiento muscular estructurado reducen significativamente el tiempo de estancia y la discapacidad crónica.",
+      "aplicacion": "Implementa protocolos de movilización temprana en el paciente crítico para prevenir la debilidad neuromuscular prolongada.",
+      "revista": "Cureus",
+      "doi": "https://doi.org/10.7759/cureus.107933",
+      "id": "paper-2"
+    },
+    {
+      "titulo": "Efectos de diferentes estrategias de rehabilitación sobre la función física y complicaciones en pacientes postoperatorios de cáncer de esófago",
+      "titulo_original": "Effects of different rehabilitation strategies on physical function and complications in postoperative patients with esophageal cancer: a systematic review and meta-analysis",
+      "resumen": "Este metaanálisis evalúa el impacto de diversas intervenciones de rehabilitación sobre la función física y las complicaciones postoperatorias en pacientes con cáncer de esófago. Los datos demuestran que un programa estructurado disminuye la morbilidad pulmonar y acelera la recuperación.",
+      "objetivo": "Evaluar el impacto de distintas estrategias de rehabilitación en la recuperación física y prevención de complicaciones postquirúrgicas.",
+      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos en pacientes postoperados de cáncer de esófago.",
+      "hallazgos": "Las estrategias de rehabilitación multimodal redujeron las complicaciones pulmonares postoperatorias y mejoraron la capacidad funcional.",
+      "aplicacion": "Diseña programas de pre y rehabilitación respiratoria para pacientes sometidos a cirugías torácicas complejas.",
+      "revista": "Front Public Health",
+      "doi": "https://doi.org/10.3389/fpubh.2026.1788265",
+      "id": "paper-3"
+    },
+    {
+      "titulo": "Efectividad de las intervenciones torácicas sobre los factores psicológicos en el dolor lumbar",
+      "titulo_original": "Effectiveness of thoracic interventions on psychological factors in low back pain: a systematic review and meta-analysis",
+      "resumen": "Esta revisión examina cómo las terapias dirigidas a la columna torácica impactan en los factores psicológicos de pacientes con dolor lumbar. Los hallazgos sugieren una fuerte conexión biopsicosocial que optimiza el abordaje kinésico integral.",
+      "objetivo": "Determinar la efectividad de las intervenciones torácicas sobre la esfera psicológica en pacientes con dolor lumbar crónico.",
+      "metodologia": "Revisión sistemática y metaanálisis de estudios clínicos enfocados en terapia manual y ejercicio torácico.",
+      "hallazgos": "El tratamiento de la región torácica genera mejoras secundarias en la ansiedad, el miedo al movimiento y la percepción de dolor lumbar.",
+      "aplicacion": "Incorpora la movilización torácica en pacientes con dolor lumbar y alteraciones de la ATM asociadas al estrés y tensión postural.",
+      "revista": "Disabil Rehabil",
+      "doi": "https://doi.org/10.1080/09638288.2025.2573167",
+      "id": "paper-4"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDNIeHNwZGIxWFp3ajJFZ3I5ODdJRmtHSVROc2RrWmNEeVdGeHcyUC1TVzB0UWFjaTR5SXBFQmtrZ0dSbmh2N195OExkZ204LWJZUTBvckdtdEFQZEJVTVlXT0JwTEp4UzlIc1FzU3lLWllIa0VyUUdfZ3NUY1VZVlBkNU1uS2c5XzBTODlRUEt4RThPZXE2eDREQ01JeDJrc0VXM0JHRFplc01BQlk1dUlsS01vSUE?oc=5",
+      "fuente": "Diario Financiero",
+      "titulo": "Costo económico de la delincuencia en Chile llegó a US $ 10.540 millones en 2025 y equivale al 3% del PIB",
+      "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+      "fuente": "Universidad de Chile",
+      "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+      "detalle": "Información de actualidad en salud según Universidad de Chile.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWkN6RVF6UDFJY3l2YmIwamlmZU1qYjUxMXlJeEc5OWNkY2EzT1ZsNDlzSC1ISm1QZHZFRDNLSHZ0b3o4Z0JaTk1SUXRzbzNTR2tQaXA4YXRweXRBQWRqX0I3Um9lZWJfMWozOUNWbVZ6MWNYZFA0OHAtb18xa0hoTjAzWUQtalVQZFI3OGtwTm85RVhMMkxPbEdzT0JndlRnM1NyWEI5VV93WWJ5R0t5eXFNZzFxNS13YWdkb1RiMlpIblJUWms5RTZjcS0wQQ?oc=5",
+      "fuente": "El Mostrador",
+      "titulo": "Inteligencia artificial y productividad: los desafíos que marcarán el CEO Meeting 2026",
+      "detalle": "Información de actualidad en ia · mercados según El Mostrador.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHJMa2dOa0dRVFMwSkIxSFkxaUstTEdNLTE4Snc5TTlTLXcwQjcycUtnTlBTenpxc0hCOXBySU1Hbnp2QzBuY2lKVlhGQnVwUEp3bXJkRFIxdDBvc29UNnFyR1M5bzdpMEd1T3JROG03cDNUZmdKbkxfYjNVenlDZ09iX0hja01ydF9fVXRVczEwLWNXclZIaThZWEoxTU54cFZWZ3d1S2RKODJyeFNsM1VxVF9GYXp6M1VVd1hkMmZXMFNoczdFdg?oc=5",
+      "fuente": "Santo Tomás en Línea",
+      "titulo": "Sede Iquique fortalece campaña de Admisión 2027",
+      "detalle": "Información de actualidad en norte grande según Santo Tomás en Línea.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-10-30T16:10:46.482Z"
+}
