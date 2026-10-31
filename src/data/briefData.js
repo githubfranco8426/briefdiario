@@ -1,19 +1,26 @@
 export const initialBriefData = {
-  "fecha": "2026-10-30",
+  "fecha": "2026-10-31",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-2",
-    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
-    "referencia": "Isaías 40:31",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-3",
+    "texto": "Todo lo puedo en Cristo que me fortalece.",
+    "referencia": "Filipenses 4:13",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261030-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261031-1-disponibilidad",
+      "hora": "09:00 – 14:00",
+      "tipo": "disponibilidad",
+      "lugar": "",
+      "titulo": "Cupo disponible"
+    },
+    {
+      "id": "agenda-20261031-2-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -21,91 +28,91 @@ export const initialBriefData = {
   ],
   "ideas": [
     {
-      "hook": "¿Espirómetro o técnica manual? ¿Qué sirve realmente para expandir los pulmones?",
-      "idea": "Slide 1: Mito vs realidad de la espirometría. Slide 2: Qué dice el estudio de Jones et al. (2026). Slide 3: Ventajas de la tos y respiración profunda. Slide 4: Cuándo elegir cada herramienta. Slide 5: Aplicación clínica en pacientes respiratorios. Slide 6: ¡Guarda este post y sígueme para más evidencia! Comenta 'RESPIRA'.",
-      "formato": "Carrusel 6 slides",
-      "base": "Jones et al., 2026 (PMID: 42960488)",
+      "hook": "¿Sabías que tu forma de respirar puede calmar tu dolor de espalda?",
+      "idea": "Explica cómo el diafragma estabiliza la columna lumbar según la evidencia del 2026, mostrando un ejercicio práctico. Comenta 'RESPIRA' para recibir una guía en PDF.",
+      "formato": "Reel 30 s",
+      "base": "Chen AY et al., J Back Musculoskelet Rehabil (PMID: 40965964)",
       "id": "idea-1"
     },
     {
-      "hook": "La debilidad en la UCI no es inevitable: así se previene con kinesiología",
-      "idea": "Video dinámico explicando cómo la movilización temprana en el paciente crítico evita el daño neuromuscular severo según Mishra et al. (2026). Cierre: Comenta 'UCI' si quieres conocer los protocolos de movilización precoz.",
-      "formato": "Reel 30 s",
-      "base": "Mishra et al., 2026 (PMID: 42220872)",
+      "hook": "El secreto para salir antes de la UCI tras una cirugía de corazón abierta",
+      "idea": "Detalla el rol clave del entrenamiento de los músculos respiratorios antes y después de un bypass coronario. CTA: ¡Comparte este video con alguien que vaya a operarse!",
+      "formato": "Carrusel 6 slides",
+      "base": "Ribeiro MSDCN et al., Einstein (PMID: 41711778)",
       "id": "idea-2"
     },
     {
-      "hook": "¿Operado de cáncer de esófago? La rehabilitación respiratoria salva vidas",
-      "idea": "Slide 1: El reto del postoperatorio torácico. Slide 2: Lo que revela el nuevo metaanálisis de Shen et al. (2026). Slide 3: Menos complicaciones pulmonares. Slide 4: Mayor independencia física. Slide 5: El rol clave del kinesiólogo respiratorio. Slide 6: Comparte con colegas y pacientes. Comenta 'CIRUGÍA'.",
-      "formato": "Carrusel 6 slides",
-      "base": "Shen et al., 2026 (PMID: 42058086)",
+      "hook": "¿Te truena la mandíbula y sientes dolor constante al tocarla?",
+      "idea": "Revela cómo la sensibilidad muscular en la ATM varía según estudios recientes y la importancia de evaluar la presión muscular. CTA: Agenda tu evaluación de ATM con nosotros.",
+      "formato": "Reel 30 s",
+      "base": "Oyarzo JF et al., Eur J Pain (PMID: 42925012)",
       "id": "idea-3"
     },
     {
-      "hook": "¿Te duele la espalda baja y la mandíbula? La solución podría estar en tu tórax",
-      "idea": "Video explicando cómo tratar la columna torácica mejora no solo el dolor lumbar (Mansouri et al., 2026), sino también la tensión en la ATM por la conexión postural y respiratoria. Cierre: Agenda tu evaluación kinésica integral en Santiago.",
-      "formato": "Reel 30 s",
-      "base": "Mansouri Josheqan et al., 2026 (PMID: 41100221)",
+      "hook": "El gran desafío del paciente crítico: evitar infecciones en soporte vital",
+      "idea": "Muestra la importancia de la kinesiología respiratoria avanzada en unidades de paciente crítico con soporte circulatorio. CTA: Guarda este post si trabajas en UCI.",
+      "formato": "Carrusel 6 slides",
+      "base": "Dodge R et al., JHLT Open (PMID: 42903899)",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Tos y respiración profunda versus espirometría incentivada en intervenciones de enfermería",
-      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "resumen": "Este análisis retrospectivo compara la eficacia clínica de la tos y la respiración profunda frente al uso de espirometría incentivada. Los resultados aportan evidencia valiosa para optimizar las estrategias de expansión pulmonar en la práctica clínica diaria.",
-      "objetivo": "Comparar los efectos clínicos de las intervenciones de tos y respiración profunda versus espirometría incentivada.",
-      "metodologia": "Estudio retrospectivo analítico basado en registros clínicos de pacientes sometidos a intervenciones respiratorias.",
-      "hallazgos": "Se identificaron diferencias clínicamente relevantes en la selección de técnicas de expansión pulmonar según el perfil del paciente.",
-      "aplicacion": "Integra la tos dirigida y la respiración profunda como alternativas costo-efectivas para la expansión pulmonar en pacientes con riesgo respiratorio.",
-      "revista": "Am J Nurs",
-      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+      "titulo": "¿Pueden los ejercicios respiratorios tratar el dolor lumbar crónico?",
+      "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+      "resumen": "Esta revisión sistemática evaluó el impacto de los ejercicios respiratorios en pacientes con dolor lumbar crónico inespecífico. Los resultados demuestran una mejoría significativa en el control postural y la reducción del dolor.",
+      "objetivo": "Determinar la efectividad de los ejercicios respiratorios en el tratamiento del dolor lumbar crónico.",
+      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos en pacientes adultos con dolor lumbar crónico.",
+      "hallazgos": "La inclusión de entrenamiento respiratorio disminuyó el dolor lumbar y mejoró la función del core.",
+      "aplicacion": "Integra ejercicios de control diafragmático en la pauta de pacientes con dolor lumbar crónico en tu consulta.",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127251374357",
       "id": "paper-1"
     },
     {
-      "titulo": "Rehabilitación en la debilidad adquirida en la UCI: una revisión narrativa basada en evidencia",
-      "titulo_original": "Rehabilitation in ICU-Acquired Weakness: An Evidence-Based Narrative Review",
-      "resumen": "Esta revisión narrativa aborda las estrategias de rehabilitación más efectivas para combatir la debilidad adquirida en la unidad de cuidados intensivos. Destaca la importancia de la movilización temprana para mejorar los desenlaces funcionales a largo plazo.",
-      "objetivo": "Sintetizar la evidencia actual sobre las intervenciones de rehabilitación en pacientes con debilidad adquirida en la UCI.",
-      "metodologia": "Revisión narrativa basada en la literatura científica reciente sobre manejo kinésico en pacientes críticos.",
-      "hallazgos": "La movilización precoz y el entrenamiento muscular estructurado reducen significativamente el tiempo de estancia y la discapacidad crónica.",
-      "aplicacion": "Implementa protocolos de movilización temprana en el paciente crítico para prevenir la debilidad neuromuscular prolongada.",
-      "revista": "Cureus",
-      "doi": "https://doi.org/10.7759/cureus.107933",
+      "titulo": "Efecto del entrenamiento muscular respiratorio en cirugía cardíaca",
+      "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+      "resumen": "Este ensayo clínico investigó cómo el entrenamiento muscular respiratorio optimiza la capacidad funcional y la calidad de vida. Se observó una recuperación más rápida y eficiente en el postoperatorio de bypass coronario.",
+      "objetivo": "Evaluar el impacto del entrenamiento muscular respiratorio en la capacidad funcional post-cirugía cardíaca.",
+      "metodologia": "Ensayos clínicos aleatorizados en pacientes sometidos a revascularización miocárdica con circulación extracorpórea.",
+      "hallazgos": "El entrenamiento respiratorio mejoró notablemente la capacidad funcional y la calidad de vida de los pacientes.",
+      "aplicacion": "Aplica protocolos de fortalecimiento muscular respiratorio de forma pre y postoperatoria en pacientes de cirugía cardíaca.",
+      "revista": "Einstein (Sao Paulo)",
+      "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
       "id": "paper-2"
     },
     {
-      "titulo": "Efectos de diferentes estrategias de rehabilitación sobre la función física y complicaciones en pacientes postoperatorios de cáncer de esófago",
-      "titulo_original": "Effects of different rehabilitation strategies on physical function and complications in postoperative patients with esophageal cancer: a systematic review and meta-analysis",
-      "resumen": "Este metaanálisis evalúa el impacto de diversas intervenciones de rehabilitación sobre la función física y las complicaciones postoperatorias en pacientes con cáncer de esófago. Los datos demuestran que un programa estructurado disminuye la morbilidad pulmonar y acelera la recuperación.",
-      "objetivo": "Evaluar el impacto de distintas estrategias de rehabilitación en la recuperación física y prevención de complicaciones postquirúrgicas.",
-      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos en pacientes postoperados de cáncer de esófago.",
-      "hallazgos": "Las estrategias de rehabilitación multimodal redujeron las complicaciones pulmonares postoperatorias y mejoraron la capacidad funcional.",
-      "aplicacion": "Diseña programas de pre y rehabilitación respiratoria para pacientes sometidos a cirugías torácicas complejas.",
-      "revista": "Front Public Health",
-      "doi": "https://doi.org/10.3389/fpubh.2026.1788265",
+      "titulo": "Evaluación de la sensibilidad a la presión en músculos dolorosos de la mandíbula",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio de casos y controles analizó las variaciones en la sensibilidad a la presión en la musculatura masticatoria con dolor crónico. Se identificaron patrones específicos de hiperalgesia que afectan el diagnóstico y tratamiento de la ATM.",
+      "objetivo": "Evaluar las variaciones de la sensibilidad a la presión dentro y entre los músculos masticatorios con dolor crónico.",
+      "metodologia": "Estudio clínico de casos y controles evaluando umbrales de dolor a la presión en pacientes con disfunción temporomandibular.",
+      "hallazgos": "Se detectaron diferencias significativas en los umbrales de sensibilidad a la presión en los músculos masticatorios afectados.",
+      "aplicacion": "Utiliza la algometría de presión para un diagnóstico más preciso en pacientes con patologías de la ATM en tu box.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
       "id": "paper-3"
     },
     {
-      "titulo": "Efectividad de las intervenciones torácicas sobre los factores psicológicos en el dolor lumbar",
-      "titulo_original": "Effectiveness of thoracic interventions on psychological factors in low back pain: a systematic review and meta-analysis",
-      "resumen": "Esta revisión examina cómo las terapias dirigidas a la columna torácica impactan en los factores psicológicos de pacientes con dolor lumbar. Los hallazgos sugieren una fuerte conexión biopsicosocial que optimiza el abordaje kinésico integral.",
-      "objetivo": "Determinar la efectividad de las intervenciones torácicas sobre la esfera psicológica en pacientes con dolor lumbar crónico.",
-      "metodologia": "Revisión sistemática y metaanálisis de estudios clínicos enfocados en terapia manual y ejercicio torácico.",
-      "hallazgos": "El tratamiento de la región torácica genera mejoras secundarias en la ansiedad, el miedo al movimiento y la percepción de dolor lumbar.",
-      "aplicacion": "Incorpora la movilización torácica en pacientes con dolor lumbar y alteraciones de la ATM asociadas al estrés y tensión postural.",
-      "revista": "Disabil Rehabil",
-      "doi": "https://doi.org/10.1080/09638288.2025.2573167",
+      "titulo": "Control de infecciones nosocomiales en soporte circulatorio mecánico temporal",
+      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "resumen": "Esta investigación aborda el manejo crítico y la prevención de infecciones intrahospitalarias en pacientes con soporte circulatorio mecánico. Destaca la importancia de los protocolos de kinesiterapia respiratoria para prevenir neumonías asociadas a ventilación.",
+      "objetivo": "Analizar la incidencia y el control de infecciones nosocomiales en pacientes críticos con soporte circulatorio temporal.",
+      "metodologia": "Estudio clínico observacional en pacientes hospitalizados con dispositivos de asistencia circulatoria mecánica temporal.",
+      "hallazgos": "El manejo multidisciplinario reduce drásticamente las complicaciones infecciosas y mejora la sobrevida en pacientes críticos.",
+      "aplicacion": "Extrema las medidas de asepsia y ejecuta protocolos kinésicos estrictos en pacientes críticos con soporte mecánico en UCI.",
+      "revista": "JHLT Open",
+      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDNIeHNwZGIxWFp3ajJFZ3I5ODdJRmtHSVROc2RrWmNEeVdGeHcyUC1TVzB0UWFjaTR5SXBFQmtrZ0dSbmh2N195OExkZ204LWJZUTBvckdtdEFQZEJVTVlXT0JwTEp4UzlIc1FzU3lLWllIa0VyUUdfZ3NUY1VZVlBkNU1uS2c5XzBTODlRUEt4RThPZXE2eDREQ01JeDJrc0VXM0JHRFplc01BQlk1dUlsS01vSUE?oc=5",
-      "fuente": "Diario Financiero",
-      "titulo": "Costo económico de la delincuencia en Chile llegó a US $ 10.540 millones en 2025 y equivale al 3% del PIB",
-      "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVkJNWWcwWGNPRlFqaU5kR1dhMXM4anpUTEtiT0pYcWdaVllPb2JVaF9wdFZZcE9yX01pU3hRVWtXT05sQm9Lekc3U3VuejIweS1sZUljX3QxQW9qc25YRmlwQTQxVXpoeDdVU2VvZHBkY0RaMUVUQTZ0ZENvVWQxbTZreGVaS0F2d3d4MmZFMFlXM1o4T1FkYUNKX2dRV181NkYyUnhfZi10eFBDLU4wQmJJY0NuZEstaVctSi02VWNKUnhQMURqTnVZREowRVlCU1NWSjdqQ2dXRlZrd2ROYk1weFFFcngxbzczOERjY21Ca0gzWGNFUlAwQ043RWcwbWdUVHpUbU50UUpnaVhz?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Delincuencia le costó US$10.500 millones a Chile en 2025 y sector privado lidera gasto en prevención",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -120,22 +127,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWkN6RVF6UDFJY3l2YmIwamlmZU1qYjUxMXlJeEc5OWNkY2EzT1ZsNDlzSC1ISm1QZHZFRDNLSHZ0b3o4Z0JaTk1SUXRzbzNTR2tQaXA4YXRweXRBQWRqX0I3Um9lZWJfMWozOUNWbVZ6MWNYZFA0OHAtb18xa0hoTjAzWUQtalVQZFI3OGtwTm85RVhMMkxPbEdzT0JndlRnM1NyWEI5VV93WWJ5R0t5eXFNZzFxNS13YWdkb1RiMlpIblJUWms5RTZjcS0wQQ?oc=5",
-      "fuente": "El Mostrador",
-      "titulo": "Inteligencia artificial y productividad: los desafíos que marcarán el CEO Meeting 2026",
-      "detalle": "Información de actualidad en ia · mercados según El Mostrador.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXhQWUVocWpQVFhrUXYyYzZhU1dPaldDZDhjQlpmUl9Ya05GNzgxSDZCVTNpSUkwWWRwd3Y2d0RWbWdRX1dYVzE4Tkp6eEItYU9CTHNWQVhMU1lLYWZDOEdac29NTlVQMllLU3c1RlVqMWo4eC1Sdk5rSVc0Ti1ZdjFlMmRNaGtld1JUWlFFaXB3NFRIVHl1aEJCM3ZtOW_SAa8BQVVfeXFMT1ZhMXN3N3JoaFRDOEw2Y3FiWHJkd1lYMC1TS2R6TGxjOUI1ckhIcENnZjFWR1BkOWpIa0xtWnNDd3h2a3MwSzdYSFZGNUNQREdWZEdMeGZnQlNvWjlSdHI1ZHhPRjJ0c05aZ240LTMxbVQ5ZjVVMnloYmY4Mlk1S3NETDUxdV9xd2E1NW9RbVpaTGtjeHB6alZGOXlIdDFndU5WR19jdVE0LWF3d0hHSQ?oc=5",
+      "fuente": "InvestChile",
+      "titulo": "Accenture crea en Chile unidad de Inteligencia Artificial Aplicada",
+      "detalle": "Información de actualidad en ia · mercados según InvestChile.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTHJMa2dOa0dRVFMwSkIxSFkxaUstTEdNLTE4Snc5TTlTLXcwQjcycUtnTlBTenpxc0hCOXBySU1Hbnp2QzBuY2lKVlhGQnVwUEp3bXJkRFIxdDBvc29UNnFyR1M5bzdpMEd1T3JROG03cDNUZmdKbkxfYjNVenlDZ09iX0hja01ydF9fVXRVczEwLWNXclZIaThZWEoxTU54cFZWZ3d1S2RKODJyeFNsM1VxVF9GYXp6M1VVd1hkMmZXMFNoczdFdg?oc=5",
-      "fuente": "Santo Tomás en Línea",
-      "titulo": "Sede Iquique fortalece campaña de Admisión 2027",
-      "detalle": "Información de actualidad en norte grande según Santo Tomás en Línea.",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYkFmdjBDRU56cjRMQzAzTFhfR29OVFU3YU9YUjZNZG9UNlN0YjJfS09DNW9mNF9yQVV3TGwxRU1aUW1Pd2g3SXFOWE5NeTVSZnVXWFROOUozcXBya2JacENQZS0tWlNfMHc3OHgtN2cxNWxMYzN2eElJSW9WUXB6bHlCaXlTMDlhbVZsUVR5OWNhRmtOdFRUT3diRjRhRG03RDNicXFaUUpvT3J1MWh2Sl9JanozU1ZBUGk2cXdnVXhfUkdSVVVjRXY0WG40Y01Od2ZJaUVn?oc=5",
+      "fuente": "El Sol de Iquique",
+      "titulo": "Sala Cuna Del Hospital De Alto Hospicio Suma Carro De Evacuación Para Reforzar La Seguridad De Los Niños Y Niñas",
+      "detalle": "Información de actualidad en norte grande según El Sol de Iquique.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-10-30T16:10:46.482Z"
+  "creado_en": "2026-10-31T15:28:40.593Z"
 };

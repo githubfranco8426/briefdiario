@@ -7853,5 +7853,153 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-10-30T16:10:46.482Z"
+  },
+  "2026-10-31": {
+    "fecha": "2026-10-31",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261031-1-disponibilidad",
+        "hora": "09:00 – 14:00",
+        "tipo": "disponibilidad",
+        "lugar": "",
+        "titulo": "Cupo disponible"
+      },
+      {
+        "id": "agenda-20261031-2-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que tu forma de respirar puede calmar tu dolor de espalda?",
+        "idea": "Explica cómo el diafragma estabiliza la columna lumbar según la evidencia del 2026, mostrando un ejercicio práctico. Comenta 'RESPIRA' para recibir una guía en PDF.",
+        "formato": "Reel 30 s",
+        "base": "Chen AY et al., J Back Musculoskelet Rehabil (PMID: 40965964)",
+        "id": "idea-1"
+      },
+      {
+        "hook": "El secreto para salir antes de la UCI tras una cirugía de corazón abierta",
+        "idea": "Detalla el rol clave del entrenamiento de los músculos respiratorios antes y después de un bypass coronario. CTA: ¡Comparte este video con alguien que vaya a operarse!",
+        "formato": "Carrusel 6 slides",
+        "base": "Ribeiro MSDCN et al., Einstein (PMID: 41711778)",
+        "id": "idea-2"
+      },
+      {
+        "hook": "¿Te truena la mandíbula y sientes dolor constante al tocarla?",
+        "idea": "Revela cómo la sensibilidad muscular en la ATM varía según estudios recientes y la importancia de evaluar la presión muscular. CTA: Agenda tu evaluación de ATM con nosotros.",
+        "formato": "Reel 30 s",
+        "base": "Oyarzo JF et al., Eur J Pain (PMID: 42925012)",
+        "id": "idea-3"
+      },
+      {
+        "hook": "El gran desafío del paciente crítico: evitar infecciones en soporte vital",
+        "idea": "Muestra la importancia de la kinesiología respiratoria avanzada en unidades de paciente crítico con soporte circulatorio. CTA: Guarda este post si trabajas en UCI.",
+        "formato": "Carrusel 6 slides",
+        "base": "Dodge R et al., JHLT Open (PMID: 42903899)",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "¿Pueden los ejercicios respiratorios tratar el dolor lumbar crónico?",
+        "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+        "resumen": "Esta revisión sistemática evaluó el impacto de los ejercicios respiratorios en pacientes con dolor lumbar crónico inespecífico. Los resultados demuestran una mejoría significativa en el control postural y la reducción del dolor.",
+        "objetivo": "Determinar la efectividad de los ejercicios respiratorios en el tratamiento del dolor lumbar crónico.",
+        "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos en pacientes adultos con dolor lumbar crónico.",
+        "hallazgos": "La inclusión de entrenamiento respiratorio disminuyó el dolor lumbar y mejoró la función del core.",
+        "aplicacion": "Integra ejercicios de control diafragmático en la pauta de pacientes con dolor lumbar crónico en tu consulta.",
+        "revista": "J Back Musculoskelet Rehabil",
+        "doi": "https://doi.org/10.1177/10538127251374357",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Efecto del entrenamiento muscular respiratorio en cirugía cardíaca",
+        "titulo_original": "Effect of respiratory muscle training on functional capacity related to the quality of life of patients undergoing coronary artery bypass grafting with cardiopulmonary bypass: randomized clinical trial",
+        "resumen": "Este ensayo clínico investigó cómo el entrenamiento muscular respiratorio optimiza la capacidad funcional y la calidad de vida. Se observó una recuperación más rápida y eficiente en el postoperatorio de bypass coronario.",
+        "objetivo": "Evaluar el impacto del entrenamiento muscular respiratorio en la capacidad funcional post-cirugía cardíaca.",
+        "metodologia": "Ensayos clínicos aleatorizados en pacientes sometidos a revascularización miocárdica con circulación extracorpórea.",
+        "hallazgos": "El entrenamiento respiratorio mejoró notablemente la capacidad funcional y la calidad de vida de los pacientes.",
+        "aplicacion": "Aplica protocolos de fortalecimiento muscular respiratorio de forma pre y postoperatoria en pacientes de cirugía cardíaca.",
+        "revista": "Einstein (Sao Paulo)",
+        "doi": "https://doi.org/10.31744/einstein_journal/2026AO1720",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Evaluación de la sensibilidad a la presión en músculos dolorosos de la mandíbula",
+        "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+        "resumen": "Este estudio de casos y controles analizó las variaciones en la sensibilidad a la presión en la musculatura masticatoria con dolor crónico. Se identificaron patrones específicos de hiperalgesia que afectan el diagnóstico y tratamiento de la ATM.",
+        "objetivo": "Evaluar las variaciones de la sensibilidad a la presión dentro y entre los músculos masticatorios con dolor crónico.",
+        "metodologia": "Estudio clínico de casos y controles evaluando umbrales de dolor a la presión en pacientes con disfunción temporomandibular.",
+        "hallazgos": "Se detectaron diferencias significativas en los umbrales de sensibilidad a la presión en los músculos masticatorios afectados.",
+        "aplicacion": "Utiliza la algometría de presión para un diagnóstico más preciso en pacientes con patologías de la ATM en tu box.",
+        "revista": "Eur J Pain",
+        "doi": "https://doi.org/10.1002/ejp.70423",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Control de infecciones nosocomiales en soporte circulatorio mecánico temporal",
+        "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "resumen": "Esta investigación aborda el manejo crítico y la prevención de infecciones intrahospitalarias en pacientes con soporte circulatorio mecánico. Destaca la importancia de los protocolos de kinesiterapia respiratoria para prevenir neumonías asociadas a ventilación.",
+        "objetivo": "Analizar la incidencia y el control de infecciones nosocomiales en pacientes críticos con soporte circulatorio temporal.",
+        "metodologia": "Estudio clínico observacional en pacientes hospitalizados con dispositivos de asistencia circulatoria mecánica temporal.",
+        "hallazgos": "El manejo multidisciplinario reduce drásticamente las complicaciones infecciosas y mejora la sobrevida en pacientes críticos.",
+        "aplicacion": "Extrema las medidas de asepsia y ejecuta protocolos kinésicos estrictos en pacientes críticos con soporte mecánico en UCI.",
+        "revista": "JHLT Open",
+        "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVkJNWWcwWGNPRlFqaU5kR1dhMXM4anpUTEtiT0pYcWdaVllPb2JVaF9wdFZZcE9yX01pU3hRVWtXT05sQm9Lekc3U3VuejIweS1sZUljX3QxQW9qc25YRmlwQTQxVXpoeDdVU2VvZHBkY0RaMUVUQTZ0ZENvVWQxbTZreGVaS0F2d3d4MmZFMFlXM1o4T1FkYUNKX2dRV181NkYyUnhfZi10eFBDLU4wQmJJY0NuZEstaVctSi02VWNKUnhQMURqTnVZREowRVlCU1NWSjdqQ2dXRlZrd2ROYk1weFFFcngxbzczOERjY21Ca0gzWGNFUlAwQ043RWcwbWdUVHpUbU50UUpnaVhz?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Delincuencia le costó US$10.500 millones a Chile en 2025 y sector privado lidera gasto en prevención",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+        "fuente": "Universidad de Chile",
+        "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+        "detalle": "Información de actualidad en salud según Universidad de Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXhQWUVocWpQVFhrUXYyYzZhU1dPaldDZDhjQlpmUl9Ya05GNzgxSDZCVTNpSUkwWWRwd3Y2d0RWbWdRX1dYVzE4Tkp6eEItYU9CTHNWQVhMU1lLYWZDOEdac29NTlVQMllLU3c1RlVqMWo4eC1Sdk5rSVc0Ti1ZdjFlMmRNaGtld1JUWlFFaXB3NFRIVHl1aEJCM3ZtOW_SAa8BQVVfeXFMT1ZhMXN3N3JoaFRDOEw2Y3FiWHJkd1lYMC1TS2R6TGxjOUI1ckhIcENnZjFWR1BkOWpIa0xtWnNDd3h2a3MwSzdYSFZGNUNQREdWZEdMeGZnQlNvWjlSdHI1ZHhPRjJ0c05aZ240LTMxbVQ5ZjVVMnloYmY4Mlk1S3NETDUxdV9xd2E1NW9RbVpaTGtjeHB6alZGOXlIdDFndU5WR19jdVE0LWF3d0hHSQ?oc=5",
+        "fuente": "InvestChile",
+        "titulo": "Accenture crea en Chile unidad de Inteligencia Artificial Aplicada",
+        "detalle": "Información de actualidad en ia · mercados según InvestChile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYkFmdjBDRU56cjRMQzAzTFhfR29OVFU3YU9YUjZNZG9UNlN0YjJfS09DNW9mNF9yQVV3TGwxRU1aUW1Pd2g3SXFOWE5NeTVSZnVXWFROOUozcXBya2JacENQZS0tWlNfMHc3OHgtN2cxNWxMYzN2eElJSW9WUXB6bHlCaXlTMDlhbVZsUVR5OWNhRmtOdFRUT3diRjRhRG03RDNicXFaUUpvT3J1MWh2Sl9JanozU1ZBUGk2cXdnVXhfUkdSVVVjRXY0WG40Y01Od2ZJaUVn?oc=5",
+        "fuente": "El Sol de Iquique",
+        "titulo": "Sala Cuna Del Hospital De Alto Hospicio Suma Carro De Evacuación Para Reforzar La Seguridad De Los Niños Y Niñas",
+        "detalle": "Información de actualidad en norte grande según El Sol de Iquique.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-10-31T15:28:40.593Z"
   }
 };
