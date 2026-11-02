@@ -1,111 +1,125 @@
 export const initialBriefData = {
-  "fecha": "2026-11-01",
+  "fecha": "2026-11-02",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 3 · Saliente / Libre",
-  "ciclo_detalle": "Recuperación y fichas clínicas",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
   "versiculo": {
-    "id": "verse-1",
-    "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
-    "referencia": "Josué 1:9",
-    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    "id": "verse-2",
+    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+    "referencia": "Isaías 40:31",
+    "reflexion": "Tu labor en rehabilitación exige paciencia y resistencia; recuerda que la renovación física y vocacional se recibe paso a paso cada mañana."
   },
   "agenda": [
     {
-      "id": "agenda-20261101-1-personal",
-      "hora": "08:00 – 08:15",
-      "tipo": "personal",
+      "id": "agenda-2026-11-02-1-clinica",
+      "hora": "09:00 – 19:00",
+      "tipo": "clinica",
       "lugar": "",
-      "titulo": "Compromiso personal"
+      "titulo": "Atención clínica"
+    },
+    {
+      "id": "agenda-2026-11-02-2-domicilio",
+      "hora": "11:30 – 12:30",
+      "tipo": "domicilio",
+      "lugar": "",
+      "titulo": "Atención a domicilio"
+    },
+    {
+      "id": "agenda-2026-11-02-3-seguimiento",
+      "hora": "17:00 – 18:00",
+      "tipo": "seguimiento",
+      "lugar": "",
+      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que la ventilación no invasiva intermitente manejada por kinesiólogos salva pulmones tras una cirugía abdominal?",
-      "idea": "Slide 1: El reto de la hipoxemia postquirúrgica. Slide 2: Qué es la VNI intermitente. Slide 3: Rol clave del kinesiólogo respiratorio. Slide 4: Evidencia reciente en hospitales de alta complejidad. Slide 5: Beneficios directos en la saturación. Slide 6: ¡Comenta si trabajas en UCI o postoperatorio! CTA: Sígueme para más evidencia en paciente crítico.",
+      "hook": "¿Sabías que respirar mal puede empeorar tu dolor de hombro?",
+      "idea": "Carrusel explicando cómo los ejercicios respiratorios mejoran la movilidad en hombro congelado (Paper Çelik Benli et al.). Slide 1: Hook. Slide 2: El problema del hombro rígido. Slide 3: La conexión respiración-tórax. Slide 4: Qué dice la ciencia. Slide 5: Ejercicio práctico. Slide 6: Guápame y agenda tu hora. CTA: Comenta 'HOMBRO' para más info.",
       "formato": "Carrusel 6 slides",
-      "base": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery",
+      "base": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation",
       "id": "idea-1"
     },
     {
-      "hook": "¿Te duele la mandíbula y sientes puntos insoportables al presionar? Podría ser tu ATM.",
-      "idea": "Intro de 5 segundos mostrando la palpación masetérica. Explicar cómo un estudio reciente (Oyarzo et al., 2026) demuestra que el dolor crónico de mandíbula tiene mapas de sensibilidad únicos. Dar un tip rápido de liberación miofascial. CTA: ¿Sufres de bruxismo o dolor mandibular? Escríbeme y agenda tu evaluación kinésica.",
+      "hook": "¿Realidad virtual para recuperar la respiración después de una cirugía?",
+      "idea": "Reel mostrando cómo la tecnología ayuda a pacientes postoperados de abdomen a mejorar su fuerza diafragmática (Paper Allam et al.). Muestra imágenes simulando el uso de RV combinada con respiración profunda. CTA: ¿Probarías esta tecnología en tu rehabilitación?",
       "formato": "Reel 30 s",
-      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles",
+      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, and Pulmonary Function",
       "id": "idea-2"
     },
     {
-      "hook": "El gran riesgo oculto en pacientes críticos con soporte circulatorio temporal",
-      "idea": "Slide 1: Paciente crítico con soporte mecánico. Slide 2: El peligro de las infecciones nosocomiales. Slide 3: Impacto en la función pulmonar y ventilatoria. Slide 4: El rol preventivo del equipo multidisciplinario y kinesiología. Slide 5: Protocolos estrictos de manejo en UCI. Slide 6: Comparte este dato clave con colegas de la salud. CTA: Guardá esta información para tus turnos de UCI.",
+      "hook": "¿Te duele la mandíbula y sientes puntos que queman al tocarlos?",
+      "idea": "Carrusel explicando el estudio de sensibilidad a la presión en músculos de la ATM (Paper Oyarzo et al.). Slide 1: Hook. Slide 2: ¿Qué es el dolor crónico mandibular? Slide 3: El estudio reciente en dolor facial. Slide 4: Por qué duele más en ciertas zonas. Slide 5: Tratamiento kinésico especializado. Slide 6: CTA para evaluación de ATM en consulta.",
       "formato": "Carrusel 6 slides",
-      "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles",
       "id": "idea-3"
     },
     {
-      "hook": "¿Espirometría incentivada o tos y respiración profunda? ¿Cuál funciona mejor?",
-      "idea": "Video dinámico explicando el estudio retrospectivo de Jones et al. (2026). Mostrar en 15 segundos cómo se realiza una correcta respiración profunda diafragmática y tos dirigida versus el clásico flujómetro. Explicar cuándo priorizar cada una. CTA: ¿Cuál usas más en tu servicio? Déjalo en comentarios y sígueme para más fisioterapia basada en evidencia.",
+      "hook": "El gran desafío del paciente crítico: protegerlo de las infecciones nosocomiales",
+      "idea": "Reel dinámico hablando sobre el manejo kinésico respiratorio y prevención de infecciones en pacientes con soporte vital avanzado (Paper Dodge et al.). Explica la importancia de evitar complicaciones pulmonares secundarias en UCI. CTA: Sígueme para más contenido de paciente crítico.",
       "formato": "Reel 30 s",
-      "base": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions",
+      "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Ventilación no invasiva intermitente guiada por kinesiólogos para la hipoxemia postquirúrgica abdominal",
-      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
-      "resumen": "Este ensayo piloto evaluó la factibilidad de la ventilación no invasiva intermitente liderada por kinesiólogos en pacientes con hipoxemia tras cirugía abdominal. Los resultados demuestran que esta intervención es viable y segura en el entorno hospitalario complejo.",
-      "objetivo": "Evaluar la viabilidad de un protocolo de ventilación no invasiva intermitente guiada por fisioterapia para el manejo de la hipoxemia postoperatoria abdominal.",
-      "metodologia": "Ensayo clínico aleatorizado de factibilidad realizado en un hospital australiano de cuarto nivel con pacientes postquirúrgicos abdominales.",
-      "hallazgos": "Se demostró la alta viabilidad y seguridad de la intervención kinesiológica para mejorar los parámetros de oxigenación tras la cirugía.",
-      "aplicacion": "Implementar protocolos de ventilación no invasiva intermitente liderados por kinesiología mejora el manejo de la hipoxemia en el postoperatorio abdominal.",
-      "revista": "BJA Open",
-      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+      "titulo": "Efecto de los ejercicios respiratorios en la rehabilitación del hombro congelado",
+      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
+      "resumen": "Este estudio evaluó cómo la incorporación de ejercicios respiratorios mejora el dolor y la movilidad en pacientes con capsulitis adhesiva. Los resultados demuestran un impacto positivo en la calidad de vida y el rango articular.",
+      "objetivo": "Determinar el efecto de los ejercicios respiratorios sobre el dolor, el rango de movimiento y la calidad de vida en la rehabilitación del hombro congelado.",
+      "metodologia": "Estudio clínico aleatorizado y controlado en pacientes adultos diagnosticados con hombro congelado.",
+      "hallazgos": "La inclusión de entrenamiento respiratorio redujo significativamente el dolor y mejoró la movilidad articular en comparación con la terapia convencional sola.",
+      "aplicacion": "Integra patrones respiratorios diafragmáticos en tus pacientes con patología de hombro para disminuir el tono muscular accesorio y facilitar la movilización.",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127261500497",
       "id": "paper-1"
     },
     {
-      "titulo": "Evaluación de las variaciones de sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "resumen": "Este estudio clínico de casos y controles analizó las diferencias en la sensibilidad a la presión dentro y entre los músculos masticatorios con dolor crónico. Se identificaron patrones específicos que explican la complejidad clínica de la disfunción temporomandibular (ATM).",
-      "objetivo": "Analizar las variaciones espaciales en la sensibilidad a la presión dentro de los músculos masticatorios afectados por dolor crónico.",
-      "metodologia": "Estudio clínico de casos y controles evaluando umbrales de dolor a la presión en pacientes con patología crónica de la ATM.",
-      "hallazgos": "Se encontraron diferencias significativas en la distribución de la sensibilidad dolorosa, evidenciando alteraciones miofaciales focales y generalizadas.",
-      "aplicacion": "En la práctica clínica de la ATM, debemos realizar mapas de presión muscular detallados para personalizar el tratamiento de fisioterapia.",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
+      "titulo": "Impacto de la realidad virtual en la función pulmonar post cirugía abdominal alta",
+      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "resumen": "Se investigó el uso de entrenamiento con realidad virtual para optimizar la recuperación respiratoria tras cirugías abdominales altas. Se observaron mejoras significativas en la excursión diafragmática y la fuerza muscular.",
+      "objetivo": "Evaluar el impacto de la realidad virtual en la calidad de vida, excursión diafragmática, función pulmonar y fuerza muscular respiratoria tras cirugías abdominales altas.",
+      "metodologia": "Ensayo clínico aleatorizado realizado en pacientes postoperados de cirugía abdominal alta sometidos a intervención con realidad virtual.",
+      "hallazgos": "El entrenamiento con realidad virtual mejoró notablemente la función pulmonar, la fuerza muscular respiratoria y el movimiento del diafragma.",
+      "aplicacion": "Utiliza herramientas tecnológicas como la realidad virtual para motivar y mejorar los protocolos de kinesiología respiratoria postquirúrgica.",
+      "revista": "Phys Ther",
+      "doi": "https://doi.org/10.1093/ptj/pzag106",
       "id": "paper-2"
     },
     {
-      "titulo": "Limitando el daño colateral: infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal",
-      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "resumen": "Esta revisión aborda la incidencia y manejo de las infecciones nosocomiales en pacientes críticos que requieren soporte circulatorio mecánico temporal. Destaca la necesidad de estrategias preventivas estrictas en unidades de alta complejidad.",
-      "objetivo": "Identificar y analizar el impacto de las infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal.",
-      "metodologia": "Análisis clínico de pacientes críticos en unidades de alta complejidad con dispositivos de asistencia circulatoria temporal.",
-      "hallazgos": "Las infecciones nosocomiales representan una complicación crítica que alarga la estancia hospitalaria y ensombrece el pronóstico del paciente crítico.",
-      "aplicacion": "Extremar las medidas de prevención y el manejo respiratorio adecuado en pacientes críticos con soporte mecánico para evitar infecciones intrahospitalarias.",
-      "revista": "JHLT Open",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares con dolor crónico",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio analizó los umbrales de dolor a la presión en distintas zonas de los músculos masticatorios en pacientes con dolor crónico. Los datos revelan diferencias clínicas clave en la distribución de la hiperalgesia.",
+      "objetivo": "Evaluar las variaciones espaciales de la sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
+      "metodologia": "Estudio clínico de casos y controles enfocado en la evaluación algodómica de la musculatura masticatoria.",
+      "hallazgos": "Se identificaron patrones específicos de mayor sensibilidad a la presión en regiones localizadas de los músculos mandibulares afectados.",
+      "aplicacion": "Al evaluar la ATM, realiza un mapeo detallado de la sensibilidad muscular para guiar de forma más precisa la terapia manual y miofascial.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
       "id": "paper-3"
     },
     {
-      "titulo": "Tos y respiración profunda versus espirometría incentivada: un análisis retrospectivo",
-      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "resumen": "Este análisis retrospectivo comparó la efectividad de las técnicas de tos y respiración profunda frente a la espirometría incentivada en el ámbito clínico. Los datos aportan evidencia sobre el rol de las maniobras respiratorias convencionales.",
-      "objetivo": "Comparar los resultados clínicos entre intervenciones basadas en tos con respiración profunda y el uso de espirometría incentivada.",
-      "metodologia": "Estudio retrospectivo analítico de historias clínicas enfocadas en intervenciones respiratorias postoperatorias.",
-      "hallazgos": "Se observaron similitudes y diferencias clave en la prevención de complicaciones pulmonares según la estrategia respiratoria aplicada.",
-      "aplicacion": "Integrar combinaciones eficientes de ejercicios de expansión torácica y tos dirigida en la pauta de rehabilitación respiratoria.",
-      "revista": "Am J Nurs",
-      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+      "titulo": "Limitación del daño colateral: infecciones nosocomiales en soporte circulatorio mecánico temporal",
+      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "resumen": "Se analizaron las complicaciones infecciosas intrahospitalarias en pacientes críticos con soporte circulatorio mecánico temporal. El manejo multidisciplinario es vital para reducir la morbimortalidad en estas unidades.",
+      "objetivo": "Analizar la incidencia y manejo de las infecciones nosocomiales en pacientes críticos con soporte circulatorio mecánico temporal.",
+      "metodologia": "Revisión clínica y análisis de cohorte en pacientes críticos bajo soporte circulatorio mecánico en unidades de alta complejidad.",
+      "hallazgos": "El estudio destaca la necesidad de protocolos estrictos de prevención de infecciones y manejo respiratorio precoz para evitar complicaciones sistémicas.",
+      "aplicacion": "En paciente crítico cardiovascular, extremar las medidas de higiene y optimizar el destete ventilatorio temprano para minimizar riesgos nosocomiales.",
+      "revista": "JHLT Open",
+      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTHh2NFFSR0U5elViaG0zNk13c0VJb0JiNTNTNnk4UU53ZzhKYlM2anN6UWVoek5YNUMxMTlSdkZtVkQ2aFJESHRrcmVQeVZpbWNVWk9WSDI4REdfazl0V2pkUDJFWjU1T0E5NWRtTTJBcmZEVHRXVlpRMWJWdWRVeGNndWhEYTdSbXd2dHhnZDZIbm5vQTU5eVZra2NOR0xKd1RyVTIxMndobjJWMHV5VzRXRnFfLWxRenFNdU80YlBhX092elo2bg?oc=5",
-      "fuente": "El Dínamo",
-      "titulo": "La alerta de David Bravo por alza del desempleo: “Son causas autoinflingidas por Chile”",
-      "detalle": "Información de actualidad en economía · chile según El Dínamo.",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPd1VBZjI1ZkRnNnRoeDJuOXJWQ2R6MThIQjFHNFRWVjRqWFV4SjRmYW9iYjBTV0FOZjgyUTgwdXBjdnN6bzRyaXZkTGdWMUxGWFFHVk5tc25OR2lHWlJpQkdWRm9YNmRGcmd6b0dBUWMwMFBBNjZkRWs2WlpEWGZRa3VEeEMwNWk2MHRiVE1ORUVvc3d1aTJGVUFabWVLWkQ3V0RDclFUaWNhbEV3VlRfLXZiVkVtZUdsSzE1a3pONU5nUk43WW1HQ0thaXpsR1kzMWxoZkNJaUx2d3RINWxnUm5vUkx1bkg5ZnZwa1lZdmk2OHQ5bDF5d1JUMzdua2xjWVBwUU1GaDRDbG1m?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Expertos recalcan debilidad de fondo en la economía y que Chile lleva tiempo \"con cifras mediocres\"",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -120,22 +134,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTXd2Ny02cFVGNUtCSG5nS2k2bXZJYTJ3c1hpOV9hQncwUFlIOWExYl9NXy1YbnVOOXFJN0RvZ09iak42WTJ0eEdPaTNrVk81Vkc1X1RoTG05MktJRERZOTFSOEtpbXlJSjg5S0JFUm11NVBpd0VaZ1VHSVA5eGlKbWxjTHZzc2pWai1HSEgzTHJxWEpGb3h3a0J0cEt3Z1ZoUll2REkwY1NOVjd4THhOUlYwQ0JOUnhfWnJlMFctQ25WQlJ1T1AyekVubElRUk9WUVlIVDk5V0tSVVdFemRhRFJGeEgwS1JtS0E?oc=5",
-      "fuente": "Cooperativa Ciencia",
-      "titulo": "Chile lidera por cuarto año consecutivo el desarrollo de Inteligencia Artificial en Latinoamérica",
-      "detalle": "Información de actualidad en ia · mercados según Cooperativa Ciencia.",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWdZZmpXT3ZJd2RnYUo5TFk0dVlrU0JVVng5eG9QQ1ZpNG1hX2JuZk9FYkpST0hKR09vTW44X2FnSzBoRHR3WjktRjN5SlIxVnlCUVNhUnVDZzk4OUtfaUFib1lrNkl5Z09xVWtLT2tCZ1Y5VTh6QTY5cHQzbHR2bkVvMy0yalFmNzg2SzJCX1VZVng0Zk40dDYzbkZma2c?oc=5",
+      "fuente": "Radio Canal 95",
+      "titulo": "ChatGPT estrenará publicidad en Chile: OpenAI amplía sus anuncios a nuevos mercados",
+      "detalle": "Información de actualidad en ia · mercados según Radio Canal 95.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNEdEbzY2N2RzamdnbjNGUGZ2SERvSmhDSC1IYzAxd1l0WDVWVWFwMi1talp0VkYwZG1MUXJoc3lVb1duWXhmVUJMSm4teXlDZ2NKRUs0ZS1FS3JJVVNxOThPRWNRUkFiSUNacll2ai1HMXQydnJMMng1Uy1BaW9CN0FNLWdSd0Iz?oc=5",
-      "fuente": "PortalPortuario",
-      "titulo": "Puerto de Iquique recibe nuevo envío de baterías Bess",
-      "detalle": "Información de actualidad en norte grande según PortalPortuario.",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOX010MnpGcWdZNnhCRGl6REsySXB3bEpvR3Bpc2Y4eTJ4LS16aDRkOGU0NGRGckxFV3l2MjQ5QlBValVSa3dQZ3M4RjFFTkp6dDRERnRGVFpURXltT2dET29uQlpwX1pFT1hEUzVPLWhWRmdHSDI4TWh3aUEyMTVrbjFoQVJocERkU3FLb3BQODE0Vnh3blUteW5rTmt1eWJfN0I4cmMyVFNEY3VvcjEtTGZ2RjZlQ1lwd0V1TlR2WWJRWTBsUnc5d1lzeFktc3ZjWXBKTldrZXVMUTJyS18zcmxXRFlJOHF4Wlg3bjlGSEdvWHVSakxrXzVB?oc=5",
+      "fuente": "Junji",
+      "titulo": "Educación Pública entrega 144 nuevos cupos para la primera infancia.",
+      "detalle": "Información de actualidad en norte grande según Junji.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-01T16:15:29.808Z"
+  "creado_en": "2026-11-02T19:42:38.973Z"
 };
