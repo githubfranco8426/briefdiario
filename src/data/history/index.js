@@ -8297,5 +8297,146 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-11-02T19:42:38.973Z"
+  },
+  "2026-11-03": {
+    "fecha": "2026-11-03",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 1 · Turno Largo",
+    "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261103-1-clinica",
+        "hora": "08:00 – 20:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "hook": "¿Sabías que tu respiración puede aliviar tu reflujo gástrico?",
+        "idea": "Slide 1: El problema del reflujo y los fármacos. Slide 2: El rol oculto del diafragma. Slide 3: Qué dice la ciencia reciente (Semwal et al., 2026). Slide 4: Cómo entrenar tu respiración diafragmática. Slide 5: Beneficios clínicos más allá de los pulmones. Slide 6: Guillo-kato: Comenta 'RESPIRA' para recibir una guía de ejercicios. Comenta y comparte.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42735091",
+        "id": "idea-1"
+      },
+      {
+        "hook": "¿Por qué te duele toda la mandíbula cuando tienes bruxismo?",
+        "idea": "Video dinámico explicando cómo la sensibilidad al dolor varía dentro de un mismo músculo masticatorio según nuevos estudios (Oyarzo et al., 2026). Demuestra en cámara una palpación clínica diferencial y entrega un consejo rápido de relajación mandibular. CTA: Sígueme para más datos de ATM.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42925012",
+        "id": "idea-2"
+      },
+      {
+        "hook": "El mayor peligro invisible en una UCI: salvar el corazón evitando infecciones",
+        "idea": "Slide 1: Pacientes críticos con soporte circulatorio temporal. Slide 2: El desafío del daño colateral e infecciones nosocomiales (Dodge et al., 2026). Slide 3: El rol clave de la kinesiología respiratoria y movilización precoz. Slide 4: Protocolos estrictos de prevención. Slide 5: Trabajo en equipo multiprofesional. Slide 6: Guarda este post si te apasiona el paciente crítico.",
+        "formato": "Carrusel 6 slides",
+        "base": "PMID: 42903899",
+        "id": "idea-3"
+      },
+      {
+        "hook": "¿Espirometría incentivada o respiración profunda y tos? ¿Cuál gana?",
+        "idea": "Video explicando el análisis retrospectivo reciente sobre expansión pulmonar (Jones et al., 2026). Compara brevemente cuándo priorizar la tos y respiración profunda frente al espirómetro en pacientes hospitalizados. CTA: Comenta qué técnica usas más en tu servicio.",
+        "formato": "Reel 30 s",
+        "base": "PMID: 42960488",
+        "id": "idea-4"
+      }
+    ],
+    "papers": [
+      {
+        "titulo": "La respiración diafragmática como enfoque coadyuvante en la enfermedad por reflujo gastroesofágico",
+        "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+        "resumen": "Esta revisión narrativa analiza los mecanismos y la evidencia clínica sobre el uso de la respiración diafragmática para mejorar los síntomas del reflujo gastroesofágico. Se destaca su rol en la función del esfínter esofágico inferior mediante el entrenamiento muscular respiratorio.",
+        "objetivo": "Describir la base mecanística y la evidencia clínica de la respiración diafragmática en pacientes con reflujo gastroesofágico.",
+        "metodologia": "Revisión narrativa de la literatura científica analizando estudios previos sobre biomecánica respiratoria y reflujo.",
+        "hallazgos": "El entrenamiento del diafragma disminuye los episodios de reflujo al fortalecer el soporte mecánico de la unión esofagogástrica.",
+        "aplicacion": "Integra ejercicios de control diafragmático en pacientes con síntomas digestivos altos asociados a tensiones tóraco-abdominales.",
+        "revista": "Adv Mind Body Med",
+        "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+        "id": "paper-1"
+      },
+      {
+        "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
+        "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+        "resumen": "Este estudio clínico de casos y controles investiga la distribución de la sensibilidad a la presión dentro de los músculos masticatorios en pacientes con dolor crónico. Los resultados aportan a la comprensión clínica de los mapas de dolor miofascial en la disfunción temporomandibular (ATM).",
+        "objetivo": "Evaluar las variaciones espaciales de la sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
+        "metodologia": "Estudio clínico de casos y controles midiendo umbrales de dolor a la presión en musculatura masticatoria.",
+        "hallazgos": "Existe una variación significativa en la sensibilidad a la presión que demuestra patrones heterogéneos en el dolor miofascial crónico de la mandíbula.",
+        "aplicacion": "Realiza palpaciones clínicas detalladas y focalizadas en distintos haces musculares al evaluar pacientes con trastornos temporomandibulares.",
+        "revista": "Eur J Pain",
+        "doi": "https://doi.org/10.1002/ejp.70423",
+        "id": "paper-2"
+      },
+      {
+        "titulo": "Limitando el daño colateral: infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal",
+        "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "resumen": "Este artículo analiza la incidencia y el manejo de las infecciones nosocomiales en pacientes críticos que requieren soporte circulatorio mecánico temporal. Se enfatiza la necesidad de protocolos estrictos de prevención durante la estancia en unidades de paciente crítico.",
+        "objetivo": "Analizar el impacto y prevención de infecciones intrahospitalarias en pacientes críticos con dispositivos de soporte circulatorio temporal.",
+        "metodologia": "Análisis clínico retrospectivo y revisión de complicaciones infecciosas en pacientes con soporte circulatorio avanzado.",
+        "hallazgos": "Las infecciones nosocomiales complican de manera crítica la evolución de los pacientes con soporte circulatorio temporal.",
+        "aplicacion": "Extrema las medidas de prevención de neumonías asociadas a ventilación mecánica y protocolos de movilización precoz segura en pacientes críticos.",
+        "revista": "JHLT Open",
+        "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+        "id": "paper-3"
+      },
+      {
+        "titulo": "Tos y respiración profunda versus espirometría incentivada: un análisis retrospectivo en intervenciones de enfermería",
+        "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+        "resumen": "Este análisis retrospectivo compara la eficacia clínica de técnicas de respiración profunda y tos versus el uso de espirometría incentivada. Los datos ayudan a optimizar las pautas de expansión pulmonar en la práctica clínica hospitalaria.",
+        "objetivo": "Comparar los resultados clínicos entre la aplicación de técnicas de tos y respiración profunda frente a la espirometría incentivada.",
+        "metodologia": "Análisis retrospectivo de historias clínicas y registros de intervenciones respiratorias en pacientes hospitalizados.",
+        "hallazgos": "Ambas estrategias muestran roles complementarios en la prevención de complicaciones pulmonares postoperatorias según el perfil del paciente.",
+        "aplicacion": "Combina la tos asistida y los patrones de respiración profunda personalizados según la tolerancia y condición basal del paciente en sala.",
+        "revista": "Am J Nurs",
+        "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+        "id": "paper-4"
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPWHZSY2ZZaTdiZ05WakNZQjFhQUFlY2RrcEswM1hURGJrRGc5NFo4ZnlRUHhURzhzWGlMT28zaXltTVJUYm1tdjZ2cHpsQjhFWVZSS3Y4TjVUaEphRDB3aDl3bDlrbVVwN2JnRngyYV9GNmNUdnhBQ3BnMDRLZklfczNGNzNaRWMyVjFHNlRlSmZVeDJiX2s2N2FCMjNjWlNqUy1Mak1neno4V21ZdXJOOVQ2UWlMUXcyUU9Db1cyeC16NnpLRkgyWC1hSUZwNVpJRFBXbU0xaTN2RkVaYnpzLXZPNVpJbGNiSmR1SC1CcjRBU2IzLXlFY3Q5SjU0RGpmQ1dCQ05ZNV9TU3ozUHhTWA?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Gobierno dice que está cimentando el Chile de 2050 y reitera que 2027 será de recuperación económica",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+        "fuente": "Universidad de Chile",
+        "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+        "detalle": "Información de actualidad en salud según Universidad de Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnE2c3hfRER0amM5VGl5UUJacUdjOURjczN1UGI1bVItZDkzSXNZaUpQQjhmaUdzUDlNSHFPOWNQc2NfbVdTc1ZQd0N5U3FiU1hTR054QjNwRVNuLTFSaXU5T0dCNTM1MFR0eFFJR1M0YTQwMW5LbXdid1hyQ2pfZkJwSWYxaXBHMnNSWWVNdi11TkFVV3ViT0xNSGJiWGNWRjM5LXF3cHJ1cnRFd1RsemhTb2VkakpfYTBrZHJFejh5Nl9L0gHMAUFVX3lxTE51eVlpcnhoTkhlR0lDcklZdHV4TUp4S2tfZWVwYVR0NXdIM0NEc1ptVjFwV3RpSmJtb0ZxR2JiSGNHTzhMS3pESnZNQzhjdmRiSUJFUjhQNGVGWjh0ejJ0TktaLWgzQUhhWXhUWUpFMGhKRUVfSTZGSVNjcThOTDJWMjdHZTZWQUsxTUJ1UEg3VWNOU3NnMlZpWDB3VF9oZ2N6TVkxYjdEMEkyNUYxMHhZMDVPLUF4MnNjWEdYc1cwWkJNMXNCMzE2S0cycA?oc=5",
+        "fuente": "Alerta Geek",
+        "titulo": "OpenAI expande los anuncios de ChatGPT a Chile y otros 13 mercados de Latinoamérica",
+        "detalle": "Información de actualidad en ia · mercados según Alerta Geek.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVjhfaWw2bGhqdkRFeHZMdGNMY2p4NEhGbUlIdHBSdmJ5b0VZM0dQNFVtSWZ2U18ydGZiZk9RclMzLVMxTFF2Qy1icVN4a1E5Nlo2ZFJub3BDZ1NkVVdSZ29Wa3dhY0FPVFBHckh1Mk1KZjJRR0lWaDJFZU5nb0lCSFc4cWFvc3dtenR2X0tlMVZiS2VmVzB5bEI2QkNsMDhOejNiMzdnUmdnN1hPckdXNllId01sN195aHFMazBvdlVTcjVtLWFv?oc=5",
+        "fuente": "Edición Cero",
+        "titulo": "Agrupaciones pampinas de Iquique y Arica, se reunieron en Asamblea Anual realizada en Humberstone",
+        "detalle": "Información de actualidad en norte grande según Edición Cero.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-11-03T17:16:14.325Z"
   }
 };

@@ -1,124 +1,110 @@
 export const initialBriefData = {
-  "fecha": "2026-11-02",
+  "fecha": "2026-11-03",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-2",
-    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
-    "referencia": "Isaías 40:31",
-    "reflexion": "Tu labor en rehabilitación exige paciencia y resistencia; recuerda que la renovación física y vocacional se recibe paso a paso cada mañana."
+    "id": "verse-3",
+    "texto": "Todo lo puedo en Cristo que me fortalece.",
+    "referencia": "Filipenses 4:13",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-2026-11-02-1-clinica",
-      "hora": "09:00 – 19:00",
+      "id": "agenda-20261103-1-clinica",
+      "hora": "08:00 – 20:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
-    },
-    {
-      "id": "agenda-2026-11-02-2-domicilio",
-      "hora": "11:30 – 12:30",
-      "tipo": "domicilio",
-      "lugar": "",
-      "titulo": "Atención a domicilio"
-    },
-    {
-      "id": "agenda-2026-11-02-3-seguimiento",
-      "hora": "17:00 – 18:00",
-      "tipo": "seguimiento",
-      "lugar": "",
-      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que respirar mal puede empeorar tu dolor de hombro?",
-      "idea": "Carrusel explicando cómo los ejercicios respiratorios mejoran la movilidad en hombro congelado (Paper Çelik Benli et al.). Slide 1: Hook. Slide 2: El problema del hombro rígido. Slide 3: La conexión respiración-tórax. Slide 4: Qué dice la ciencia. Slide 5: Ejercicio práctico. Slide 6: Guápame y agenda tu hora. CTA: Comenta 'HOMBRO' para más info.",
+      "hook": "¿Sabías que tu respiración puede aliviar tu reflujo gástrico?",
+      "idea": "Slide 1: El problema del reflujo y los fármacos. Slide 2: El rol oculto del diafragma. Slide 3: Qué dice la ciencia reciente (Semwal et al., 2026). Slide 4: Cómo entrenar tu respiración diafragmática. Slide 5: Beneficios clínicos más allá de los pulmones. Slide 6: Guillo-kato: Comenta 'RESPIRA' para recibir una guía de ejercicios. Comenta y comparte.",
       "formato": "Carrusel 6 slides",
-      "base": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation",
+      "base": "PMID: 42735091",
       "id": "idea-1"
     },
     {
-      "hook": "¿Realidad virtual para recuperar la respiración después de una cirugía?",
-      "idea": "Reel mostrando cómo la tecnología ayuda a pacientes postoperados de abdomen a mejorar su fuerza diafragmática (Paper Allam et al.). Muestra imágenes simulando el uso de RV combinada con respiración profunda. CTA: ¿Probarías esta tecnología en tu rehabilitación?",
+      "hook": "¿Por qué te duele toda la mandíbula cuando tienes bruxismo?",
+      "idea": "Video dinámico explicando cómo la sensibilidad al dolor varía dentro de un mismo músculo masticatorio según nuevos estudios (Oyarzo et al., 2026). Demuestra en cámara una palpación clínica diferencial y entrega un consejo rápido de relajación mandibular. CTA: Sígueme para más datos de ATM.",
       "formato": "Reel 30 s",
-      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, and Pulmonary Function",
+      "base": "PMID: 42925012",
       "id": "idea-2"
     },
     {
-      "hook": "¿Te duele la mandíbula y sientes puntos que queman al tocarlos?",
-      "idea": "Carrusel explicando el estudio de sensibilidad a la presión en músculos de la ATM (Paper Oyarzo et al.). Slide 1: Hook. Slide 2: ¿Qué es el dolor crónico mandibular? Slide 3: El estudio reciente en dolor facial. Slide 4: Por qué duele más en ciertas zonas. Slide 5: Tratamiento kinésico especializado. Slide 6: CTA para evaluación de ATM en consulta.",
+      "hook": "El mayor peligro invisible en una UCI: salvar el corazón evitando infecciones",
+      "idea": "Slide 1: Pacientes críticos con soporte circulatorio temporal. Slide 2: El desafío del daño colateral e infecciones nosocomiales (Dodge et al., 2026). Slide 3: El rol clave de la kinesiología respiratoria y movilización precoz. Slide 4: Protocolos estrictos de prevención. Slide 5: Trabajo en equipo multiprofesional. Slide 6: Guarda este post si te apasiona el paciente crítico.",
       "formato": "Carrusel 6 slides",
-      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles",
+      "base": "PMID: 42903899",
       "id": "idea-3"
     },
     {
-      "hook": "El gran desafío del paciente crítico: protegerlo de las infecciones nosocomiales",
-      "idea": "Reel dinámico hablando sobre el manejo kinésico respiratorio y prevención de infecciones en pacientes con soporte vital avanzado (Paper Dodge et al.). Explica la importancia de evitar complicaciones pulmonares secundarias en UCI. CTA: Sígueme para más contenido de paciente crítico.",
+      "hook": "¿Espirometría incentivada o respiración profunda y tos? ¿Cuál gana?",
+      "idea": "Video explicando el análisis retrospectivo reciente sobre expansión pulmonar (Jones et al., 2026). Compara brevemente cuándo priorizar la tos y respiración profunda frente al espirómetro en pacientes hospitalizados. CTA: Comenta qué técnica usas más en tu servicio.",
       "formato": "Reel 30 s",
-      "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "base": "PMID: 42960488",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Efecto de los ejercicios respiratorios en la rehabilitación del hombro congelado",
-      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "resumen": "Este estudio evaluó cómo la incorporación de ejercicios respiratorios mejora el dolor y la movilidad en pacientes con capsulitis adhesiva. Los resultados demuestran un impacto positivo en la calidad de vida y el rango articular.",
-      "objetivo": "Determinar el efecto de los ejercicios respiratorios sobre el dolor, el rango de movimiento y la calidad de vida en la rehabilitación del hombro congelado.",
-      "metodologia": "Estudio clínico aleatorizado y controlado en pacientes adultos diagnosticados con hombro congelado.",
-      "hallazgos": "La inclusión de entrenamiento respiratorio redujo significativamente el dolor y mejoró la movilidad articular en comparación con la terapia convencional sola.",
-      "aplicacion": "Integra patrones respiratorios diafragmáticos en tus pacientes con patología de hombro para disminuir el tono muscular accesorio y facilitar la movilización.",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1177/10538127261500497",
+      "titulo": "La respiración diafragmática como enfoque coadyuvante en la enfermedad por reflujo gastroesofágico",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión narrativa analiza los mecanismos y la evidencia clínica sobre el uso de la respiración diafragmática para mejorar los síntomas del reflujo gastroesofágico. Se destaca su rol en la función del esfínter esofágico inferior mediante el entrenamiento muscular respiratorio.",
+      "objetivo": "Describir la base mecanística y la evidencia clínica de la respiración diafragmática en pacientes con reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de la literatura científica analizando estudios previos sobre biomecánica respiratoria y reflujo.",
+      "hallazgos": "El entrenamiento del diafragma disminuye los episodios de reflujo al fortalecer el soporte mecánico de la unión esofagogástrica.",
+      "aplicacion": "Integra ejercicios de control diafragmático en pacientes con síntomas digestivos altos asociados a tensiones tóraco-abdominales.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-1"
     },
     {
-      "titulo": "Impacto de la realidad virtual en la función pulmonar post cirugía abdominal alta",
-      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "resumen": "Se investigó el uso de entrenamiento con realidad virtual para optimizar la recuperación respiratoria tras cirugías abdominales altas. Se observaron mejoras significativas en la excursión diafragmática y la fuerza muscular.",
-      "objetivo": "Evaluar el impacto de la realidad virtual en la calidad de vida, excursión diafragmática, función pulmonar y fuerza muscular respiratoria tras cirugías abdominales altas.",
-      "metodologia": "Ensayo clínico aleatorizado realizado en pacientes postoperados de cirugía abdominal alta sometidos a intervención con realidad virtual.",
-      "hallazgos": "El entrenamiento con realidad virtual mejoró notablemente la función pulmonar, la fuerza muscular respiratoria y el movimiento del diafragma.",
-      "aplicacion": "Utiliza herramientas tecnológicas como la realidad virtual para motivar y mejorar los protocolos de kinesiología respiratoria postquirúrgica.",
-      "revista": "Phys Ther",
-      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio clínico de casos y controles investiga la distribución de la sensibilidad a la presión dentro de los músculos masticatorios en pacientes con dolor crónico. Los resultados aportan a la comprensión clínica de los mapas de dolor miofascial en la disfunción temporomandibular (ATM).",
+      "objetivo": "Evaluar las variaciones espaciales de la sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
+      "metodologia": "Estudio clínico de casos y controles midiendo umbrales de dolor a la presión en musculatura masticatoria.",
+      "hallazgos": "Existe una variación significativa en la sensibilidad a la presión que demuestra patrones heterogéneos en el dolor miofascial crónico de la mandíbula.",
+      "aplicacion": "Realiza palpaciones clínicas detalladas y focalizadas en distintos haces musculares al evaluar pacientes con trastornos temporomandibulares.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
       "id": "paper-2"
     },
     {
-      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares con dolor crónico",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "resumen": "Este estudio analizó los umbrales de dolor a la presión en distintas zonas de los músculos masticatorios en pacientes con dolor crónico. Los datos revelan diferencias clínicas clave en la distribución de la hiperalgesia.",
-      "objetivo": "Evaluar las variaciones espaciales de la sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
-      "metodologia": "Estudio clínico de casos y controles enfocado en la evaluación algodómica de la musculatura masticatoria.",
-      "hallazgos": "Se identificaron patrones específicos de mayor sensibilidad a la presión en regiones localizadas de los músculos mandibulares afectados.",
-      "aplicacion": "Al evaluar la ATM, realiza un mapeo detallado de la sensibilidad muscular para guiar de forma más precisa la terapia manual y miofascial.",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
+      "titulo": "Limitando el daño colateral: infecciones nosocomiales en pacientes con soporte circulatorio mecánico temporal",
+      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "resumen": "Este artículo analiza la incidencia y el manejo de las infecciones nosocomiales en pacientes críticos que requieren soporte circulatorio mecánico temporal. Se enfatiza la necesidad de protocolos estrictos de prevención durante la estancia en unidades de paciente crítico.",
+      "objetivo": "Analizar el impacto y prevención de infecciones intrahospitalarias en pacientes críticos con dispositivos de soporte circulatorio temporal.",
+      "metodologia": "Análisis clínico retrospectivo y revisión de complicaciones infecciosas en pacientes con soporte circulatorio avanzado.",
+      "hallazgos": "Las infecciones nosocomiales complican de manera crítica la evolución de los pacientes con soporte circulatorio temporal.",
+      "aplicacion": "Extrema las medidas de prevención de neumonías asociadas a ventilación mecánica y protocolos de movilización precoz segura en pacientes críticos.",
+      "revista": "JHLT Open",
+      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
       "id": "paper-3"
     },
     {
-      "titulo": "Limitación del daño colateral: infecciones nosocomiales en soporte circulatorio mecánico temporal",
-      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "resumen": "Se analizaron las complicaciones infecciosas intrahospitalarias en pacientes críticos con soporte circulatorio mecánico temporal. El manejo multidisciplinario es vital para reducir la morbimortalidad en estas unidades.",
-      "objetivo": "Analizar la incidencia y manejo de las infecciones nosocomiales en pacientes críticos con soporte circulatorio mecánico temporal.",
-      "metodologia": "Revisión clínica y análisis de cohorte en pacientes críticos bajo soporte circulatorio mecánico en unidades de alta complejidad.",
-      "hallazgos": "El estudio destaca la necesidad de protocolos estrictos de prevención de infecciones y manejo respiratorio precoz para evitar complicaciones sistémicas.",
-      "aplicacion": "En paciente crítico cardiovascular, extremar las medidas de higiene y optimizar el destete ventilatorio temprano para minimizar riesgos nosocomiales.",
-      "revista": "JHLT Open",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+      "titulo": "Tos y respiración profunda versus espirometría incentivada: un análisis retrospectivo en intervenciones de enfermería",
+      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "resumen": "Este análisis retrospectivo compara la eficacia clínica de técnicas de respiración profunda y tos versus el uso de espirometría incentivada. Los datos ayudan a optimizar las pautas de expansión pulmonar en la práctica clínica hospitalaria.",
+      "objetivo": "Comparar los resultados clínicos entre la aplicación de técnicas de tos y respiración profunda frente a la espirometría incentivada.",
+      "metodologia": "Análisis retrospectivo de historias clínicas y registros de intervenciones respiratorias en pacientes hospitalizados.",
+      "hallazgos": "Ambas estrategias muestran roles complementarios en la prevención de complicaciones pulmonares postoperatorias según el perfil del paciente.",
+      "aplicacion": "Combina la tos asistida y los patrones de respiración profunda personalizados según la tolerancia y condición basal del paciente en sala.",
+      "revista": "Am J Nurs",
+      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPd1VBZjI1ZkRnNnRoeDJuOXJWQ2R6MThIQjFHNFRWVjRqWFV4SjRmYW9iYjBTV0FOZjgyUTgwdXBjdnN6bzRyaXZkTGdWMUxGWFFHVk5tc25OR2lHWlJpQkdWRm9YNmRGcmd6b0dBUWMwMFBBNjZkRWs2WlpEWGZRa3VEeEMwNWk2MHRiVE1ORUVvc3d1aTJGVUFabWVLWkQ3V0RDclFUaWNhbEV3VlRfLXZiVkVtZUdsSzE1a3pONU5nUk43WW1HQ0thaXpsR1kzMWxoZkNJaUx2d3RINWxnUm5vUkx1bkg5ZnZwa1lZdmk2OHQ5bDF5d1JUMzdua2xjWVBwUU1GaDRDbG1m?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPWHZSY2ZZaTdiZ05WakNZQjFhQUFlY2RrcEswM1hURGJrRGc5NFo4ZnlRUHhURzhzWGlMT28zaXltTVJUYm1tdjZ2cHpsQjhFWVZSS3Y4TjVUaEphRDB3aDl3bDlrbVVwN2JnRngyYV9GNmNUdnhBQ3BnMDRLZklfczNGNzNaRWMyVjFHNlRlSmZVeDJiX2s2N2FCMjNjWlNqUy1Mak1neno4V21ZdXJOOVQ2UWlMUXcyUU9Db1cyeC16NnpLRkgyWC1hSUZwNVpJRFBXbU0xaTN2RkVaYnpzLXZPNVpJbGNiSmR1SC1CcjRBU2IzLXlFY3Q5SjU0RGpmQ1dCQ05ZNV9TU3ozUHhTWA?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Expertos recalcan debilidad de fondo en la economía y que Chile lleva tiempo \"con cifras mediocres\"",
+      "titulo": "Gobierno dice que está cimentando el Chile de 2050 y reitera que 2027 será de recuperación económica",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -134,22 +120,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWdZZmpXT3ZJd2RnYUo5TFk0dVlrU0JVVng5eG9QQ1ZpNG1hX2JuZk9FYkpST0hKR09vTW44X2FnSzBoRHR3WjktRjN5SlIxVnlCUVNhUnVDZzk4OUtfaUFib1lrNkl5Z09xVWtLT2tCZ1Y5VTh6QTY5cHQzbHR2bkVvMy0yalFmNzg2SzJCX1VZVng0Zk40dDYzbkZma2c?oc=5",
-      "fuente": "Radio Canal 95",
-      "titulo": "ChatGPT estrenará publicidad en Chile: OpenAI amplía sus anuncios a nuevos mercados",
-      "detalle": "Información de actualidad en ia · mercados según Radio Canal 95.",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTnE2c3hfRER0amM5VGl5UUJacUdjOURjczN1UGI1bVItZDkzSXNZaUpQQjhmaUdzUDlNSHFPOWNQc2NfbVdTc1ZQd0N5U3FiU1hTR054QjNwRVNuLTFSaXU5T0dCNTM1MFR0eFFJR1M0YTQwMW5LbXdid1hyQ2pfZkJwSWYxaXBHMnNSWWVNdi11TkFVV3ViT0xNSGJiWGNWRjM5LXF3cHJ1cnRFd1RsemhTb2VkakpfYTBrZHJFejh5Nl9L0gHMAUFVX3lxTE51eVlpcnhoTkhlR0lDcklZdHV4TUp4S2tfZWVwYVR0NXdIM0NEc1ptVjFwV3RpSmJtb0ZxR2JiSGNHTzhMS3pESnZNQzhjdmRiSUJFUjhQNGVGWjh0ejJ0TktaLWgzQUhhWXhUWUpFMGhKRUVfSTZGSVNjcThOTDJWMjdHZTZWQUsxTUJ1UEg3VWNOU3NnMlZpWDB3VF9oZ2N6TVkxYjdEMEkyNUYxMHhZMDVPLUF4MnNjWEdYc1cwWkJNMXNCMzE2S0cycA?oc=5",
+      "fuente": "Alerta Geek",
+      "titulo": "OpenAI expande los anuncios de ChatGPT a Chile y otros 13 mercados de Latinoamérica",
+      "detalle": "Información de actualidad en ia · mercados según Alerta Geek.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOX010MnpGcWdZNnhCRGl6REsySXB3bEpvR3Bpc2Y4eTJ4LS16aDRkOGU0NGRGckxFV3l2MjQ5QlBValVSa3dQZ3M4RjFFTkp6dDRERnRGVFpURXltT2dET29uQlpwX1pFT1hEUzVPLWhWRmdHSDI4TWh3aUEyMTVrbjFoQVJocERkU3FLb3BQODE0Vnh3blUteW5rTmt1eWJfN0I4cmMyVFNEY3VvcjEtTGZ2RjZlQ1lwd0V1TlR2WWJRWTBsUnc5d1lzeFktc3ZjWXBKTldrZXVMUTJyS18zcmxXRFlJOHF4Wlg3bjlGSEdvWHVSakxrXzVB?oc=5",
-      "fuente": "Junji",
-      "titulo": "Educación Pública entrega 144 nuevos cupos para la primera infancia.",
-      "detalle": "Información de actualidad en norte grande según Junji.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVjhfaWw2bGhqdkRFeHZMdGNMY2p4NEhGbUlIdHBSdmJ5b0VZM0dQNFVtSWZ2U18ydGZiZk9RclMzLVMxTFF2Qy1icVN4a1E5Nlo2ZFJub3BDZ1NkVVdSZ29Wa3dhY0FPVFBHckh1Mk1KZjJRR0lWaDJFZU5nb0lCSFc4cWFvc3dtenR2X0tlMVZiS2VmVzB5bEI2QkNsMDhOejNiMzdnUmdnN1hPckdXNllId01sN195aHFMazBvdlVTcjVtLWFv?oc=5",
+      "fuente": "Edición Cero",
+      "titulo": "Agrupaciones pampinas de Iquique y Arica, se reunieron en Asamblea Anual realizada en Humberstone",
+      "detalle": "Información de actualidad en norte grande según Edición Cero.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-02T19:42:38.973Z"
+  "creado_en": "2026-11-03T17:16:14.325Z"
 };
