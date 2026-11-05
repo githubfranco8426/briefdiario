@@ -1,35 +1,35 @@
 export const initialBriefData = {
-  "fecha": "2026-11-04",
+  "fecha": "2026-11-05",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-4",
-    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
-    "referencia": "Salmos 121:1-2",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261104-1-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
+      "id": "agenda-20261105-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
       "lugar": "",
-      "titulo": "Atención clínica"
+      "titulo": "Compromiso personal"
     }
   ],
   "ideas": [
     {
       "id": "idea-1",
-      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "base": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "base": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -43,7 +43,7 @@ export const initialBriefData = {
     },
     {
       "id": "idea-4",
-      "base": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "base": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
       "hook": "Movilizar antes, no después",
       "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
@@ -52,52 +52,52 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
-      "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "revista": "Arch Phys Med Rehabil",
+      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.apmr.2026.04.011",
+      "resumen": "Estudio reciente publicado en Arch Phys Med Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-2",
-      "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "revista": "Cranio",
-      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
-      "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "revista": "Transplant Cell Ther",
+      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jtct.2026.07.024",
+      "resumen": "Estudio reciente publicado en Transplant Cell Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
-      "titulo": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
-      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
-      "revista": "BMC Pulm Med",
-      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12890-026-04533-3",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "titulo": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "revista": "Prog Rehabil Med",
+      "doi": "https://doi.org/10.2490/prm.20260038",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.2490%2Fprm.20260038",
+      "resumen": "Estudio reciente publicado en Prog Rehabil Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-4",
-      "titulo": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
-      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
-      "revista": "J Neurol",
-      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1007%2Fs00415-026-13982-z",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "titulo": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "revista": "J Community Hosp Intern Med Perspect",
+      "doi": "https://doi.org/10.55729/2000-9666.1612",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.55729%2F2000-9666.1612",
+      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMHdEcDVpaTVabGxSOWhKQWNFVE5CMUdTVFd0Ujhiel9XZzVuMVVFbGJHTGRKNzBDS09mT0Y2cVJ2M3BKeG80N1BkeUxmLVQyLXAtTV92c215VFVqSmNoUllVd25tai1zSmh2X3dXWHBPWndwRjcwb0xPSTRMRFQ1LU9tOGFRWjdfdzl1NlQwNm0wX3hTLWdSR0IwbmV1bExDWFhCc0FMMjFFMy1QRUVIZ2t3bHE2a1JJNUhBSGhBYXh5bXl5?oc=5",
-      "fuente": "Diario Financiero",
-      "titulo": "Frutas de Chile se resta de lanzamiento de temporada de cerezas en San Antonio",
-      "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOYnNKcWJIdHY0WWw2S0tLUDVla25rUlZpZUxxbTRvOWliVjdrbW11ZnhjcTgyQTJWRm8zZVlVU3hSZFpZcXhydENtb0JCQkpXWl9ycjh4Mm82X3ZLc0JLUDBJSE8ySm5fNkRCZklzZDZYUEtxN3pzOWRYSERDUEc2bFpjYmdFSHluWVlXWFNfYW44bDhtMXA0Zm9oV2pERkZGSjlvdFRlMkxxLUc3VzVWdTg2YVpmTW41ZXM2UUhHQldNSEtlZGxueE1vRUdka252c0VzQnR1bWYzcUd5NDh5d3daMTdORGM1OE9ucVFpeVJCREYzRkJ5ODM1VW9fMUdlS1I1LXQyY0ZlTjFy?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Importadores dicen que unos 800 modelos de autos quedarían \"descontinuados\" en Chile y enciende debate",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -121,13 +121,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYkVuMVhyT3hNcUh3Y2R2em1UUEZFLURMaW5aR0w4M2VPek5pM190UTQ2ZllUaXpCQjJObDcwUnZCUzlfQ3JCQ2lhMndHWk00NkxnSjlZVFN3RDlZYUdodEZaSnpOTW8zVXFaQmw1TFBJTnRCWVQyTGF4N2dIUW5ac203R0phY0JlQ1plclR1NUpJbEVRcy03QTVSS0FzTnVTelBCTWdhWVR4MWFGNWVWSE9zeDlqSzh2Y1JKWkYwSzNUNkV2UHF0aHdTbzdTMG55?oc=5",
-      "fuente": "G5noticias",
-      "titulo": "Senadora Astudillo exige recursos para Hospital de Iquique ante déficit proyectado de $23 mil millones",
-      "detalle": "Información de actualidad en norte grande según G5noticias.",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbGEyTWYtcGFSWkphRmRSeElTRTJUa2k2dHpmQXM3WlBvMFEtQVhadUxob1dLNHRpZDhVbnc0bk5MZGJWdjJBdTYtV29FaWRIa2VlTWdMZC0tc0FkbUh6cjlBRFRPa2I5clBZTkkyYlhfSExUV29Bbnptb0VfV2FkQnJBQ3p6TmM5Nm16TGlxOWhleVMtR2pnZ2R0Ny1LRXdNX3U3ZWx2cVgxNjNISlhsSjkyQTdHM1J6RXBDRFhEbjI?oc=5",
+      "fuente": "portal.inacap.cl",
+      "titulo": "Estudiantes de INACAP Iquique llevan sabores e identidad de Tarapacá al podio de Chef Norte",
+      "detalle": "Información de actualidad en norte grande según portal.inacap.cl.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-04T17:26:19.906Z"
+  "creado_en": "2026-11-05T17:35:22.416Z"
 };
