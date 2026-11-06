@@ -8704,5 +8704,152 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-11-05T17:35:22.416Z"
+  },
+  "2026-11-06": {
+    "fecha": "2026-11-06",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 4 · Segundo libre",
+    "ciclo_detalle": "Consultas 09:00–19:00",
+    "versiculo": {
+      "id": "verse-6",
+      "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+      "referencia": "Jeremías 33:3",
+      "reflexion": "En diagnósticos complejos o cuadros atípicos, pide discernimiento y sabiduría clínica para orientar el mejor camino de tratamiento."
+    },
+    "agenda": [
+      {
+        "id": "agenda-2026-11-06-1-clinica",
+        "hora": "09:00 – 19:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      },
+      {
+        "id": "agenda-2026-11-06-2-domicilio",
+        "hora": "11:30 – 12:30",
+        "tipo": "domicilio",
+        "lugar": "",
+        "titulo": "Atención a domicilio"
+      },
+      {
+        "id": "agenda-2026-11-06-3-seguimiento",
+        "hora": "17:00 – 18:00",
+        "tipo": "seguimiento",
+        "lugar": "",
+        "titulo": "Seguimiento profesional"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101609",
+        "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+        "titulo_original": "Implementing a Mobility Program for Pretransplant Patients With Femoral Intra-Aortic Balloon Pump: A Nurse-Led Initiative Quality Improvement Approach",
+        "revista": "Crit Care Nurs Q",
+        "doi": "https://doi.org/10.1097/CNQ.0000000000000609",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FCNQ.0000000000000609",
+        "resumen": "Estudio reciente publicado en Crit Care Nurs Q sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+        "titulo_original": "Efficacy of swallowing muscle training for the treatment of patients with post-stroke dysphagia: A systematic review and meta-analysis",
+        "revista": "Eur Ann Otorhinolaryngol Head Neck Dis",
+        "doi": "https://doi.org/10.1016/j.anorl.2026.03.005",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.anorl.2026.03.005",
+        "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+        "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
+        "titulo_original": "Is pulmonary hypertension still a contraindication for lung volume reduction?-a narrative review of contemporary evidence",
+        "revista": "Ann Transl Med",
+        "doi": "https://doi.org/10.21037/atm-2026-1-0028",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.21037%2Fatm-2026-1-0028",
+        "resumen": "Estudio reciente publicado en Ann Transl Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYkt1YW9YRWpHa0QxTlFHcEFLSXZLN1NBUGo3WWNCMzZOQVh4MGRHUF9tMHhZTE9aVHVxWkZYdy1WVXdhaC0yX0wtNktlRTl5YU5zemEzYTdpczhnZnZtcFRMZlE1VnZuTGxFWE5GeV9qc3Fabnp0YWIyX3lLSHJGRTU0VllDX0VPNVpXN0V4VEtSdHNwaXZYa0w4QjdTUEdjRjVQSnRBN3ZKWUxhVUM2ZVRGMFltZGwzZ0Z2Uk9tTUN6OTRNYmt3bXFEMXdzaHI2ckNSN0pDWEdCTTFxT01Fanc4bFc2Nm1OYkVLRWR3TmwybHlDbjRvQlF3?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "La economía desplaza a delincuencia en Chile: 61% prevé un país peor en un año y solo 29% ve progreso",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile | FCh",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSzJDc3QzemRBUTJOTmdVRXRKN2syRTlRWWtxcHpmZVVJSHRDSjE4MVJaUXRQVzdWVUVQa2NCS01KTl9tYmxZRzBJT0w1aHRsV3Q3SHF2dGNqZklKMVZpdFNPQ2VhenZpb3B2LUJmZGlOTVlzV3dJYkh3aWJ1ZjBTYjY4S1prUXRqdE1mTmVacDVTU1pyOWFwVERGUmlvMnpheU80dmo3c3JiRHhTOC1tUlJQUEs4ZEpWLVB0LU5qOS1za0NfUlk3LTFjQ3hPWUJHUHp4RU1EcU1UT2pkb2wxR1Jja3BpcFdoWXFsRHZLY3c5Zw?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Aduanas detecta a 9 viajeros portando ovoides con droga dentro de sus organismos en Iquique",
+        "detalle": "Información de actualidad en norte grande según BioBioChile.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-11-06T16:53:57.083Z"
   }
 };
