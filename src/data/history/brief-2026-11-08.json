@@ -1,0 +1,133 @@
+{
+  "fecha": "2026-11-08",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "versiculo": {
+    "id": "verse-1",
+    "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
+    "referencia": "Josué 1:9",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+  },
+  "agenda": [
+    {
+      "id": "agenda-20261108-1-clinica",
+      "hora": "20:00 – 08:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Atención clínica"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-1",
+      "base": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+      "formato": "Reel 30 s"
+    },
+    {
+      "id": "idea-2",
+      "base": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "hook": "Tu cara también tiene un mapa del dolor",
+      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+      "formato": "Carrusel 6 slides"
+    },
+    {
+      "id": "idea-3",
+      "base": "Diferenciador de atención a domicilio",
+      "hook": "No siempre tienes que venir tú a nosotros",
+      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+      "formato": "Reel 30 s"
+    },
+    {
+      "id": "idea-4",
+      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "hook": "Movilizar antes, no después",
+      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+      "formato": "Carrusel 6 slides"
+    }
+  ],
+  "papers": [
+    {
+      "id": "paper-1",
+      "titulo": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+      "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127251374357",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1177%2F10538127251374357",
+      "resumen": "Estudio reciente publicado en J Back Musculoskelet Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+    },
+    {
+      "id": "paper-2",
+      "titulo": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "revista": "PLoS One",
+      "doi": "https://doi.org/10.1371/journal.pone.0362118",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1371%2Fjournal.pone.0362118",
+      "resumen": "Estudio reciente publicado en PLoS One sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+    },
+    {
+      "id": "paper-3",
+      "titulo": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fejp.70423",
+      "resumen": "Estudio reciente publicado en Eur J Pain sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+    },
+    {
+      "id": "paper-4",
+      "titulo": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+      "revista": "JHLT Open",
+      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jhlto.2026.100696",
+      "resumen": "Estudio reciente publicado en JHLT Open sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTVVVOTVrdFQyc2JZUm5MRkV4ZWJETGhPc196MzFvc19zWVZqUXBOS19GRlZvVUhmdlZLdFlacVQyZTR6aHlQSVh0WGdhVDlVSWxITmRoOW85V0V6bGpZSm1rRDduSjE4ZlhLZGdlbDVxYUs3OGsxcU1KUzN3V0M0ZUtUVTR6TllOQUFVelk4a1M1RDVYUVRsQkFzbzN4NDBxM2w0Wk1Bd0VsX2NPR1RGekJnR1dtWDFKWXhzVVI5Tlh5QVBDc2h0YmZQN05rSkZmQnRKUHl3?oc=5",
+      "fuente": "El Mostrador",
+      "titulo": "Números rojos: Perú superará a Chile en 2027 y lo desplazará a la quinta economía de Sudamérica",
+      "detalle": "Información de actualidad en economía · chile según El Mostrador.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+      "fuente": "Ciencia en Chile",
+      "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+      "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNN1oxQm1fZEtjOG4zbUZWUDZhWFNpWVFZc3FLQk1EaVlSbGJBWE1XTnoyUzBXTXJHZUhPemhMNEROeXFzck44TFMtbTVyQm1TcjIxWVR3WmdtS1ZTbXc1R2txQjZRM3NWaWpubWc4eV9SVk9MNXhpOE94b3BOd2hiX1BEaHd1bmVqLVppOXZTZlFSQkpGUnpWZHAxamVHbEdXUkZfbFVQVk1tdlBCYzdSM19DdkxSM1QteGcxTHFNMFQ2QjFxdkdHcUtJT1c2Qi1GNzh2YWd2Y0pwYVUxc1hCbmpqRUZBUWs?oc=5",
+      "fuente": "El Clarin de Chile",
+      "titulo": "Los inciertos efectos sobre la economía que tendrá la caída de las acciones de IA",
+      "detalle": "Información de actualidad en ia · mercados según El Clarin de Chile.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaVdrRG1SNXgySFRMeS1GM2dDVHF3M00tTENnSUFBZDZuME1oRU1IbDlPb25HWjhlZDlacXhOVVc2NkFtMWxsT1FpTm9kbXYyQ2RaTnl2M3BjZGIxbG5TbllMVGN6UjhtZF9fWWc3S0hJbjRJeWE0N3RLcmoxQWZ0U3gtcWZHUklzWnhFMnFUUWhDNVRqV2lHUWx3VUR0NE1ESHhGTURvTEg5bjhCTUlZLVRuS0haSkJ0TnJRYjhEdE80Qm5TYXhRTVBFaUFzWkloU3ZMOVFvWWdoWUYyZVc2Q2l5UU9WYzBycTRaZ21B0gHzAUFVX3lxTE9rdnlNZDgyQ1BqU2Q3Z194cG92RmFLeW1VbkJfQjRkdDQ1RkhyOVBra19wcmQwcE9vbjg5QzVrQXE0bFJZN1JnLUpySGZ5U3FPd2FBeHZfN2I1dUZOMHBrYXBNXzU1X0w0ZjJKYnJQTWI1bF9FcFJRM0Y1b3JqMkJrejNBTzY2Ymd2eDd4ZGUzQ1E0VnlvcW5vNVFHNEotYWlRdFFKNVpHd043ZzZQYV9ETDdXbzluaTBYZzRmMFFLV09CU3BtYjQ2ODZzQ1lrXzNuZXJVc1BOejM4Z2FJcHUxV2lRYm94VkFSVXVSVUNvSWRfOA?oc=5",
+      "fuente": "TNT Sports",
+      "titulo": "Cobreloa supera a Deportes Iquique en amistoso de cara a la última jornada de la Liga de Ascenso Caixun 2026",
+      "detalle": "Información de actualidad en norte grande según TNT Sports.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-11-08T16:14:56.443Z"
+}
