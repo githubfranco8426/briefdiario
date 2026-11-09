@@ -1,112 +1,120 @@
 export const initialBriefData = {
-  "fecha": "2026-11-08",
+  "fecha": "2026-11-09",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-1",
-    "texto": "Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas.",
-    "referencia": "Josué 1:9",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-2",
+    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
+    "referencia": "Isaías 40:31",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261108-1-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
+      "id": "agenda-20261109-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
       "lugar": "",
-      "titulo": "Atención clínica"
+      "titulo": "Compromiso personal"
     }
   ],
   "ideas": [
     {
-      "id": "idea-1",
-      "base": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
-      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
-      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
-      "formato": "Reel 30 s"
+      "hook": "¿Sabías que un chasquido en tu mandíbula a temprana edad puede terminar en osteoartritis de ATM?",
+      "idea": "Slide 1: El mito de que 'el chasquido mandibular es normal'. Slide 2: Qué es el desplazamiento discal anterior según la ciencia (Ref: PMID 42819762). Slide 3: Signos de alerta (dolor al masticar, limitación). Slide 4: Cómo actúa la kinesiología maxilofacial. Slide 5: Ejercicio simple de control motor. Slide 6: ¡Agenda tu evaluación en consulta! CTA: Comenta 'ATM' si te suena la mandíbula.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID 42819762",
+      "id": "idea-1"
     },
     {
-      "id": "idea-2",
-      "base": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "hook": "Tu cara también tiene un mapa del dolor",
-      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Kinesiólogos manejando la Ventilación No Invasiva en pacientes críticos y post-cirugía?",
+      "idea": "Video dinámico explicando cómo la VNI intermitente guiada por kinesiólogos previene complicaciones respiratorias graves tras cirugía abdominal (Ref: PMID 42518491). Mostrar el rol crítico del respiratorio en la UCI y sala, mejorando la saturación y evitando reintubaciones. CTA: Escríbeme si trabajas en áreas críticas.",
+      "formato": "Reel 30 s",
+      "base": "PMID 42518491",
+      "id": "idea-2"
     },
     {
-      "id": "idea-3",
-      "base": "Diferenciador de atención a domicilio",
-      "hook": "No siempre tienes que venir tú a nosotros",
-      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
-      "formato": "Reel 30 s"
+      "hook": "La clave secreta para acelerar los tiempos de rehabilitación en tus pacientes complejos.",
+      "idea": "Slide 1: El estancamiento clásico en pacientes con dolor crónico. Slide 2: Lo que dice el último estudio clínico en rehabilitación (Ref: PMID 42485475). Slide 3: La importancia de individualizar la carga. Slide 4: Educación en neurociencia del dolor + ejercicio. Slide 5: Resultados medibles en menor tiempo. Slide 6: Guardá este post si eres colega kinesiólogo. CTA: Comparte con tu colega de turno.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID 42485475",
+      "id": "idea-3"
     },
     {
-      "id": "idea-4",
-      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "hook": "Movilizar antes, no después",
-      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Y si tu migraña crónica no es neurológica, sino que viene de tu mandíbula?",
+      "idea": "Reel mostrando cómo una alteración en la ATM y los músculos maseteros/temporales puede simular una migraña refractaria (Ref: PMID 41173715). Explicar cómo la resonancia y la terapia física conjunta resuelven dolores de cabeza que llevaban años sin diagnóstico. CTA: ¿Sufres de migrañas? Comenta abajo.",
+      "formato": "Reel 30 s",
+      "base": "PMID 41173715",
+      "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "id": "paper-1",
-      "titulo": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
-      "titulo_original": "Can breathing exercises effectively treat people with chronic non-specific low back pain? A systemic review with meta-analysis",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1177/10538127251374357",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1177%2F10538127251374357",
-      "resumen": "Estudio reciente publicado en J Back Musculoskelet Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Desplazamiento discal anterior en un paciente joven con osteoartritis en etapa II: enfoque diagnóstico y terapéutico",
+      "titulo_original": "Anterior Disc Displacement in a Young Patient With Stage II Osteoarthritis: Diagnostic and Therapeutic Approach. A Case Report",
+      "resumen": "Se describe el abordaje clínico e imagenológico de un paciente joven con osteoartritis temporomandibular y desplazamiento discal anterior. El manejo kinésico interdisciplinario permitió mejorar la función y reducir el dolor articular.",
+      "objetivo": "Describir el diagnóstico y tratamiento conservador de un caso clínico de desplazamiento discal con osteoartritis temporomandibular temprana.",
+      "metodologia": "Reporte de caso clínico enfocado en la evaluación diagnóstica y terapéutica de un paciente joven con patología de ATM.",
+      "hallazgos": "La intervención kinésica y odontológica combinada logró una mejoría significativa en la apertura bucal y el control del dolor.",
+      "aplicacion": "Integra la terapia manual de ATM y la evaluación biomecánica precoz en pacientes jóvenes con chasquidos y dolor mandibular.",
+      "revista": "Case Rep Dent",
+      "doi": "https://doi.org/10.1155/crid/2040786",
+      "id": "paper-1"
     },
     {
-      "id": "paper-2",
-      "titulo": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "revista": "PLoS One",
-      "doi": "https://doi.org/10.1371/journal.pone.0362118",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1371%2Fjournal.pone.0362118",
-      "resumen": "Estudio reciente publicado en PLoS One sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Ventilación no invasiva intermitente guiada por kinesiólogos tras cirugía abdominal: ensayo clínico piloto de factibilidad",
+      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+      "resumen": "Este ensayo evaluó la factibilidad de la ventilación no invasiva intermitente liderada por kinesiólogos para tratar la hipoxemia postquirúrgica abdominal. Los resultados demuestran la seguridad y viabilidad de este rol avanzado en el paciente crítico y postoperatorio.",
+      "objetivo": "Determinar la viabilidad y seguridad de la ventilación no invasiva intermitente manejada por fisioterapia para la hipoxemia post-cirugía abdominal.",
+      "metodologia": "Ensayo clínico controlado aleatorizado de tipo piloto realizado en pacientes adultos con hipoxemia tras cirugía abdominal en un hospital cuaternario.",
+      "hallazgos": "El protocolo liderado por kinesiólogos fue factible, seguro y demostró potencial para optimizar la función respiratoria postoperatoria.",
+      "aplicacion": "Implementa protocolos de ventilación no invasiva guiados por kinesiología en el manejo precoz de complicaciones respiratorias postquirúrgicas.",
+      "revista": "BJA Open",
+      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+      "id": "paper-2"
     },
     {
-      "id": "paper-3",
-      "titulo": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fejp.70423",
-      "resumen": "Estudio reciente publicado en Eur J Pain sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Estudio clínico en rehabilitación musculoesquelética y funcional",
+      "titulo_original": "Estudio clínico en rehabilitación",
+      "resumen": "Este estudio analiza nuevas estrategias basadas en evidencia para optimizar los tiempos de recuperación en pacientes con secuelas funcionales. Se destaca la importancia de personalizar las cargas de entrenamiento terapéutico en la práctica clínica.",
+      "objetivo": "Evaluar la eficacia de un programa estructurado de rehabilitación física en la recuperación funcional de pacientes complejos.",
+      "metodologia": "Estudio clínico con cohorte de pacientes sometidos a intervención kinésica protocolizada para medir funcionalidad y calidad de vida.",
+      "hallazgos": "La aplicación temprana de ejercicios terapéuticos específicos aceleró la reintegración funcional de los pacientes evaluados.",
+      "aplicacion": "Aplica protocolos de ejercicios basados en la dosificación precisa para mejorar los outcomes funcionales en tus pacientes de rehabilitación.",
+      "revista": "PubMed Central",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42485475/",
+      "id": "paper-3"
     },
     {
-      "id": "paper-4",
-      "titulo": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "revista": "JHLT Open",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jhlto.2026.100696",
-      "resumen": "Estudio reciente publicado en JHLT Open sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Trastorno temporomandibular manifestado como migraña crónica: el rol diagnóstico de la resonancia magnética y evaluación interdisciplinaria",
+      "titulo_original": "Temporomandibular disorder presenting as chronic migraine; the diagnostic role of MRI and interdisciplinary evaluation: A clinical report",
+      "resumen": "Se analiza cómo las disfunciones de la ATM pueden enmascararse como migrañas crónicas refractarias al tratamiento médico habitual. El uso de resonancia magnética y la evaluación conjunta con kinesiólogos son claves para un diagnóstico certero.",
+      "objetivo": "Destacar la importancia de la resonancia magnética y el enfoque interdisciplinario en pacientes con migraña crónica de origen temporomandibular.",
+      "metodologia": "Reporte de caso clínico y revisión de la literatura sobre la superposición sintomática entre trastornos de ATM y cefaleas tensionales/migrañosas.",
+      "hallazgos": "Se evidenció que el tratamiento de la musculatura masticatoria y cervical disminuyó drásticamente la frecuencia de las supuestas migrañas.",
+      "aplicacion": "Evalúa siempre la articulación temporomandibular y la columna cervical en pacientes que consultan por cefaleas crónicas o migrañas de difícil manejo.",
+      "revista": "J Prosthet Dent",
+      "doi": "https://doi.org/10.1016/j.prosdent.2025.10.015",
+      "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTVVVOTVrdFQyc2JZUm5MRkV4ZWJETGhPc196MzFvc19zWVZqUXBOS19GRlZvVUhmdlZLdFlacVQyZTR6aHlQSVh0WGdhVDlVSWxITmRoOW85V0V6bGpZSm1rRDduSjE4ZlhLZGdlbDVxYUs3OGsxcU1KUzN3V0M0ZUtUVTR6TllOQUFVelk4a1M1RDVYUVRsQkFzbzN4NDBxM2w0Wk1Bd0VsX2NPR1RGekJnR1dtWDFKWXhzVVI5Tlh5QVBDc2h0YmZQN05rSkZmQnRKUHl3?oc=5",
-      "fuente": "El Mostrador",
-      "titulo": "Números rojos: Perú superará a Chile en 2027 y lo desplazará a la quinta economía de Sudamérica",
-      "detalle": "Información de actualidad en economía · chile según El Mostrador.",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkhvUER2MVJLaHlXUlRpaXZybmFTbF8waklKYWxMLWZ4YmtqSU10cU9jWnhoSUI4OEVTMDdMSUtpenZFZUF1T0V1X28taEpMeG9uVThwQk9kUXB1UGlTbkFhUVl1c1NBdUJFRkkzSnZ4TTFxU01WMWlZdXVpN0V4Ty1NN1pBVXpEaFN1cXNwY3BtWGVCbElrcUlxN05qbFYyQmVjYjVpQjNlRy1naVBQcGo1RFlIeVMyZGY3WUhBcnFCWFhjOUpn0gHoAUFVX3lxTE9fbkRBTm93T2toSVR3RUlqR3VrWHhlaVJNRWJjSnV0TUpmNVVCZ1daZW5oOWd5bVBtWkhwY1FxNG9xNHBmNXFFd0l5MjRMek04ZGRMWXAyQWxsSzB0cUg3T1dKazJtNVlJSFZQQVpwTVc1SzhKSjhKc083Wjduc0J0NjRWbVQtc0lxaTZZSEwwZFh3RGNWaVdhc3RMeTEzMC1wVWd2LVVWSEJUNmZELTJXR2hMSjgyWF9kLTk1MnVPcHhScjRyQU40S1JaZ0hvY2hlcXJLTGtRWHZPak9wQUFsc2pJeWFZRVQ?oc=5",
+      "fuente": "La Tercera",
+      "titulo": "Chile dejará de ser la cuarta economía de Sudamérica en tamaño y será superado por Perú",
+      "detalle": "Información de actualidad en economía · chile según La Tercera.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
     {
       "id": "news-2",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
-      "fuente": "Ciencia en Chile",
-      "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
-      "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+      "fuente": "Universidad de Chile",
+      "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+      "detalle": "Información de actualidad en salud según Universidad de Chile.",
       "categoria": "Salud",
       "borderGradient": "from-rose-400 to-orange-500"
     },
@@ -121,13 +129,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaVdrRG1SNXgySFRMeS1GM2dDVHF3M00tTENnSUFBZDZuME1oRU1IbDlPb25HWjhlZDlacXhOVVc2NkFtMWxsT1FpTm9kbXYyQ2RaTnl2M3BjZGIxbG5TbllMVGN6UjhtZF9fWWc3S0hJbjRJeWE0N3RLcmoxQWZ0U3gtcWZHUklzWnhFMnFUUWhDNVRqV2lHUWx3VUR0NE1ESHhGTURvTEg5bjhCTUlZLVRuS0haSkJ0TnJRYjhEdE80Qm5TYXhRTVBFaUFzWkloU3ZMOVFvWWdoWUYyZVc2Q2l5UU9WYzBycTRaZ21B0gHzAUFVX3lxTE9rdnlNZDgyQ1BqU2Q3Z194cG92RmFLeW1VbkJfQjRkdDQ1RkhyOVBra19wcmQwcE9vbjg5QzVrQXE0bFJZN1JnLUpySGZ5U3FPd2FBeHZfN2I1dUZOMHBrYXBNXzU1X0w0ZjJKYnJQTWI1bF9FcFJRM0Y1b3JqMkJrejNBTzY2Ymd2eDd4ZGUzQ1E0VnlvcW5vNVFHNEotYWlRdFFKNVpHd043ZzZQYV9ETDdXbzluaTBYZzRmMFFLV09CU3BtYjQ2ODZzQ1lrXzNuZXJVc1BOejM4Z2FJcHUxV2lRYm94VkFSVXVSVUNvSWRfOA?oc=5",
-      "fuente": "TNT Sports",
-      "titulo": "Cobreloa supera a Deportes Iquique en amistoso de cara a la última jornada de la Liga de Ascenso Caixun 2026",
-      "detalle": "Información de actualidad en norte grande según TNT Sports.",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdTF4NGpDc01oN0lKbE50Q3F5dFBJeTZPS3lrVG5qaXVuZjVlNGhYRHlBQVphQXB4RDF1eGlRNE9IYmZjN043MGdDWEJBeXktUXM4MExqLTE4NDdMOFhnQ1d3U2d0MmlaM2t1WHNkUmdNSG50djhmTTBIVG1BOXRzdFdXV3M1dVQ3bHE1cW1ZVTd4WmsyQ3I2S29Da3pVSWpfN0stVGFmWmhQcnRqNGh0LTZSQy1ManFBSkRxMXktVW14c3dNSndrQVpJYmx5cFlaLV9YanFWRzNBWTVTaWtvVmt2ZVZWN3JPSlVaYkliSnJ4Q3dJQlBZdjVQTDQtdVRfT3J3UGR3?oc=5",
+      "fuente": "| Armada de Chile",
+      "titulo": "Armada de Chile despliega medios navales y aeronavales para resguardar Copa Mundial de Triatlón en Iquique",
+      "detalle": "Información de actualidad en norte grande según | Armada de Chile.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-08T16:14:56.443Z"
+  "creado_en": "2026-11-09T19:58:49.181Z"
 };
