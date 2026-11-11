@@ -1,49 +1,35 @@
 export const initialBriefData = {
-  "fecha": "2026-11-10",
+  "fecha": "2026-11-11",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-3",
-    "texto": "Todo lo puedo en Cristo que me fortalece.",
-    "referencia": "Filipenses 4:13",
-    "reflexion": "Para enfrentar los casos más desafiantes en UPC, consulta o a domicilio: cuentas con respaldo y templanza inquebrantable."
+    "id": "verse-4",
+    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
+    "referencia": "Salmos 121:1-2",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-2026-11-10-1-clinica",
-      "hora": "09:00 – 19:00",
+      "id": "agenda-20261111-1-clinica",
+      "hora": "08:00 – 20:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
-    },
-    {
-      "id": "agenda-2026-11-10-2-domicilio",
-      "hora": "11:30 – 12:30",
-      "tipo": "domicilio",
-      "lugar": "",
-      "titulo": "Atención a domicilio"
-    },
-    {
-      "id": "agenda-2026-11-10-3-seguimiento",
-      "hora": "17:00 – 18:00",
-      "tipo": "seguimiento",
-      "lugar": "",
-      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
       "id": "idea-1",
-      "base": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
+      "base": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -66,23 +52,23 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1177/10538127261500497",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1177%2F10538127261500497",
-      "resumen": "Estudio reciente publicado en J Back Musculoskelet Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "revista": "Am J Nurs",
+      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FAJN.0000000000000418",
+      "resumen": "Estudio reciente publicado en Am J Nurs sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-2",
-      "titulo": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "revista": "Phys Ther",
-      "doi": "https://doi.org/10.1093/ptj/pzag106",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1093%2Fptj%2Fpzag106",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "titulo": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42735091%2F",
+      "resumen": "Estudio reciente publicado en Adv Mind Body Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
@@ -108,10 +94,10 @@ export const initialBriefData = {
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUx0LTNBQ015UGwyNUtSa25fdTZ4Sno1QzczRDE2TlVIanBVTXpQWGxzQ2pFQ2ZLekZqYldXbTRwQVhTaGs3NjEtTEVSRFVHbTI4U3IzdWRlSHRHdS11Q0VDd3lmM0czTmhsbWpKdGtGSDhITGJjV1RzbjR5X3ZTYzdxWmpwenozV3JYZ0JJNmQwTDhSYUhmaXN4c2Qtdl9paU5UcnU5eWFsbGZxOV8xWW5nbXNfUFZUclduSGxhNG9aU1FpMWc2R0h4RmdObUw2RW8zdkM0SFBpSktGbmFHMGtBeHptYUZfUDBYZS1HWTdWd0U?oc=5",
-      "fuente": "BioBioChile",
-      "titulo": "Mercado chileno ajusta sus expectativas y prevé que el país no crecerá en 2026",
-      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMHBBZTdWbl9fNXB5OTBLWHktRlhSTUFKbzFfUEgzY09QaGxEV05xS2ZMVC1DTVI4ME9BRXRjTmkxUG9QbXdSMFlqMlNtUFJEZ1g1bWc3TlZXbEx2OXdwa0VaYU4xLXYtZVo2N0pnTEM3bGY0dnJOUFFsUkxmRk04OXRKX0lUdldrU1JpVTVCTHYtaTdia0hBdGxoQ3dyenRqaFk3d0FCQWdvTDdueG1jSmNNV1FOVFY5QVB2N2F4dlpka1gxNVHSAecBQVVfeXFMTWI5S3phMEItX0FySXNCbzlMLWM3dmpNUEFTdnd0eTNPSDlsRUFPMlF1elJPdWU2ZFppN05TSHNvT0VCYm1tSll0TmMzb0duV2VvVlk3Qy1heElWeDhTYTU1TVdOb3hkQlNKeWY3TE4wM3IyZE1kcGtHWm96TnBnb2VMNnphWDd1Q09NQXNoakI3Rl9TeHNvS2M4NmZUd0NDWkxSWm1qVlhDMDg0ZC1GVHJVZEkzWU5TTVNqVGZocjRtNEwxWk5jQXpkdUpZWDJSMFFYQ0poMXEySjd3RUxnNlVoNXQ4cVVr?oc=5",
+      "fuente": "La Tercera",
+      "titulo": "Quiroz reconoce que Chile está en recesión técnica, pero adelanta meta de crecimiento de 4% para 2028",
+      "detalle": "Información de actualidad en economía · chile según La Tercera.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -126,22 +112,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
-      "fuente": "Fundación Chile | FCh",
-      "titulo": "IA y satélites para detectar vertederos ilegales",
-      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOa1Yxc3VoZ3pua0xnTkp2YUNHN1hhY2pQeGxScDRGbDh0Y0pkZ3NiR0lKSkoxVjdqdXdMRHQ2VUluT3hyN1UycGJEZWllYmJXXzdFeW1UM2twU2pMUURTSXItLUNvRWdGWWNrcGFMN09BMnFTOUlCdTdOUnMyMTNUZ1ZVUG1NUW9GRXl5cExkWUxEUHlyTWpqeWM3WUg1Q1o3bUhyb2RIbFlzVWF0c1RCenZwZTNGVkxhYmdXVTVXQ3ZJcTNPT3ZQUnZRcGxBV0VaUkY4aE1LNXpKVEVMZmpBdW1kZGNUZw?oc=5",
+      "fuente": "Revista Digital Minera REDIMIN",
+      "titulo": "Hitachi Digital anuncia inversión de US$300 millones en América Latina y apunta a la minería chilena con inteligencia artificial",
+      "detalle": "Información de actualidad en ia · mercados según Revista Digital Minera REDIMIN.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZlQ5M3BOcVZ5b2x2NW9NWEQtaFFSSDF0UjJmc3ZYZEt5SmNISkt2OHNOMFlLd0JXcXpLWjVrN3Y3bkJVNHRFS0hXdVY0eVE3OGI2dmlrbTRSUlB6VXVnY1FLUU5oYmVkMEMyRk5yY0gzS3Y2R25zSDdWbXRxXzNQMXo1RHJQZEE5TTk1Si1CeG1WSDMtNzZCSGxzZnFtYmZ1VXZ1dk04aHNsdXVkT19aOHR1N0lDWm9nM1RFMFJVcklHVEI1RlljYXg2blVWWUNuUThpc3BSTjdnSDU5cTRQU3IzWjBCUml0TTh0Y0RPNUFFX01DcGNHdmszdWlkVm94eEo0bE5GOEhSd0ZnY3c?oc=5",
-      "fuente": "BioBioChile",
-      "titulo": "Movilización de camioneros impide ingreso de carga al Puerto de Iquique y suspende arribo de crucero",
-      "detalle": "Información de actualidad en norte grande según BioBioChile.",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWkJ2c2I3UklJTEdmOTI1MGxXTEI1akJYMGNua0czcjRFdFR0RVpfb19kbV9HTzNtYWNYNFJCNDBBWVRqNXlmZ0VVN280ZDIzSTczN0lBMURBUVd4SzViMUZsLWg3MkxNNXduaGZNQWN1WjYyc01FM3JhZzJIOC1PZnJrV3ExUHBwRm1CTXVGSnlWcndIaTJzUndIeXZDV1FMSGFQZF9DVjJKN1I2S1lPMmJsWF9ZUjZnckpoT0dxbk5BOXg2eDRyWDFQR3ZXN1BXclJlUzBoNG9nWHl4X2o5ZDVLcTIwV25I?oc=5",
+      "fuente": "Edición Cero",
+      "titulo": "Capacitan a inspectores municipales de Alto Hospicio en prevención del consumo de alcohol y otras drogas en la conducción",
+      "detalle": "Información de actualidad en norte grande según Edición Cero.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-10T17:14:05.502Z"
+  "creado_en": "2026-11-11T17:23:01.834Z"
 };
