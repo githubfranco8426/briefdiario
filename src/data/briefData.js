@@ -1,19 +1,19 @@
 export const initialBriefData = {
-  "fecha": "2026-11-11",
+  "fecha": "2026-11-12",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-4",
-    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
-    "referencia": "Salmos 121:1-2",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261111-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261112-1-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -22,14 +22,14 @@ export const initialBriefData = {
   "ideas": [
     {
       "id": "idea-1",
-      "base": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "base": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -43,7 +43,7 @@ export const initialBriefData = {
     },
     {
       "id": "idea-4",
-      "base": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
       "hook": "Movilizar antes, no después",
       "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
@@ -52,52 +52,52 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "revista": "Am J Nurs",
-      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FAJN.0000000000000418",
-      "resumen": "Estudio reciente publicado en Am J Nurs sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
+      "titulo_original": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
+      "revista": "Braz Oral Res",
+      "doi": "https://doi.org/10.1590/1807-3107bor-2026.vol40.092",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1590%2F1807-3107bor-2026.vol40.092",
+      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
     },
     {
       "id": "paper-2",
-      "titulo": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42735091%2F",
-      "resumen": "Estudio reciente publicado en Adv Mind Body Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
+      "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
-      "titulo": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "revista": "PLoS One",
-      "doi": "https://doi.org/10.1371/journal.pone.0362118",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1371%2Fjournal.pone.0362118",
-      "resumen": "Estudio reciente publicado en PLoS One sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
+      "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-4",
-      "titulo": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fejp.70423",
-      "resumen": "Estudio reciente publicado en Eur J Pain sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "revista": "BMC Pulm Med",
+      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12890-026-04533-3",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMHBBZTdWbl9fNXB5OTBLWHktRlhSTUFKbzFfUEgzY09QaGxEV05xS2ZMVC1DTVI4ME9BRXRjTmkxUG9QbXdSMFlqMlNtUFJEZ1g1bWc3TlZXbEx2OXdwa0VaYU4xLXYtZVo2N0pnTEM3bGY0dnJOUFFsUkxmRk04OXRKX0lUdldrU1JpVTVCTHYtaTdia0hBdGxoQ3dyenRqaFk3d0FCQWdvTDdueG1jSmNNV1FOVFY5QVB2N2F4dlpka1gxNVHSAecBQVVfeXFMTWI5S3phMEItX0FySXNCbzlMLWM3dmpNUEFTdnd0eTNPSDlsRUFPMlF1elJPdWU2ZFppN05TSHNvT0VCYm1tSll0TmMzb0duV2VvVlk3Qy1heElWeDhTYTU1TVdOb3hkQlNKeWY3TE4wM3IyZE1kcGtHWm96TnBnb2VMNnphWDd1Q09NQXNoakI3Rl9TeHNvS2M4NmZUd0NDWkxSWm1qVlhDMDg0ZC1GVHJVZEkzWU5TTVNqVGZocjRtNEwxWk5jQXpkdUpZWDJSMFFYQ0poMXEySjd3RUxnNlVoNXQ4cVVr?oc=5",
-      "fuente": "La Tercera",
-      "titulo": "Quiroz reconoce que Chile está en recesión técnica, pero adelanta meta de crecimiento de 4% para 2028",
-      "detalle": "Información de actualidad en economía · chile según La Tercera.",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdEs2eFcwQnVRVExvNy1IOFFfUW5VRUV4RHpWOF83R3A3YWp6LVVUNmU4WTVUdW1jVnhweDFBZU4zZk9zRUYtdnFjS1draEFxRkVrUDFOc1E3SFM3eVFrTC0xR1E2cTFZbFJWVlBMcVkwdl9VdW51c2d6cll6TFNETUtaR2hTYlVXUFN4U0h6cnhONGlCYWxpemlTeDJsSGdMR3oxRWNCWWFVcWU0X0FXZTFJZnRGME80MkJUMXk3b1RFUWFrdHB6MUtqLTNlMW11LXN3bk5CbnBOUjJKY0p3ajItYk4wbVQ3UXRaMEFoZ1hjRVRKSmNlMVNJSG9iYmNTLS1aUFk2SS1Xelk?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Por primera vez Quiroz reconoce que Chile está en recesión e insta a abrir Codelco a privados",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
@@ -112,22 +112,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOa1Yxc3VoZ3pua0xnTkp2YUNHN1hhY2pQeGxScDRGbDh0Y0pkZ3NiR0lKSkoxVjdqdXdMRHQ2VUluT3hyN1UycGJEZWllYmJXXzdFeW1UM2twU2pMUURTSXItLUNvRWdGWWNrcGFMN09BMnFTOUlCdTdOUnMyMTNUZ1ZVUG1NUW9GRXl5cExkWUxEUHlyTWpqeWM3WUg1Q1o3bUhyb2RIbFlzVWF0c1RCenZwZTNGVkxhYmdXVTVXQ3ZJcTNPT3ZQUnZRcGxBV0VaUkY4aE1LNXpKVEVMZmpBdW1kZGNUZw?oc=5",
-      "fuente": "Revista Digital Minera REDIMIN",
-      "titulo": "Hitachi Digital anuncia inversión de US$300 millones en América Latina y apunta a la minería chilena con inteligencia artificial",
-      "detalle": "Información de actualidad en ia · mercados según Revista Digital Minera REDIMIN.",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVU16S25QWGFwM2xmeTM3bVZxRGtVbnhwTWtkazBkVDZJM1JucnV1ZlZtLUVqbkwxRE5CYTU4Y3NCdEhCeFZ6SDFiX0g2R1pBaFpzVlNNOWNpckNheHBFaEt2eWJxdFJqMHdTQnEzRFVtZ3VDNk5tQ21wdDhVQ3ExdWNvMkVleDZvX05Dam9LaXA2S05LaHg1VDZvMTJER3hQTHg2aTZqWVo5Mm9hS3VDdklzWnFRTVowWnBiV0FMMDNEdC1vQ2dkbVJjVGw5N3RCY3daQlE4MG1kZy1SVlQ2aUpsOWhsZUdBX1otUVBicUE?oc=5",
+      "fuente": "Publimetro",
+      "titulo": "Trabajadores en Chile utilizan cada vez más la inteligencia artificial en su empleo: ¿qué tareas están cambiando?",
+      "detalle": "Información de actualidad en ia · mercados según Publimetro.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWkJ2c2I3UklJTEdmOTI1MGxXTEI1akJYMGNua0czcjRFdFR0RVpfb19kbV9HTzNtYWNYNFJCNDBBWVRqNXlmZ0VVN280ZDIzSTczN0lBMURBUVd4SzViMUZsLWg3MkxNNXduaGZNQWN1WjYyc01FM3JhZzJIOC1PZnJrV3ExUHBwRm1CTXVGSnlWcndIaTJzUndIeXZDV1FMSGFQZF9DVjJKN1I2S1lPMmJsWF9ZUjZnckpoT0dxbk5BOXg2eDRyWDFQR3ZXN1BXclJlUzBoNG9nWHl4X2o5ZDVLcTIwV25I?oc=5",
-      "fuente": "Edición Cero",
-      "titulo": "Capacitan a inspectores municipales de Alto Hospicio en prevención del consumo de alcohol y otras drogas en la conducción",
-      "detalle": "Información de actualidad en norte grande según Edición Cero.",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUjdkWjNyN29fOVZUYmNEM3BQTnFZVzJGVmc4cm5XRjh0ME1GSmhjRGVGVzI0NlFnUWZTSXRsbEd3dEtLZW9LZ1lMa21nb3NhNTNsSUtpeFo5MEhWQXE5TTBBdXlaQ0xxbUNwN2V5NDZ4UU1qTnNmM0dSemtlOTZyMU05N1Y0TVVHVEtuYkZHSDU4VXFuZ1B3ck9DT0loaTJxbXcwczJIcHRWNUNGV3A0a2pWVG5xY0JoWHlIeVlZWnBHd0dDa0c4SmUyVDZHYmdlNkc3STNvZHRwd3RySVNFaWZxVWRQeXVPN05TeUl0QkpuTkwt?oc=5",
+      "fuente": "Universidad de Playa Ancha",
+      "titulo": "Sobre habitares de la costa desértica expuso académica UPLA en “III Encuentro Nacional de los Patrimonios” realizado en Iquique",
+      "detalle": "Información de actualidad en norte grande según Universidad de Playa Ancha.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-11T17:23:01.834Z"
+  "creado_en": "2026-11-12T17:42:15.262Z"
 };
