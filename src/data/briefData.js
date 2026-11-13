@@ -1,35 +1,35 @@
 export const initialBriefData = {
-  "fecha": "2026-11-12",
+  "fecha": "2026-11-13",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-5",
-    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
-    "referencia": "Proverbios 17:22",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261112-1-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
+      "id": "agenda-20261113-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
       "lugar": "",
-      "titulo": "Atención clínica"
+      "titulo": "Compromiso personal"
     }
   ],
   "ideas": [
     {
       "id": "idea-1",
-      "base": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
+      "base": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "base": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -43,7 +43,7 @@ export const initialBriefData = {
     },
     {
       "id": "idea-4",
-      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "base": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
       "hook": "Movilizar antes, no después",
       "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
@@ -52,43 +52,43 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
-      "titulo_original": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
-      "revista": "Braz Oral Res",
-      "doi": "https://doi.org/10.1590/1807-3107bor-2026.vol40.092",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1590%2F1807-3107bor-2026.vol40.092",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "titulo": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+      "revista": "Transplant Cell Ther",
+      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jtct.2026.07.024",
+      "resumen": "Estudio reciente publicado en Transplant Cell Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-2",
-      "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
-      "revista": "Braz J Phys Ther",
-      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
-      "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+      "revista": "Arch Phys Med Rehabil",
+      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.apmr.2026.04.011",
+      "resumen": "Estudio reciente publicado en Arch Phys Med Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
-      "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
-      "revista": "Cranio",
-      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
-      "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+      "revista": "Prog Rehabil Med",
+      "doi": "https://doi.org/10.2490/prm.20260038",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.2490%2Fprm.20260038",
+      "resumen": "Estudio reciente publicado en Prog Rehabil Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-4",
-      "titulo": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
-      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
-      "revista": "BMC Pulm Med",
-      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12890-026-04533-3",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "titulo": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+      "revista": "J Community Hosp Intern Med Perspect",
+      "doi": "https://doi.org/10.55729/2000-9666.1612",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.55729%2F2000-9666.1612",
+      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
     }
   ],
   "noticias": [
@@ -112,22 +112,22 @@ export const initialBriefData = {
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVU16S25QWGFwM2xmeTM3bVZxRGtVbnhwTWtkazBkVDZJM1JucnV1ZlZtLUVqbkwxRE5CYTU4Y3NCdEhCeFZ6SDFiX0g2R1pBaFpzVlNNOWNpckNheHBFaEt2eWJxdFJqMHdTQnEzRFVtZ3VDNk5tQ21wdDhVQ3ExdWNvMkVleDZvX05Dam9LaXA2S05LaHg1VDZvMTJER3hQTHg2aTZqWVo5Mm9hS3VDdklzWnFRTVowWnBiV0FMMDNEdC1vQ2dkbVJjVGw5N3RCY3daQlE4MG1kZy1SVlQ2aUpsOWhsZUdBX1otUVBicUE?oc=5",
-      "fuente": "Publimetro",
-      "titulo": "Trabajadores en Chile utilizan cada vez más la inteligencia artificial en su empleo: ¿qué tareas están cambiando?",
-      "detalle": "Información de actualidad en ia · mercados según Publimetro.",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaElFUGw0cm9NSVJpNlVDdFdDNkFRSmZSTFN3dURkSlQ4SlRRaFdiaTc4TXNqQVB3VzRPS2EzYWJxNWZPaTRzUVBlUURFYXlpTzVtZVdmSlk5MWw2U3E2eU5FRGpLRUszT09vUTJ5VXFCQ3hMN3dFS0FQNXpyM080Rkxob2xIck5WeFBNX3NWZEtkMnFrd2Yxc3JTWDZiOTZDdXh2Z04taTVnVXMza0VrY1pDYXQtVGt0NWg5RVVDSHZLaTNKR0NaYlc2OVJ3SUdUT2FDUmh3QnE3Q0JUV3Zr?oc=5",
+      "fuente": "TotalMedios",
+      "titulo": "China, Chile y Brasil, los mercados más atractivos para la expansión internacional de las empresas argentinas",
+      "detalle": "Información de actualidad en ia · mercados según TotalMedios.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUjdkWjNyN29fOVZUYmNEM3BQTnFZVzJGVmc4cm5XRjh0ME1GSmhjRGVGVzI0NlFnUWZTSXRsbEd3dEtLZW9LZ1lMa21nb3NhNTNsSUtpeFo5MEhWQXE5TTBBdXlaQ0xxbUNwN2V5NDZ4UU1qTnNmM0dSemtlOTZyMU05N1Y0TVVHVEtuYkZHSDU4VXFuZ1B3ck9DT0loaTJxbXcwczJIcHRWNUNGV3A0a2pWVG5xY0JoWHlIeVlZWnBHd0dDa0c4SmUyVDZHYmdlNkc3STNvZHRwd3RySVNFaWZxVWRQeXVPN05TeUl0QkpuTkwt?oc=5",
-      "fuente": "Universidad de Playa Ancha",
-      "titulo": "Sobre habitares de la costa desértica expuso académica UPLA en “III Encuentro Nacional de los Patrimonios” realizado en Iquique",
-      "detalle": "Información de actualidad en norte grande según Universidad de Playa Ancha.",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41THBzTWlqNnl6UHAtbkdsaWFPZ2JHYWZGcTNMb0QzbGRlX2M2XzRCaHp6QjlGUkw4bUVPVDFkWVItOWpFRkd1VXpJS0xpdnE3ZlFWN1J5RE5FX2Y4bFJlRnlGc2NNS0ktUXNFS0hnMGR3UTFEbjgw?oc=5",
+      "fuente": "Ex-ante",
+      "titulo": "El modelo Doppelmayr: la empresa que construyó el teleférico de Huechuraba ahora planea otro en Alto Hospicio",
+      "detalle": "Información de actualidad en norte grande según Ex-ante.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-12T17:42:15.262Z"
+  "creado_en": "2026-11-13T17:19:58.234Z"
 };
