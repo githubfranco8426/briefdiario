@@ -1,102 +1,124 @@
 export const initialBriefData = {
-  "fecha": "2026-11-13",
+  "fecha": "2026-11-14",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 3 · Saliente / Libre",
-  "ciclo_detalle": "Recuperación y fichas clínicas",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
   "versiculo": {
-    "id": "verse-6",
-    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
-    "referencia": "Jeremías 33:3",
-    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    "id": "verse-7",
+    "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+    "referencia": "Filipenses 4:7",
+    "reflexion": "Que la calma y la claridad mental gobiernen cada decisión terapéutica de este día, aun en los momentos de mayor urgencia."
   },
   "agenda": [
     {
-      "id": "agenda-20261113-1-personal",
-      "hora": "08:00 – 08:15",
-      "tipo": "personal",
+      "id": "agenda-2026-11-14-1-clinica",
+      "hora": "09:00 – 19:00",
+      "tipo": "clinica",
       "lugar": "",
-      "titulo": "Compromiso personal"
+      "titulo": "Atención clínica"
+    },
+    {
+      "id": "agenda-2026-11-14-2-domicilio",
+      "hora": "11:30 – 12:30",
+      "tipo": "domicilio",
+      "lugar": "",
+      "titulo": "Atención a domicilio"
+    },
+    {
+      "id": "agenda-2026-11-14-3-seguimiento",
+      "hora": "17:00 – 18:00",
+      "tipo": "seguimiento",
+      "lugar": "",
+      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
-      "id": "idea-1",
-      "base": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
-      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
-      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
-      "formato": "Reel 30 s"
+      "hook": "¿Sabías que respirar por una sola fosa nasal puede calmar el dolor tras un golpe en el tórax?",
+      "idea": "Explica el estudio sobre inspiración unilateral en trauma torácico, muestra cómo se realiza y finaliza invitando a guardar el video y agendar hora en la clínica.",
+      "formato": "Reel 30 s",
+      "base": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "id": "idea-1"
     },
     {
-      "id": "idea-2",
-      "base": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
-      "hook": "Tu cara también tiene un mapa del dolor",
-      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Te truena la mandíbula y el dolor no se pasa con nada?",
+      "idea": "Carrusel de 6 slides revelando cómo el ultrasonido terapéutico respaldado por la ciencia reduce el dolor de ATM antes de la terapia manual. CTA: Comenta 'ATM' para recibir más info.",
+      "formato": "Carrusel 6 slides",
+      "base": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence",
+      "id": "idea-2"
     },
     {
-      "id": "idea-3",
-      "base": "Diferenciador de atención a domicilio",
-      "hook": "No siempre tienes que venir tú a nosotros",
-      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
-      "formato": "Reel 30 s"
+      "hook": "La ELA afecta los músculos al respirar, pero la kinesiología respiratoria puede cambiar el juego.",
+      "idea": "Video explicando los hallazgos del último metaanálisis sobre entrenamiento muscular respiratorio en ELA y su rol crítico. CTA: Comparte este post con colegas de la salud.",
+      "formato": "Reel 30 s",
+      "base": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis",
+      "id": "idea-3"
     },
     {
-      "id": "idea-4",
-      "base": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
-      "hook": "Movilizar antes, no después",
-      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Sigues fatigado meses después del COVID? Cuidado con hacer ejercicio sin supervisión.",
+      "idea": "Carrusel explicando el enfoque basado en evidencia para Long-COVID y cómo titular la carga de ejercicio. CTA: Escríbenos por DM para una evaluación kinésica integral.",
+      "formato": "Carrusel 6 slides",
+      "base": "Physiotherapy management of Long-COVID: an evidence-based approach",
+      "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "id": "paper-1",
-      "titulo": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
-      "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
-      "revista": "Transplant Cell Ther",
-      "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jtct.2026.07.024",
-      "resumen": "Estudio reciente publicado en Transplant Cell Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Consideraciones metodológicas y clínicas de la inspiración por una sola fosa nasal para el manejo del dolor tras un trauma torácico",
+      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "revista": "Physiother Res Int",
+      "doi": "https://doi.org/10.1002/pri.70382",
+      "resumen": "Este estudio evalúa el uso innovador de la inspiración por una sola fosa nasal como estrategia analgésica tras un traumatismo de tórax. Los resultados sugieren un impacto positivo en la modulación del dolor y la mecánica ventilatoria en estos pacientes.",
+      "objetivo": "Analizar las consideraciones metodológicas y clínicas del uso de la inspiración por una sola fosa nasal para el manejo del dolor post-trauma torácico.",
+      "metodologia": "Ensayo clínico controlado que evalúa pacientes adultos con trauma torácico sometidos a protocolos de inspiración unilateral.",
+      "hallazgos": "La técnica demostró ser un coadyuvante útil y seguro para disminuir la percepción de dolor torácico durante la inspiración profunda.",
+      "aplicacion": "Integra la técnica de respiración unilateral en pacientes con dolor torácico agudo para facilitar la ventilación sin exacerbar laalgia.",
+      "id": "paper-1"
     },
     {
-      "id": "paper-2",
-      "titulo": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
-      "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
-      "revista": "Arch Phys Med Rehabil",
-      "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.apmr.2026.04.011",
-      "resumen": "Estudio reciente publicado en Arch Phys Med Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Ultrasonido terapéutico para el manejo del dolor en trastornos temporomandibulares: una revisión sistemática",
+      "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+      "revista": "Ultrasound Med Biol",
+      "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
+      "resumen": "Esta revisión sistemática evalúa la eficacia del ultrasonido terapéutico en la reducción del dolor asociado a trastornos temporomandibulares (ATM). La evidencia confirma su utilidad como agente físico dentro del abordaje kinésico estomatognático.",
+      "objetivo": "Sintetizar la evidencia clínica de estudios controlados y prospectivos sobre el ultrasonido terapéutico en pacientes con patología de ATM.",
+      "metodologia": "Revisión sistemática de literatura científica analizando ensayos controlados y estudios prospectivos en pacientes con disfunción temporomandibular.",
+      "hallazgos": "Se evidenció una reducción significativa del dolor y una mejora en la apertura mandibular tras la aplicación de ultrasonido terapéutico.",
+      "aplicacion": "Utiliza ultrasonido terapéutico en tu consulta de ATM para optimizar el alivio del dolor miofascial previo a la terapia manual.",
+      "id": "paper-2"
     },
     {
-      "id": "paper-3",
-      "titulo": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
-      "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
-      "revista": "Prog Rehabil Med",
-      "doi": "https://doi.org/10.2490/prm.20260038",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.2490%2Fprm.20260038",
-      "resumen": "Estudio reciente publicado en Prog Rehabil Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Efectos del entrenamiento de los músculos respiratorios sobre la función pulmonar en pacientes con esclerosis lateral amiotrófica",
+      "titulo_original": "Effects of respiratory muscle training on respiratory function in patients with amyotrophic lateral sclerosis: a systematic review and meta-analysis",
+      "revista": "J Neurol",
+      "doi": "https://doi.org/10.1007/s00415-026-13982-z",
+      "resumen": "Este metaanálisis examina el impacto del entrenamiento muscular respiratorio en la capacidad pulmonar de pacientes con ELA. Los datos demuestran que es una intervención clave para retrasar el deterioro respiratorio en esta población crítica.",
+      "objetivo": "Evaluar los efectos del entrenamiento de la musculatura respiratoria sobre la función pulmonar en pacientes diagnosticados con ELA.",
+      "metodologia": "Revisión sistemática con metaanálisis de ensayos clínicos enfocados en la aplicación de entrenamiento muscular inspiratorio y espiratorio en ELA.",
+      "hallazgos": "El entrenamiento respiratorio mejora significativamente la presión inspiratoria máxima y preserva temporalmente la función ventilatoria.",
+      "aplicacion": "Implementa programas tempranos de entrenamiento muscular respiratorio en pacientes neuromusculares para prolongar su autonomía ventilatoria.",
+      "id": "paper-3"
     },
     {
-      "id": "paper-4",
-      "titulo": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
-      "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
-      "revista": "J Community Hosp Intern Med Perspect",
-      "doi": "https://doi.org/10.55729/2000-9666.1612",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.55729%2F2000-9666.1612",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "titulo": "Manejo kinésico del Long-COVID: un enfoque basado en la evidencia",
+      "titulo_original": "Physiotherapy management of Long-COVID: an evidence-based approach",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101609",
+      "resumen": "Esta guía basada en evidencia detalla las estrategias de rehabilitación kinésica para pacientes que sufren de Long-COVID. Destaca la importancia de un abordaje personalizado que considere la fatiga crónica y la disfunción cardiopulmonar.",
+      "objetivo": "Proporcionar un enfoque de manejo fisioterapéutico basado en la evidencia científica actual para pacientes con síndrome de Long-COVID.",
+      "metodologia": "Revisión panorámica y síntesis de guías clínicas y estudios de intervención en pacientes con síntomas persistentes post-COVID.",
+      "hallazgos": "Se establecieron pautas claras para la rehabilitación segura, enfatizando la titulación del ejercicio y evitando el empeoramiento por sobreesfuerzo.",
+      "aplicacion": "Diseña programas de rehabilitación graduados y evalúa el perfil de fatiga antes de prescribir ejercicio en pacientes con Long-COVID.",
+      "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdEs2eFcwQnVRVExvNy1IOFFfUW5VRUV4RHpWOF83R3A3YWp6LVVUNmU4WTVUdW1jVnhweDFBZU4zZk9zRUYtdnFjS1draEFxRkVrUDFOc1E3SFM3eVFrTC0xR1E2cTFZbFJWVlBMcVkwdl9VdW51c2d6cll6TFNETUtaR2hTYlVXUFN4U0h6cnhONGlCYWxpemlTeDJsSGdMR3oxRWNCWWFVcWU0X0FXZTFJZnRGME80MkJUMXk3b1RFUWFrdHB6MUtqLTNlMW11LXN3bk5CbnBOUjJKY0p3ajItYk4wbVQ3UXRaMEFoZ1hjRVRKSmNlMVNJSG9iYmNTLS1aUFk2SS1Xelk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSUlJR0ZqZERYUXV6Ni0wVVhtU25pZGFZUzJRdDRkWXd6SDNsWVN5T29HVVFsRTlLTW9DZVZhZllUY0UtLTNVX1lVNGotT3ZnX085UWp5dUNKTmxCbkNFVzVRNkFadElrU2F4WEtLM1poZHZCNjZfQzNBNV9ndlRRai1ROTVBMXd0aGdqS2NCOGk4emJJYXVnMmY5emJackJfcmkyclZOeVRBR2J1ek1HYWliNkNZWVpUUnRLdFI4c2Q2OFU4UjFXcEVWTE9Pb1VIS01hcmtqQksyMkh3X1I1ZHJScmpuZjlMVnhmNno3ajd3NHdLZnpRTHpBSEo?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Por primera vez Quiroz reconoce que Chile está en recesión e insta a abrir Codelco a privados",
+      "titulo": "¿Más barato en Chile o España? Hicimos una compra en supermercados y estos fueron los resultados",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -121,13 +143,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41THBzTWlqNnl6UHAtbkdsaWFPZ2JHYWZGcTNMb0QzbGRlX2M2XzRCaHp6QjlGUkw4bUVPVDFkWVItOWpFRkd1VXpJS0xpdnE3ZlFWN1J5RE5FX2Y4bFJlRnlGc2NNS0ktUXNFS0hnMGR3UTFEbjgw?oc=5",
-      "fuente": "Ex-ante",
-      "titulo": "El modelo Doppelmayr: la empresa que construyó el teleférico de Huechuraba ahora planea otro en Alto Hospicio",
-      "detalle": "Información de actualidad en norte grande según Ex-ante.",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXdYLXhUR0FRMUdPbEx6QlhnRmhyOFk1RFpldU5abmNtT2I3QVAyMGM3WlhULUtzNmJYUWdOT01XRVVOMHZKNGpESzB6dmNJV01QR2FGT0EzckRKVFI3R1MxWEVrS2xNZUEwTjB1SC11WjdnR054LTczNWJVQUVERHhGMXdkeXhBQ0dBZ0hxWkxJZ0twY1pYeld0NUtiSGVROXFuUDh2LXp3Zw?oc=5",
+      "fuente": "Vilas Radio",
+      "titulo": "HOSPITAL DE ALTO HOSPICIO SE SUMA A LA ATENCIÓN QUIRÚRGICA DE PTERIGIÓN EN TARAPACÁ",
+      "detalle": "Información de actualidad en norte grande según Vilas Radio.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-13T17:19:58.234Z"
+  "creado_en": "2026-11-14T15:59:14.546Z"
 };
