@@ -1,96 +1,141 @@
 export const initialBriefData = {
-  "fecha": "2026-11-16",
+  "fecha": "2026-11-17",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 2 · Turno Noche",
-  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+  "ciclo": "Día 3 · Saliente / Libre",
+  "ciclo_detalle": "Recuperación y fichas clínicas",
   "versiculo": {
-    "id": "verse-2",
-    "texto": "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán.",
-    "referencia": "Isaías 40:31",
-    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    "id": "verse-3",
+    "texto": "Todo lo puedo en Cristo que me fortalece.",
+    "referencia": "Filipenses 4:13",
+    "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
   },
   "agenda": [
     {
-      "id": "agenda-20261116-1-clinica",
-      "hora": "20:00 – 08:00",
-      "tipo": "clinica",
+      "id": "agenda-20261117-1-personal",
+      "hora": "08:00 – 08:15",
+      "tipo": "personal",
       "lugar": "",
-      "titulo": "Atención clínica"
+      "titulo": "Compromiso personal"
     }
   ],
   "ideas": [
     {
-      "id": "idea-1",
-      "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
-      "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
-      "formato": "Reel 30 s"
+      "hook": "¿Sabías que el rol del kinesiólogo es vital para evitar complicaciones respiratorias graves tras una cirugía abdominal?",
+      "idea": "Slide 1: El problema de la hipoxemia postquirúrgica. Slide 2: Qué es la VNI intermitente. Slide 3: Rol del kinesiólogo en el hospital. Slide 4: Resultados del nuevo estudio en BJA Open. Slide 5: Beneficios clínicos directos. Slide 6: Guárdate este dato si vas a operarte. CTA: Comenta 'CIRUGÍA' para más info.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID: 42518491",
+      "id": "idea-1"
     },
     {
-      "id": "idea-2",
-      "base": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
-      "hook": "Tu cara también tiene un mapa del dolor",
-      "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Inspirar por una sola fosa nasal puede reducir el dolor tras un trauma en el tórax?",
+      "idea": "Video dinámico explicando cómo la kinesiología respiratoria investiga nuevas formas de manejar el dolor post-trauma sin sobrecargar fármacos, basándose en la modulación del sistema nervioso. CTA: Sígueme para más evidencia clínica.",
+      "formato": "Reel 30 s",
+      "base": "PMID: 43026175",
+      "id": "idea-2"
     },
     {
-      "id": "idea-3",
-      "base": "Diferenciador de atención a domicilio",
-      "hook": "No siempre tienes que venir tú a nosotros",
-      "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
-      "formato": "Reel 30 s"
+      "hook": "¿Sufres de la mandíbula y el dolor no cede? El ultrasonido terapéutico puede ser tu gran aliado.",
+      "idea": "Slide 1: Dolor de ATM que no se pasa. Slide 2: Qué dice la última revisión sistemática (2027). Slide 3: Cómo actúa el ultrasonido en el tejido. Slide 4: Beneficios en la apertura bucal. Slide 5: Combinación con terapia manual. Slide 6: Agenda tu evaluación de ATM. CTA: Escríbenos por interno.",
+      "formato": "Carrusel 6 slides",
+      "base": "PMID: 42946581",
+      "id": "idea-3"
     },
     {
-      "id": "idea-4",
-      "base": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
-      "hook": "Movilizar antes, no después",
-      "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
-      "formato": "Carrusel 6 slides"
+      "hook": "¿Por qué a algunos pacientes con dolor mandibular los tratamientos les hacen efecto más lento?",
+      "idea": "Explicación rápida frente a cámara sobre la modulación condicionada del dolor y cómo interfiere en la disfunción temporomandibular según estudios recientes. CTA: Comparte este reel con alguien que tenga bruxismo o dolor de mandíbula.",
+      "formato": "Reel 30 s",
+      "base": "PMID: 43017982",
+      "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "id": "paper-1",
-      "titulo": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
-      "revista": "JHLT Open",
-      "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jhlto.2026.100696",
-      "resumen": "Estudio reciente publicado en JHLT Open sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Ventilación no invasiva intermitente liderada por kinesiólogos para la hipoxemia postquirúrgica abdominal",
+      "titulo_original": "Physiotherapist-led intermittent noninvasive ventilation for hypoxaemia following abdominal surgery in a quaternary Australian hospital: a randomised pilot feasibility trial",
+      "resumen": "Este ensayo piloto evaluó la factibilidad de la VNI intermitente guiada por kinesiología en pacientes con hipoxemia tras cirugía abdominal. Los resultados demuestran que esta intervención kinésica es segura y viable en entornos hospitalarios complejos.",
+      "objetivo": "Evaluar la viabilidad y seguridad de la ventilación no invasiva intermitente liderada por fisioterapeutas para tratar la hipoxemia postquirúrgica abdominal.",
+      "metodologia": "Ensayo clínico aleatorizado de factibilidad realizado en un hospital cuaternario australiano con pacientes postquirúrgicos abdominales con hipoxemia.",
+      "hallazgos": "Se demostró que la implementación de protocolos de VNI intermitente por parte del equipo de kinesiología es factible, segura y mejora los parámetros de oxigenación.",
+      "aplicacion": "Integra protocolos de ventilación no invasiva intermitente en el manejo respiratorio postoperatorio temprano para prevenir complicaciones mayores.",
+      "revista": "BJA Open",
+      "doi": "https://doi.org/10.1016/j.bjao.2026.100571",
+      "id": "paper-1"
     },
     {
-      "id": "paper-2",
-      "titulo": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "titulo": "Consideraciones metodológicas y clínicas en la inspiración por una fosa nasal para el manejo del dolor tras trauma torácico",
       "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "resumen": "Este estudio analiza el uso de patrones respiratorios específicos, como la inspiración unilateral nasal, como estrategia analgésica tras un traumatismo de tórax. Su aplicación busca modular el dolor agudo y optimizar la mecánica ventilatoria afectada.",
+      "objetivo": "Analizar las consideraciones metodológicas y clínicas de la técnica de inspiración por una fosa nasal para el manejo del dolor en trauma torácico.",
+      "metodologia": "Estudio clínico de intervención y revisión metodológica enfocado en pacientes adultos con antecedentes de trauma torácico y dolor agudo.",
+      "hallazgos": "Se identificaron mecanismos potenciales en la modulación autonómica y del dolor mediante técnicas respiratorias unilaterales específicas.",
+      "aplicacion": "Considera la aplicación de patrones respiratorios guiados en pacientes con trauma torácico para ayudar en el control analgésico kinésico.",
       "revista": "Physiother Res Int",
       "doi": "https://doi.org/10.1002/pri.70382",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fpri.70382",
-      "resumen": "Estudio reciente publicado en Physiother Res Int sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "id": "paper-2"
     },
     {
-      "id": "paper-3",
-      "titulo": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+      "titulo": "Ultrasonido terapéutico para el manejo del dolor en trastornos temporomandibulares: una revisión sistemática",
       "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+      "resumen": "Esta revisión sistemática evaluó la eficacia analgésica del ultrasonido terapéutico en pacientes con disfunción temporomandibular (ATM). La evidencia recopilada respalda su uso clínico para reducir el dolor y mejorar la función mandibular.",
+      "objetivo": "Sintetizar la evidencia clínica de estudios controlados y prospectivos sobre el ultrasonido terapéutico en los trastornos temporomandibulares.",
+      "metodologia": "Revisión sistemática de literatura analizando estudios clínicos controlados y prospectivos sobre el uso de ultrasonido en pacientes con DTM.",
+      "hallazgos": "El ultrasonido terapéutico muestra beneficios significativos en la disminución del dolor y la mejora de la apertura oral en pacientes con DTM.",
+      "aplicacion": "Utiliza ultrasonido terapéutico como coadyuvante en la fisioterapia de la ATM para acelerar el alivio del dolor miofascial y articular.",
       "revista": "Ultrasound Med Biol",
       "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ultrasmedbio.2026.09.009",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "id": "paper-3"
     },
     {
-      "id": "paper-4",
-      "titulo": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
+      "titulo": "La modulación condicionada del dolor se asocia con la eficacia de la anestesia en pacientes con disfunción temporomandibular",
       "titulo_original": "Conditioned pain modulation is associated with anesthesia efficacy in patients with temporomandibular disorder",
+      "resumen": "Este estudio investigó cómo la capacidad de modulación condicionada del dolor (CPM) predice la respuesta a la anestesia en pacientes con DTM. Los hallazgos destacan la importancia de evaluar el sistema nervioso central en el manejo del dolor orofacial.",
+      "objetivo": "Determinar la asociación entre la modulación condicionada del dolor y la eficacia de la anestesia en sujetos con disfunción temporomandibular.",
+      "metodologia": "Estudio clínico observacional en pacientes diagnosticados con trastornos temporomandibulares evaluando umbrales de dolor y respuesta anestésica.",
+      "hallazgos": "Una mejor eficiencia en la modulación condicionada del dolor se correlaciona directamente con una mayor eficacia de los tratamientos anestésicos locales.",
+      "aplicacion": "Evalúa el perfil de sensibilización central y modulación del dolor en tus pacientes con DTM para anticipar la respuesta a los tratamientos kinésicos.",
       "revista": "Braz Oral Res",
       "doi": "https://doi.org/10.1590/1807-3107bor-2026.vol40.092",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1590%2F1807-3107bor-2026.vol40.092",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "id": "paper-4"
     }
   ],
-  "noticias": [],
-  "creado_en": "2026-11-16T19:47:23.332Z"
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSUVZRUJuT0RaNW5RNGNIbk12b1Y0OXJ1VG9BR0EwY0pSa2JmYXAyYzA5bzhFTG8xM2llNnhHT0ZSd0FCMmI2SXQ5MEJ1dE5wR1IzN0RhSFA2Q093d3pISmt6U1ZYUVVwZkd4OVd6NTlINzJrVHFVTnZoVWx5bXFwSE1DNmYwZEdKVXptODAybUYyWmVnN0VHN1RzUDNMNFg0M0ExVnR2NVBIdDJ5bE94OHBfMWJhU2tEWVB4Q2dXYXhlWnM0WkNoaEc0OFJkUDBYLURLYUdYSXZPVEJIQTVlb1pOZ2VfWGo2V1dMa2V4R3dTNFhQZjVlR0RzZk1CQlIwYlRSSmdnLXdXc3ZCZ2dj?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Expertos revelan la importancia de transformar escorias de cobre en un activo estratégico para Chile",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+      "fuente": "Universidad de Chile",
+      "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+      "detalle": "Información de actualidad en salud según Universidad de Chile.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbkNEOVRGOE1JVXo2MDNnZkd6RlBfdFlIenkteHRfU2pGSGk4OTFjdnVSRy1rbFdOVG5Kc2wtQmswbnJRUU5vNDZrMkpkYXdMMElJcWRnQXU2Y1pxakg5YmJzLTdoNFEtcXBIbmFQQ3hWX1hDeU8yRXF6bGVuZjBqREwydEVpTUhHUU9oUU1yTWlyVTNqelNyc3Z1TjVVWlhDT0JfdEVBc2g1V3BaZ21DZ2YyY19mT0pKSnJUNk5lREU3OWtQNUhIV2NEdWpBdFlUa3hneG9aUnFsV1M1NWJ3dS1fQUVyNkpQQ09JNg?oc=5",
+      "fuente": "Portal Innova",
+      "titulo": "Cámara Chilena de Inteligencia Artificial es designada articuladora oficial para liderar delegación de Chile en GITEX AI LATAM 2027",
+      "detalle": "Información de actualidad en ia · mercados según Portal Innova.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObnprNkE1b2Jpa3ZxaDFzVVpLQXN3b050N3BRVlVtZmtfQkVBMUhLVTF6eFBobGxUSFNZa2VfOTY5OF9sSHRYOTN3MmpqYWtFSHRyamZSZVRIaVN3NUFOM2JCakJpSENDLWZVQmx0UGM5OU5Wek1nZDQwMTNXYkRIZUJLdXhzYUk3MllVOXppSEtkbXU2dnRvV1BaTjlOYjByeUthNkl2Zm91U1Fjb0FXY25tQmlBUjVfQTVDMURBWmhyS09PSTc2b2phSQ?oc=5",
+      "fuente": "Santo Tomás en Línea",
+      "titulo": "Derecho UST Iquique fue parte de Seminario de Ministerio de Justicia",
+      "detalle": "Información de actualidad en norte grande según Santo Tomás en Línea.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-11-17T18:43:41.828Z"
 };
