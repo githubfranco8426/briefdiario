@@ -1,19 +1,19 @@
 export const initialBriefData = {
-  "fecha": "2026-11-18",
+  "fecha": "2026-11-19",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-4",
-    "texto": "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene de Jehová, que hizo los cielos y la tierra.",
-    "referencia": "Salmos 121:1-2",
-    "reflexion": "En medio del dinamismo de la jornada, eleva la mirada: el propósito de sanar y servir trasciende cada rutina médica."
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-20261118-1-clinica",
-      "hora": "19:30 – 20:30",
+      "id": "agenda-20261119-1-clinica",
+      "hora": "08:00 – 20:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -22,14 +22,14 @@ export const initialBriefData = {
   "ideas": [
     {
       "id": "idea-1",
-      "base": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
+      "base": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -43,7 +43,7 @@ export const initialBriefData = {
     },
     {
       "id": "idea-4",
-      "base": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "base": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
       "hook": "Movilizar antes, no después",
       "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
@@ -52,51 +52,51 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1177/10538127261500497",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1177%2F10538127261500497",
-      "resumen": "Estudio reciente publicado en J Back Musculoskelet Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "revista": "PLoS One",
+      "doi": "https://doi.org/10.1371/journal.pone.0362118",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1371%2Fjournal.pone.0362118",
+      "resumen": "Estudio reciente publicado en PLoS One sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-2",
-      "titulo": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "revista": "Phys Ther",
-      "doi": "https://doi.org/10.1093/ptj/pzag106",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1093%2Fptj%2Fpzag106",
-      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
-      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      "titulo": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fejp.70423",
+      "resumen": "Estudio reciente publicado en Eur J Pain sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
-      "titulo": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
-      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
-      "revista": "Physiother Res Int",
-      "doi": "https://doi.org/10.1002/pri.70382",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fpri.70382",
-      "resumen": "Estudio reciente publicado en Physiother Res Int sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "revista": "Am J Nurs",
+      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FAJN.0000000000000418",
+      "resumen": "Estudio reciente publicado en Am J Nurs sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-4",
-      "titulo": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
-      "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
-      "revista": "Ultrasound Med Biol",
-      "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ultrasmedbio.2026.09.009",
-      "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
-      "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      "titulo": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42735091%2F",
+      "resumen": "Estudio reciente publicado en Adv Mind Body Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPUXBoVWFYNjFidFMtb1cwYjdsZVNYcTA0M29xMDQydGVnQ0RPVVQxSnY5bE9oWHQ4TFdOd3dxZjE1cFY2VEJpT19PU1VZQ052czlhUEVKTFdrcGlQS1hfR3RQNlpsRVdnS09kLVVTZU53cFVoMDZzRDJsOHl4N2k0bTg5X3VaT1Njalg3UWlST0MtOG5rSmI4bVVCQlhIbkFqR0ZxSmhIOEpMaEZQR3NCRnhOT3hfc1pxcjU3MVZQMXR0TFR0MEkxa3gzaFZMSWhQWFZ2V19tU1FXaTliMi1DS1p5Z3RmSzBqN1NOY2FPWE1xaHdfdjRzZFN3eW5oNTg4bTB3SXEwSXJBNVRnQmtr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQV3daMUVHcHdYZHVObXdRcUxReGdLTVFwNnJ6amdiTUJ3YzZjU2Eyb0lJbUw1UFBJdXBGYUhwY0M5QUMwY1VrU1FlZlBVYjg3MkN3TDZGUnNLaUNDNld6Qk5HRHg2NDJJZHhsaUdONks4V2gzbnhWUmwzcVphekE2bXAxTzNpbllLbzVYNXktWnZ2SHR0MTJsMDhva3JkSmxNZld3M0IxLWNDM1IyZWE3MG0teTUwZ0VwX05POERiQk85eUdJSWJZSk9pd1V3NjhrOVZDUmFuakZIQ3ZDTGVwcmZqekhCQU1TajRBUnJ0OFoxUC1CUUphaXA3Z0ozQXdhUm1rT0RYakd1eFdzcnc?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "La economía de Chile ahonda su desaceleración al tercer trimestre y cae 1,1% por la menor inversión",
+      "titulo": "Dólar vuelve a los $1.000 tras caída de la economía chilena mayor a la esperada al tercer trimestre",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -121,13 +121,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMERLUEFSNzRkUW9rdWVfeUpMdkJCREpLeEg1dGFiTmRRWnhiQXpYQm9CeWxRY3o1a3g2LU1BLVA2dkhnOGtITlJET0txbWtkV0piR2k5SU5BZGlqczdOVVZPV0pWYlFMNHFsZHhrOW5Ec01JemVFcmV3Q0ppb0c2ZGpJbmxmX2RlZWd1bWlKYl85S2RPVjVORlJwbktQeW1pcW9wZE1MVl90LWR5VVRKcnUtcFE2U1lQZDB6dzdrMA?oc=5",
-      "fuente": "Vilas Radio",
-      "titulo": "CONCEJO MUNICIPAL DE IQUIQUE APRUEBA COMPRA DE MÁS DE 16 MIL JUGUETES PARA NAVIDAD POR $220 MILLONES",
-      "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTXRRTzJMY29SVXBpazg4N0hzZkxRNElpRnN1RS1wS1NINXZRbmJydUpMVDFVc2JnWDdLc2dncVYzdDhldmJhaWFPenNiNVJsNktmckQzd0NSbTMzTXIxSWdWTXZKclhSWXNoVk4xNHdIR3ZhMGdydlFnR29TalN1eDRTaExMTDhMTWZjekt3TzE5Mk5HdXRBRlU0MzhYUFRkZXRPd1l6YWxaazV5VnlqcFd6Qk1DemRGU0lOWWd3Z0NNNzlvaUFzVGZwMnN2N29VTThKb3hCWQ?oc=5",
+      "fuente": "Ladera Sur",
+      "titulo": "De Iquique al mundo: la dupla chilena que volvió a conquistar el campeonato mundial de fotografía submarina",
+      "detalle": "Información de actualidad en norte grande según Ladera Sur.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-18T18:20:03.292Z"
+  "creado_en": "2026-11-19T18:34:30.844Z"
 };
