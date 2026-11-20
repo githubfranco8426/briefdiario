@@ -1,19 +1,19 @@
 export const initialBriefData = {
-  "fecha": "2026-11-19",
+  "fecha": "2026-11-20",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 1 · Turno Largo",
-  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "ciclo": "Día 2 · Turno Noche",
+  "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
   "versiculo": {
-    "id": "verse-5",
-    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
-    "referencia": "Proverbios 17:22",
-    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
   },
   "agenda": [
     {
-      "id": "agenda-20261119-1-clinica",
-      "hora": "08:00 – 20:00",
+      "id": "agenda-20261120-1-clinica",
+      "hora": "20:00 – 08:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
@@ -22,14 +22,14 @@ export const initialBriefData = {
   "ideas": [
     {
       "id": "idea-1",
-      "base": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
       "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
       "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
       "formato": "Reel 30 s"
     },
     {
       "id": "idea-2",
-      "base": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
       "hook": "Tu cara también tiene un mapa del dolor",
       "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
       "formato": "Carrusel 6 slides"
@@ -43,7 +43,7 @@ export const initialBriefData = {
     },
     {
       "id": "idea-4",
-      "base": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+      "base": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
       "hook": "Movilizar antes, no después",
       "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
       "formato": "Carrusel 6 slides"
@@ -52,51 +52,51 @@ export const initialBriefData = {
   "papers": [
     {
       "id": "paper-1",
-      "titulo": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
-      "revista": "PLoS One",
-      "doi": "https://doi.org/10.1371/journal.pone.0362118",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1371%2Fjournal.pone.0362118",
-      "resumen": "Estudio reciente publicado en PLoS One sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+      "revista": "Braz J Phys Ther",
+      "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
+      "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-2",
-      "titulo": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
-      "revista": "Eur J Pain",
-      "doi": "https://doi.org/10.1002/ejp.70423",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fejp.70423",
-      "resumen": "Estudio reciente publicado en Eur J Pain sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+      "revista": "Cranio",
+      "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
+      "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     },
     {
       "id": "paper-3",
-      "titulo": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
-      "revista": "Am J Nurs",
-      "doi": "https://doi.org/10.1097/AJN.0000000000000418",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FAJN.0000000000000418",
-      "resumen": "Estudio reciente publicado en Am J Nurs sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
-      "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      "titulo": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+      "revista": "BMC Pulm Med",
+      "doi": "https://doi.org/10.1186/s12890-026-04533-3",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12890-026-04533-3",
+      "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+      "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
     },
     {
       "id": "paper-4",
-      "titulo": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
-      "revista": "Adv Mind Body Med",
-      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42735091%2F",
-      "resumen": "Estudio reciente publicado en Adv Mind Body Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+      "titulo": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "revista": "Physiother Res Int",
+      "doi": "https://doi.org/10.1002/pri.70382",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fpri.70382",
+      "resumen": "Estudio reciente publicado en Physiother Res Int sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
       "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQV3daMUVHcHdYZHVObXdRcUxReGdLTVFwNnJ6amdiTUJ3YzZjU2Eyb0lJbUw1UFBJdXBGYUhwY0M5QUMwY1VrU1FlZlBVYjg3MkN3TDZGUnNLaUNDNld6Qk5HRHg2NDJJZHhsaUdONks4V2gzbnhWUmwzcVphekE2bXAxTzNpbllLbzVYNXktWnZ2SHR0MTJsMDhva3JkSmxNZld3M0IxLWNDM1IyZWE3MG0teTUwZ0VwX05POERiQk85eUdJSWJZSk9pd1V3NjhrOVZDUmFuakZIQ3ZDTGVwcmZqekhCQU1TajRBUnJ0OFoxUC1CUUphaXA3Z0ozQXdhUm1rT0RYakd1eFdzcnc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZmpCSkJCQS1NT3lXWTNFWTJlZExFNW1FQXA3N1lfbzBHV3NVSXRfLXJHZ1p6UWtyNWhVN3V6LWVtTWV6U2FUc2d6S0ZLdy1QUUJCY3I2aEQxaTl2bUs3dW1FRFNrWGxEdzhWWk5Falc0ZExWMXRENXpPVkxRcEtGb1h6dVNZTC1vZzd5R1o5eUE2LUx2V1ljaFNfZ0FaTTJkeV9XM1ZqbC1jWFJUV003bjRrX0c2bEludUQ2bGt5TEN3eFFlcF9fZzVDalZNdzR6RFBYNktoV21wUkFhZmlzX0VBSlp0UEVGc2c1bUpiS0I5MUdibjhERzVwcnBZZjdFZ1EtMkhxQTl5TGgz?oc=5",
       "fuente": "BioBioChile",
-      "titulo": "Dólar vuelve a los $1.000 tras caída de la economía chilena mayor a la esperada al tercer trimestre",
+      "titulo": "Revelan que casa de apuestas ilegal en Chile tenía el 99,6% de su efectivo en firma del mismo dueño",
       "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
@@ -121,13 +121,13 @@ export const initialBriefData = {
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTXRRTzJMY29SVXBpazg4N0hzZkxRNElpRnN1RS1wS1NINXZRbmJydUpMVDFVc2JnWDdLc2dncVYzdDhldmJhaWFPenNiNVJsNktmckQzd0NSbTMzTXIxSWdWTXZKclhSWXNoVk4xNHdIR3ZhMGdydlFnR29TalN1eDRTaExMTDhMTWZjekt3TzE5Mk5HdXRBRlU0MzhYUFRkZXRPd1l6YWxaazV5VnlqcFd6Qk1DemRGU0lOWWd3Z0NNNzlvaUFzVGZwMnN2N29VTThKb3hCWQ?oc=5",
-      "fuente": "Ladera Sur",
-      "titulo": "De Iquique al mundo: la dupla chilena que volvió a conquistar el campeonato mundial de fotografía submarina",
-      "detalle": "Información de actualidad en norte grande según Ladera Sur.",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSDJFc3lKb2JlNHk1OWY4dEFmODZuUDRQYnFleUkxV0YxU2JZNnRIWENUc1FNaHVBOGV6SWFsR0g4VjRmV3htZ3czS01oaHhiOXF1T2QyQXEyVVlVVVhHTzNtX09wNXZ3VVctc1hLMjcteEI4NWh5QUctTTVhT1g3WUctLTJFWnhMR0hNcUdEdlRvZDBCWXhoSDV4OFotdzliZ3Fmclo1MFFZRm1IQlNqVzVUQjYxT2JjdzFwWg?oc=5",
+      "fuente": "Pontificia Universidad Católica de Chile",
+      "titulo": "Nuevo inventario botánico UC documenta floración histórica en Alto Patache, al sur de Iquique",
+      "detalle": "Información de actualidad en norte grande según Pontificia Universidad Católica de Chile.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-19T18:34:30.844Z"
+  "creado_en": "2026-11-20T17:57:47.648Z"
 };

@@ -10603,5 +10603,138 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-11-19T18:34:30.844Z"
+  },
+  "2026-11-20": {
+    "fecha": "2026-11-20",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-6",
+      "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+      "referencia": "Jeremías 33:3",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261120-1-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "titulo_original": "ASSOBRAFIR clinical practice guidelines in intensive care physical therapy: Rehabilitation strategies in critically ill adults",
+        "revista": "Braz J Phys Ther",
+        "doi": "https://doi.org/10.1016/j.bjpt.2026.101635",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.bjpt.2026.101635",
+        "resumen": "Estudio reciente publicado en Braz J Phys Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "titulo_original": "Facial pressure pain thresholds in healthy Chinese adults: Distributions and associated factors",
+        "revista": "Cranio",
+        "doi": "https://doi.org/10.1080/08869634.2026.2725144",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1080%2F08869634.2026.2725144",
+        "resumen": "Estudio reciente publicado en Cranio sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+        "titulo_original": "Evaluating the impact of upper limb training on respiratory function in long-term tracheostomy patients: a preliminary single-center, randomized crossover study",
+        "revista": "BMC Pulm Med",
+        "doi": "https://doi.org/10.1186/s12890-026-04533-3",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1186%2Fs12890-026-04533-3",
+        "resumen": "Evalúa parámetros funcionales cardiopulmonares y la tolerancia al esfuerzo en pacientes con afección respiratoria obstructiva crónica.",
+        "aplicacion": "Justifica evaluar la tolerancia al ejercicio (test de marcha o espirometría) aunque el ecocardiograma o examen basal se vea aparentemente estable."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+        "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+        "revista": "Physiother Res Int",
+        "doi": "https://doi.org/10.1002/pri.70382",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fpri.70382",
+        "resumen": "Estudio reciente publicado en Physiother Res Int sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZmpCSkJCQS1NT3lXWTNFWTJlZExFNW1FQXA3N1lfbzBHV3NVSXRfLXJHZ1p6UWtyNWhVN3V6LWVtTWV6U2FUc2d6S0ZLdy1QUUJCY3I2aEQxaTl2bUs3dW1FRFNrWGxEdzhWWk5Falc0ZExWMXRENXpPVkxRcEtGb1h6dVNZTC1vZzd5R1o5eUE2LUx2V1ljaFNfZ0FaTTJkeV9XM1ZqbC1jWFJUV003bjRrX0c2bEludUQ2bGt5TEN3eFFlcF9fZzVDalZNdzR6RFBYNktoV21wUkFhZmlzX0VBSlp0UEVGc2c1bUpiS0I5MUdibjhERzVwcnBZZjdFZ1EtMkhxQTl5TGgz?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Revelan que casa de apuestas ilegal en Chile tenía el 99,6% de su efectivo en firma del mismo dueño",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+        "fuente": "Universidad de Chile",
+        "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+        "detalle": "Información de actualidad en salud según Universidad de Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNeFplbXprUmM0Tm10bV9rNnJma1BRUURYY056WmMyVGs4bVhKTUJHRXZaUjN2ajl1SFVhTmtxTWZMZjVsZFcyakZYWXp1ZGowSVg2X1A4eWlLXzE5X2hRVEFsTVFRZUt4MkJQOUJ2bEFhLXVMdVh5SHN0RTZWcXZ3QW1PQ3lEYmNqS2pJZGd3eGRpWms0R1pjVFM5NTJXV0tGVzVqMjlCNlU4cXpZY3RZMlJRTHJGQjdZNF9ONG8yQ0UxZnliYlBseGpNRjBLZ3dLN09uR3RZV1JCRTBfTzJMUnZ3R05hX2lDYU5pcDN6UjV3QUw0a1d0RXN4enFVUE4tMXdTTklKY1pTdw?oc=5",
+        "fuente": "XTB.com",
+        "titulo": "Apertura de mercados: Nvidia, Nasdaq 100 y oro bajo presión",
+        "detalle": "Información de actualidad en ia · mercados según XTB.com.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSDJFc3lKb2JlNHk1OWY4dEFmODZuUDRQYnFleUkxV0YxU2JZNnRIWENUc1FNaHVBOGV6SWFsR0g4VjRmV3htZ3czS01oaHhiOXF1T2QyQXEyVVlVVVhHTzNtX09wNXZ3VVctc1hLMjcteEI4NWh5QUctTTVhT1g3WUctLTJFWnhMR0hNcUdEdlRvZDBCWXhoSDV4OFotdzliZ3Fmclo1MFFZRm1IQlNqVzVUQjYxT2JjdzFwWg?oc=5",
+        "fuente": "Pontificia Universidad Católica de Chile",
+        "titulo": "Nuevo inventario botánico UC documenta floración histórica en Alto Patache, al sur de Iquique",
+        "detalle": "Información de actualidad en norte grande según Pontificia Universidad Católica de Chile.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-11-20T17:57:47.648Z"
   }
 };
