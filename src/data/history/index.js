@@ -10736,5 +10736,138 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-11-20T17:57:47.648Z"
+  },
+  "2026-11-21": {
+    "fecha": "2026-11-21",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 3 · Saliente / Libre",
+    "ciclo_detalle": "Recuperación y fichas clínicas",
+    "versiculo": {
+      "id": "verse-7",
+      "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos.",
+      "referencia": "Filipenses 4:7",
+      "reflexion": "Día saliente de guardia: tiempo para descansar el cuerpo, renovar el espíritu y organizar fichas clínicas con calma."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261121-1-personal",
+        "hora": "08:00 – 08:15",
+        "tipo": "personal",
+        "lugar": "",
+        "titulo": "Compromiso personal"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "titulo_original": "The Role of Physical Therapy Across the Transplant Trajectory in Allogeneic Hematopoietic Stem Cell Transplantation, A Systematic Review and Clinical Framework",
+        "revista": "Transplant Cell Ther",
+        "doi": "https://doi.org/10.1016/j.jtct.2026.07.024",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jtct.2026.07.024",
+        "resumen": "Estudio reciente publicado en Transplant Cell Ther sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "titulo_original": "Feasibility and Preliminary Effects of Inspiratory Muscle Training in Patients With Knee Osteoarthritis Awaiting Total Knee Arthroplasty: An 8-Week, Pilot Randomized Controlled Trial",
+        "revista": "Arch Phys Med Rehabil",
+        "doi": "https://doi.org/10.1016/j.apmr.2026.04.011",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.apmr.2026.04.011",
+        "resumen": "Estudio reciente publicado en Arch Phys Med Rehabil sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+        "titulo_original": "Prognostic Significance of Gait Recovery after Mechanical Circulatory Support Weaning in Acute Myocardial Infarction: A 14-Day Landmark Analysis",
+        "revista": "Prog Rehabil Med",
+        "doi": "https://doi.org/10.2490/prm.20260038",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.2490%2Fprm.20260038",
+        "resumen": "Estudio reciente publicado en Prog Rehabil Med sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+        "titulo_original": "Systematic Review of Randomized Clinical Trials for the Treatment of Long COVID Syndrome",
+        "revista": "J Community Hosp Intern Med Perspect",
+        "doi": "https://doi.org/10.55729/2000-9666.1612",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.55729%2F2000-9666.1612",
+        "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+        "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYjViWDR5SFlUN1JKSUZYdFV0U2o4cFBXQTRSSHNLdlJsYmgzWlZveWFQdGk4aThhZnlNbHlLUklKRzRkRWw0YzlkUC1NdnVzZkdxMkVyLXRYeEtiaTF4OHZaXy1RUERFRUJFbmVVVzE2MHFNVkU5bDJuSF8zSEQyYUtHVk9oM2E4bjZtTnZqLXBVS3BRc2lQSHR0OS1wbnVYR1hIeENmV0ZUNU1QcUNrbEJ3dzBIT0tnMFVNV2pEbktnZE4wNV90NVhfbDhqYlFOLXI00gH0AUFVX3lxTE5JbU9VUFFUVVZPV3JUYmsyQllfRERfZnBQWmpPdjR4OXY2blZoYnBsQWFiRzBGSThLbUpxenh1dGpmYUNUelQtUHlGUlBiN2prbUxHU2czSk9lLTd0YmM3d2JkUGJCNTMzUGQ5dG80YV8yM3lPYzdQZkMzSENfMnpIUkVqbnFYTE1sVjdKOFdER3B5TV9aNnpuQTJGWW9ic0V3dzUyZ1VUVTl6WEJITHYxajhJXzBqbXB0M3RRWDY4ZVFtd1JHeEhyWDJmNU11azlGMV9mRXBQVVRTMTRWNGJxbWdKYlVzRXVOdnhnNDRVM3RWZ0o?oc=5",
+        "fuente": "La Tercera",
+        "titulo": "El debate sobre el peso de la caída de la minería en el ciclo contractivo de la economía chilena",
+        "detalle": "Información de actualidad en economía · chile según La Tercera.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+        "fuente": "Universidad de Chile",
+        "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+        "detalle": "Información de actualidad en salud según Universidad de Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTDZkUW5zQkFuSTA1dTV3Z1VZeURLVVI1c1RfSjFGeGQyTnhjYU5ZdUFsN2l1ejRuQmtudV9EVE5odUxoZFllSTFPZGVzNnZCYVJGYmkyeDNndHVudGQxeHFmZ1h2S0lyZTZjOHBnaDJPMlZhSEIwbG1rQnZUY0xDUzB3WXZYbDZFa3lzNUlveG5HbWlFaHdBME1NdVNMZUlhUFNtcnUzODdaZ0d6bzhiWjJOSjlrcFF6b1ZMam14Ri1ocTVrTFJadzctZDVGQ2VfOFM4NV9BVQ?oc=5",
+        "fuente": "Vilas Radio",
+        "titulo": "CONCEJALES DE IQUIQUE EXPLICAN POR QUÉ RECHAZARON EL SHOW DE DRONES 2027 DE $650 MILLONES: “NO ES OPOSICIÓN A LA CULTURA”",
+        "detalle": "Información de actualidad en norte grande según Vilas Radio.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-11-21T16:54:50.289Z"
   }
 };
