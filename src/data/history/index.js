@@ -11157,5 +11157,138 @@ export const historicalBriefs = {
       }
     ],
     "creado_en": "2026-11-23T21:37:43.559Z"
+  },
+  "2026-11-24": {
+    "fecha": "2026-11-24",
+    "usuario": "Franco",
+    "subtitulo": "Brief diario · rehabilita.me",
+    "ciclo": "Día 2 · Turno Noche",
+    "ciclo_detalle": "Ingreso 20:00 – Guardia nocturna",
+    "versiculo": {
+      "id": "verse-3",
+      "texto": "Todo lo puedo en Cristo que me fortalece.",
+      "referencia": "Filipenses 4:13",
+      "reflexion": "En guardia nocturna: lucidez, paciencia y protección durante las horas de mayor demanda y vigilancia."
+    },
+    "agenda": [
+      {
+        "id": "agenda-20261124-1-clinica",
+        "hora": "20:00 – 08:00",
+        "tipo": "clinica",
+        "lugar": "",
+        "titulo": "Atención clínica"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "idea-1",
+        "base": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "hook": "¿Sabías que la función del ventrículo derecho revela mucho antes que los síntomas?",
+        "idea": "Explica cómo un parámetro funcional simple puede detectar sobrecarga pulmonar en pacientes respiratorios antes de la disnea evidente. Invita a evaluar la tolerancia al ejercicio en consulta.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-2",
+        "base": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+        "hook": "Tu cara también tiene un mapa del dolor",
+        "idea": "Muestra las zonas faciales evaluadas con umbral de presión dolorosa (frente, mejilla, mandíbula) y explica por qué comparar ambos lados ayuda a detectar disfunción temporomandibular temprana.",
+        "formato": "Carrusel 6 slides"
+      },
+      {
+        "id": "idea-3",
+        "base": "Diferenciador de atención a domicilio",
+        "hook": "No siempre tienes que venir tú a nosotros",
+        "idea": "Muestra un caso breve de atención kinesiológica respiratoria a domicilio para pacientes con movilidad reducida, destacando la cobertura y coordinación en Iquique y Alto Hospicio.",
+        "formato": "Reel 30 s"
+      },
+      {
+        "id": "idea-4",
+        "base": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+        "hook": "Movilizar antes, no después",
+        "idea": "Explica por qué la rehabilitación motora temprana en pacientes de alta complejidad mejora el pronóstico funcional a largo plazo.",
+        "formato": "Carrusel 6 slides"
+      }
+    ],
+    "papers": [
+      {
+        "id": "paper-1",
+        "titulo": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "titulo_original": "Limiting collateral damage: Nosocomial infections in patients with temporary mechanical circulatory support",
+        "revista": "JHLT Open",
+        "doi": "https://doi.org/10.1016/j.jhlto.2026.100696",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.jhlto.2026.100696",
+        "resumen": "Estudio reciente publicado en JHLT Open sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-2",
+        "titulo": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+        "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+        "revista": "Physiother Res Int",
+        "doi": "https://doi.org/10.1002/pri.70382",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1002%2Fpri.70382",
+        "resumen": "Estudio reciente publicado en Physiother Res Int sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      },
+      {
+        "id": "paper-3",
+        "titulo": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+        "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+        "revista": "Ultrasound Med Biol",
+        "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1016%2Fj.ultrasmedbio.2026.09.009",
+        "resumen": "Analiza mecanismos de inflamación y sobrecarga tisular en la articulación temporomandibular y su impacto en el dolor orofacial crónico.",
+        "aplicacion": "Refuerza intervenir tempranamente el componente inflamatorio/oxidativo en pacientes con disfunción de ATM, antes de que avance el daño articular."
+      },
+      {
+        "id": "paper-4",
+        "titulo": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+        "titulo_original": "Coughing and Deep Breathing vs. Incentive Spirometry Nursing Interventions: A Retrospective Analysis",
+        "revista": "Am J Nurs",
+        "doi": "https://doi.org/10.1097/AJN.0000000000000418",
+        "translateUrl": "https://translate.google.com/translate?sl=auto&tl=es&u=https%3A%2F%2Fdoi.org%2F10.1097%2FAJN.0000000000000418",
+        "resumen": "Estudio reciente publicado en Am J Nurs sobre nuevos biomarcadores y abordajes funcionales en la práctica kinésica.",
+        "aplicacion": "Evaluar la respuesta funcional del paciente en consulta y ajustar la dosificación de la carga de ejercicio terapéutico."
+      }
+    ],
+    "noticias": [
+      {
+        "id": "news-1",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNVzRlNE11aFBqQzNxQWptN0l2MXdWUlVHWS1BZlpPbE9MYzlsUXRpeFU4MGtzcjNvT2taamxPOG1QRVZfaENGaTlLUWJJR0tkVXhfOG9yRzR1dzNrUm1JT1pQaEVwNHo5anlLRTU0eEthMmc5cjM4bnQtTWlvYkkxYTNnRTY2bjhJODVnMUppZmtmdTNRMzRYRjlhVnhZRzlZNlRMTUw5YWxqLS1OT3N1OC1yclNqTEZNbk9UeDB6eEdTaWN1Y2ZWTy1uUkx4dFkzS0YyU0hPSC1KdlpvUk5RTGdaaWxqQzA5TW9GWDRKNzdvQWFtdk1wRFkzVU5JeWNON3pMaFBGSnJzcGNp?oc=5",
+        "fuente": "BioBioChile",
+        "titulo": "Cobre toma fuerzas tras regreso del CEO de Nvidia y ayuda a contener el precio del dólar en Chile",
+        "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+        "categoria": "Economía · Chile",
+        "borderGradient": "from-emerald-400 to-teal-500"
+      },
+      {
+        "id": "news-2",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalRoVUtTV002Uk1xaDhXZUROVThHMzRaeVNPNS00dkVNNXExR0xzbUxEUzlraUxBa2FlMVR5Tm5RS19OcWtrZkFNcVQ3Ul9SV3lyTlpOZFdpYXBCYzkzT18xNTlYdFVvREZyWW1ndWtEN0N2WHFPVnc4cGxpNVlyS1VzMUUta0NIV1BTYkVldWtqZHR6YVR3a3RyaGtfNFNRRUgxRmx5S2stMElsTldoWQ?oc=5",
+        "fuente": "Ciencia en Chile",
+        "titulo": "Kinesiología: La ciencia del movimiento como motor de salud y autonomía funcional",
+        "detalle": "Información de actualidad en salud según Ciencia en Chile.",
+        "categoria": "Salud",
+        "borderGradient": "from-rose-400 to-orange-500"
+      },
+      {
+        "id": "news-3",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+        "fuente": "Fundación Chile | FCh",
+        "titulo": "IA y satélites para detectar vertederos ilegales",
+        "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+        "categoria": "IA · Mercados",
+        "borderGradient": "from-cyan-400 to-blue-500"
+      },
+      {
+        "id": "news-4",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV0pqbmp2XzBYaHFqX1B4YmxESENGUFlveGZ0cXJUMnc2YjJ4Q0lES251MThzTV9raGhHeDJGSG5JNm94MVI5UUR6S1Z4TEJLQ0Q2TGJHSTI4NmF2WlN3S0txZUtKaUZJcmZ4dlFBSEcyQ2pUcTJZMmpPVHZCWkxmY0tTeWJvX05aZm9YQmwwWHRDMVRWdm5SdUpiVjl2eF8yZ1A1Qmw0ZHp5MWRldFVVLTk0SExhdUlTYkJIcnRlaVBkSWpvLUdqTlRfNUh3MzNrVlNUclpHQQ?oc=5",
+        "fuente": "Ministerio de Desarrollo Social y Familia",
+        "titulo": "Casen 2026 en Tarapacá: Subsecretario Ugarte llama a los vecinos de Iquique a abrir la puerta a los encuestadores",
+        "detalle": "Información de actualidad en norte grande según Ministerio de Desarrollo Social y Familia.",
+        "categoria": "Norte Grande",
+        "borderGradient": "from-purple-500 to-pink-500"
+      }
+    ],
+    "creado_en": "2026-11-24T20:18:29.227Z"
   }
 };
