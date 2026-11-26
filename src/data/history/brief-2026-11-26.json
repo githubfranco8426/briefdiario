@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-11-26",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 4 · Segundo libre",
+  "ciclo_detalle": "Consultas 09:00–19:00",
+  "versiculo": {
+    "id": "verse-5",
+    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
+    "referencia": "Proverbios 17:22",
+    "reflexion": "Una palabra de ánimo, una sonrisa y una escucha atenta potencian la recuperación del paciente tanto como la mejor técnica terapéutica."
+  },
+  "agenda": [
+    {
+      "id": "agenda-2026-11-26-1-clinica",
+      "hora": "09:00 – 19:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Atención clínica"
+    },
+    {
+      "id": "agenda-2026-11-26-2-domicilio",
+      "hora": "11:30 – 12:30",
+      "tipo": "domicilio",
+      "lugar": "",
+      "titulo": "Atención a domicilio"
+    },
+    {
+      "id": "agenda-2026-11-26-3-seguimiento",
+      "hora": "17:00 – 18:00",
+      "tipo": "seguimiento",
+      "lugar": "",
+      "titulo": "Seguimiento profesional"
+    }
+  ],
+  "ideas": [
+    {
+      "hook": "¿Sabías que respirar mal puede empeorar tu dolor de hombro?",
+      "idea": "Slide 1: Hook sobre hombro congelado y respiración. Slide 2: Explicación de la conexión diafragma-cintura escapular. Slide 3: Evidencia científica reciente (Çelik Benli et al., 2026). Slide 4: Ejemplo práctico de ejercicio respiratorio. Slide 5: Beneficios clínicos. Slide 6: CTA invitando a agendar hora en la consulta.",
+      "formato": "Carrusel 6 slides",
+      "base": "Çelik Benli S, Akçay Genal B (2026)",
+      "id": "idea-1"
+    },
+    {
+      "hook": "¡Realidad virtual para salvar pulmones en pacientes críticos!",
+      "idea": "Video dinámico mostrando cómo se usa la RV en pacientes postquirúrgicos de cirugía abdominal alta para mejorar la excursión diafragmática y la fuerza respiratoria, cerrando con un llamado a innovar en kinesiología respiratoria.",
+      "formato": "Reel 30 s",
+      "base": "Allam NM et al. (2026)",
+      "id": "idea-2"
+    },
+    {
+      "hook": "¿Respirar por una sola fosa nasal para calmar el dolor de tórax?",
+      "idea": "Slide 1: Afirmación sobre inspiración unilateral. Slide 2: El desafío del trauma torácico en la clínica. Slide 3: Resultados del estudio de Petrosyan y Ter-Margaryan (2027). Slide 4: Impacto en el sistema nervioso autónomo. Slide 5: Aplicación práctica. Slide 6: CTA para seguir la cuenta.",
+      "formato": "Carrusel 6 slides",
+      "base": "Petrosyan T, Ter-Margaryan N (2027)",
+      "id": "idea-3"
+    },
+    {
+      "hook": "¿Sufres de la mandíbula? El ultrasonido puede cambiar tu tratamiento",
+      "idea": "Video mostrando la aplicación de ultrasonido terapéutico en la zona de la ATM, explicando cómo la última revisión sistemática (Zhou et al., 2027) respalda su uso para el alivio del dolor y la disfunción temporomandibular, con CTA para evaluación kinésica.",
+      "formato": "Reel 30 s",
+      "base": "Zhou X et al. (2027)",
+      "id": "idea-4"
+    }
+  ],
+  "papers": [
+    {
+      "titulo": "Efecto de los ejercicios respiratorios en la rehabilitación del hombro congelado",
+      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
+      "resumen": "Este estudio evaluó cómo la incorporación de ejercicios respiratorios mejora significativamente el dolor y la movilidad en pacientes con hombro congelado. Se demuestra una conexión directa entre el control respiratorio y la biomecánica de la cintura escapular.",
+      "objetivo": "Determinar el impacto de los ejercicios respiratorios sobre el dolor, el rango de movimiento y la calidad de vida en la rehabilitación de hombro congelado.",
+      "metodologia": "Estudio clínico aleatorizado controlado con pacientes diagnosticados con capsulitis adhesiva en un centro de rehabilitación.",
+      "hallazgos": "Se observó una reducción significativa del dolor y mejoras notables en la amplitud de movimiento articular y calidad de vida tras la intervención.",
+      "aplicacion": "Integra ejercicios de respiración diafragmática en las fases iniciales del tratamiento de patologías de hombro para modular el dolor.",
+      "revista": "J Back Musculoskelet Rehabil",
+      "doi": "https://doi.org/10.1177/10538127261500497",
+      "id": "paper-1"
+    },
+    {
+      "titulo": "Impacto de la realidad virtual en la función pulmonar postquirúrgica",
+      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
+      "resumen": "La integración de entrenamiento mediante realidad virtual mejoró la excursión diafragmática y la fuerza de los músculos respiratorios tras cirugías abdominales altas. Esta herramienta tecnológica optimiza la recuperación funcional y previene complicaciones pulmonares en pacientes críticos o postquirúrgicos.",
+      "objetivo": "Evaluar el impacto del entrenamiento con realidad virtual en la función pulmonar, fuerza muscular respiratoria y calidad de vida postquirúrgica.",
+      "metodologia": "Ensayo clínico aleatorizado en pacientes intervenidos por cirugía abdominal superior sometidos a un protocolo de realidad virtual.",
+      "hallazgos": "Mejoras significativas en la excursión del diafragma, la fuerza respiratoria y la calidad de vida en comparación con el grupo control.",
+      "aplicacion": "Utiliza tecnologías inmersivas como la realidad virtual para motivar y potenciar la rehabilitación respiratoria en pacientes postquirúrgicos.",
+      "revista": "Phys Ther",
+      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "id": "paper-2"
+    },
+    {
+      "titulo": "Consideraciones metodológicas y clínicas de la inspiración por una sola fosa nasal tras traumatismo torácico",
+      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "resumen": "Este ensayo analiza el uso de la técnica de inspiración por una sola fosa nasal como estrategia innovadora para el manejo del dolor tras un traumatismo torácico. Se discuten las bases fisiológicas para modular la percepción dolorosa mediante patrones respiratorios específicos.",
+      "objetivo": "Analizar consideraciones metodológicas y clínicas del uso de inspiración unilateral nasal para el manejo del dolor en trauma torácico.",
+      "metodologia": "Estudio metodológico y clínico enfocado en protocolos de intervención respiratoria en pacientes con trauma de tórax.",
+      "hallazgos": "La técnica muestra potencial para influir en la modulación del dolor torácico a través del sistema nervioso autónomo y la mecánica respiratoria.",
+      "aplicacion": "Considera explorar patrones de respiración unilateral en pacientes con dolor torácico agudo para facilitar una ventilación menos dolorosa.",
+      "revista": "Physiother Res Int",
+      "doi": "https://doi.org/10.1002/pri.70382",
+      "id": "paper-3"
+    },
+    {
+      "titulo": "Ultrasonido terapéutico en el manejo del dolor por trastornos temporomandibulares",
+      "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
+      "resumen": "Una revisión sistemática reciente respalda la eficacia del ultrasonido terapéutico para disminuir el dolor en pacientes con disfunción temporomandibular (ATM). Los datos confirman su utilidad clínica dentro de un enfoque de fisioterapia maxilofacial.",
+      "objetivo": "Sintetizar la evidencia clínica de estudios controlados y prospectivos sobre el uso de ultrasonido terapéutico en trastornos de la ATM.",
+      "metodologia": "Revisión sistemática de literatura científica enfocada en ensayos clínicos controlados y estudios prospectivos sobre disfunción temporomandibular.",
+      "hallazgos": "El ultrasonido terapéutico demuestra ser una herramienta eficaz para el alivio sintomático del dolor en la articulación temporomandibular.",
+      "aplicacion": "Incorpora el ultrasonido terapéutico como coadyuvante en el tratamiento de pacientes con dolor crónico o agudo en la ATM.",
+      "revista": "Ultrasound Med Biol",
+      "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
+      "id": "paper-4"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUhlS0xKakZWMlNsVzhCVUtkcHVBVTdHNmpxWkhyNUU3c0dLbEtsd2FINmVfbGNHeWNRQVp5RDhINEluT0V4bzZaWUh4aWRnLXVkeTBSN1Fid1A5SUhtZlhTY0M2VVNZMzNobmRKSjBDVUhuVXpTZG1RTWJ5cGFabGZES3NVQXQwZVgzY09IVURIenJTRFNnREg1VDFDNENZMDAwSjZXZkZIT2c5X21yMzM5c285dDFMMzdHWnNsQQ?oc=5",
+      "fuente": "Diario Financiero",
+      "titulo": "Chile tendrá Sala Cuna Universal: Congreso despacha reforma que cambia el acceso y financiamiento del beneficio",
+      "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
+      "fuente": "Universidad de Chile",
+      "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
+      "detalle": "Información de actualidad en salud según Universidad de Chile.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
+      "fuente": "Fundación Chile | FCh",
+      "titulo": "IA y satélites para detectar vertederos ilegales",
+      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQT3VXMVVuY3pMQW5udG9Kc3hJOFBld2J3bDRuNkZBYjBiOG5RRktlcGtVQzBQMm1GamlycjFVTDNUZlFyczlkRkxYVzBOMUk2ZDBmckI3NmF4VUlEeWRLN0Z0QU5QVUVsYkdsNk1QN0dIU2ZvLTZsSVUyVmxrMXJ3UEZKNWZtTmNack5QUTgyZXlOU0taVTF6cDdDdVV4aXBpS3I3eDBiN3Y2ZlgyR3M3X0J4UE9wNHdWRGZYQWFVVGxkMGI2VUJvM0tfWVlFWmt5T3ZxTGdPRFFhWEkwTEI5RUNDYTZPSENDbXJaMWNvOUdNQ3dKOFZYUzZQMmpKVW5sczFJ?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Corte de luz afecta a más de 9 mil clientes en Iquique: interrupción se concentra en Cavancha",
+      "detalle": "Información de actualidad en norte grande según BioBioChile.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-11-26T19:14:32.501Z"
+}
