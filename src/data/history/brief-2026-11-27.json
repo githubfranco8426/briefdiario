@@ -1,0 +1,141 @@
+{
+  "fecha": "2026-11-27",
+  "usuario": "Franco",
+  "subtitulo": "Brief diario · rehabilita.me",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
+  "versiculo": {
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
+  },
+  "agenda": [
+    {
+      "id": "agenda-20261127-1-clinica",
+      "hora": "08:00 – 20:00",
+      "tipo": "clinica",
+      "lugar": "",
+      "titulo": "Atención clínica"
+    }
+  ],
+  "ideas": [
+    {
+      "hook": "¿Sabías que la vejiga hiperactiva y la electroterapia avanzada se conectan a través de la neuromodulación?",
+      "idea": "Slide 1: Título llamativo sobre vejiga hiperactiva. Slide 2: Explicación de la estimulación tibial. Slide 3: Comparativa entre TENS y corrientes diadinámicas según estudio de Tedla et al. (2026). Slide 4: Aplicación en fisioterapia. Slide 5: Beneficios clínicos. Slide 6: Comenta 'INFO' para más detalles.",
+      "formato": "Carrusel 6 slides",
+      "base": "Paper PMID 42993769",
+      "id": "idea-1"
+    },
+    {
+      "hook": "¿Te duele la mandíbula y sientes que la palpación es insoportable en ciertas zonas específicas?",
+      "idea": "Video corto donde explico cómo el estudio de Oyarzo et al. (2026) demuestra que la sensibilidad a la presión en la ATM no es igual en todo el músculo. Muestro cómo realizo una evaluación algométrica precisa en la consulta. CTA: Agenda tu evaluación de ATM con nosotros.",
+      "formato": "Reel 30 s",
+      "base": "Paper PMID 42925012",
+      "id": "idea-2"
+    },
+    {
+      "hook": "¿Sufres de reflujo y los medicamentos no bastan? Tu diafragma podría ser la clave.",
+      "idea": "Slide 1: ¿Reflujo y respiración conectados? Slide 2: La ciencia detrás del esfínter esofágico y el pilar diafragmático. Slide 3: Evidencia de Semwal et al. (2026). Slide 4: Cómo el entrenamiento diafragmático reduce los síntomas. Slide 5: Ejemplo práctico de respiración. Slide 6: Guarda este post y compártelo con quien lo necesite.",
+      "formato": "Carrusel 6 slides",
+      "base": "Paper PMID 42735091",
+      "id": "idea-3"
+    },
+    {
+      "hook": "¿Respirar por una sola fosa nasal puede reducir el dolor después de un golpe en el tórax?",
+      "idea": "Video demostrativo en paciente crítico o simulado con trauma torácico, explicando la propuesta de Petrosyan & Ter-Margaryan (2027) sobre inspiración unilateral y modulación del dolor. CTA: Sígueme para más evidencia en kinesiología respiratoria.",
+      "formato": "Reel 30 s",
+      "base": "Paper PMID 43026175",
+      "id": "idea-4"
+    }
+  ],
+  "papers": [
+    {
+      "titulo": "Eficacia de las corrientes diadinámicas versus TENS en la estimulación tibial transcutánea",
+      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "resumen": "Este ensayo clínico aleatorizado doble ciego compara corrientes diadinámicas y TENS para el tratamiento de la vejiga hiperactiva. Sus resultados aportan evidencia sobre el uso de electroterapia avanzada en la modulación del sistema nervioso autónomo.",
+      "objetivo": "Comparar la eficacia de las corrientes diadinámicas versus TENS en la estimulación del nervio tibial en pacientes con vejiga hiperactiva.",
+      "metodologia": "Ensayo clínico aleatorizado doble ciego en sujetos adultos diagnosticados con síndrome de vejiga hiperactiva.",
+      "hallazgos": "Se identificaron diferencias significativas en la respuesta clínica entre las modalidades de estimulación eléctrica evaluadas.",
+      "aplicacion": "Podemos integrar conceptos de neuromodulación eléctrica periférica en pacientes críticos o con disfunción autonómica compleja en nuestra práctica.",
+      "revista": "PLoS One",
+      "doi": "https://doi.org/10.1371/journal.pone.0362118",
+      "id": "paper-1"
+    },
+    {
+      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio clínico de casos y controles analiza el comportamiento de los umbrales de dolor a la presión en la musculatura masticatoria con dolor crónico. Los datos demuestran la alta variabilidad espacial de la hiperalgesia en pacientes con disfunción temporomandibular (ATM).",
+      "objetivo": "Evaluar las variaciones de sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
+      "metodologia": "Estudio clínico de casos y controles enfocado en la medición algométrica de la musculatura masticatoria en pacientes con dolor crónico de ATM.",
+      "hallazgos": "Se registraron mapas específicos de variabilidad en la sensibilidad a la presión intramuscular en la población con patología temporomandibular.",
+      "aplicacion": "En la clínica kinésica de ATM, debemos realizar una palpación algométrica sectorial precisa debido a la heterogeneidad espacial del dolor muscular.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
+      "id": "paper-2"
+    },
+    {
+      "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión narrativa examina el rol de la respiración diafragmática en la mejora de la función del esfínter esofágico inferior y el control del reflujo. Se destaca el impacto biomecánico directo del diafragma sobre el tracto digestivo superior.",
+      "objetivo": "Analizar la base mecanística y la evidencia clínica de la respiración diafragmática como tratamiento complementario en el reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de la literatura científica sobre bases biomecánicas y ensayos clínicos relacionados con la función respiratoria y digestiva.",
+      "hallazgos": "El entrenamiento muscular respiratorio y el control diafragmático mejoran significativamente los síntomas asociados al reflujo gastroesofágico.",
+      "aplicacion": "Integra ejercicios de patrón respiratorio diafragmático en pacientes con disfunciones tóraco-abdominales y sintomatología digestiva asociada.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
+      "id": "paper-3"
+    },
+    {
+      "titulo": "Consideraciones metodológicas y clínicas en un ensayo de inspiración por una sola fosa nasal para el manejo del dolor tras trauma torácico",
+      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "resumen": "Este artículo aborda el uso innovador de la inspiración unilateral nasal para modular la percepción del dolor tras un traumatismo torácico agudo. La intervención busca aprovechar vías neurofisiológicas específicas para el alivio analgésico no farmacológico.",
+      "objetivo": "Analizar las consideraciones metodológicas y clínicas del uso de la inspiración por una sola fosa nasal en el manejo del dolor post-trauma torácico.",
+      "metodologia": "Estudio metodológico y clínico enfocado en la aplicación de técnicas respiratorias unilaterales en pacientes con dolor por trauma de tórax.",
+      "hallazgos": "La técnica respiratoria demostró viabilidad clínica y un potencial efecto modulador sobre la sensación dolorosa torácica aguda.",
+      "aplicacion": "Podemos utilizar patrones respiratorios guiados específicos, como la inspiración nasal unilateral, como adyuvante en la rehabilitación respiratoria de pacientes con dolor costal o trauma.",
+      "revista": "Physiother Res Int",
+      "doi": "https://doi.org/10.1002/pri.70382",
+      "id": "paper-4"
+    }
+  ],
+  "noticias": [
+    {
+      "id": "news-1",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR0Y5RDQ0d2N6RW5GQVBSUHJscnJ3blV6OW1kR2h2alpCTy1SWlltN1J2dmx2SDdta1hibHhzMTdCU2g0aUtLUnp3UzZEM19UdGVSbF9VV3FLcWhQSkwtSmNfQWNHRGFDb1lGd0RYeVh3V2hkRXRyM2xkUTZ3OE8zekY1RnBMcWV3UXgxRGdoc2Y4QVhvaEpodm1HMEVRdS1QbHM1ZURDNmhUcGUyaEpJSHhIeFI5UGpYVWZuZWJJS2hSX0VwbGpSODI2am1MeDZpOU9z?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Desempleo en Chile aumenta a un histórico 10%",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
+      "categoria": "Economía · Chile",
+      "borderGradient": "from-emerald-400 to-teal-500"
+    },
+    {
+      "id": "news-2",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mUVBQakRKU0k2aEV0Y29sbUdPY0NhTWxWY2lVdktWXzZ0aHl0NjJuMWFwbWZVT283NGFZWDMyUnJjeG42VjRwTTBhbFFJdWFsV24wWHY4NUVyUExtVl9WYzVDTXk?oc=5",
+      "fuente": "Código San Luis",
+      "titulo": "Congreso Internacional de Fisioterapia reunirá a especialistas de México, España y Chile en la UASLP",
+      "detalle": "Información de actualidad en salud según Código San Luis.",
+      "categoria": "Salud",
+      "borderGradient": "from-rose-400 to-orange-500"
+    },
+    {
+      "id": "news-3",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPb2hTOTRvOXlrak95UFRjMEZXTllwR2RNNFB0Nk52Um0xMmJtWFg3dGF3NnRSWjZkakFpeUl3VjUyS082S0JUSGxGNTBBWjZnMGdNYlJKSjJ3dkI3eVFxRUJ0bkhNUjQtMS1mTUNkTFhSOHhNMzRLMTcxSW9MQnFvY1ExYkIyNTJreHhWRVd4SmpSLUtGLThOWFEzSDlDQTJNZ2lxUWJ1RWJBMU1xZXIzSXFlWTNTbFppNnR1YUIzUHVaUUdJWWxkYUNtYVhRNjBHeVFCSjd3cDFWUDUwemFHYUZ2VUE2QTFPSHBmenc4YXZQVXp6NjUxMmZNV3B4UnpzY1F0bXhDZWZaVE9Sc09nRWZCS2xEQUhoZmJLVVZ2akY5dVA5Q3hUX3RsSkdhMktzckxyeUNYMU01c1BHdE5tb2o0SUpGekFwbHAxUnZ3bjRNQ0Vkcnc?oc=5",
+      "fuente": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+      "titulo": "Artículo: Ministerio De Ciencia, Tecnología, Conocimiento E Innovación Y Elevenlabs, Empresa Líder Mundial En Investigación Y Productos De Ia, Firman Mou Para Ampliar El Acceso A La Ia De Las Startups Chilenas",
+      "detalle": "Información de actualidad en ia · mercados según Ministerio de Ciencia, Tecnología, Conocimiento e Innovación.",
+      "categoria": "IA · Mercados",
+      "borderGradient": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "news-4",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVk05ODBpTl9NejZRN29Ka1g2ZWNIeU9MSEpMdGdCM3BnV0ltOElhLWFGblppUVF1Q3p5VHVtSE1pX0lUbnFuak9KSTJDeVAyb2JtUkptYjcwejN6ODNCOE9FMVRMc0s3bWhoVkV5WFJsdUMtTGVwRmhCR3lLUXFqYVpXellSWWhfZFFEVjJ4LWt2VjNhMVhzc0FWeU9ZTnE1UDJYS1QyYjJ1bUVSWWo4ZlF3TUNxNlE?oc=5",
+      "fuente": "24horas",
+      "titulo": "Aprueban más de $18.500 millones para habilitar terrenos de 1.200 viviendas en Tarapacá",
+      "detalle": "Información de actualidad en norte grande según 24horas.",
+      "categoria": "Norte Grande",
+      "borderGradient": "from-purple-500 to-pink-500"
+    }
+  ],
+  "creado_en": "2026-11-27T19:08:37.627Z"
+}

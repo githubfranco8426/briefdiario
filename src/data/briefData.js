@@ -1,155 +1,141 @@
 export const initialBriefData = {
-  "fecha": "2026-11-26",
+  "fecha": "2026-11-27",
   "usuario": "Franco",
   "subtitulo": "Brief diario · rehabilita.me",
-  "ciclo": "Día 4 · Segundo libre",
-  "ciclo_detalle": "Consultas 09:00–19:00",
+  "ciclo": "Día 1 · Turno Largo",
+  "ciclo_detalle": "UPC / Hospital 08:00–20:00",
   "versiculo": {
-    "id": "verse-5",
-    "texto": "El corazón alegre es buena medicina; mas el espíritu triste seca los huesos.",
-    "referencia": "Proverbios 17:22",
-    "reflexion": "Una palabra de ánimo, una sonrisa y una escucha atenta potencian la recuperación del paciente tanto como la mejor técnica terapéutica."
+    "id": "verse-6",
+    "texto": "Clama a mí, y yo te responderé, y te enseñaré cosas grandes y ocultas que tú no conoces.",
+    "referencia": "Jeremías 33:3",
+    "reflexion": "En turno largo de UPC: templanza en situaciones de alta complejidad y serenidad para acompañar a cada paciente crítico y su familia."
   },
   "agenda": [
     {
-      "id": "agenda-2026-11-26-1-clinica",
-      "hora": "09:00 – 19:00",
+      "id": "agenda-20261127-1-clinica",
+      "hora": "08:00 – 20:00",
       "tipo": "clinica",
       "lugar": "",
       "titulo": "Atención clínica"
-    },
-    {
-      "id": "agenda-2026-11-26-2-domicilio",
-      "hora": "11:30 – 12:30",
-      "tipo": "domicilio",
-      "lugar": "",
-      "titulo": "Atención a domicilio"
-    },
-    {
-      "id": "agenda-2026-11-26-3-seguimiento",
-      "hora": "17:00 – 18:00",
-      "tipo": "seguimiento",
-      "lugar": "",
-      "titulo": "Seguimiento profesional"
     }
   ],
   "ideas": [
     {
-      "hook": "¿Sabías que respirar mal puede empeorar tu dolor de hombro?",
-      "idea": "Slide 1: Hook sobre hombro congelado y respiración. Slide 2: Explicación de la conexión diafragma-cintura escapular. Slide 3: Evidencia científica reciente (Çelik Benli et al., 2026). Slide 4: Ejemplo práctico de ejercicio respiratorio. Slide 5: Beneficios clínicos. Slide 6: CTA invitando a agendar hora en la consulta.",
+      "hook": "¿Sabías que la vejiga hiperactiva y la electroterapia avanzada se conectan a través de la neuromodulación?",
+      "idea": "Slide 1: Título llamativo sobre vejiga hiperactiva. Slide 2: Explicación de la estimulación tibial. Slide 3: Comparativa entre TENS y corrientes diadinámicas según estudio de Tedla et al. (2026). Slide 4: Aplicación en fisioterapia. Slide 5: Beneficios clínicos. Slide 6: Comenta 'INFO' para más detalles.",
       "formato": "Carrusel 6 slides",
-      "base": "Çelik Benli S, Akçay Genal B (2026)",
+      "base": "Paper PMID 42993769",
       "id": "idea-1"
     },
     {
-      "hook": "¡Realidad virtual para salvar pulmones en pacientes críticos!",
-      "idea": "Video dinámico mostrando cómo se usa la RV en pacientes postquirúrgicos de cirugía abdominal alta para mejorar la excursión diafragmática y la fuerza respiratoria, cerrando con un llamado a innovar en kinesiología respiratoria.",
+      "hook": "¿Te duele la mandíbula y sientes que la palpación es insoportable en ciertas zonas específicas?",
+      "idea": "Video corto donde explico cómo el estudio de Oyarzo et al. (2026) demuestra que la sensibilidad a la presión en la ATM no es igual en todo el músculo. Muestro cómo realizo una evaluación algométrica precisa en la consulta. CTA: Agenda tu evaluación de ATM con nosotros.",
       "formato": "Reel 30 s",
-      "base": "Allam NM et al. (2026)",
+      "base": "Paper PMID 42925012",
       "id": "idea-2"
     },
     {
-      "hook": "¿Respirar por una sola fosa nasal para calmar el dolor de tórax?",
-      "idea": "Slide 1: Afirmación sobre inspiración unilateral. Slide 2: El desafío del trauma torácico en la clínica. Slide 3: Resultados del estudio de Petrosyan y Ter-Margaryan (2027). Slide 4: Impacto en el sistema nervioso autónomo. Slide 5: Aplicación práctica. Slide 6: CTA para seguir la cuenta.",
+      "hook": "¿Sufres de reflujo y los medicamentos no bastan? Tu diafragma podría ser la clave.",
+      "idea": "Slide 1: ¿Reflujo y respiración conectados? Slide 2: La ciencia detrás del esfínter esofágico y el pilar diafragmático. Slide 3: Evidencia de Semwal et al. (2026). Slide 4: Cómo el entrenamiento diafragmático reduce los síntomas. Slide 5: Ejemplo práctico de respiración. Slide 6: Guarda este post y compártelo con quien lo necesite.",
       "formato": "Carrusel 6 slides",
-      "base": "Petrosyan T, Ter-Margaryan N (2027)",
+      "base": "Paper PMID 42735091",
       "id": "idea-3"
     },
     {
-      "hook": "¿Sufres de la mandíbula? El ultrasonido puede cambiar tu tratamiento",
-      "idea": "Video mostrando la aplicación de ultrasonido terapéutico en la zona de la ATM, explicando cómo la última revisión sistemática (Zhou et al., 2027) respalda su uso para el alivio del dolor y la disfunción temporomandibular, con CTA para evaluación kinésica.",
+      "hook": "¿Respirar por una sola fosa nasal puede reducir el dolor después de un golpe en el tórax?",
+      "idea": "Video demostrativo en paciente crítico o simulado con trauma torácico, explicando la propuesta de Petrosyan & Ter-Margaryan (2027) sobre inspiración unilateral y modulación del dolor. CTA: Sígueme para más evidencia en kinesiología respiratoria.",
       "formato": "Reel 30 s",
-      "base": "Zhou X et al. (2027)",
+      "base": "Paper PMID 43026175",
       "id": "idea-4"
     }
   ],
   "papers": [
     {
-      "titulo": "Efecto de los ejercicios respiratorios en la rehabilitación del hombro congelado",
-      "titulo_original": "The effect of breathing exercises on pain, range of motion and quality of life in frozen shoulder rehabilitation: A randomized controlled study",
-      "resumen": "Este estudio evaluó cómo la incorporación de ejercicios respiratorios mejora significativamente el dolor y la movilidad en pacientes con hombro congelado. Se demuestra una conexión directa entre el control respiratorio y la biomecánica de la cintura escapular.",
-      "objetivo": "Determinar el impacto de los ejercicios respiratorios sobre el dolor, el rango de movimiento y la calidad de vida en la rehabilitación de hombro congelado.",
-      "metodologia": "Estudio clínico aleatorizado controlado con pacientes diagnosticados con capsulitis adhesiva en un centro de rehabilitación.",
-      "hallazgos": "Se observó una reducción significativa del dolor y mejoras notables en la amplitud de movimiento articular y calidad de vida tras la intervención.",
-      "aplicacion": "Integra ejercicios de respiración diafragmática en las fases iniciales del tratamiento de patologías de hombro para modular el dolor.",
-      "revista": "J Back Musculoskelet Rehabil",
-      "doi": "https://doi.org/10.1177/10538127261500497",
+      "titulo": "Eficacia de las corrientes diadinámicas versus TENS en la estimulación tibial transcutánea",
+      "titulo_original": "Efficacy of diadynamic currents versus transcutaneous electrical nerve stimulation for transcutaneous tibial nerve stimulation in subjects with overactive bladder syndrome: A double-blind randomized controlled trial",
+      "resumen": "Este ensayo clínico aleatorizado doble ciego compara corrientes diadinámicas y TENS para el tratamiento de la vejiga hiperactiva. Sus resultados aportan evidencia sobre el uso de electroterapia avanzada en la modulación del sistema nervioso autónomo.",
+      "objetivo": "Comparar la eficacia de las corrientes diadinámicas versus TENS en la estimulación del nervio tibial en pacientes con vejiga hiperactiva.",
+      "metodologia": "Ensayo clínico aleatorizado doble ciego en sujetos adultos diagnosticados con síndrome de vejiga hiperactiva.",
+      "hallazgos": "Se identificaron diferencias significativas en la respuesta clínica entre las modalidades de estimulación eléctrica evaluadas.",
+      "aplicacion": "Podemos integrar conceptos de neuromodulación eléctrica periférica en pacientes críticos o con disfunción autonómica compleja en nuestra práctica.",
+      "revista": "PLoS One",
+      "doi": "https://doi.org/10.1371/journal.pone.0362118",
       "id": "paper-1"
     },
     {
-      "titulo": "Impacto de la realidad virtual en la función pulmonar postquirúrgica",
-      "titulo_original": "Impact of Virtual Reality Training on Quality of Life, Diaphragmatic Excursion, Pulmonary Function, and Respiratory Muscle Strength After Upper Abdominal Surgeries: A Randomized Controlled Study",
-      "resumen": "La integración de entrenamiento mediante realidad virtual mejoró la excursión diafragmática y la fuerza de los músculos respiratorios tras cirugías abdominales altas. Esta herramienta tecnológica optimiza la recuperación funcional y previene complicaciones pulmonares en pacientes críticos o postquirúrgicos.",
-      "objetivo": "Evaluar el impacto del entrenamiento con realidad virtual en la función pulmonar, fuerza muscular respiratoria y calidad de vida postquirúrgica.",
-      "metodologia": "Ensayo clínico aleatorizado en pacientes intervenidos por cirugía abdominal superior sometidos a un protocolo de realidad virtual.",
-      "hallazgos": "Mejoras significativas en la excursión del diafragma, la fuerza respiratoria y la calidad de vida en comparación con el grupo control.",
-      "aplicacion": "Utiliza tecnologías inmersivas como la realidad virtual para motivar y potenciar la rehabilitación respiratoria en pacientes postquirúrgicos.",
-      "revista": "Phys Ther",
-      "doi": "https://doi.org/10.1093/ptj/pzag106",
+      "titulo": "Evaluación de las variaciones en la sensibilidad a la presión en músculos mandibulares dolorosos crónicos",
+      "titulo_original": "Assessment of Variations of Pressure Sensitivity Within and Between Chronic Painful Jaw Muscles-A Case-Control Clinical Study",
+      "resumen": "Este estudio clínico de casos y controles analiza el comportamiento de los umbrales de dolor a la presión en la musculatura masticatoria con dolor crónico. Los datos demuestran la alta variabilidad espacial de la hiperalgesia en pacientes con disfunción temporomandibular (ATM).",
+      "objetivo": "Evaluar las variaciones de sensibilidad a la presión dentro y entre los músculos mandibulares dolorosos crónicos.",
+      "metodologia": "Estudio clínico de casos y controles enfocado en la medición algométrica de la musculatura masticatoria en pacientes con dolor crónico de ATM.",
+      "hallazgos": "Se registraron mapas específicos de variabilidad en la sensibilidad a la presión intramuscular en la población con patología temporomandibular.",
+      "aplicacion": "En la clínica kinésica de ATM, debemos realizar una palpación algométrica sectorial precisa debido a la heterogeneidad espacial del dolor muscular.",
+      "revista": "Eur J Pain",
+      "doi": "https://doi.org/10.1002/ejp.70423",
       "id": "paper-2"
     },
     {
-      "titulo": "Consideraciones metodológicas y clínicas de la inspiración por una sola fosa nasal tras traumatismo torácico",
-      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
-      "resumen": "Este ensayo analiza el uso de la técnica de inspiración por una sola fosa nasal como estrategia innovadora para el manejo del dolor tras un traumatismo torácico. Se discuten las bases fisiológicas para modular la percepción dolorosa mediante patrones respiratorios específicos.",
-      "objetivo": "Analizar consideraciones metodológicas y clínicas del uso de inspiración unilateral nasal para el manejo del dolor en trauma torácico.",
-      "metodologia": "Estudio metodológico y clínico enfocado en protocolos de intervención respiratoria en pacientes con trauma de tórax.",
-      "hallazgos": "La técnica muestra potencial para influir en la modulación del dolor torácico a través del sistema nervioso autónomo y la mecánica respiratoria.",
-      "aplicacion": "Considera explorar patrones de respiración unilateral en pacientes con dolor torácico agudo para facilitar una ventilación menos dolorosa.",
-      "revista": "Physiother Res Int",
-      "doi": "https://doi.org/10.1002/pri.70382",
+      "titulo": "La respiración diafragmática como enfoque adyuvante en la enfermedad por reflujo gastroesofágico",
+      "titulo_original": "Diaphragmatic Breathing as an Adjunctive Approach in Gastroesophageal Reflux Disease: Narrative Review of Its Mechanistic Basis and Clinical Evidence",
+      "resumen": "Esta revisión narrativa examina el rol de la respiración diafragmática en la mejora de la función del esfínter esofágico inferior y el control del reflujo. Se destaca el impacto biomecánico directo del diafragma sobre el tracto digestivo superior.",
+      "objetivo": "Analizar la base mecanística y la evidencia clínica de la respiración diafragmática como tratamiento complementario en el reflujo gastroesofágico.",
+      "metodologia": "Revisión narrativa de la literatura científica sobre bases biomecánicas y ensayos clínicos relacionados con la función respiratoria y digestiva.",
+      "hallazgos": "El entrenamiento muscular respiratorio y el control diafragmático mejoran significativamente los síntomas asociados al reflujo gastroesofágico.",
+      "aplicacion": "Integra ejercicios de patrón respiratorio diafragmático en pacientes con disfunciones tóraco-abdominales y sintomatología digestiva asociada.",
+      "revista": "Adv Mind Body Med",
+      "doi": "https://pubmed.ncbi.nlm.nih.gov/42735091/",
       "id": "paper-3"
     },
     {
-      "titulo": "Ultrasonido terapéutico en el manejo del dolor por trastornos temporomandibulares",
-      "titulo_original": "Therapeutic Ultrasound for Pain Management in Temporomandibular Disorders: A Systematic Review of Clinical Evidence From Controlled and Prospective Studies",
-      "resumen": "Una revisión sistemática reciente respalda la eficacia del ultrasonido terapéutico para disminuir el dolor en pacientes con disfunción temporomandibular (ATM). Los datos confirman su utilidad clínica dentro de un enfoque de fisioterapia maxilofacial.",
-      "objetivo": "Sintetizar la evidencia clínica de estudios controlados y prospectivos sobre el uso de ultrasonido terapéutico en trastornos de la ATM.",
-      "metodologia": "Revisión sistemática de literatura científica enfocada en ensayos clínicos controlados y estudios prospectivos sobre disfunción temporomandibular.",
-      "hallazgos": "El ultrasonido terapéutico demuestra ser una herramienta eficaz para el alivio sintomático del dolor en la articulación temporomandibular.",
-      "aplicacion": "Incorpora el ultrasonido terapéutico como coadyuvante en el tratamiento de pacientes con dolor crónico o agudo en la ATM.",
-      "revista": "Ultrasound Med Biol",
-      "doi": "https://doi.org/10.1016/j.ultrasmedbio.2026.09.009",
+      "titulo": "Consideraciones metodológicas y clínicas en un ensayo de inspiración por una sola fosa nasal para el manejo del dolor tras trauma torácico",
+      "titulo_original": "Methodological and Clinical Considerations in a Trial of One Nostril Inspiration for Pain Management Following Thoracic Trauma",
+      "resumen": "Este artículo aborda el uso innovador de la inspiración unilateral nasal para modular la percepción del dolor tras un traumatismo torácico agudo. La intervención busca aprovechar vías neurofisiológicas específicas para el alivio analgésico no farmacológico.",
+      "objetivo": "Analizar las consideraciones metodológicas y clínicas del uso de la inspiración por una sola fosa nasal en el manejo del dolor post-trauma torácico.",
+      "metodologia": "Estudio metodológico y clínico enfocado en la aplicación de técnicas respiratorias unilaterales en pacientes con dolor por trauma de tórax.",
+      "hallazgos": "La técnica respiratoria demostró viabilidad clínica y un potencial efecto modulador sobre la sensación dolorosa torácica aguda.",
+      "aplicacion": "Podemos utilizar patrones respiratorios guiados específicos, como la inspiración nasal unilateral, como adyuvante en la rehabilitación respiratoria de pacientes con dolor costal o trauma.",
+      "revista": "Physiother Res Int",
+      "doi": "https://doi.org/10.1002/pri.70382",
       "id": "paper-4"
     }
   ],
   "noticias": [
     {
       "id": "news-1",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUhlS0xKakZWMlNsVzhCVUtkcHVBVTdHNmpxWkhyNUU3c0dLbEtsd2FINmVfbGNHeWNRQVp5RDhINEluT0V4bzZaWUh4aWRnLXVkeTBSN1Fid1A5SUhtZlhTY0M2VVNZMzNobmRKSjBDVUhuVXpTZG1RTWJ5cGFabGZES3NVQXQwZVgzY09IVURIenJTRFNnREg1VDFDNENZMDAwSjZXZkZIT2c5X21yMzM5c285dDFMMzdHWnNsQQ?oc=5",
-      "fuente": "Diario Financiero",
-      "titulo": "Chile tendrá Sala Cuna Universal: Congreso despacha reforma que cambia el acceso y financiamiento del beneficio",
-      "detalle": "Información de actualidad en economía · chile según Diario Financiero.",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR0Y5RDQ0d2N6RW5GQVBSUHJscnJ3blV6OW1kR2h2alpCTy1SWlltN1J2dmx2SDdta1hibHhzMTdCU2g0aUtLUnp3UzZEM19UdGVSbF9VV3FLcWhQSkwtSmNfQWNHRGFDb1lGd0RYeVh3V2hkRXRyM2xkUTZ3OE8zekY1RnBMcWV3UXgxRGdoc2Y4QVhvaEpodm1HMEVRdS1QbHM1ZURDNmhUcGUyaEpJSHhIeFI5UGpYVWZuZWJJS2hSX0VwbGpSODI2am1MeDZpOU9z?oc=5",
+      "fuente": "BioBioChile",
+      "titulo": "Desempleo en Chile aumenta a un histórico 10%",
+      "detalle": "Información de actualidad en economía · chile según BioBioChile.",
       "categoria": "Economía · Chile",
       "borderGradient": "from-emerald-400 to-teal-500"
     },
     {
       "id": "news-2",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaHJFOGcwUkd5aXVybC03d3NZSzJUUTNXTVpIUXRWamJFVGcyQ19hZlc3aDZfclluZHZGY0ttYVRmZnpBYjFQZ2h0MnNvYmFBRktjX295NlR2cTZpT3JiTWxjeWhXSkotVWgtNWdSMXk4ZkZvdHFiUkItclN0M08xR2RJSnlZUmZ5Rm9QeVhIT0o1YXJJNExmUG14cEtldmdnblE?oc=5",
-      "fuente": "Universidad de Chile",
-      "titulo": "Kinesiología: El desafío de imaginar y construir un futuro - Facultad de Medicina",
-      "detalle": "Información de actualidad en salud según Universidad de Chile.",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mUVBQakRKU0k2aEV0Y29sbUdPY0NhTWxWY2lVdktWXzZ0aHl0NjJuMWFwbWZVT283NGFZWDMyUnJjeG42VjRwTTBhbFFJdWFsV24wWHY4NUVyUExtVl9WYzVDTXk?oc=5",
+      "fuente": "Código San Luis",
+      "titulo": "Congreso Internacional de Fisioterapia reunirá a especialistas de México, España y Chile en la UASLP",
+      "detalle": "Información de actualidad en salud según Código San Luis.",
       "categoria": "Salud",
       "borderGradient": "from-rose-400 to-orange-500"
     },
     {
       "id": "news-3",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0FaME8tSVlXMnZaTDNuNk9Ga0loaHZRWGJNc1ctMkxCWFJ1TThpTUk5LUFpam91OUZKVC1wYS1TejFWYVRIZEZZRG5JOVpwd0VlcWlhUktQT2lnLXBuSnB4VE5GTzJpLUs4aTNHSjNNZW5Dd202TzhIM3YyTHprZTN3WFRxMmJyV0lkWGRBX0g4cHV5WkF3eVltNnRpU1BXdUZvUnVMcjE0eDRHMDV0UTRlRFlmVEVXLUQzcjBMYTRzaUNwdlk3SDBVbW1EZw?oc=5",
-      "fuente": "Fundación Chile | FCh",
-      "titulo": "IA y satélites para detectar vertederos ilegales",
-      "detalle": "Información de actualidad en ia · mercados según Fundación Chile | FCh.",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPb2hTOTRvOXlrak95UFRjMEZXTllwR2RNNFB0Nk52Um0xMmJtWFg3dGF3NnRSWjZkakFpeUl3VjUyS082S0JUSGxGNTBBWjZnMGdNYlJKSjJ3dkI3eVFxRUJ0bkhNUjQtMS1mTUNkTFhSOHhNMzRLMTcxSW9MQnFvY1ExYkIyNTJreHhWRVd4SmpSLUtGLThOWFEzSDlDQTJNZ2lxUWJ1RWJBMU1xZXIzSXFlWTNTbFppNnR1YUIzUHVaUUdJWWxkYUNtYVhRNjBHeVFCSjd3cDFWUDUwemFHYUZ2VUE2QTFPSHBmenc4YXZQVXp6NjUxMmZNV3B4UnpzY1F0bXhDZWZaVE9Sc09nRWZCS2xEQUhoZmJLVVZ2akY5dVA5Q3hUX3RsSkdhMktzckxyeUNYMU01c1BHdE5tb2o0SUpGekFwbHAxUnZ3bjRNQ0Vkcnc?oc=5",
+      "fuente": "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación",
+      "titulo": "Artículo: Ministerio De Ciencia, Tecnología, Conocimiento E Innovación Y Elevenlabs, Empresa Líder Mundial En Investigación Y Productos De Ia, Firman Mou Para Ampliar El Acceso A La Ia De Las Startups Chilenas",
+      "detalle": "Información de actualidad en ia · mercados según Ministerio de Ciencia, Tecnología, Conocimiento e Innovación.",
       "categoria": "IA · Mercados",
       "borderGradient": "from-cyan-400 to-blue-500"
     },
     {
       "id": "news-4",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQT3VXMVVuY3pMQW5udG9Kc3hJOFBld2J3bDRuNkZBYjBiOG5RRktlcGtVQzBQMm1GamlycjFVTDNUZlFyczlkRkxYVzBOMUk2ZDBmckI3NmF4VUlEeWRLN0Z0QU5QVUVsYkdsNk1QN0dIU2ZvLTZsSVUyVmxrMXJ3UEZKNWZtTmNack5QUTgyZXlOU0taVTF6cDdDdVV4aXBpS3I3eDBiN3Y2ZlgyR3M3X0J4UE9wNHdWRGZYQWFVVGxkMGI2VUJvM0tfWVlFWmt5T3ZxTGdPRFFhWEkwTEI5RUNDYTZPSENDbXJaMWNvOUdNQ3dKOFZYUzZQMmpKVW5sczFJ?oc=5",
-      "fuente": "BioBioChile",
-      "titulo": "Corte de luz afecta a más de 9 mil clientes en Iquique: interrupción se concentra en Cavancha",
-      "detalle": "Información de actualidad en norte grande según BioBioChile.",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVk05ODBpTl9NejZRN29Ka1g2ZWNIeU9MSEpMdGdCM3BnV0ltOElhLWFGblppUVF1Q3p5VHVtSE1pX0lUbnFuak9KSTJDeVAyb2JtUkptYjcwejN6ODNCOE9FMVRMc0s3bWhoVkV5WFJsdUMtTGVwRmhCR3lLUXFqYVpXellSWWhfZFFEVjJ4LWt2VjNhMVhzc0FWeU9ZTnE1UDJYS1QyYjJ1bUVSWWo4ZlF3TUNxNlE?oc=5",
+      "fuente": "24horas",
+      "titulo": "Aprueban más de $18.500 millones para habilitar terrenos de 1.200 viviendas en Tarapacá",
+      "detalle": "Información de actualidad en norte grande según 24horas.",
       "categoria": "Norte Grande",
       "borderGradient": "from-purple-500 to-pink-500"
     }
   ],
-  "creado_en": "2026-11-26T19:14:32.501Z"
+  "creado_en": "2026-11-27T19:08:37.627Z"
 };
